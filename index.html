@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Parkulator (static)</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@openinnovates">
+	<meta name="twitter:url" property="og:url" content="https://open-innovations.github.io/parkulator-static/">
+	<meta name="twitter:title" property="og:title" content="Parkulator (static)">
+	<meta name="twitter:description" property="og:description" content="Calculate the number of parks that could be made if carparking was replaced.">
+	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
+	<script type="text/javascript" src="resources/leaflet.js"></script>
+</head>
+<body class="b1-bg">
+
+	<div class="b6-bg">
+
+		<header>
+			<div class="b1-bg">
+				<div class="holder padded" style="text-align:center;">
+					<a href="https://open-innovations.org/"><svg width="80" height="80" overflow="auto" viewBox="-32 -32 64 64" xmlns="http://www.w3.org/2000/svg"><mask id="oi-person"><path d="m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0" fill="#fff"></path></mask><g id="oi-logo" fill="#FF6700"><circle r="32" mask="url(#oi-person)"></circle></g></svg></a>
+					<h1>Parkulator (static)</h1>
+				</div>
+			</div>
+			<div id="place-search"></div>
+		</header>
+
+		<div class="holder">
+
+			<div id="map">
+
+				<div class="spinner" style="text-align:center;">
+					<img src="https://open-innovations.org/resources/images/loader.svg" alt="Loading..." />
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="b6-bg doublepadded">
+			<div class="holder">
+				<p style="text-align:center">Click the square at the top-left of the map to get started.
+				<br /> Location lookup uses city/town data from <a href="http://www.geonames.org/export/">GeoNames</a> (places over 15,000 people).
+				<br /> Documentation and methods and raw data are on <a href="https://github.com/thomasforth/parkulator">The GitHub repo</a>.
+				<br /> Parking polygons are extracted from OpenStreetMap and are the copyright of the OSM contributors.
+				<br /> The Map API is hosted on a free-tier server on Azure. I wrote the server myself, the code is awful. If this site gets popular it will go down.</p>
+			</div>
+		</div>		
+	</div>
+	
+	<footer class="b1-bg">
+		<div class="holder">
+			<p>Based on a project by Thomas Forth / imactivate.
+			<br / >This version by <a href="https://open-innovations.org/">Open Innovations</a>. Released under an MIT license.
+			<br /><a href="https://openstreetmap.org/">Mapping data &copy; OpenStreetMap and Contributors (ODbL)</a>.
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="resources/parkulator.js"></script>
+
+	<script src="https://open-innovations.org/resources/oi.log.js"></script>
+	<script>
+	OI.log.setup({'id':'odileeds','target':['open-innovations.org','open-innovations.github.io']}).add('action=view');
+	</script>
+</body>
+</html>
