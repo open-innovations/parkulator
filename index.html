@@ -10,9 +10,9 @@
 	<meta name="twitter:title" property="og:title" content="Parkulator (static)">
 	<meta name="twitter:description" property="og:description" content="Calculate the number of parks that could be made if carparking was replaced.">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
-	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
-	<script type="text/javascript" src="resources/leaflet.js"></script>
+	<link rel="StyleSheet" href="resources/leaflet.area-selection.css" type="text/css" />
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 </head>
 <body class="b1-bg">
 
@@ -25,24 +25,25 @@
 					<h1>Parkulator (static)</h1>
 				</div>
 			</div>
+			
 			<div id="place-search"></div>
 		</header>
 
-		<div class="holder">
-
+		<div class="holder outlined">
 			<div id="map">
-
 				<div class="spinner" style="text-align:center;">
 					<img src="https://open-innovations.org/resources/images/loader.svg" alt="Loading..." />
 				</div>
-
 			</div>
+
+			<div id="message"></div>
 
 		</div>
 
-		<div class="b6-bg doublepadded">
-			<div class="holder">
-				<p style="text-align:center">Click the square at the top-left of the map to get started.</p>
+		<div class="b6-bg padded">
+			<div class="holder" style="text-align:center">
+				<p>Click the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" vector-effect="non-scaling-stroke" class="bi bi-bounding-box" viewBox="0 0 16 16"><path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/></svg> at the top-left of the map to select an area.</p>
+				<button id="calculate" class="c13-bg">Calculate!</button>
 			</div>
 		</div>		
 	</div>
@@ -56,6 +57,9 @@
 		</div>
 	</footer>
 
+	<script type="text/javascript" src="resources/leaflet.js"></script>
+	<script type="text/javascript" src="resources/leaflet.area-selection.js"></script>
+	<script type="text/javascript" src="resources/turf.min.js"></script>
 	<script type="text/javascript" src="resources/polyline.js"></script>
 	<script type="text/javascript" src="resources/parkulator.js"></script>
 

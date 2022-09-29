@@ -1,0 +1,176 @@
+/* Modified by Stuart Lowe (Open Innovations) 2022-09-22 */
+.leaflet-touch .leaflet-bar button {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	background-color: white;
+	box-sizing: content-box;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	position: realtive;
+}
+.leaflet-touch .leaflet-bar button:hover, .leaflet-touch .leaflet-bar button:focus {
+	background-color: #f4f4f4!important;
+	color: inherit!important;
+}
+.leaflet-touch .leaflet-bar button svg {
+	width: 60%;
+	height: 60%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3D(-50%,-50%,0);
+}
+.leaflet-touch .leaflet-bar button:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+
+/* Original CSS (with modifications to class names */
+
+.leaflet-area-selection.inactive {
+  pointer-events: none;
+}
+
+.leaflet-area-selection {
+  position: static;
+  cursor: crosshair;
+}
+
+.leaflet-area-selection .leaflet-area-draw-selection-pane {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 550;
+}
+
+.leaflet-area-selection.fading-enabled .leaflet-area-draw-selection-pane {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.leaflet-area-selection.inactive .leaflet-area-draw-selection-pane {
+  background-color: transparent;
+}
+
+.leaflet-area-selection .draw-pane-help {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  overflow-x: clip;
+  overflow-y: hidden;
+  text-align: center;
+  font-size: 17px;
+  padding: 0.5em 0.3em;
+  background-color: rgba(255, 255, 255, 0.8);
+  pointer-events: none;
+}
+
+.leaflet-area-selection.inactive .draw-pane-help {
+  display: none;
+}
+
+@media screen and (max-width: 667px) {
+  .leaflet-area-selection .draw-pane-help {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .leaflet-area-selection .draw-pane-help {
+    font-size: 11px;
+  }
+}
+
+.end-selection-area {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.leaflet-area-selector {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #0e4e73;
+  background-color: #fff;
+  cursor: move;
+}
+.leaflet-area-selector:hover {
+  background-color: #0e4e73;
+}
+.leaflet-area-selector.active {
+  background-color: #0e4e73;
+}
+
+.area-select-ghost-marker {
+  width: 14x;
+  height: 14px;
+  background-color: #c0c0c0;
+  opacity: 0.5;
+}
+
+@media (hover: none) and (pointer: coarse) {
+  .leaflet-area-selector:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    display: block;
+    margin-left: -15px;
+    margin-top: -15px;
+  }
+}
+
+.leaflet-area-selector.start-marker {
+  background-color: #28a745;
+  -webkit-animation: endpath-pulse 1.5s infinite;
+          animation: endpath-pulse 1.5s infinite;
+}
+
+.leaflet-area-selector.invalid {
+  border-color: rgb(220, 53, 69);
+  background-color: rgba(220, 53, 69, 0.7);
+}
+
+.leaflet-overlay-pane path.areaCloseLine {
+  stroke-dasharray: 20;
+  -webkit-animation: closeline-dash 10s linear;
+          animation: closeline-dash 10s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.leaflet-overlay-pane path.rect-progress-line {
+  stroke-dasharray: 10;
+  -webkit-animation: closeline-dash 10s linear;
+          animation: closeline-dash 10s linear;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.map-container.drawing-area .leaflet-control-attribution {
+  display: none;
+}
+
+@keyframes closeline-dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}
+
+@keyframes endpath-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}

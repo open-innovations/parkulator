@@ -12,33 +12,57 @@
 			else document.addEventListener('DOMContentLoaded', fn);
 		};
 	}
-	function AJAX(url,opt){
-		// Version 1.1
-		if(!opt) opt = {};
-		var req = new XMLHttpRequest();
-		var responseTypeAware = 'responseType' in req;
-		if(responseTypeAware && opt.dataType) req.responseType = opt.dataType;
-		req.open((opt.method||'GET'),url+(opt.cache ? '?'+Math.random() : ''),true);
-		req.onload = function(e){
-			if(this.status >= 200 && this.status < 400) {
-				// Success!
-				var resp = this.response;
-				if(typeof opt.success==="function") opt.success.call((opt['this']||this),resp,{'url':url,'data':opt,'originalEvent':e});
-			}else{
-				// We reached our target server, but it returned an error
-				if(typeof opt.error==="function") opt.error.call((opt['this']||this),e,{'url':url,'data':opt});
-			}
-		};
-		if(typeof opt.error==="function"){
-			// There was a connection error of some sort
-			req.onerror = function(err){ opt.error.call((opt['this']||this),err,{'url':url,'data':opt}); };
-		}
-		req.send();
-		return this;
-	}
-	if(!OI.ajax) OI.ajax = AJAX;
 
 	function Application(){
+
+		if(!this.logSetup) this.logSetup = { 'el': document.getElementById('message') };
+		this.title = "Parkulator (static)";
+		this.version = "0.3";
+		this.logging = (location.search.indexOf('debug=true') >= 0);
+		this.log = function(){
+			var a,ext;
+			// Version 1.1.1
+			if(this.logging || arguments[0]=="ERROR" || arguments[0]=="WARNING"){
+				a = Array.prototype.slice.call(arguments, 0);
+				// Build basic result
+				ext = ['%c'+this.title+' '+this.version+'%c: '+a[1],'font-weight:bold;',''];
+				// If there are extra parameters passed we add them
+				if(a.length > 2) ext = ext.concat(a.splice(2));
+				if(console && typeof console.log==="function"){
+					if(arguments[0] == "ERROR") console.error.apply(null,ext);
+					else if(arguments[0] == "WARNING") console.warn.apply(null,ext);
+					else if(arguments[0] == "INFO") console.info.apply(null,ext);
+					else console.log.apply(null,ext);
+				}
+			}
+			return this;
+		};
+		this.message = function(msg,attr){
+			if(!attr) attr = {};
+			if(!attr.type) attr.type = 'message';
+			
+			// Update the console
+			var txt = msg;
+			if(typeof txt==="string"){
+				txt = txt.replace(/\<[^\>]+\>/g,'');
+			}
+			if(txt) this.log(attr.type,txt,attr.extra||'');
+
+			var css = "b5-bg";
+			if(attr.type=="ERROR") css = "c12-bg";
+			if(attr.type=="WARNING") css = "c14-bg";
+
+			if(!this.logSetup.el){
+				this.logSetup.el = document.createElement('div');
+				document.body.appendChild(this.logSetup.el);
+			}
+
+			this.logSetup.el.innerHTML = '<div class="'+css+'">'+msg+'</div>';
+			this.logSetup.el.style.display = (msg ? 'block' : 'none');
+
+			return this;
+		};
+		this.log('INFO','Initialising');
 
 		var frm = document.createElement('form');
 
@@ -67,15 +91,15 @@
 
 		var place = document.getElementById('place');
 
-		
+		var calculate = document.getElementById('calculate');
+
 		// Constants
 		var d2r = Math.PI/180;
 		var r2d = 180.0/Math.PI;
 
 		this.setGeo = function(lat,lon,city){
 			var pop = city.n*15000;
-			this.map.flyTo([lat,lon],15,{animate:true,duration:0});
-			//this.getFromOverpass();
+			this.map.flyTo([lat,lon],14,{animate:true,duration:0});
 			return this;
 		}
 
@@ -105,27 +129,25 @@
 			},
 			'process': function(city){
 				// A city has been selected
-				OI.ajax(city.file,{
-					'this': _obj,
-					'city': city,
-					'dataType': 'text',
-					'success': function(d,attr){
-						var d,lat,lon,i,line,pop;
-						d = d.replace(/\r/,'').split(/[\n]/);
-						for(i = 0; i < d.length; i++){
-							line = d[i].split(/\t/);
-							if(line[0] == attr.data.city.i){
-								lat = parseFloat(line[1]);
-								lon = parseFloat(line[2]);
-								tz = line[3];
-								pop = parseFloat(line[4])*15000;
-								i = d.length;	// Leave loop
-							}
+				fetch(city.file,{'method':'GET'})
+				.then(response => { return response.text() })
+				.then(d => {
+					var lat,lon,i,line,pop;
+					d = d.replace(/\r/,'').split(/[\n]/);
+					for(i = 0; i < d.length; i++){
+						line = d[i].split(/\t/);
+						if(line[0] == city.i){
+							lat = parseFloat(line[1]);
+							lon = parseFloat(line[2]);
+							tz = line[3];
+							pop = parseFloat(line[4])*15000;
+							i = d.length;	// Leave loop
 						}
-						this.setGeo(lat,lon,attr.data.city);
-						inp.value = attr.data.city.displayname;
-					},
-					'error': function(e,attr){ console.error('Unable to load '+attr.file,e); }
+					}
+					_obj.setGeo(lat,lon,city);
+					inp.value = city.displayname;
+				}).catch(error => {
+					_obj.message('Error getting data from '+city.file,{'type':'ERROR','extra':city});
 				});
 			},
 			'rank': function(d,str){
@@ -156,9 +178,12 @@
 		btn.addEventListener('submit',function(e){
 			e.preventDefault();
 			e.stopPropagation();
-			console.log('submit')
+			_obj.log('INFO','Submit to nowhere')
 		});
 		
+		calculate.addEventListener('click',function(e){
+			_obj.calculate();
+		});
 		
 		var loading = {};
 		// Attach a callback to the 'change' event. This gets called each time the user enters/deletes a character.
@@ -167,33 +192,35 @@
 			var fl = name[0];
 			if(fl && fl.match(/[a-zA-Z\'\`]/i)){
 				if(!loading[fl]){
-					OI.ajax('geo/ranked-'+fl+'.tsv',{
-						'this': e.data.me,
-						'dataType': 'text',
-						'fl':fl,
-						'success': function(d,attr){
-							var data,l,c,header;
-							d = d.replace(/\r/g,'').split(/[\n]/);
-							data = new Array(d.length);
-							header = ["truename","name","cc","admin1","n"];
-							for(l = 0; l < d.length; l++){
-								cols = d[l].split(/\t/);
-								datum = {};
-								for(c = 0; c < cols.length; c++){
-									datum[header[c]] = cols[c].replace(/(^\"|\"$)/g,"");
-									// Convert numbers
-									if(parseFloat(datum[header[c]])+"" == datum[header[c]]) datum[header[c]] = parseFloat(datum[header[c]]);
-									datum['id'] = attr.data.fl+'-'+l;
-									datum['i'] = l;
-									datum['file'] = 'geo/cities/'+attr.data.fl+'-'+(Math.floor(l/100))+'.tsv';
-									datum['country'] = (datum.cc && cc[datum.cc] ? cc[datum.cc]:'');
-									datum['displayname'] = datum.truename+(datum.cc=="US" ? ', '+datum['admin1']+'':'')+(datum.country ? ', '+datum.country : '');
-								}
-								data[l] = datum;
+					var file = 'geo/ranked-'+fl+'.tsv';
+					var _obj = e.data.me;
+
+					fetch(file,{})
+					.then(response => { return response.text() })
+					.then(d => {
+						
+						var data,l,c,header;
+						d = d.replace(/\r/g,'').split(/[\n]/);
+						data = new Array(d.length);
+						header = ["truename","name","cc","admin1","n"];
+						for(l = 0; l < d.length; l++){
+							cols = d[l].split(/\t/);
+							datum = {};
+							for(c = 0; c < cols.length; c++){
+								datum[header[c]] = cols[c].replace(/(^\"|\"$)/g,"");
+								// Convert numbers
+								if(parseFloat(datum[header[c]])+"" == datum[header[c]]) datum[header[c]] = parseFloat(datum[header[c]]);
+								datum['id'] = fl+'-'+l;
+								datum['i'] = l;
+								datum['file'] = 'geo/cities/'+fl+'-'+(Math.floor(l/100))+'.tsv';
+								datum['country'] = (datum.cc && cc[datum.cc] ? cc[datum.cc]:'');
+								datum['displayname'] = datum.truename+(datum.cc=="US" ? ', '+datum['admin1']+'':'')+(datum.country ? ', '+datum.country : '');
 							}
-							this.addItems(data);
-						},
-						'error': function(e,attr){ console.error('Unable to load file '+attr.file,e); }
+							data[l] = datum;
+						}
+						_obj.addItems(data);
+					}).catch(error => {
+						_obj.message('Unable to load file '+file,{'type':'ERROR','extra':{}});
 					});
 					loading[fl] = true;
 				}
@@ -294,64 +321,86 @@
 
 			return str;
 		}
-		
-		function parseXML(str){
-			var xml = {};
-			if(window.DOMParser){
-				var parser = new DOMParser();
-				try {
-					xml = parser.parseFromString(str, "text/xml");
-				}catch(err){
-					throw new Error('Failed to parse as XML (standards)');
-				}
-			}else{ // Internet Explorer
-				xml = new ActiveXObject("Microsoft.XMLDOM");
-				xml.async = false;
-				try {
-					xml.loadXML(str);
-				}catch(err){
-					throw new Error('Failed to parse as XML (MS)');
-				}
-			}
-			if(!xml || xml.documentElement.nodeName == "parsererror") throw new Error('XML parse error',xml)
-			return xml;
-		};
 
 		this.addGeoJSON = function(geojson){
 			this.geojson = geojson;
-			console.log('addGeoJSON',geojson);
+			this.log('INFO','addGeoJSON',geojson);
 
+			/*
+			// Add the GeoJSON to the map in orange
 			L.geoJSON(geojson, {
 				style: function (feature) {
-					console.log(feature);
+					return {color: '#FF6700'};
+				}
+			}).addTo(this.map);
+			*/
+
+			// Do a proper 'union' to remove overlapping features
+			var union = geojson.features[0];
+			for(var i = 1; i < geojson.features.length; i++){
+				if(geojson.features[i].geometry.type==="MultiPolygon" || geojson.features[i].geometry.type==="Polygon"){
+					union = turf.union(union,geojson.features[i]);
+				}
+			}
+			/*
+			// Add the dissolved verion in blue
+			L.geoJSON({"type": "FeatureCollection","features":[union]}, {
+				style: function (feature) {
+					return {color: '#2254F4'};
+				}
+			}).addTo(this.map);
+			*/
+
+			var drawnBoxGeojson = this.areaSelection.polygon.toGeoJSON();
+			var intersect = turf.intersect(drawnBoxGeojson, union);
+			var intersectArea = turf.area(intersect);
+			
+			
+			
+			// Add the dissolved polygons within the selected area in orange
+			L.geoJSON({"type": "FeatureCollection","features":[intersect]}, {
+				style: function (feature) {
 					return {color: '#FF6700'};
 				}
 			}).addTo(this.map);
 
+			// Area of drawn box shape.
+			var boxArea = turf.area(drawnBoxGeojson);
+
+			// Percentage of area occupied by parking.
+			var percentageArea = ((intersectArea / boxArea) * 100).toFixed(0);
+
+			// Center of the rectangle drawn by the user/
+			var rectangleCenter = (turf.center(drawnBoxGeojson).geometry.coordinates);
+
+			var intersectInHectares = (intersectArea / 10000).toFixed(1);
+
+			// Only small percentage of parking
+			var content = "<strong>" + percentageArea + "% of this area</strong> is occupied by parking.<br/><br/>On this " + intersectInHectares + " hectares we could build,<br/>";
+			content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density.";
+			content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density.";
+			content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density.";
+			content += "<br /><strong>" + Number((intersectInHectares / 0.65).toFixed(0)).toLocaleString() + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+
+			// Create a popup at the center of the rectangle to display the occupancy of the area:
+			var parkingPopup = L.popup();
+			parkingPopup.setContent(content);
+			parkingPopup.setLatLng([drawnBoxGeojson.geometry.coordinates[0][1][1], rectangleCenter[0]]); //calculated based on the e.layertype
+			parkingPopup.openOn(this.map);
+
 			return this;
 		};
 
-		this.getFromOverpass = function(file){
+		this.getFromFile = function(file){
 			
-			var a = [
-				'way["amenity"="parking"]'
-			];
+			this.message('Loading data... please wait<br /><svg version="1.1" width="64" height="64" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(.11601 0 0 .11601 -49.537 -39.959)"><path d="m610.92 896.12m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.83333s" repeatCount="indefinite" /></path><path d="m794.82 577.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.6666s" repeatCount="indefinite" /></path><path d="m1162.6 577.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.5s" repeatCount="indefinite" /></path><path d="m1346.5 896.12m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.3333s" repeatCount="indefinite" /></path><path d="m1162.6 1214.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.1666s" repeatCount="indefinite" /></path><path d="m794.82 1214.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="0s" repeatCount="indefinite" /></path></g></svg>',{'type':'INFO'});
 
-			b = this.map.getBounds();
-			
-			qs = '%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%28%0A%20%20';
-			for(i = 0; i < a.length; i++) qs += ''+encodeURIComponent(a[i])+'%20%20%28'+b._southWest.lat+','+b._southWest.lng+','+b._northEast.lat+','+b._northEast.lng+'%29%3B%20%20';
-			qs += '%0A%29%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B';
-
-			url = 'https://overpass-api.de/api/interpreter?data='+qs;
-			if(typeof file==="string") url = file;
-
-			fetch(url,{'method':'GET'})
+			return fetch(file,{'method':'GET'})
 			.then(response => { return response.json() })
 			.then(json => {
 				var i,xml,oDOM,lastupdate,features,el,lat,lon,id,tags,tag,t,name;
 
-				console.log(json);
+				_obj.message('');
 
 				// Update the time stamp
 				lastupdate = json.osm3s.timestamp_osm_base.replace('T'," ");
@@ -379,36 +428,81 @@
 				_obj.addGeoJSON({ "type": "FeatureCollection", "features": features });
 
 			}).catch(error => {
-				console.error(error,url);
+				this.message('Error getting data',{'type':'ERROR','extra':error});
 			});
+		};
+
+		this.getFromOverpass = function(b){
+			
+			var a = [
+				'way["amenity"="parking"]'
+			];
+
+			if(!b) b = this.map.getBounds();
+
+			qs = '%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%28%0A%20%20';
+			for(i = 0; i < a.length; i++) qs += ''+encodeURIComponent(a[i])+'%20%20%28'+b._southWest.lat+','+b._southWest.lng+','+b._northEast.lat+','+b._northEast.lng+'%29%3B%20%20';
+			qs += '%0A%29%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B';
+
+			url = 'https://overpass-api.de/api/interpreter?data='+qs;
+			
+			this.log('INFO','Getting Overpass API result: '+url);
+
+			this.getFromFile(url);
 
 			return this;
 		}
-		
-			
-			
-		// Clear loader
-		document.getElementById('map').innerHTML = "";
-		// Set up map
-		this.map = L.map('map').setView([53.8, -1.55], 14);
-		this.map.createPane('labels');
-		this.map.getPane('labels').style.zIndex = 650;
-		this.map.getPane('labels').style.pointerEvents = 'none';
-		// Add tile layers
-		L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
-			attribution: '',
-			pane: 'labels'
-		}).addTo(this.map);
-		L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
-			attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
-			subdomains: 'abcd',
-			maxZoom: 19
-		}).addTo(this.map);
 
+		this.calculate = function(){
+			this.log('INFO','calculate',this.areaSelection.polygon);
+			if(this.areaSelection.polygon){
+				this.message('');
+				this.getFromOverpass(this.areaSelection.polygon.getBounds());
+			}else{
+				this.message('No area has been selected on the map',{'type':'WARNING'});
+			}
+		};
+
+		this.setupMap = function(){
+			
+			// Clear loader
+			document.getElementById('map').innerHTML = "";
+			// Set up map
+			this.map = L.map('map').setView([53.8, -1.55], 14);
+			this.map.createPane('labels');
+			this.map.getPane('labels').style.zIndex = 650;
+			this.map.getPane('labels').style.pointerEvents = 'none';
+			// Add tile layers
+			L.tileLayer('https://{s}.basemaps.cartocdn.com/light_only_labels/{z}/{x}/{y}.png', {
+				attribution: '',
+				pane: 'labels'
+			}).addTo(this.map);
+			L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png', {
+				attribution: 'Tiles: &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="http://cartodb.com/attributions">CartoDB</a>',
+				subdomains: 'abcd',
+				maxZoom: 19
+			}).addTo(this.map);
+
+			var _obj = this;
+
+			this.areaSelection = new window.leafletAreaSelection.DrawAreaSelection({
+				'position': 'topleft',
+				'onPolygonReady':function(a){
+					//_obj.getFromOverpass(a.getBounds());
+				},
+				'onPolygonDblClick':function(a){
+					console.log('onPolygonDblClick',a);
+				}
+			});
+
+			this.map.addControl(this.areaSelection);
+		};
+		
+		this.setupMap();
 
 		return this;
 	}
-	
+
 	OI.Application = Application;
 
 
@@ -420,7 +514,7 @@
 OI.ready(function(){
 	
 	app = new OI.Application({});
-	app.setGeo(53.9929,-1.5457,"Harrogate, UK");
+	app.setGeo(53.7965, -1.5478,{"displayname":"Leeds, UK","n":30});
 
 });
 

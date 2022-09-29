@@ -26,7 +26,6 @@ function encode(current, previous, factor) {
 	while (coordinate >= 0x20) {
 		output += String.fromCharCode((0x20 | (coordinate & 0x1f)) + 63);
 		coordinate >>= 5;
-console.log(coordinate)
 	}
 	output += String.fromCharCode(coordinate + 63);
 	return output;
