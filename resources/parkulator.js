@@ -449,7 +449,7 @@
 				// Update the time stamp
 				lastupdate = json.osm3s.timestamp_osm_base.replace('T'," ");
 				_obj.lastupdate = lastupdate;
-				_obj.map.attributionControl.addAttribution("Last updated: "+lastupdate);
+				_obj.map.attributionControl.setPrefix("OSM data last updated: "+lastupdate);
 
 				var ways = [];
 				var nodes = {};
