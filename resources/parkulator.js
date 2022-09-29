@@ -390,12 +390,23 @@
 			
 			
 			var color = this.config[type].color||'#FF6700';
+			if(!this.layerGroup){
+				this.layerGroup = new L.LayerGroup();
+				this.layerGroup.addTo(this.map);
+			}
+			if(this.layerIntersect){
+				this.layerGroup.removeLayer(this.layerIntersect);
+				delete this.layerIntersect;
+			}
+
+
 			// Add the dissolved polygons within the selected area in orange
-			L.geoJSON({"type": "FeatureCollection","features":[intersect]}, {
+			this.layerIntersect = L.geoJSON({"type": "FeatureCollection","features":[intersect]}, {
 				style: function (feature) {
 					return {color: color};
 				}
-			}).addTo(this.map);
+			});
+			this.layerGroup.addLayer(this.layerIntersect);
 
 			// Area of drawn box shape.
 			var boxArea = turf.area(drawnBoxGeojson);
