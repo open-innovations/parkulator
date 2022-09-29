@@ -80,11 +80,13 @@
 		inp.setAttribute('placeholder','e.g. Leeds, UK');
 		frm.appendChild(inp);
 		
+		/*
 		var btn = document.createElement('button');
 		btn.classList.add('c13-bg');
 		btn.innerHTML = "🔍";
 		frm.appendChild(btn);
-		
+		*/
+
 		var place = document.getElementById('place');
 
 		var calculate = document.getElementById('calculate');
@@ -171,11 +173,12 @@
 			e.currentTarget.value = "";
 		});
 
+		/*
 		btn.addEventListener('submit',function(e){
 			e.preventDefault();
 			e.stopPropagation();
 			_obj.log('INFO','Submit to nowhere')
-		});
+		});*/
 		
 		calculate.addEventListener('click',function(e){
 			_obj.calculate();
