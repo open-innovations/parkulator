@@ -161,7 +161,7 @@ figcaption {
 	text-align: center;
 }
 
-
+select { font-size: 1em; line-height: 2em; }
 input { font-size: 1em; line-height: 1.5em; height: 2em; display: inline-block; }
 button { height: 2em; margin-top: 0; line-height: 1em; border-radius: 4px; }
 #place-search form { text-align: center; }

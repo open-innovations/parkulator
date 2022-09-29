@@ -64,6 +64,26 @@
 		};
 		this.log('INFO','Initialising');
 
+		// BLAH
+		this.config = {
+			'parking': {
+				'title': 'carparks',
+				'color': '#FF6700',
+				'filters':[
+					'way["amenity"="parking"]'
+				]
+			},
+			'golf': {
+				'title': 'golf courses',
+				'color': '#0DBC37',
+				'filters':[
+					'way["leisure"="golf_course"]'
+				]			
+			}
+		};
+		var type = "parking";
+
+
 		var frm = document.createElement('form');
 
 		var div = document.getElementById('place-search');
@@ -80,6 +100,18 @@
 		inp.setAttribute('placeholder','e.g. Leeds, UK');
 		frm.appendChild(inp);
 		
+		var sel = document.getElementById('type');
+		for(var o in this.config){
+			opt = document.createElement('option');
+			opt.innerHTML = this.config[o].title;
+			opt.setAttribute('value',o);
+			if(o==type) opt.setAttribute('selected','selected');
+			sel.appendChild(opt);
+		}
+		sel.addEventListener('change',function(e){
+			type = e.target.value;
+		});
+
 		/*
 		var btn = document.createElement('button');
 		btn.classList.add('c13-bg');
@@ -357,11 +389,11 @@
 			var intersectArea = turf.area(intersect);
 			
 			
-			
+			var color = this.config[type].color||'#FF6700';
 			// Add the dissolved polygons within the selected area in orange
 			L.geoJSON({"type": "FeatureCollection","features":[intersect]}, {
 				style: function (feature) {
-					return {color: '#FF6700'};
+					return {color: color};
 				}
 			}).addTo(this.map);
 
@@ -377,7 +409,7 @@
 			var intersectInHectares = (intersectArea / 10000).toFixed(1);
 
 			// Only small percentage of parking
-			var content = "<strong>" + percentageArea + "% of this area</strong> is occupied by parking.<br/><br/>On this " + intersectInHectares + " hectares we could build,<br/>";
+			var content = "<strong>" + percentageArea + "% of this area</strong> is occupied by " + this.config[type].title + ".<br/><br/>On this " + intersectInHectares + " hectares we could build,";
 			content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density.";
 			content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density.";
 			content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density.";
@@ -435,9 +467,7 @@
 
 		this.getFromOverpass = function(b){
 			
-			var a = [
-				'way["amenity"="parking"]'
-			];
+			var a = this.config[type].filters;
 
 			if(!b) b = this.map.getBounds();
 
