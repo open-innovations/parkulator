@@ -181,6 +181,8 @@
 		});*/
 		
 		calculate.addEventListener('click',function(e){
+			// Blur the button
+			e.target.blur();
 			_obj.calculate();
 		});
 		
