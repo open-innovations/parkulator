@@ -85,10 +85,6 @@
 		btn.innerHTML = "🔍";
 		frm.appendChild(btn);
 		
-		var p = document.createElement('p');
-		p.innerHTML = "Anywhere in the world.";
-		frm.appendChild(p);
-
 		var place = document.getElementById('place');
 
 		var calculate = document.getElementById('calculate');
