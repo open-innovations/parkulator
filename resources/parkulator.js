@@ -78,7 +78,8 @@
 				'title': 'golf courses',
 				'color': '#0DBC37',
 				'filters':[
-					'way["leisure"="golf_course"]'
+					'way["leisure"="golf_course"]',
+					'relation["leisure"="golf_course"]'
 				]			
 			}
 		};
