@@ -81,6 +81,14 @@
 					'way["leisure"="golf_course"]',
 					'relation["leisure"="golf_course"]'
 				]			
+			},
+			'brownfield': {
+				'title': 'brownfield land',
+				'color': '#ce906f',
+				'filters':[
+					'way["landuse"="brownfield"]',
+					'relation["landuse"="brownfield"]'
+				]			
 			}
 		};
 		var type = "parking";
