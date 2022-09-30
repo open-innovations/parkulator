@@ -1,6 +1,9 @@
 /*
 	This is a modified version of https://github.com/bopen/leaflet-area-selection version 0.6.1 
 	Modified by Stuart Lowe (Open Innovations) 2022-09-29
+	 - allows external code to start editing the polygon with .startPolygon()
+	 - allows a point to be added with .addPoint({latitude:53.7971,longitude:-1.5443})
+	 - allows the polygon to be finished with .endPolygon();
 */
 
 (function (global, factory) {
@@ -155,31 +158,37 @@
 	function onAddPoint(event) {
 		var _this = this;
 
-		if (this.mapMoving) {
-			return;
-		}
+		if(this.mapMoving) return;
 
 		var map = this.getMap();
-		var clientX = event.clientX,
-				clientY = event.clientY;
+		var container = map.getContainer();
+		var bbox = container.getBoundingClientRect();
+		var _event$index = event.index,
+				index = _event$index === void 0 ? null : _event$index;
+		var x,y;
 
-		if (clientX === undefined && clientY === undefined) {
-			var touch = event.changedTouches[0];
-			clientX = touch.clientX;
-			clientY = touch.clientY;
-		}
-
-		if (this.rectDrawing) {
+		if(this.rectDrawing){
 			map.fire('as:dragging-rect-end');
 			return;
 		}
 
-		var _event$index = event.index,
-				index = _event$index === void 0 ? null : _event$index;
-		var container = map.getContainer();
-		var bbox = container.getBoundingClientRect();
-		var x = clientX - bbox.left;
-		var y = clientY - bbox.top;
+		if(typeof event.latitude==="number" && typeof event.longitude==="number"){
+			var p = map.latLngToContainerPoint([event.latitude,event.longitude]);
+			x = p.x;
+			y = p.y;
+		}else{
+			var clientX = event.clientX,
+				clientY = event.clientY;
+
+			if (clientX === undefined && clientY === undefined) {
+				var touch = event.changedTouches[0];
+				clientX = touch.clientX;
+				clientY = touch.clientY;
+			}
+
+			x = clientX - bbox.left;
+			y = clientY - bbox.top;
+		}
 
 		if (this.markers.length === 0) {
 			addEndClickArea(this, [x, y]);
@@ -426,6 +435,7 @@
 		});
 	}
 	function onPolygonCreationEnd() {
+		console.log('onPolygonCreationEnd');
 		var map = this.getMap();
 		map.dragging.enable();
 		map.removeLayer(this.closeLine);
@@ -437,9 +447,10 @@
 		removeEndClickArea(this);
 	}
 	function onActivate(event) {
-		if (!isTrustedEvent(event)) {
+		console.log('onActivate',event);
+		/*if (!isTrustedEvent(event)) {
 			return;
-		}
+		}*/
 
 		var map = this.getMap();
 		this._dragStatus = map.dragging._enabled;
@@ -650,7 +661,6 @@
 			bar.classList.add('leaflet-bar');
 		
 			this.activateButton = leaflet.DomUtil.create('button', 'leaflet-button', bar);
-			//this.activateButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pentagon-fill" viewBox="0 0 16 16"><path d="M7.685.256a.5.5 0 0 1 .63 0l7.421 6.03a.5.5 0 0 1 .162.538l-2.788 8.827a.5.5 0 0 1-.476.349H3.366a.5.5 0 0 1-.476-.35L.102 6.825a.5.5 0 0 1 .162-.538l7.42-6.03Z"/></svg>';
 			this.activateButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" vector-effect="non-scaling-stroke" class="bi bi-bounding-box" viewBox="0 0 16 16"><path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/></svg>';
 			this.activateButton.setAttribute('aria-label', 'Draw shape');
 			this.activateButton.setAttribute('aria-describedby', 'draw-panel-help');
@@ -813,7 +823,13 @@
 			}
 
 			onMouseMove.bind(this)(event);
-		}
+		},
+		addPoint: onAddPoint,
+		startPolygon: function(){
+			const ev = new Event('click',{isTrusted:true});
+			this.activateButton.dispatchEvent(ev);
+		},
+		endPolygon: onPolygonCreationEnd
 	});
 	var drawAreaSelection = function drawAreaSelection(options) {
 		if (options === void 0) {

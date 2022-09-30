@@ -85,7 +85,6 @@
 		};
 		var type = "parking";
 
-
 		var frm = document.createElement('form');
 
 		var div = document.getElementById('place-search');
@@ -113,13 +112,6 @@
 		sel.addEventListener('change',function(e){
 			type = e.target.value;
 		});
-
-		/*
-		var btn = document.createElement('button');
-		btn.classList.add('c13-bg');
-		btn.innerHTML = "🔍";
-		frm.appendChild(btn);
-		*/
 
 		var place = document.getElementById('place');
 
@@ -207,13 +199,6 @@
 			e.currentTarget.value = "";
 		});
 
-		/*
-		btn.addEventListener('submit',function(e){
-			e.preventDefault();
-			e.stopPropagation();
-			_obj.log('INFO','Submit to nowhere')
-		});*/
-		
 		calculate.addEventListener('click',function(e){
 			// Blur the button
 			e.target.blur();
@@ -355,21 +340,69 @@
 			for(var i = 0; i < map.length; i++) str = str.replace(map[i].l, map[i].b);
 
 			return str;
+		};
+
+		// Set drag/drop events
+		function dropOver(evt){
+			evt.stopPropagation();
+			evt.preventDefault();
+			this.classList.add('drop');
+			this.classList.remove('loaded');
 		}
+		function dragOff(){
+			this.classList.remove('drop');
+		}
+		function dropHandler(ev) {
+			this.classList.remove('drop');
+			// Prevent default behavior (Prevent file from being opened)
+			ev.preventDefault();
 
-		this.addGeoJSON = function(geojson){
-			this.geojson = geojson;
-			this.log('INFO','addGeoJSON',geojson);
-
-
-			/*
-			// Add the GeoJSON to the map in orange
-			L.geoJSON(geojson, {
-				style: function (feature) {
-					return {color: '#FF6700'};
+			if(ev.dataTransfer.items){
+				for(const item of ev.dataTransfer.items){
+					//console.log('there',item.type,item.kind);
+					var blob = item.getAsFile();
+					var reader = new FileReader();
+					reader.onload = function(event){
+						var geojson = JSON.parse(event.target.result);
+						// If the result seems to be GeoJSON then set the boundary
+						if(geojson.type == "FeatureCollection" && geojson.features.length > 0) _obj.setBoundary(geojson);
+						else if(geojson.type == "Feature" && geojson.geometry.type=="Polygon"){
+							geojson = {'type':'FeatureCollection','features':[geojson]};
+							_obj.setBoundary(geojson);
+						}
+					};
+					var source = reader.readAsBinaryString(blob);
 				}
-			}).addTo(this.map);
-			*/
+			}
+		}
+		// Setup the dnd listeners.
+		var dropZone = document.getElementById('map');
+		dropZone.addEventListener('dragover', dropOver, false);
+		dropZone.addEventListener('dragout', dragOff, false);
+		dropZone.addEventListener('drop', dropHandler, false);
+
+
+		// Add a simple Polygon in a GeoJSON structure as a boundary
+		this.setBoundary = function(geojson){
+			
+			if(geojson.features[0].geometry.type=="Polygon"){
+				coord = geojson.features[0].geometry.coordinates[0];				
+				this.areaSelection.startPolygon();
+				for(var i = 0; i < coord.length; i++){
+					this.areaSelection.addPoint({'latitude':coord[i][1],'longitude':coord[i][0]});
+				}
+				this.areaSelection.endPolygon();
+				
+			}else{
+				this.message('This tool can only cope with one Polygon.',{'type':'ERROR'});
+			}
+			
+			return this;
+		};
+
+		this.computePolygons = function(geojson){
+			this.geojson = geojson;
+			this.log('INFO','computePolygons',geojson);
 
 			var polygons = [];
 			var i,p,polygon,featureCollection;
@@ -460,7 +493,7 @@
 			var boxArea = turf.area(drawnBoxGeojson);
 
 			// Percentage of area occupied by parking.
-			var percentageArea = ((intersectArea / boxArea) * 100).toFixed(0);
+			var percentageArea = ((intersectArea / boxArea) * 100).toFixed(1);
 
 			// Center of the rectangle drawn by the user/
 			var rectangleCenter = (turf.center(drawnBoxGeojson).geometry.coordinates);
@@ -601,7 +634,7 @@
 					features.push(feature);
 				}
 
-				_obj.addGeoJSON({ "type": "FeatureCollection", "features": features });
+				_obj.computePolygons({ "type": "FeatureCollection", "features": features });
 
 			}).catch(error => {
 				this.message('Error getting data',{'type':'ERROR','extra':error});
