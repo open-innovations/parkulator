@@ -528,9 +528,8 @@
 				_obj.message('');
 
 				// Update the time stamp
-				lastupdate = json.osm3s.timestamp_osm_base.replace('T'," ");
-				_obj.lastupdate = lastupdate;
-				_obj.map.attributionControl.setPrefix("OSM data last updated: "+lastupdate);
+				_obj.lastupdate = json.osm3s.timestamp_osm_base.replace('T'," ");
+				_obj.map.attributionControl.setPrefix("OSM data last updated: "+(new Date(_obj.lastupdate)).toLocaleString());
 
 				var ways = [];
 				var nodes = {};
