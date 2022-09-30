@@ -476,7 +476,7 @@
 			// Create a popup at the center of the rectangle to display the occupancy of the area:
 			var parkingPopup = L.popup();
 			parkingPopup.setContent(content);
-			parkingPopup.setLatLng([drawnBoxGeojson.geometry.coordinates[0][1][1], rectangleCenter[0]]); //calculated based on the e.layertype
+			parkingPopup.setLatLng([this.areaSelection.polygon.getBounds()._northEast.lat, rectangleCenter[0]]); //calculated based on the e.layertype
 			parkingPopup.openOn(this.map);
 
 			return this;
