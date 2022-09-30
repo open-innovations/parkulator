@@ -70,7 +70,8 @@
 				'title': 'carparks',
 				'color': '#FF6700',
 				'filters':[
-					'way["amenity"="parking"]'
+					'way["amenity"="parking"]',
+					'relation["amenity"="parking"]'
 				]
 			},
 			'golf': {
@@ -359,6 +360,7 @@
 			this.geojson = geojson;
 			this.log('INFO','addGeoJSON',geojson);
 
+
 			/*
 			// Add the GeoJSON to the map in orange
 			L.geoJSON(geojson, {
@@ -368,27 +370,72 @@
 			}).addTo(this.map);
 			*/
 
-			// Do a proper 'union' to remove overlapping features
-			var union = geojson.features[0];
-			for(var i = 1; i < geojson.features.length; i++){
-				if(geojson.features[i].geometry.type==="MultiPolygon" || geojson.features[i].geometry.type==="Polygon"){
-					union = turf.union(union,geojson.features[i]);
+			var polygons = [];
+			var i,p,polygon,featureCollection;
+			for(i = 0; i < geojson.features.length; i++){
+
+				if(geojson.features[i].geometry.type==="Polygon"){
+
+					polygons.push(geojson.features[i]);
+
+				}else if(geojson.features[i].geometry.type==="MultiPolygon"){
+					
+					for(p = 0; p < geojson.features[i].geometry.coordinates.length; p++) polygons.push(turf.polygon(geojson.features[i].geometry.coordinates[p]));
+
+				}else{
+
+					console.error('bad');
+
 				}
 			}
+
+			featureCollection = turf.dissolve(turf.featureCollection(polygons));
+
 			/*
-			// Add the dissolved verion in blue
-			L.geoJSON({"type": "FeatureCollection","features":[union]}, {
+			// Show the original polygons
+			L.geoJSON(geojson, {
 				style: function (feature) {
 					return {color: '#2254F4'};
 				}
 			}).addTo(this.map);
+
+			// Show the dissolved polygons
+			L.geoJSON(featureCollection, {
+				style: function (feature) {
+					return {color: 'green'};
+				}
+			}).addTo(this.map);
 			*/
 
+			if(!this.areaSelection.polygon){
+				this.message('No area has been selected!',{'type':'ERROR'});
+				return this;
+			}
+
 			var drawnBoxGeojson = this.areaSelection.polygon.toGeoJSON();
-			var intersect = turf.intersect(drawnBoxGeojson, union);
-			var intersectArea = turf.area(intersect);
+
+			var intersectList = [];
+			var i,conflict;
+			for(i = 1; i < featureCollection.features.length; i++){
+				// Check that the particular parking polygon intercepts with the drawn box.
+				try{
+					conflict = turf.intersect(featureCollection.features[i], drawnBoxGeojson);
+				}catch(e){
+					console.error(e);
+				}
+
+				// Two shapes overlap.
+				if(conflict != null){
+					// Add this area to the intersection
+					intersectList.push(conflict);
+				}
+			}
 			
-			
+			// Create a feature group from the intersecting layers.
+			intersectionGroup = turf.featureCollection(intersectList);
+
+			var intersectArea = turf.area(intersectionGroup);
+
 			var color = this.config[type].color||'#FF6700';
 			if(!this.layerGroup){
 				this.layerGroup = new L.LayerGroup();
@@ -401,7 +448,7 @@
 
 
 			// Add the dissolved polygons within the selected area in orange
-			this.layerIntersect = L.geoJSON({"type": "FeatureCollection","features":[intersect]}, {
+			this.layerIntersect = L.geoJSON(intersectionGroup, {
 				style: function (feature) {
 					return {color: color};
 				}
@@ -453,19 +500,103 @@
 
 				var ways = [];
 				var nodes = {};
+				var relations = [];
 				for(i = 0; i < json.elements.length; i++){
 					if(json.elements[i].type==="way") ways.push(json.elements[i]);
 					if(json.elements[i].type==="node") nodes['node-'+json.elements[i].id] = {'lat':json.elements[i].lat,'lon':json.elements[i].lon};
+					if(json.elements[i].type==="relation") relations.push(json.elements[i]);
 				}
 
 				features = [];
 				for(i = 0; i < ways.length; i++){
 					feature = {'type':'Feature','properties':{},'geometry':{'type':'Polygon','coordinates':[[]]}};
-					for(n = 0; n < ways[i].nodes.length; n++){
-						node = 'node-'+ways[i].nodes[n];
-						if(nodes[node] && typeof nodes[node].lon==="number") feature.geometry.coordinates[0].push([nodes[node].lon, nodes[node].lat]);
-						else console.warn('Bad node '+i+' / '+n,nodes[node]);
+					
+					if(ways[i].nodes[0]!=ways[i].nodes[ways[i].nodes.length-1]){
+						this.log('WARNING','Way '+i+' does not have the same start and end',ways[i]);
+					}else{
+						for(n = 0; n < ways[i].nodes.length; n++){
+							node = 'node-'+ways[i].nodes[n];
+							if(nodes[node] && typeof nodes[node].lon==="number") feature.geometry.coordinates[0].push([nodes[node].lon, nodes[node].lat]);
+							else console.warn('Bad node '+i+' / '+n,nodes[node]);
+						}
+						features.push(feature);
 					}
+				}
+
+				// Process relations as potential MultiPolygons
+				// A relation consists of several members - we'll only deal with ways
+				for(r = 0; r < relations.length; r++){
+					feature = {'type':'Feature','properties':{},'geometry':{'type':'MultiPolygon','coordinates':[]}};
+
+					rways = [];
+					mpoly = [[]];
+					outer = [];
+					inner = [];
+					for(m = 0; m < relations[r].members.length; m++){
+						if(relations[r].members[m].type=="way"){
+							for(w = 0; w < ways.length; w++){
+								if(relations[r].members[m].ref == ways[w].id){
+									if(relations[r].members[m].role=="outer"){
+										for(n = 0; n < ways[w].nodes.length; n++){
+											outer.push(ways[w].nodes[n]);
+											mpoly[0].push(ways[w].nodes[n]);
+										}
+									}
+									if(relations[r].members[m].role=="inner"){
+										if(mpoly.length == 1) mpoly.push([]);
+										for(n = 0; n < ways[w].nodes.length; n++){
+											inner.push(ways[w].nodes[n]);
+											mpoly[1].push(ways[w].nodes[n]);
+										}
+									}
+
+								}
+							}
+						}
+					}
+					mpoly = [];
+					// Loop over outer
+					poly = [];
+					for(i = 0; i < outer.length; i++){
+						// Add the node to the polygon
+						poly.push(outer[i]);
+						// If the polygon is more than 2 nodes and the last node joins up with the first node, we start a new polygon
+						if(poly.length > 2 && poly[0]==poly[poly.length-1]){
+							cpoly = [];
+							for(p = 0; p < poly.length; p++){
+								node = 'node-'+poly[p];
+								if(nodes[node] && typeof nodes[node].lon==="number") cpoly.push([nodes[node].lon, nodes[node].lat]);
+								else console.warn('Bad node '+p+' / '+n,nodes[node]);
+							}
+							if(cpoly.length < 4){
+								this.log('WARNING','poly (outer) has too few nodes to make a polygon',cpoly);
+							}else{
+								mpoly.push([cpoly]);
+							}
+							poly = [];
+						}
+					}
+					var p = 0;
+					poly = [];
+					for(i = 0; i < inner.length; i++){
+						poly.push(inner[i]);
+						if(poly.length > 2 && poly[0]==poly[poly.length-1]){
+							cpoly = [];
+							for(p = 0; p < poly.length; p++){
+								node = 'node-'+poly[p];
+								if(nodes[node] && typeof nodes[node].lon==="number") cpoly.push([nodes[node].lon, nodes[node].lat]);
+								else console.warn('Bad node '+p+' / '+n,nodes[node]);
+							}
+							if(cpoly.length < 4){
+								this.log('WARNING','poly (inner) has too few nodes to make a polygon',cpoly);
+							}else{
+								mpoly[0].push(cpoly);
+							}
+							poly = [];
+						}
+					}
+
+					feature.geometry.coordinates = mpoly;
 					features.push(feature);
 				}
 
@@ -479,16 +610,16 @@
 		this.getFromOverpass = function(b){
 			
 			var a = this.config[type].filters;
+			var bbox = b._southWest.lat + ',' + b._southWest.lng + ',' + b._northEast.lat + ',' + b._northEast.lng;
 
 			if(!b) b = this.map.getBounds();
+			qs = encodeURIComponent("[out:json][timeout:25];(");
+			for(i = 0; i < a.length; i++) qs += ''+encodeURIComponent(a[i] + '(' + bbox + ');');
+			qs += encodeURIComponent(");out body;>;out skel qt;");
 
-			qs = '%5Bout%3Ajson%5D%5Btimeout%3A25%5D%3B%0A%28%0A%20%20';
-			for(i = 0; i < a.length; i++) qs += ''+encodeURIComponent(a[i])+'%20%20%28'+b._southWest.lat+','+b._southWest.lng+','+b._northEast.lat+','+b._northEast.lng+'%29%3B%20%20';
-			qs += '%0A%29%3B%0Aout%20body%3B%0A%3E%3B%0Aout%20skel%20qt%3B';
-
-			url = 'https://overpass-api.de/api/interpreter?data='+qs;
+			url = "https://overpass-api.de/api/interpreter?data=" + qs;
 			
-			this.log('INFO','Getting Overpass API result: '+url);
+			this.log('INFO','Getting Overpass API result: '+decodeURIComponent(url));
 
 			this.getFromFile(url);
 
@@ -501,7 +632,7 @@
 				this.message('');
 				this.getFromOverpass(this.areaSelection.polygon.getBounds());
 			}else{
-				this.message('No area has been selected on the map',{'type':'WARNING'});
+				this.message('No area has been selected on the map. Please use the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" vector-effect="non-scaling-stroke" class="bi bi-bounding-box" viewBox="0 0 16 16"><path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/></svg> tool to draw an area.',{'type':'WARNING'});
 			}
 		};
 
