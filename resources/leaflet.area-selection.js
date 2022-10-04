@@ -438,7 +438,7 @@
 		console.log('onPolygonCreationEnd');
 		var map = this.getMap();
 		map.dragging.enable();
-		map.removeLayer(this.closeLine);
+		if(this.closeLine) map.removeLayer(this.closeLine);
 		this.closeLine = null;
 		this.markers[0].marker.getElement().classList.remove('start-marker');
 		this.setPhase('adjust');

@@ -151,7 +151,7 @@
 
 		var _obj = this;
 
-		// Build the barchart object attached to <input type="text" id="typeahead">
+		// Build the main search for places
 		this.typeahead = TypeAhead.init(inp,{
 			'items': [],
 			'max': 8,	// Set a maximum number to list
@@ -407,6 +407,25 @@
 				this.message('This tool can only cope with one Polygon.',{'type':'ERROR'});
 			}
 			
+			return this;
+		};
+		
+		// https://open-innovations.github.io/geography-bits/data/LAD21CD/E08000035.geojsonl
+		// https://open-innovations.github.io/geography-bits/data/PCON17CD/E14000777.geojsonl
+		this.loadArea = function(url){
+			fetch(url,{})
+			.then(response => { return response.json() })
+			.then(json => {
+				console.log(json,json.geometry.type);
+				if(json.geometry.type === "MultiPolygon"){
+					json.geometry.type = "Polygon";
+					json.geometry.coordinates = json.geometry.coordinates[0];
+					_obj.message('Only using the first polygon of a MultiPolygon',{'type':'WARNING'});
+				}
+				_obj.setBoundary({'type':'FeatureCollection','features':[json]});
+			}).catch(error => {
+				_obj.message('Unable to load URL '+url,{'type':'ERROR','extra':{}});
+			});
 			return this;
 		};
 
