@@ -400,6 +400,8 @@
 					this.areaSelection.addPoint({'latitude':coord[i][1],'longitude':coord[i][0]});
 				}
 				this.areaSelection.endPolygon();
+				var geo = L.geoJson(geojson, {});
+				this.map.fitBounds(geo.getBounds());
 				
 			}else{
 				this.message('This tool can only cope with one Polygon.',{'type':'ERROR'});
