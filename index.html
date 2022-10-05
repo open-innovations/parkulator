@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Parkulator (static)</title>
+	<title>Parkulator</title>
 	<link rel="icon" href="data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='640' height='640' overflow='auto' viewBox='-32 -32 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cmask id='oi-person'%3E%3Cpath d='m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0' fill='%23fff'%3E%3C/path%3E%3C/mask%3E%3Cg id='oi-logo' fill='%23FF6700'%3E%3Ccircle r='32' mask='url(%23oi-person)'%3E%3C/circle%3E%3C/g%3E%3C/svg%3E" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@openinnovates">
-	<meta name="twitter:url" property="og:url" content="https://open-innovations.github.io/parkulator-static/">
-	<meta name="twitter:title" property="og:title" content="Parkulator (static)">
+	<meta name="twitter:url" property="og:url" content="https://open-innovations.github.io/parkulator/">
+	<meta name="twitter:title" property="og:title" content="Parkulator">
 	<meta name="twitter:description" property="og:description" content="Calculate the number of parks that could be made if carparking was replaced.">
 	<meta name="twitter:image" property="og:image" content="resources/screenshot.png">
 	<link rel="StyleSheet" href="resources/leaflet.css" type="text/css" />
@@ -24,7 +24,7 @@
 			<div class="b1-bg">
 				<div class="holder padded" style="text-align:center;">
 					<a href="https://open-innovations.org/"><svg width="80" height="80" overflow="auto" viewBox="-32 -32 64 64" xmlns="http://www.w3.org/2000/svg"><mask id="oi-person"><path d="m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0" fill="#fff"></path></mask><g id="oi-logo" fill="#FF6700"><circle r="32" mask="url(#oi-person)"></circle></g></svg></a>
-					<h1>Parkulator (static)</h1>
+					<h1>Parkulator</h1>
 				</div>
 			</div>
 			
@@ -54,12 +54,18 @@
 		<div class="holder doublepadded">
 			<h2>Notes</h2>
 			<p>This tool finds polygons (<em>ways</em>) in OpenStreetMap for the selected feature type and then calculates how many parks and how many homes you'd be able to have on the same footprint.</p>
-			<p>To use it, click the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" vector-effect="non-scaling-stroke" class="bi bi-bounding-box" viewBox="0 0 16 16"><path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/></svg> at the top-left of the map, draw an area, then click the "Parkulate!" button.</p>
+			<p>To use it, you need to create an area on the map. There are three ways to create an area:</p>
+			<ul>
+				<li>Click the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" vector-effect="non-scaling-stroke" class="bi bi-bounding-box" viewBox="0 0 16 16"><path d="M5 2V0H0v5h2v6H0v5h5v-2h6v2h5v-5h-2V5h2V0h-5v2H5zm6 1v2h2v6h-2v2H5v-2H3V5h2V3h6zm1-2h3v3h-3V1zm3 11v3h-3v-3h3zM4 15H1v-3h3v3zM1 4V1h3v3H1z"/></svg> at the top-left of the map then draw an area.</li>
+				<li>Drag-and-drop a GeoJSON file onto the map.</li>
+				<li>Click the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/><path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/></svg> icon to search for a GeoJSON of a UK local authority, ward, constituency, or MSOA from our <a href="https://github.com/open-innovations/geography-bits/tree/master/data/">Geography Bits repository</a>.</li>
+			</ul>
+			<p>Once you have an area drawn on the map, click the "Parkulate!" button.</p>
+
 			<p>If you notice omissions, <a href="https://openstreetmap.org/">go to OpenStreetMap</a> and check if the feature exists and if it has been tagged correctly. Updates made to OpenStreetMap should filter through to this tool within a few hours.</p>
-			<p>If you have a simple boundary in a GeoJSON file then you can just drag-and-drop the file onto the map and the largest Polygon will be added for you. For UK local authorities / wards / constituencies / MSOAs you can click on the <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M14.763.075A.5.5 0 0 1 15 .5v15a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5V14h-1v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V10a.5.5 0 0 1 .342-.474L6 7.64V4.5a.5.5 0 0 1 .276-.447l8-4a.5.5 0 0 1 .487.022zM6 8.694 1 10.36V15h5V8.694zM7 15h2v-1.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 .5.5V15h2V1.309l-7 3.5V15z"/><path d="M2 11h1v1H2v-1zm2 0h1v1H4v-1zm-2 2h1v1H2v-1zm2 0h1v1H4v-1zm4-4h1v1H8V9zm2 0h1v1h-1V9zm-2 2h1v1H8v-1zm2 0h1v1h-1v-1zm2-2h1v1h-1V9zm0 2h1v1h-1v-1zM8 7h1v1H8V7zm2 0h1v1h-1V7zm2 0h1v1h-1V7zM8 5h1v1H8V5zm2 0h1v1h-1V5zm2 0h1v1h-1V5zm0-2h1v1h-1V3z"/></svg> icon and search for a GeoJSON from our <a href="https://github.com/open-innovations/geography-bits/tree/master/data/">Geography Bits repository</a> - where the GeoJSON contains a <code>MultiPolygon</code> then the largest <code>Polygon</code> in the file will be added.</p>
 			<h2>Credits</h2>
 			<p>Based on <a href="https://github.com/thomasforth/parkulator">a project by Thomas Forth</a> / imactivate.
-			<br / >This version by <a href="https://open-innovations.org/">Open Innovations</a>. <a href="https://github.com/open-innovations/parkulator-static">Available on GitHub</a> under an MIT license.
+			<br / >This version by <a href="https://open-innovations.org/">Open Innovations</a>. <a href="https://github.com/open-innovations/parkulator/">Available on GitHub</a> under an MIT license.
 			<br /><a href="https://openstreetmap.org/">Mapping data &copy; OpenStreetMap and Contributors (ODbL)</a> via the <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a>.
 			<br />Location lookup uses city/town data from <a href="http://www.geonames.org/export/">GeoNames</a> (places over 15,000 people).
 			<br />UK geography outlines from ONS.

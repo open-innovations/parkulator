@@ -208,6 +208,9 @@ button { height: 2em; margin-top: 0; line-height: 1em; border-radius: 4px; }
         box-shadow: 0 3px 5px rgba(0, 0, 0, 0.4);
 }
 
+footer ul { list-style: disc; margin-bottom: 1em; }
+footer ul li { margin-left: 2em; }
+
 
 @media only screen and (max-width: 1080px) {
 	ul.grid { grid-template-columns: repeat(1, 1fr); }
