@@ -477,15 +477,15 @@
 					return {color: '#2254F4'};
 				}
 			}).addTo(this.map);
-
+			*/
+			/*
 			// Show the dissolved polygons
 			L.geoJSON(featureCollection, {
 				style: function (feature) {
-					return {color: 'green'};
+					return {color: 'red'};
 				}
 			}).addTo(this.map);
 			*/
-
 			if(!this.areaSelection.polygon){
 				this.message('No area has been selected!',{'type':'ERROR'});
 				return this;
@@ -493,9 +493,17 @@
 
 			var drawnBoxGeojson = this.areaSelection.polygon.toGeoJSON();
 
+			/*
+			// Show the drawn box
+			L.geoJSON(drawnBoxGeojson, {
+				style: function (feature) {
+					return {color: 'yellow'};
+				}
+			}).addTo(this.map);*/
+
 			var intersectList = [];
 			var conflict;
-			for(i = 1; i < featureCollection.features.length; i++){
+			for(i = 0; i < featureCollection.features.length; i++){
 				// Check that the particular parking polygon intercepts with the drawn box.
 				try{
 					conflict = turf.intersect(featureCollection.features[i], drawnBoxGeojson);
