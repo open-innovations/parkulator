@@ -1,8 +1,11 @@
 # parkulator-static
 
-A simple version of the Parkulator that uses Overpass Turbo
+A simple updated version of [Tom's Parkulator](https://www.imactivate.com/parkulator/) that uses Overpass Turbo to get __car parks__, __golf courses__, or __brownfield land areas__ from OpenStreetMap, display them on a map, and calculate how many homes/parks could be there instead.
 
-## Creating layers
+Areas of interest can be drawn on the map using a [modified version](https://github.com/open-innovations/parkulator/blob/main/resources/leaflet.area-selection.js) of the [leaflet-area-selection plugin](https://github.com/bopen/leaflet-area-selection). Various UK administrative geographies - Local Authorities, wards, constituencies and MSOAs - can be loaded by using geojsonl files from the [Geography Bits](https://github.com/open-innovations/geography-bits) repo.
+
+
+## Ideas for creating data layers rather than using Overpass
 
 The GeoJSON of all parking polygons in GB is around 64 MB in size. That is too big to send to the browser never mind the situation where we want to support the whole planet. So we will want to make tiles of the polygons at a particular zoom level. GeoJSON can get quite big which encourages us to make fairly small tiles. However, if we can do a better job of compressing the polygons we could use larger tiles whilst keeping the bandwidth use down. One method of compressing coordinates is to use [Encoded Polyline Algorithm Format](https://developers.google.com/maps/documentation/utilities/polylinealgorithm?csw=1) ([more on EPA](https://pkuwwt.github.io/programming/2020-03-11-encoded-polyline-algorithm/)) and associated the [library from MapBox](https://github.com/mapbox/polyline). The following GeoJSON style line string:
 
