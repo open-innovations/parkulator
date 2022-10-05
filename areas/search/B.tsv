@@ -1,0 +1,2401 @@
+LAD21CD/E06000008	Blackburn with Darwen
+LAD21CD/E06000009	Blackpool
+LAD21CD/E06000022	Bath and North East Somerset
+LAD21CD/E06000023	Bristol, City of
+LAD21CD/E06000036	Bracknell Forest
+LAD21CD/E06000043	Brighton and Hove
+LAD21CD/E06000055	Bedford
+LAD21CD/E06000058	Bournemouth, Christchurch and Poole
+LAD21CD/E06000060	Buckinghamshire
+LAD21CD/E07000027	Barrow-in-Furness
+LAD21CD/E07000033	Bolsover
+LAD21CD/E07000066	Basildon
+LAD21CD/E07000067	Braintree
+LAD21CD/E07000068	Brentwood
+LAD21CD/E07000084	Basingstoke and Deane
+LAD21CD/E07000095	Broxbourne
+LAD21CD/E07000117	Burnley
+LAD21CD/E07000129	Blaby
+LAD21CD/E07000136	Boston
+LAD21CD/E07000143	Breckland
+LAD21CD/E07000144	Broadland
+LAD21CD/E07000171	Bassetlaw
+LAD21CD/E07000172	Broxtowe
+LAD21CD/E07000200	Babergh
+LAD21CD/E07000234	Bromsgrove
+LAD21CD/E08000001	Bolton
+LAD21CD/E08000002	Bury
+LAD21CD/E08000016	Barnsley
+LAD21CD/E08000025	Birmingham
+LAD21CD/E08000032	Bradford
+LAD21CD/E09000002	Barking and Dagenham
+LAD21CD/E09000003	Barnet
+LAD21CD/E09000004	Bexley
+LAD21CD/E09000005	Brent
+LAD21CD/E09000006	Bromley
+LAD21CD/N09000002	Armagh City, Banbridge and Craigavon
+LAD21CD/N09000003	Belfast
+LAD21CD/W06000013	Bridgend
+LAD21CD/W06000019	Blaenau Gwent
+MSOA21CD/E02000005	Becontree Heath
+MSOA21CD/E02000008	Becontree East
+MSOA21CD/E02000009	Becontree West
+MSOA21CD/E02000012	Longbridge & Barking Park
+MSOA21CD/E02000013	Becontree South
+MSOA21CD/E02000016	Barking Central
+MSOA21CD/E02000017	Barking East
+MSOA21CD/E02000020	Creekmouth & Barking Riverside
+MSOA21CD/E02000030	Totteridge & Barnet Gate
+MSOA21CD/E02000033	Brunswick Park Road
+MSOA21CD/E02000047	Burnt Oak & Watling Park
+MSOA21CD/E02000062	Brent Cross & Staples Corner
+MSOA21CD/E02000067	Belvedere & Lessness Heath
+MSOA21CD/E02000073	Bostall
+MSOA21CD/E02000075	Bursted Wood
+MSOA21CD/E02000078	Barnehurst North
+MSOA21CD/E02000079	Bexleyheath Broadway
+MSOA21CD/E02000081	Barnehurst South
+MSOA21CD/E02000085	Blackfen
+MSOA21CD/E02000087	Bexley Village
+MSOA21CD/E02000098	Barnhill The Avenue
+MSOA21CD/E02000115	Brondesbury
+MSOA21CD/E02000122	Brondesbury Park
+MSOA21CD/E02000134	Bromley North & Sundridge
+MSOA21CD/E02000138	Beckenham East & Kelsey Park
+MSOA21CD/E02000144	Bromley South
+MSOA21CD/E02000146	Bickley West
+MSOA21CD/E02000148	Bickley East
+MSOA21CD/E02000150	Eden Park & Bethlem
+MSOA21CD/E02000152	Bromley Common
+MSOA21CD/E02000165	Biggin Hill West
+MSOA21CD/E02000176	Belsize Park
+MSOA21CD/E02000191	Fitzrovia East & Bloomsbury West
+MSOA21CD/E02000193	Holborn, St Giles & Bloomsbury South
+MSOA21CD/E02000212	Broad Green & Waddon Marsh
+MSOA21CD/E02000242	Bilton Road
+MSOA21CD/E02000259	Brent Valley
+MSOA21CD/E02000271	Bedford Park
+MSOA21CD/E02000277	Bullsmoor & Freezywater
+MSOA21CD/E02000283	Brimsdown Avenue
+MSOA21CD/E02000290	Brimsdown & Ponders End
+MSOA21CD/E02000291	Enfield Town South & Bush Hill Park
+MSOA21CD/E02000297	Bury Street West & Village Road
+MSOA21CD/E02000311	Bowes
+MSOA21CD/E02000312	Broomfield Park
+MSOA21CD/E02000333	Blackheath Standard & Village
+MSOA21CD/E02000351	Brownswood
+MSOA21CD/E02000380	Brackenbury
+MSOA21CD/E02000381	Brook Green
+MSOA21CD/E02000385	Barons Court
+MSOA21CD/E02000397	Bowes Park
+MSOA21CD/E02000400	Bounds Green
+MSOA21CD/E02000407	Bruce Grove North
+MSOA21CD/E02000409	Lordship Lane & Broadwater Farm
+MSOA21CD/E02000414	Bruce Grove South
+MSOA21CD/E02000440	Belmont
+MSOA21CD/E02000508	Uxbridge Central & Brunel
+MSOA21CD/E02000531	Brentford Central
+MSOA21CD/E02000534	Brentford West & Osterley Park
+MSOA21CD/E02000548	Bedfont
+MSOA21CD/E02000570	Barnsbury East
+MSOA21CD/E02000572	Barnsbury West
+MSOA21CD/E02000590	Brompton
+MSOA21CD/E02000607	Berrylands North
+MSOA21CD/E02000611	Berrylands South
+MSOA21CD/E02000628	Brixton North
+MSOA21CD/E02000633	Brixton Central
+MSOA21CD/E02000635	Poets' Corner & Brockwell Park
+MSOA21CD/E02000637	Brixton Hill East
+MSOA21CD/E02000638	Brixton Hill West
+MSOA21CD/E02000659	Blackheath West
+MSOA21CD/E02000660	Brockley East & St Johns
+MSOA21CD/E02000661	Blackheath Village
+MSOA21CD/E02000662	Brockley West
+MSOA21CD/E02000681	Bellingham & Perry Hill
+MSOA21CD/E02000686	Beckenham Hill
+MSOA21CD/E02000745	Beckton North
+MSOA21CD/E02000746	Beckton
+MSOA21CD/E02000747	Canning Town South & Bow Creek
+MSOA21CD/E02000748	Beckton Park
+MSOA21CD/E02000760	Barkingside North
+MSOA21CD/E02000762	Barkingside West
+MSOA21CD/E02000765	Barkingside East
+MSOA21CD/E02000808	Borough & Southwark Street
+MSOA21CD/E02000810	Bermondsey East
+MSOA21CD/E02000812	London Bridge & Bermondsey West
+MSOA21CD/E02000821	Burgess Park
+MSOA21CD/E02000823	Burgess Park West & John Ruskin Street
+MSOA21CD/E02000850	Beddington
+MSOA21CD/E02000861	Carshalton Beeches & Banstead Road
+MSOA21CD/E02000864	Bow North & Fish Island
+MSOA21CD/E02000865	Bethnal Green North East
+MSOA21CD/E02000866	Bow West
+MSOA21CD/E02000867	Bow South
+MSOA21CD/E02000868	Bethnal Green North West
+MSOA21CD/E02000870	Bethnal Green East
+MSOA21CD/E02000871	Bromley-by-Bow East
+MSOA21CD/E02000872	Brick Lane North
+MSOA21CD/E02000874	Bethnal Green Central
+MSOA21CD/E02000875	Bromley-by-Bow West
+MSOA21CD/E02000876	Bethnal Green South
+MSOA21CD/E02000877	Mile End East & Burdett Estate
+MSOA21CD/E02000908	Blackhorse Road
+MSOA21CD/E02000914	Baker's Arms
+MSOA21CD/E02000923	Battersea Park
+MSOA21CD/E02000925	Battersea Latchmere
+MSOA21CD/E02000943	Balham
+MSOA21CD/E02000971	Bryanston & Dorset Square
+MSOA21CD/E02000975	Bayswater East
+MSOA21CD/E02000978	Knightsbridge, Belgravia & Hyde Park
+MSOA21CD/E02000985	Bromley Cross & Bradshaw
+MSOA21CD/E02000992	Blackrod & Butterwick Fields
+MSOA21CD/E02000994	Halliwell & Brownlow Fold
+MSOA21CD/E02000996	Breightmet North
+MSOA21CD/E02001002	Breightmet South & Darcy Lever
+MSOA21CD/E02001005	Burnden & Great Lever
+MSOA21CD/E02001029	Buckley Wells & Fishpool
+MSOA21CD/E02001030	Ainsworth & Bradley Fold
+MSOA21CD/E02001032	Black Lane
+MSOA21CD/E02001033	Bank Top & Radcliffe Ees
+MSOA21CD/E02001039	Besses
+MSOA21CD/E02001045	Boothroyden & Higher Blackley
+MSOA21CD/E02001046	Blackley
+MSOA21CD/E02001059	Beswick, Eastlands & Openshaw Park
+MSOA21CD/E02001064	Belle Vue & West Gorton
+MSOA21CD/E02001078	Levenshulme South & Burnage North
+MSOA21CD/E02001081	Beech Road & Chorlton Meadows
+MSOA21CD/E02001085	Burnage South
+MSOA21CD/E02001086	Merseybank & Barlow Moor
+MSOA21CD/E02001091	Baguley West & Brooklands
+MSOA21CD/E02001092	Baguley East & Wythenshawe Park
+MSOA21CD/E02001093	Benchill North & Sharston
+MSOA21CD/E02001094	Benchill South & Wythenshawe Central
+MSOA21CD/E02001113	Busk
+MSOA21CD/E02001130	Holt Lane End & Bardsley
+MSOA21CD/E02001138	Norden East & Bagslate Moor
+MSOA21CD/E02001147	Balderstone & Kirkholt
+MSOA21CD/E02001166	Broughton Park
+MSOA21CD/E02001169	Ellenbrook & Boothstown
+MSOA21CD/E02001173	Cromwell Road & Broad Street
+MSOA21CD/E02001182	Barton upon Irwell
+MSOA21CD/E02001190	Brinnington
+MSOA21CD/E02001195	Bredbury
+MSOA21CD/E02001198	Bredbury Green
+MSOA21CD/E02001207	Offerton East & Bosden Farm
+MSOA21CD/E02001218	Bramhall North West
+MSOA21CD/E02001223	Bramhall North East
+MSOA21CD/E02001227	Bramhall West
+MSOA21CD/E02001228	Bramhall South & Woodford
+MSOA21CD/E02001251	Mottram, Hollingworth & Broadbottom
+MSOA21CD/E02001277	Broadheath & Firsway
+MSOA21CD/E02001285	Bowdon
+MSOA21CD/E02001291	Beech Hill
+MSOA21CD/E02001292	Wigan Marylebone & Bottling Wood
+MSOA21CD/E02001312	Abram & Bickershaw
+MSOA21CD/E02001315	Astley, Blackmoor & Mosley Common
+MSOA21CD/E02001337	Mosscroft & Bakers Green
+MSOA21CD/E02001380	Broad Green
+MSOA21CD/E02001386	Belle Vale
+MSOA21CD/E02001407	Billinge
+MSOA21CD/E02001413	Blackbrook
+MSOA21CD/E02001416	Broad Oak
+MSOA21CD/E02001427	Bold & Clock Face
+MSOA21CD/E02001437	Birkdale
+MSOA21CD/E02001450	Blundellsands
+MSOA21CD/E02001456	Brighton le Sands & Crosby West
+MSOA21CD/E02001464	Bootle North
+MSOA21CD/E02001465	Bootle South
+MSOA21CD/E02001466	Bootle East
+MSOA21CD/E02001477	Bidston Hill
+MSOA21CD/E02001482	Birkenhead Central
+MSOA21CD/E02001487	Birkenhead South
+MSOA21CD/E02001497	Bebington New Ferry
+MSOA21CD/E02001502	Lower Bebington & Bromborough Pool
+MSOA21CD/E02001505	Bromborough North
+MSOA21CD/E02001507	Bromborough South
+MSOA21CD/E02001514	Grimethorpe & Brierley
+MSOA21CD/E02001520	Wilthorpe & Barugh Green
+MSOA21CD/E02001521	Barnsley Town & Park Road
+MSOA21CD/E02001533	Bolton-upon-Dearne
+MSOA21CD/E02001536	Birdwell
+MSOA21CD/E02001545	Kirk Sandall & Barnby Dun
+MSOA21CD/E02001548	Bentley & Toll Bar
+MSOA21CD/E02001551	Bentley Rise
+MSOA21CD/E02001557	Belle Vue & Town Fields
+MSOA21CD/E02001561	Hexthorpe & Balby North
+MSOA21CD/E02001563	Bessacarr Bawtry Road
+MSOA21CD/E02001565	Bessacarr Grange & Lakeside
+MSOA21CD/E02001566	Balby Carr
+MSOA21CD/E02001567	Balby South
+MSOA21CD/E02001571	Warmsworth, Braithwell & Stainton
+MSOA21CD/E02001576	Bawtry, Austerfield & Hayfield
+MSOA21CD/E02001578	Brampton & West Melton
+MSOA21CD/E02001589	Ravenfield & Bramley North
+MSOA21CD/E02001593	Masbrough & Bradgate
+MSOA21CD/E02001602	Brinsworth
+MSOA21CD/E02001612	Deepcar & Bolsterstone
+MSOA21CD/E02001613	High Green & Burncross
+MSOA21CD/E02001618	Oughtibridge & Bradfield
+MSOA21CD/E02001624	Brightside & Wincobank
+MSOA21CD/E02001632	Burngreave & Grimesthorpe
+MSOA21CD/E02001640	Broomhill & Lower Crookesmoor
+MSOA21CD/E02001646	Broomhall
+MSOA21CD/E02001656	Brincliffe & Sharrow Vale
+MSOA21CD/E02001665	Bents Green & Millhouses
+MSOA21CD/E02001666	Beighton
+MSOA21CD/E02001672	Charnock & Basegreen
+MSOA21CD/E02001676	Beauchief
+MSOA21CD/E02001680	Batemoor & Jordanthorpe
+MSOA21CD/E02001681	Totley & Bradway
+MSOA21CD/E02001684	Pelaw, Felling Shore & Bill Quay
+MSOA21CD/E02001685	Blaydon South
+MSOA21CD/E02001686	Blaydon North & Winlaton Mill
+MSOA21CD/E02001689	Bensham North
+MSOA21CD/E02001691	Bensham South & Saltwell
+MSOA21CD/E02001702	Beacon Lough & Wrekenton
+MSOA21CD/E02001706	Birtley North & Kibblesworth
+MSOA21CD/E02001707	Birtley South
+MSOA21CD/E02001718	Blakelaw
+MSOA21CD/E02001725	Heaton South & Byker North
+MSOA21CD/E02001734	Benwell
+MSOA21CD/E02001755	Holystone & Benton
+MSOA21CD/E02001758	Battle Hill East
+MSOA21CD/E02001761	Battle Hill West
+MSOA21CD/E02001781	Brockley Whins
+MSOA21CD/E02001783	Biddick Hill
+MSOA21CD/E02001788	Boldon Colliery
+MSOA21CD/E02001807	Columbia, Barmston & Teal Farm
+MSOA21CD/E02001808	Barnes Park
+MSOA21CD/E02001809	Washington Town Centre & Biddick
+MSOA21CD/E02001856	Brookvale
+MSOA21CD/E02001859	Birchfield East
+MSOA21CD/E02001861	Birchfield West
+MSOA21CD/E02001870	Ward End & Bromford West
+MSOA21CD/E02001871	Buckland End
+MSOA21CD/E02001881	Belchers Lane & Eastfield Road
+MSOA21CD/E02001884	Bordesley Green North
+MSOA21CD/E02001909	Balsall Heath East
+MSOA21CD/E02001910	Balsall Heath West & Kingswood Road
+MSOA21CD/E02001932	Bartley Green & Shenley Fields
+MSOA21CD/E02001936	Brandwood North
+MSOA21CD/E02001937	Billesley Common
+MSOA21CD/E02001938	Bournville East & Stirchley West
+MSOA21CD/E02001939	Bournville West
+MSOA21CD/E02001943	Brandwood East
+MSOA21CD/E02001944	Brandwood End
+MSOA21CD/E02001961	Bell Green
+MSOA21CD/E02001967	Brownshill Green
+MSOA21CD/E02001977	Naul's Mill & Bishopsgate Green
+MSOA21CD/E02001978	Barras Heath
+MSOA21CD/E02001990	Binley
+MSOA21CD/E02002016	Brockmoor & Woodside
+MSOA21CD/E02002020	Wordsley & Buckpool
+MSOA21CD/E02002021	Brierley Hill
+MSOA21CD/E02002075	Blackheath
+MSOA21CD/E02002076	Bearwood & Warley Woods
+MSOA21CD/E02002079	Brandhall
+MSOA21CD/E02002102	Blossomfield
+MSOA21CD/E02002105	Balsall Common
+MSOA21CD/E02002110	Brownhills West & Clayhanger
+MSOA21CD/E02002111	Brownhills
+MSOA21CD/E02002117	Bloxwich Central & North
+MSOA21CD/E02002118	Bloxwich North West
+MSOA21CD/E02002121	Blakenall North
+MSOA21CD/E02002122	Blakenall South
+MSOA21CD/E02002126	Bloxwich South
+MSOA21CD/E02002132	Bentley
+MSOA21CD/E02002149	Bushbury
+MSOA21CD/E02002152	Bushbury Hill
+MSOA21CD/E02002170	Bilston North West
+MSOA21CD/E02002171	Bilston North East
+MSOA21CD/E02002174	Bradmore
+MSOA21CD/E02002175	Bilston Lunt & Loxdale
+MSOA21CD/E02002181	Bradley
+MSOA21CD/E02002184	Ilkley & Ben Rhydding
+MSOA21CD/E02002185	Burley-in-Wharfedale
+MSOA21CD/E02002187	Menston & Burley Moor
+MSOA21CD/E02002195	Baildon North
+MSOA21CD/E02002197	Bingley Town
+MSOA21CD/E02002198	Baildon South
+MSOA21CD/E02002200	Saltaire & Baildon West
+MSOA21CD/E02002206	Wrose & Bolton Woods
+MSOA21CD/E02002210	Bolton Road & Kings Road
+MSOA21CD/E02002223	Brown Royd
+MSOA21CD/E02002224	Barkerend East
+MSOA21CD/E02002227	Broomfields & East Bowling
+MSOA21CD/E02002228	Laisterdyke & Bowling
+MSOA21CD/E02002232	Great Horton & Brackenhill
+MSOA21CD/E02002235	Bowling Park
+MSOA21CD/E02002238	Bankfoot
+MSOA21CD/E02002239	Bierley & Tong
+MSOA21CD/E02002241	Buttershaw
+MSOA21CD/E02002251	Central Halifax & Boothtown
+MSOA21CD/E02002258	Clifton & Bailiff Bridge
+MSOA21CD/E02002262	Brighouse
+MSOA21CD/E02002270	Ripponden, Rishworth & Barkisland
+MSOA21CD/E02002271	Birkenshaw
+MSOA21CD/E02002272	Birstall
+MSOA21CD/E02002276	Wilton Park, Carlinghow & Brookroyd
+MSOA21CD/E02002280	Batley Central
+MSOA21CD/E02002283	Batley Carr & Mount Pleasant
+MSOA21CD/E02002291	Battyeford
+MSOA21CD/E02002292	Bradley & North Fixby
+MSOA21CD/E02002295	Deighton & Brackenhall
+MSOA21CD/E02002300	North Lindley & Birchencliffe
+MSOA21CD/E02002301	Birkby
+MSOA21CD/E02002318	Primrose Hill, Newsome & Berry Brow
+MSOA21CD/E02002323	Honley & Brockholes
+MSOA21CD/E02002334	Boston Spa & Bramham
+MSOA21CD/E02002336	Bramhope & Pool-in-Wharfedale
+MSOA21CD/E02002359	Aberford, Barwick & Thorner
+MSOA21CD/E02002375	Bramley Fall
+MSOA21CD/E02002380	Bramley Park North
+MSOA21CD/E02002385	Burley
+MSOA21CD/E02002387	Bramley Park South
+MSOA21CD/E02002388	Bramley East
+MSOA21CD/E02002394	Burmantofts
+MSOA21CD/E02002396	Bramley South & Upper Armley
+MSOA21CD/E02002414	Beeston Hill & Hunslet Moor
+MSOA21CD/E02002419	Beeston West & Cottingley
+MSOA21CD/E02002420	Beeston East
+MSOA21CD/E02002421	Belle Isle North
+MSOA21CD/E02002423	Belle Isle South
+MSOA21CD/E02002444	Stanley, Moorhouse & Bottomboat
+MSOA21CD/E02002467	Agbrigg & Belle Isle
+MSOA21CD/E02002475	Walton, Woolley & Bretton
+MSOA21CD/E02002497	North Ormesby & Brambles
+MSOA21CD/E02002499	Berwick Hills
+MSOA21CD/E02002506	Beechwood & James Cook
+MSOA21CD/E02002524	Brotton
+MSOA21CD/E02002529	Bankfields
+MSOA21CD/E02002530	Boosbeck, Lingdale & Easington
+MSOA21CD/E02002535	Billingham North & Wolviston
+MSOA21CD/E02002536	Billingham Central
+MSOA21CD/E02002537	Billingham East & Haverton Hill
+MSOA21CD/E02002538	Billingham South
+MSOA21CD/E02002539	Billingham West, Stillington & Longnewton
+MSOA21CD/E02002545	Rimswell & Bishopsgarth
+MSOA21CD/E02002570	Bank Top
+MSOA21CD/E02002588	Halton Lea & Brookvale
+MSOA21CD/E02002589	Beechwood & Heath
+MSOA21CD/E02002592	Winwick & Burtonwood
+MSOA21CD/E02002597	Blackbrook
+MSOA21CD/E02002602	Bewsey & Dallam
+MSOA21CD/E02002615	Roe Lee, Brownhill & Sunnybower
+MSOA21CD/E02002618	Bastwell
+MSOA21CD/E02002624	Beardwood, Pleasington & Livesey
+MSOA21CD/E02002635	Norbreck & Bispham
+MSOA21CD/E02002636	Warbreck & Bispham Road
+MSOA21CD/E02002653	Bransholme Central
+MSOA21CD/E02002655	Bransholme East
+MSOA21CD/E02002657	Bransholme West
+MSOA21CD/E02002660	Bilton Grange
+MSOA21CD/E02002665	Bricknell East
+MSOA21CD/E02002670	Bricknell West
+MSOA21CD/E02002681	Boulevard & St Andrew's Quay
+MSOA21CD/E02002684	Bridlington North & Bempton
+MSOA21CD/E02002685	Bridlington East & Flamborough
+MSOA21CD/E02002686	Bridlington West
+MSOA21CD/E02002687	Bridlington Central
+MSOA21CD/E02002688	Bridlington Hilderthorpe
+MSOA21CD/E02002689	Burton Agnes, Rudston & Langtoft
+MSOA21CD/E02002693	Skipsea, Beeford & Brandesburton
+MSOA21CD/E02002700	Beverley North
+MSOA21CD/E02002701	Holme, Melbourne & Bubwith
+MSOA21CD/E02002702	Beverley South
+MSOA21CD/E02002703	Walkington, Bishop Burton & Woodmansey
+MSOA21CD/E02002715	Brough
+MSOA21CD/E02002716	Burstwick & Thorngumbald
+MSOA21CD/E02002749	Barton upon Humber
+MSOA21CD/E02002750	Goxhill, Barrow & New Holland
+MSOA21CD/E02002752	Barnetby, Ulceby & Killingholme
+MSOA21CD/E02002753	Burton upon Stather, Alkborough & Gunness
+MSOA21CD/E02002759	Brigg & South Ferriby
+MSOA21CD/E02002761	Broughton & Appleby
+MSOA21CD/E02002768	Epworth & Bracon
+MSOA21CD/E02002795	Bishopthorpe & Copmanthorpe
+MSOA21CD/E02002799	Breadsall Hilltop
+MSOA21CD/E02002823	Boulton
+MSOA21CD/E02002827	Beaumont Park
+MSOA21CD/E02002830	Bradgate Heights & Beaumont Leys
+MSOA21CD/E02002832	Belgrave North West
+MSOA21CD/E02002833	Belgrave North East
+MSOA21CD/E02002836	Belgrave South
+MSOA21CD/E02002852	Braunstone Park West
+MSOA21CD/E02002854	Braunstone Park East
+MSOA21CD/E02002867	Uppingham, Lyddington & Braunston
+MSOA21CD/E02002869	Bulwell North
+MSOA21CD/E02002872	Bulwell West
+MSOA21CD/E02002873	Bestwood
+MSOA21CD/E02002875	Basford Park Lane
+MSOA21CD/E02002878	Broxtowe & Cinderhill
+MSOA21CD/E02002881	Bilborough North
+MSOA21CD/E02002886	Bobbers Mill
+MSOA21CD/E02002887	Beechdale
+MSOA21CD/E02002891	Bakersfield
+MSOA21CD/E02002892	Bilborough South
+MSOA21CD/E02002905	Wigmore, Orleton & Brimfield
+MSOA21CD/E02002908	Shobdon, Luston & Bodenham
+MSOA21CD/E02002909	Bromyard & Bishop's Frome
+MSOA21CD/E02002920	Belmont, Madley & Clehonger
+MSOA21CD/E02002947	Brookside
+MSOA21CD/E02002953	Bradeley & Chell Heath
+MSOA21CD/E02002957	Baddley & Milton
+MSOA21CD/E02002959	Longport & Burslem Park
+MSOA21CD/E02002960	Birches Head
+MSOA21CD/E02002967	Bentilee & Ubberley
+MSOA21CD/E02002968	Basford & Hartshill
+MSOA21CD/E02002969	Boothen & Penkhull
+MSOA21CD/E02002976	Hollybush & Blurton North
+MSOA21CD/E02002982	Newstead & Blurton South
+MSOA21CD/E02002994	Bathavon North & South
+MSOA21CD/E02002996	Widcombe, Bathwick Hill & Claverton Down
+MSOA21CD/E02003001	Bloomfield
+MSOA21CD/E02003005	Chew, Bishop Sutton & East Harptree
+MSOA21CD/E02003006	Peasedown & Bathavon West
+MSOA21CD/E02003012	Henbury & Brentry
+MSOA21CD/E02003027	Bishopston
+MSOA21CD/E02003049	Broom Hill
+MSOA21CD/E02003050	Bedminster
+MSOA21CD/E02003054	Brislington
+MSOA21CD/E02003057	Bishopsworth
+MSOA21CD/E02003075	Backwell & Flax Bourton
+MSOA21CD/E02003087	Hutton, Locking & Banwell
+MSOA21CD/E02003088	Winscombe, Langford & Blagdon
+MSOA21CD/E02003098	Bradley Stoke North East
+MSOA21CD/E02003101	Bradley Stoke Central
+MSOA21CD/E02003118	Cadbury Heath North & Bridgeyate
+MSOA21CD/E02003132	Ham, Beacon Park & Pennycross
+MSOA21CD/E02003141	Ford & Blockhouse Park
+MSOA21CD/E02003148	City Centre, Barbican & Sutton Harbour
+MSOA21CD/E02003158	Babbacombe & Plainmoor
+MSOA21CD/E02003166	Blatchcombe & Blagdon
+MSOA21CD/E02003170	Brixham Town
+MSOA21CD/E02003183	Talbot & Branksome Woods
+MSOA21CD/E02003187	Boscombe East
+MSOA21CD/E02003190	Boscombe West
+MSOA21CD/E02003195	Bearwood
+MSOA21CD/E02003196	Broadstone
+MSOA21CD/E02003202	Branksome East
+MSOA21CD/E02003203	Branksome West
+MSOA21CD/E02003211	Branksome Park, Canford Cliffs & Sandbanks
+MSOA21CD/E02003219	Broad Blunsdon, South Marston & Wanborough
+MSOA21CD/E02003240	Barnack, Wittering & Wansford
+MSOA21CD/E02003246	Millfield & Bourges Boulevard
+MSOA21CD/E02003247	Bretton Park
+MSOA21CD/E02003258	Bramingham
+MSOA21CD/E02003264	Barnfield
+MSOA21CD/E02003274	Bury Park
+MSOA21CD/E02003281	Belfairs
+MSOA21CD/E02003283	Blenheim Park
+MSOA21CD/E02003299	Orsett, Bulphan & Hordon-on-the-Hill
+MSOA21CD/E02003318	Broomhill
+MSOA21CD/E02003353	Binfield & Popeswood
+MSOA21CD/E02003357	Bullbrook
+MSOA21CD/E02003361	Birch Hill & Hanworth East
+MSOA21CD/E02003364	Owlsmoor & Broadmoor
+MSOA21CD/E02003375	Theale & Beenham
+MSOA21CD/E02003377	Thatcham South East & Bradfield
+MSOA21CD/E02003381	Burghfield Common
+MSOA21CD/E02003384	Kintbury & Boxford
+MSOA21CD/E02003395	Battle & Caversham Bridge
+MSOA21CD/E02003407	Britwell
+MSOA21CD/E02003410	Baylis & Stoke
+MSOA21CD/E02003427	Boyn Hill & Norreys Drive
+MSOA21CD/E02003429	Bray Wick & Holyport
+MSOA21CD/E02003453	Barkham & Woose Hill
+MSOA21CD/E02003464	Stantonbury & Bradville
+MSOA21CD/E02003469	Bradwell Village
+MSOA21CD/E02003471	Bradwell Common
+MSOA21CD/E02003482	Bow Brickhill & Woburn Sands
+MSOA21CD/E02003485	Bletchley North West
+MSOA21CD/E02003488	Bletchley East
+MSOA21CD/E02003489	Bletchley West
+MSOA21CD/E02003490	Bletchley South
+MSOA21CD/E02003499	Bevendean & Moulsecoomb East
+MSOA21CD/E02003508	Elm Grove & Bear Road
+MSOA21CD/E02003519	Brunswick
+MSOA21CD/E02003537	Baffins
+MSOA21CD/E02003549	Bassett Green
+MSOA21CD/E02003562	Bitterne West
+MSOA21CD/E02003564	Bitterne East
+MSOA21CD/E02003565	Bevois Town
+MSOA21CD/E02003568	Banister Park & Howard Road
+MSOA21CD/E02003572	Bitterne South
+MSOA21CD/E02003585	Binstead & Wootton
+MSOA21CD/E02003590	Bembridge & Nettlestone
+MSOA21CD/E02003593	Brighstone & Shalfleet
+MSOA21CD/E02003594	Sandown & Brading
+MSOA21CD/E02003602	Blunham, Caldecote & Broom
+MSOA21CD/E02003603	Biggleswade West
+MSOA21CD/E02003604	Biggleswade East
+MSOA21CD/E02003620	Brickhill
+MSOA21CD/E02003623	Bromham & Biddenham
+MSOA21CD/E02003636	Barton-le-Clay & Upper Sundon
+MSOA21CD/E02003652	Buckingham South, Maids Moreton & Akeley
+MSOA21CD/E02003653	Buckingham North
+MSOA21CD/E02003658	Wing, Wingrave & Bierton
+MSOA21CD/E02003661	Oakley, Brill & Edgcott
+MSOA21CD/E02003663	Berryfields & Haydon Hill
+MSOA21CD/E02003668	Bedgrove & Walton
+MSOA21CD/E02003676	Hyde Heath, Bellingdon & Latimer
+MSOA21CD/E02003688	Beaconsfield Town
+MSOA21CD/E02003693	Burham North, Taplow & Dorney
+MSOA21CD/E02003694	Burnham South
+MSOA21CD/E02003702	Bledlow, Cadmore End & Hambleden Valley
+MSOA21CD/E02003705	Bowerdean
+MSOA21CD/E02003712	Lane End & Booker
+MSOA21CD/E02003716	Bourne End
+MSOA21CD/E02003739	Burwell
+MSOA21CD/E02003740	Swaffham & Bottisham
+MSOA21CD/E02003749	Coates, Benwick & Pondersbridge
+MSOA21CD/E02003757	Warboys & Bury
+MSOA21CD/E02003759	Bluntisham, Earith & Needingworth
+MSOA21CD/E02003762	Brampton, the Stukeleys and the Alconburys
+MSOA21CD/E02003769	Buckden & Perry
+MSOA21CD/E02003787	Barrington, Orwell & Gamlingay
+MSOA21CD/E02003790	Linton & Balsham
+MSOA21CD/E02003793	Bassingbourn & the Mordens
+MSOA21CD/E02003798	Blacon North
+MSOA21CD/E02003799	Blacon South
+MSOA21CD/E02003806	Boughton Heath & Huntington
+MSOA21CD/E02003815	Buglawton
+MSOA21CD/E02003822	Scholar Green, Rode Heath & Brereton
+MSOA21CD/E02003840	Audlem, Bunbury & Wrenbury
+MSOA21CD/E02003863	South Knutsford & Bexton
+MSOA21CD/E02003865	Bollington
+MSOA21CD/E02003876	Barnton
+MSOA21CD/E02003929	Porthleven, Breage & Praa Sands
+MSOA21CD/E02003931	Bude & Stratton
+MSOA21CD/E02003941	Bodmin East
+MSOA21CD/E02003942	Bodmin West
+MSOA21CD/E02003966	Boltons, Warnell & Solway Coast
+MSOA21CD/E02003969	Flimby, Ellenborough & Broughton Moor
+MSOA21CD/E02003971	East Cockermouth & Buttermere
+MSOA21CD/E02003984	Barrow Central
+MSOA21CD/E02003986	Walney Island South & Barrow Island
+MSOA21CD/E02003987	Longtown & Border
+MSOA21CD/E02003988	Brampton & Irthing
+MSOA21CD/E02003991	Belle Vue & Burgh
+MSOA21CD/E02003997	Botcherby & Harraby
+MSOA21CD/E02004014	Kirkby Stephen, Tebay & Brough
+MSOA21CD/E02004017	Kendal North & Burneside
+MSOA21CD/E02004022	Coniston, Broughton & Kirkby
+MSOA21CD/E02004024	Burton-in-Kendal, Levens & Natland
+MSOA21CD/E02004037	Belper Far Laund
+MSOA21CD/E02004038	Belper Town
+MSOA21CD/E02004045	Clowne & Barlborough
+MSOA21CD/E02004048	Bolsover North & Shuttlewood
+MSOA21CD/E02004049	Bolsover South & Glapwell
+MSOA21CD/E02004057	New Whittington, Hollingwood & Barrow Hill
+MSOA21CD/E02004059	Brimington South & Tapton
+MSOA21CD/E02004063	Ashgate & Brockwell
+MSOA21CD/E02004065	Brookside & Walton
+MSOA21CD/E02004067	Boythorpe & Birdholme
+MSOA21CD/E02004068	Hathersage, Bradwell & Tideswell
+MSOA21CD/E02004069	Bakewell North, Baslow & Calver
+MSOA21CD/E02004077	Doveridge, Brailsford & Bradley
+MSOA21CD/E02004081	Breadsall, Little Eaton & Stanley Common
+MSOA21CD/E02004086	Borrowash & Ockbrook
+MSOA21CD/E02004090	Breaston & Draycott
+MSOA21CD/E02004102	Buxton North
+MSOA21CD/E02004103	Buxton South & East
+MSOA21CD/E02004104	Buxton Burbage & Harpur Hill
+MSOA21CD/E02004118	Hatton & Burnaston
+MSOA21CD/E02004121	Aston-on-Trent & Barrow-upon-Trent
+MSOA21CD/E02004137	Sidbury, Offwell & Beer
+MSOA21CD/E02004145	Budleigh Salterton
+MSOA21CD/E02004150	Mincinglake & Beacon Heath
+MSOA21CD/E02004164	Bampton, Holcombe & Westleigh
+MSOA21CD/E02004171	Bradninch, Silverton & Thorverton
+MSOA21CD/E02004172	Bow, Lapford & Yeoford
+MSOA21CD/E02004179	Braunton
+MSOA21CD/E02004180	Bratton Fleming, Goodleigh & Kings Heanton
+MSOA21CD/E02004181	Barnstaple Pilton
+MSOA21CD/E02004182	Barnstaple Central
+MSOA21CD/E02004183	Barnstaple Sticklepath
+MSOA21CD/E02004184	Barnstaple South
+MSOA21CD/E02004188	Bishop's Nympton, Witheridge & Chulmleigh
+MSOA21CD/E02004197	Wembury, Brixton & Newton Ferrers
+MSOA21CD/E02004204	Chudleigh & Bovey Tracey
+MSOA21CD/E02004211	Bishopsteignton & Shaldon
+MSOA21CD/E02004215	Newton Abbot, Broadlands & Wolborough
+MSOA21CD/E02004216	Newton Abbot, Milber & Buckland
+MSOA21CD/E02004217	Ashburton & Buckfastleigh
+MSOA21CD/E02004219	Ipplepen & Broadhempston
+MSOA21CD/E02004222	Bideford North
+MSOA21CD/E02004223	Bideford South & East
+MSOA21CD/E02004227	Holsworthy, Bradworthy & Welcombe
+MSOA21CD/E02004228	Shebbear, Cookworthy & Broadheath
+MSOA21CD/E02004232	Lifton, Lamerton & Bridestowe
+MSOA21CD/E02004235	Bere Alston, Buckland Monachorum & Yelverton
+MSOA21CD/E02004236	Burton & Airport
+MSOA21CD/E02004256	Gillingham Outer, Bourton & Motcombe
+MSOA21CD/E02004260	Blandford Outer & Tarrants
+MSOA21CD/E02004261	Blandford Forum Town
+MSOA21CD/E02004263	Bere Regis & Lytchett Matravers
+MSOA21CD/E02004266	Bovington, Wool & Lulworth
+MSOA21CD/E02004270	Yetminster, Bradford Abbas & Longburton
+MSOA21CD/E02004271	Beaminster, Maiden Newton & Halstock
+MSOA21CD/E02004274	Bridport North
+MSOA21CD/E02004275	Burton Bradstock & Chideock
+MSOA21CD/E02004276	Bridport South & West Bay
+MSOA21CD/E02004279	Owermoigne, Broadmayne & Winterbourne
+MSOA21CD/E02004281	Broadwey & Littlemoor
+MSOA21CD/E02004290	Ouston & Beamish
+MSOA21CD/E02004295	Great Lumley & Bournmoor
+MSOA21CD/E02004297	Burnopfield
+MSOA21CD/E02004298	Benfieldside, Hamsterley & Medomsley
+MSOA21CD/E02004305	Bridgehill, Castleside & Harehope Hill
+MSOA21CD/E02004308	Newton Hall & Brasside
+MSOA21CD/E02004310	Bearpark & Witton Gilbert
+MSOA21CD/E02004312	Belmont & Carrville
+MSOA21CD/E02004317	Brandon & Brancepeth
+MSOA21CD/E02004318	High Shincliffe & Bowburn
+MSOA21CD/E02004330	Blackhall
+MSOA21CD/E02004339	Sedgefield & Bishop Middleham
+MSOA21CD/E02004352	Bishop Auckland North & Coundon Grange
+MSOA21CD/E02004353	Bishop Auckland Central & West
+MSOA21CD/E02004355	Bishop Auckland South
+MSOA21CD/E02004372	Broomgrove
+MSOA21CD/E02004375	Braybrooke & Bohemia
+MSOA21CD/E02004379	Chailey, Newick & Barcombe
+MSOA21CD/E02004394	Burwash, Sedlescombe & Staplecross
+MSOA21CD/E02004396	Westfield, Fairlight & Broad Oak
+MSOA21CD/E02004397	Battle & Catsfield
+MSOA21CD/E02004398	Bexhill North & Sidley
+MSOA21CD/E02004399	Bexhill East & Pebsham
+MSOA21CD/E02004402	Bexhill Central
+MSOA21CD/E02004410	Buxted, Framfield & Rotherfield
+MSOA21CD/E02004413	Broad Oak & Horam
+MSOA21CD/E02004424	Billericay North East
+MSOA21CD/E02004425	Billericay Queen's Park
+MSOA21CD/E02004426	Billericay Central & Sunnymede
+MSOA21CD/E02004427	Billericay Tye Common
+MSOA21CD/E02004432	Bursteads
+MSOA21CD/E02004434	Felmore & Bowers Gifford
+MSOA21CD/E02004438	Basildon Central & Pipps Hill
+MSOA21CD/E02004442	Barstable
+MSOA21CD/E02004447	Bures Hamlet, Maplestead & Belchamp
+MSOA21CD/E02004450	Panfield, Finchingfield & Bardfield
+MSOA21CD/E02004452	Bocking Churchstreet & Blackwater
+MSOA21CD/E02004453	Bocking
+MSOA21CD/E02004455	Braintree West & Rayne
+MSOA21CD/E02004456	Braintree South
+MSOA21CD/E02004458	Great Notley & Black Notley
+MSOA21CD/E02004467	Brentwood North
+MSOA21CD/E02004469	Brook Street & Pilgrim's Hatch
+MSOA21CD/E02004470	Brentwood Central
+MSOA21CD/E02004471	Brentwood South & Warley
+MSOA21CD/E02004473	Benfleet North
+MSOA21CD/E02004475	Benfleet Appleton
+MSOA21CD/E02004489	Boreham & Little Baddow
+MSOA21CD/E02004500	Danbury & Bicknacre
+MSOA21CD/E02004541	Buckhurst Hill
+MSOA21CD/E02004549	Bush Fair & Brays Grove
+MSOA21CD/E02004560	Southminster, Bradwell & Dengie Peninsula
+MSOA21CD/E02004562	Burnham-on-Crouch
+MSOA21CD/E02004583	Brightlingsea & Point Clear
+MSOA21CD/E02004609	Benhall & The Reddings
+MSOA21CD/E02004611	Battledown & Charlton Kings
+MSOA21CD/E02004615	Willersey, Chipping Campden & Blockley
+MSOA21CD/E02004617	Bourton-on-the-Water & Vale
+MSOA21CD/E02004630	Longhope, Westbury & Blakeney
+MSOA21CD/E02004633	Bream, Pillowell & Yorkley
+MSOA21CD/E02004640	Barton
+MSOA21CD/E02004642	Coney Hill, Barnwood & Abbeydale
+MSOA21CD/E02004652	Painswick, Bisley & Eastcombe
+MSOA21CD/E02004658	Chalford & Bussage
+MSOA21CD/E02004662	Berkeley & Sharpness
+MSOA21CD/E02004674	Brockworth & Coopers Edge
+MSOA21CD/E02004677	Woolton Hill, Burghclere & Bishops Green
+MSOA21CD/E02004679	Bramley, Sherfield & the Sherbornes
+MSOA21CD/E02004685	Basingstoke Central, Black Dam & Eastrop
+MSOA21CD/E02004687	Buckskin & Worting
+MSOA21CD/E02004693	Brighton Hill
+MSOA21CD/E02004697	Bentley & Holybourne
+MSOA21CD/E02004700	Bordon Camp
+MSOA21CD/E02004702	Bordon & Lindford
+MSOA21CD/E02004715	Boyatt Wood
+MSOA21CD/E02004716	Bishopstoke
+MSOA21CD/E02004721	Hedge End North & Botley North
+MSOA21CD/E02004722	Hedge End Wildern & Botley South
+MSOA21CD/E02004741	Bridgemary North
+MSOA21CD/E02004742	Bridgemary South
+MSOA21CD/E02004745	Priddy's Hard & Brockhurst East
+MSOA21CD/E02004747	Brockhurst
+MSOA21CD/E02004753	Blackwater, Frogmore & Minley
+MSOA21CD/E02004767	Barncroft & Warren Park
+MSOA21CD/E02004792	Holbury North, Blackfield & Fawley
+MSOA21CD/E02004793	Brockenhurst & Sway
+MSOA21CD/E02004794	Bransgore & Burley
+MSOA21CD/E02004795	Lymington Town & Boldre
+MSOA21CD/E02004796	Hordle & Bashley
+MSOA21CD/E02004800	Barton on Sea
+MSOA21CD/E02004814	Andover Charlton & Bourne Valley
+MSOA21CD/E02004821	Chilbolton, Clatford & Barton Stacey
+MSOA21CD/E02004825	North Baddesley & Braishfield
+MSOA21CD/E02004840	Bishop's Waltham & Waltham Chase
+MSOA21CD/E02004846	Broxbourne Town
+MSOA21CD/E02004864	Berkhamsted Town
+MSOA21CD/E02004867	Berkhamsted West
+MSOA21CD/E02004869	Berkhamsted South
+MSOA21CD/E02004873	Boxmoor & Apsley
+MSOA21CD/E02004875	Nash Mills & Bennetts End
+MSOA21CD/E02004876	Bovingdon & Chipperfield
+MSOA21CD/E02004878	Buntingford & Great Hormead
+MSOA21CD/E02004880	Bishop's Stortford West & Braughing
+MSOA21CD/E02004881	Bishop's Stortford North
+MSOA21CD/E02004882	Bishop's Stortford East
+MSOA21CD/E02004884	Bishop's Stortford Central
+MSOA21CD/E02004885	Bishop's Stortford South
+MSOA21CD/E02004887	Watton-at-Stone, Bramfield & Bayford
+MSOA21CD/E02004901	Borehamwood Cowley Hill
+MSOA21CD/E02004902	Borehamwood Brookmeadow
+MSOA21CD/E02004903	Bushey North
+MSOA21CD/E02004904	Borehamwood Kenilworth
+MSOA21CD/E02004906	Borehamwood Hillside
+MSOA21CD/E02004907	Bushey Central
+MSOA21CD/E02004908	Bushey Heath
+MSOA21CD/E02004912	Baldock
+MSOA21CD/E02004933	Bernards Heath
+MSOA21CD/E02004943	Bricket Wood & Chiswell Green
+MSOA21CD/E02004951	Bedwell
+MSOA21CD/E02004955	Broadwater & Bragbury End
+MSOA21CD/E02004966	Moor Park & Batchworth
+MSOA21CD/E02004994	Brookmans Park
+MSOA21CD/E02005002	Beaver & Singleton
+MSOA21CD/E02005005	Brabourne Lees & North Romney
+MSOA21CD/E02005006	Biddenden, Smarden & High Halden
+MSOA21CD/E02005007	Great Chart, Bethersden & Woodchurch
+MSOA21CD/E02005011	Beltinge & Bishopstone
+MSOA21CD/E02005015	Herne & Broomfield
+MSOA21CD/E02005021	Blean Forest, Chartham Hatch & University
+MSOA21CD/E02005027	Bridge, Bishopsbourne & Barham
+MSOA21CD/E02005035	Brent & Fleet Estate
+MSOA21CD/E02005039	Bean, Darenth & Sutton at Hone
+MSOA21CD/E02005051	Buckland & St Radigunds
+MSOA21CD/E02005068	Boxley & Detling
+MSOA21CD/E02005074	Bearsted & Downswood
+MSOA21CD/E02005075	Barming
+MSOA21CD/E02005079	Loose Valley & Boughton Monchelsea
+MSOA21CD/E02005099	Westerham & Brasted
+MSOA21CD/E02005112	Dymchurch, St Mary's Bay & Brookland
+MSOA21CD/E02005123	Borden & The Meads
+MSOA21CD/E02005127	Sittingbourne South, Bapchild & Bredgar
+MSOA21CD/E02005130	Teynham & Badlesmere
+MSOA21CD/E02005131	Boughton & Selling
+MSOA21CD/E02005139	Birchington
+MSOA21CD/E02005140	Broadstairs North
+MSOA21CD/E02005141	Broadstairs South
+MSOA21CD/E02005142	Westwood, Northwood & Bromstone
+MSOA21CD/E02005149	Aylesford, Wouldham & Blue Bell Hill
+MSOA21CD/E02005154	Borough Green, Wrotham & Shipbourne
+MSOA21CD/E02005167	Langton Green, Speldhurst & Bidborough
+MSOA21CD/E02005175	Hawkhurst, Benenden & Sandhurst
+MSOA21CD/E02005182	Bank Hall & Fulledge
+MSOA21CD/E02005183	Brunshaw & Brownside
+MSOA21CD/E02005185	Barclay Hills & Trinity
+MSOA21CD/E02005190	Brindle & Withnell
+MSOA21CD/E02005220	Broadfield & Knuzden
+MSOA21CD/E02005223	Hest Bank & Bolton-le-Sands
+MSOA21CD/E02005224	Bare
+MSOA21CD/E02005238	Scotforth East & Bowerham
+MSOA21CD/E02005240	Barnoldswick North
+MSOA21CD/E02005241	Barnoldswick South
+MSOA21CD/E02005247	Barrowford, Higham & Pendleside
+MSOA21CD/E02005252	Brierfield & Reedley
+MSOA21CD/E02005254	Broughton & Wychnor
+MSOA21CD/E02005259	Brookfield & Holme Slack
+MSOA21CD/E02005276	Whalley & Brockhall
+MSOA21CD/E02005280	Bacup
+MSOA21CD/E02005293	Bamber Bridge West
+MSOA21CD/E02005294	Bamber Bridge East
+MSOA21CD/E02005302	Leyland South East & Buckshaw Village
+MSOA21CD/E02005305	Rufford & Banks
+MSOA21CD/E02005307	Burscough
+MSOA21CD/E02005311	Bickerstaffe & Newburgh
+MSOA21CD/E02005324	Bonds, Bilsborrow & Wyresdale
+MSOA21CD/E02005337	Braunstone Town
+MSOA21CD/E02005340	Blaby Village
+MSOA21CD/E02005355	Barrow upon Soar
+MSOA21CD/E02005360	Thurcaston, Woodhouse & Bradgate
+MSOA21CD/E02005363	Birstall Wanlip & Riverside
+MSOA21CD/E02005364	Birstall Central
+MSOA21CD/E02005368	Tilton, Billesdon & Great Easton
+MSOA21CD/E02005370	Broughton Astley
+MSOA21CD/E02005380	Market Bosworth, Barlestone & Sheepy Magna
+MSOA21CD/E02005383	Barwell
+MSOA21CD/E02005389	Burbage St Catherines
+MSOA21CD/E02005390	Burbage Sketchley & Stretton
+MSOA21CD/E02005391	Bottesford, Harby & Croxton Kerrial
+MSOA21CD/E02005398	Kegworth & Belton
+MSOA21CD/E02005404	Donisthope & Blackfordby
+MSOA21CD/E02005407	Hugglescote & Bardon Hill
+MSOA21CD/E02005417	Leake & Butterwick
+MSOA21CD/E02005419	Boston Central & North
+MSOA21CD/E02005422	Swineshead, Bicker & Holland Fen
+MSOA21CD/E02005424	Holton-le-Clay, Binbrook & Tetney
+MSOA21CD/E02005436	Spilsby & Burgh le Marsh
+MSOA21CD/E02005448	Birchwood West
+MSOA21CD/E02005449	Boultham & New Boultham
+MSOA21CD/E02005450	Hartsholme & Birchwood East
+MSOA21CD/E02005451	Bracebridge North & Boultham Moor
+MSOA21CD/E02005452	Bracebridge South & Swallow Beck
+MSOA21CD/E02005453	Washingborough & Branston
+MSOA21CD/E02005455	Skellingthorpe, Witham & Bassingham
+MSOA21CD/E02005456	Bracebridge Heath & Waddington
+MSOA21CD/E02005458	Navenby, Harmston & Brant Broughton
+MSOA21CD/E02005459	Ruskington North & Billinghay
+MSOA21CD/E02005477	Long Bennington, Allington & Barrowby
+MSOA21CD/E02005483	Morton & Billingborough
+MSOA21CD/E02005485	Bourne West
+MSOA21CD/E02005486	Bourne East
+MSOA21CD/E02005493	Morton, Blyton & Scotter
+MSOA21CD/E02005494	Market Rasen & Brookenby
+MSOA21CD/E02005502	Cherry Willingham & Bardney
+MSOA21CD/E02005503	Bawdeswell, Swanton Morley & North Elmham
+MSOA21CD/E02005510	Shipdham, Bradenham & Saham Toney
+MSOA21CD/E02005515	Buckenhams & Snetterton
+MSOA21CD/E02005522	Coltishall, Buxton & Frettenham
+MSOA21CD/E02005533	Blofield, Lingwood & Upton
+MSOA21CD/E02005536	Brundall & Cantley
+MSOA21CD/E02005545	Bradwell North
+MSOA21CD/E02005547	Gorleston South & Beach
+MSOA21CD/E02005549	Belton
+MSOA21CD/E02005550	Bradwell South & Hopton
+MSOA21CD/E02005552	Brancaster, Burnham Market & Docking
+MSOA21CD/E02005571	Wells & Blakeney
+MSOA21CD/E02005575	Beeston Regis, Saxthorpe & Aldborough
+MSOA21CD/E02005576	Mundesley, Trunch & Bacton
+MSOA21CD/E02005577	Melton Constable, Briston & Little Snoring
+MSOA21CD/E02005588	Bowthorpe & West Earlham
+MSOA21CD/E02005600	Hingham, Morley & Barnham Broom
+MSOA21CD/E02005610	Scole, Dickleburgh & Bressingham
+MSOA21CD/E02005620	Brixworth & Spratton
+MSOA21CD/E02005621	Braunston & Crick
+MSOA21CD/E02005628	Woodford Halse, Byfield & Staverton
+MSOA21CD/E02005631	Thrapston & Brigstock
+MSOA21CD/E02005648	Barton Seagrave
+MSOA21CD/E02005650	Boughton
+MSOA21CD/E02005655	Boothville & Spinney Hill
+MSOA21CD/E02005656	Blackthorn & Lings
+MSOA21CD/E02005660	Billing & Riverside
+MSOA21CD/E02005675	Briar Hill & Hunsbury Hill
+MSOA21CD/E02005677	Cotton End, Brackmills & Hardingstone
+MSOA21CD/E02005681	Harpole, Kislingbury & Bugbrooke
+MSOA21CD/E02005683	Blisworth, Roade & Yardley Gobion
+MSOA21CD/E02005684	Towcester West & Blakesley
+MSOA21CD/E02005689	Brackley North
+MSOA21CD/E02005690	Brackley South
+MSOA21CD/E02005698	Brickhill
+MSOA21CD/E02005701	Irchester, Wollaston & Bozeat
+MSOA21CD/E02005706	Berwick-upon-Tweed Town
+MSOA21CD/E02005707	Berwick-upon-Tweed West & Holy Island
+MSOA21CD/E02005708	Seahouses, Belford & Wooler
+MSOA21CD/E02005709	Blyth Cowpen
+MSOA21CD/E02005710	Blyth Town
+MSOA21CD/E02005711	Blyth Isabella
+MSOA21CD/E02005712	Blyth Newsham
+MSOA21CD/E02005713	Blyth South
+MSOA21CD/E02005715	Cramlington Town & Beaconhill
+MSOA21CD/E02005727	Bellingham, Otterburn & Redesdale
+MSOA21CD/E02005728	Haltwhistle & Bardon Mill
+MSOA21CD/E02005740	Bedlington Station & Sleekburn
+MSOA21CD/E02005741	Bedlington Town
+MSOA21CD/E02005752	Brompton, Appleton & Thimbleby
+MSOA21CD/E02005755	Bedale & Snape
+MSOA21CD/E02005763	Dishforth, Baldersby & Markington
+MSOA21CD/E02005765	Boroughbridge & Marton-cum-Grafton
+MSOA21CD/E02005770	Bilton
+MSOA21CD/E02005778	Menwith, Beckwithshaw & Denton Moor
+MSOA21CD/E02005781	Spofforth, Burn Bridge & Huby
+MSOA21CD/E02005784	Catterick & Brompton-on-Swale
+MSOA21CD/E02005798	Burniston, Sleights & Fylingdales
+MSOA21CD/E02005801	Barrowcliff & Northstead
+MSOA21CD/E02005811	Barlby & Riccall
+MSOA21CD/E02005815	Selby South, Brayton & Barlow
+MSOA21CD/E02005817	Hambleton, Monk Fryston & Byram
+MSOA21CD/E02005835	Harworth, Bircotes & Blyth
+MSOA21CD/E02005836	Clarborough, Beckingham & Misterton
+MSOA21CD/E02005850	Eastwood Hall & Brinsley
+MSOA21CD/E02005856	Bramcote
+MSOA21CD/E02005858	Beeston North
+MSOA21CD/E02005860	Beeston Town
+MSOA21CD/E02005861	Beeston Rylands
+MSOA21CD/E02005872	Burton Joyce & Lambley
+MSOA21CD/E02005887	Mansfield Town Centre & Broomhill
+MSOA21CD/E02005892	King's Walk, Berry Hill & Oakham
+MSOA21CD/E02005893	Ollerton & Boughton
+MSOA21CD/E02005897	Bilsthorpe & Farnsfield
+MSOA21CD/E02005898	Rainworth & Blidworth
+MSOA21CD/E02005903	Balderton
+MSOA21CD/E02005905	Lowdham, Bleasby & Gunthorpe
+MSOA21CD/E02005907	Bingham
+MSOA21CD/E02005922	Banbury Hardwick
+MSOA21CD/E02005923	Banbury Neithrop
+MSOA21CD/E02005924	Banbury Grimsbury
+MSOA21CD/E02005925	Banbury Ruscote
+MSOA21CD/E02005926	Banbury Easington
+MSOA21CD/E02005927	Banbury Calthorpe
+MSOA21CD/E02005928	Bodicote, Adderbury & Bloxham
+MSOA21CD/E02005932	Bicester North
+MSOA21CD/E02005933	Bicester East
+MSOA21CD/E02005934	Bicester West
+MSOA21CD/E02005935	Bicester South
+MSOA21CD/E02005939	Begbroke, Yarnton & Water Eaton
+MSOA21CD/E02005944	Barton
+MSOA21CD/E02005956	Blackbird Leys
+MSOA21CD/E02005959	Beckley & Horspath
+MSOA21CD/E02005963	Berinsfield & Wittenham
+MSOA21CD/E02005968	Benson & Crowmarsh Gifford
+MSOA21CD/E02005969	Wallingford & Brightwell
+MSOA21CD/E02005976	Shiplake & Binfield Heath
+MSOA21CD/E02005979	Botley & Kennington
+MSOA21CD/E02005992	South Wantage, Harwell & Blewbury
+MSOA21CD/E02006004	Burford & Brize Norton
+MSOA21CD/E02006007	Bampton, Clanfield & Standlake
+MSOA21CD/E02006010	Much Wenlock & Broseley
+MSOA21CD/E02006011	Bridgnorth West
+MSOA21CD/E02006012	Bridgnorth East
+MSOA21CD/E02006021	Baschurch, Cockshutt & Harmer Hill
+MSOA21CD/E02006028	Bomere Heath & Montford Bridge
+MSOA21CD/E02006034	Shrewsbury Copthorne & Bowbrook
+MSOA21CD/E02006038	Bayston Hill & Atcham
+MSOA21CD/E02006041	Bishop's Castle, Brockton & Chirbury
+MSOA21CD/E02006043	Craven Arms & Broadstone
+MSOA21CD/E02006044	Clun & Bucknell
+MSOA21CD/E02006046	Cleobury Mortimer, Burford & Ashford Carbonell
+MSOA21CD/E02006059	Pilton, Butleigh & Alhampton
+MSOA21CD/E02006062	Berrow & Brent Knoll
+MSOA21CD/E02006064	Burnham-on-Sea
+MSOA21CD/E02006068	Bridgwater North
+MSOA21CD/E02006069	Bridgwater Town
+MSOA21CD/E02006070	Bridgwater East
+MSOA21CD/E02006073	Bridgwater South
+MSOA21CD/E02006075	Bruton, Brewham & Cucklington
+MSOA21CD/E02006099	Bishops Lydeard & Cotford St Luke
+MSOA21CD/E02006106	Bishop's Hull & Norton Fitzwarren
+MSOA21CD/E02006112	Dowslands & Blackdown
+MSOA21CD/E02006120	Rugeley South & Brereton
+MSOA21CD/E02006131	Mayfield, Rocester & Bramshall
+MSOA21CD/E02006135	Burton Stretton
+MSOA21CD/E02006137	Burton Horninglow
+MSOA21CD/E02006138	Burton Eton Park
+MSOA21CD/E02006139	Burton Shobnall
+MSOA21CD/E02006140	Burton Winshill
+MSOA21CD/E02006141	Burton Central
+MSOA21CD/E02006142	Burton Brizlincote
+MSOA21CD/E02006143	Branston
+MSOA21CD/E02006144	Burton Stapenhill
+MSOA21CD/E02006145	Barton-under-Needwood
+MSOA21CD/E02006148	Burntwood North East & Longdon
+MSOA21CD/E02006151	Burntwood West
+MSOA21CD/E02006154	Burntwood Chase Terrace & Hammerwich
+MSOA21CD/E02006155	Burntwood Chasetown
+MSOA21CD/E02006162	Audley & Bignall End
+MSOA21CD/E02006163	Bradwell
+MSOA21CD/E02006170	Madeley & Betley
+MSOA21CD/E02006173	Loggerheads & Baldwins Gate
+MSOA21CD/E02006176	Brewood & Wheaton Aston
+MSOA21CD/E02006181	Bilbrook
+MSOA21CD/E02006189	Barlaston, Tittensor & Swynnerton
+MSOA21CD/E02006200	Highfields & Burton Manor
+MSOA21CD/E02006201	Weeping Cross & Brocton
+MSOA21CD/E02006205	Biddulph Moor & Rudyard
+MSOA21CD/E02006206	Biddulph Central
+MSOA21CD/E02006207	Biddulph North & Brownlees
+MSOA21CD/E02006211	Endon & Brown Edge
+MSOA21CD/E02006215	Blythe Bridge, Forsbrook & Caverswall
+MSOA21CD/E02006220	Bolehall
+MSOA21CD/E02006222	Belgrave
+MSOA21CD/E02006227	Lavenham, Bildeston & Brettenham
+MSOA21CD/E02006232	Acton, Great Waldingfield & Bures
+MSOA21CD/E02006235	Leavenheath, Nayland & Boxford
+MSOA21CD/E02006236	East Bergholt, Brantham & Capel St Mary
+MSOA21CD/E02006238	Brandon
+MSOA21CD/E02006240	Beck Row, Eriswell & Barton Mills
+MSOA21CD/E02006253	Broke Hall
+MSOA21CD/E02006257	Belstead Hills
+MSOA21CD/E02006264	Thurston, Badwell Ash & Elmswell North
+MSOA21CD/E02006265	Stowupland, Mendlesham & Bacton
+MSOA21CD/E02006266	Elmswell South, Haughley, Beyton & Felsham
+MSOA21CD/E02006269	Stowmarket Outer, Finborough & Battisford
+MSOA21CD/E02006272	Claydon & Bramford
+MSOA21CD/E02006273	Stanton & Barningham
+MSOA21CD/E02006274	Ixworth, Honington & Barnham
+MSOA21CD/E02006278	Bury St Edmunds Central
+MSOA21CD/E02006279	Bury St Edmunds West
+MSOA21CD/E02006280	Barrow, Chedburgh & Sicklesmere
+MSOA21CD/E02006292	Westerfield, Grundisburgh & Bredfield
+MSOA21CD/E02006297	Bixley, Warren Heath & Nacton
+MSOA21CD/E02006311	Beccles
+MSOA21CD/E02006312	Worlingham & Barnby
+MSOA21CD/E02006314	Bungay & the Saints
+MSOA21CD/E02006350	Bellfields, Slyfield & Weyfield
+MSOA21CD/E02006351	Burpham North & Merrow East
+MSOA21CD/E02006354	Burpham, Boxgrove & Merrow West
+MSOA21CD/E02006367	Bookham North
+MSOA21CD/E02006368	Bookham South
+MSOA21CD/E02006369	Box Hill & Brockham
+MSOA21CD/E02006374	Charlwood, Newdigate & Beare Green
+MSOA21CD/E02006376	Banstead
+MSOA21CD/E02006417	Bagshot
+MSOA21CD/E02006421	West End & Bisley
+MSOA21CD/E02006435	Nutfield & Bletchingley
+MSOA21CD/E02006439	Farnham Weybourne & Badshot Lea
+MSOA21CD/E02006442	Farnham Moor Park & Bourne
+MSOA21CD/E02006446	Blackheath, Wonersh & Shamley Green
+MSOA21CD/E02006456	Byfleet
+MSOA21CD/E02006467	Mayford & Brookwood
+MSOA21CD/E02006482	Bermuda & Heath End
+MSOA21CD/E02006486	Bedworth Woodlands
+MSOA21CD/E02006487	Bedworth Town
+MSOA21CD/E02006488	Bulkington
+MSOA21CD/E02006489	Bedworth Coalpit Field & Exhall
+MSOA21CD/E02006490	Bedworth Heath
+MSOA21CD/E02006493	Brownsover
+MSOA21CD/E02006495	Wolston, Binley Woods & Ryton
+MSOA21CD/E02006502	Overslade & Bilton
+MSOA21CD/E02006515	Bidford & Welford
+MSOA21CD/E02006518	Shipston-on-Stour & Brailes
+MSOA21CD/E02006532	Bishops Tachbrook, Barford & Hatton Park
+MSOA21CD/E02006535	Buckingham
+MSOA21CD/E02006538	Shoreham Central & Beach
+MSOA21CD/E02006558	Bognor Regis Central
+MSOA21CD/E02006569	Southbourne, Bosham & Thorney
+MSOA21CD/E02006573	Wittering & Birdham
+MSOA21CD/E02006584	Bewbush
+MSOA21CD/E02006586	Broadfield West
+MSOA21CD/E02006587	Broadfield East
+MSOA21CD/E02006590	Broadbridge Heath & Warnham
+MSOA21CD/E02006592	Rudgwick, Slinfold & Barns Green
+MSOA21CD/E02006597	Billingshurst
+MSOA21CD/E02006610	Balcombe & Handcross
+MSOA21CD/E02006615	Burgess Hill West
+MSOA21CD/E02006616	Burgess Hill East
+MSOA21CD/E02006617	Burgess Hill Central
+MSOA21CD/E02006618	Burgess Hill South
+MSOA21CD/E02006619	Hurstpierpoint & Bolney
+MSOA21CD/E02006624	Broadwater West
+MSOA21CD/E02006625	Broadwater East
+MSOA21CD/E02006628	Broadwater South
+MSOA21CD/E02006640	Bedwyn, Burbage & Collingbourne
+MSOA21CD/E02006641	Market Lavington & Bishops Cannings
+MSOA21CD/E02006651	Sutton Benger, Kington & Biddestone
+MSOA21CD/E02006659	Box, Colerne & Rudloe
+MSOA21CD/E02006660	Corsham, Bowden Hill & Lacock
+MSOA21CD/E02006661	Larkhill, Shrewton & Bulford Camp
+MSOA21CD/E02006662	Durrington & Bulford
+MSOA21CD/E02006672	Laverstock, Bodenham & Coombe Bissett
+MSOA21CD/E02006679	Bowerhill, Atworth & Whitley
+MSOA21CD/E02006682	Bradford-on-Avon
+MSOA21CD/E02006690	Westbury East, Dilton Marsh & Bratton
+MSOA21CD/E02006697	Dodford, Belbroughton & Romsley
+MSOA21CD/E02006701	Barnt Green & Lickey Hills
+MSOA21CD/E02006705	Bromsgrove Sidemoor
+MSOA21CD/E02006706	Bromsgrove Central & Sanders Park
+MSOA21CD/E02006707	Bromsgrove Stoney Hill
+MSOA21CD/E02006708	Bromsgrove Charford
+MSOA21CD/E02006709	Stoke Heath, Finstall & Bentley
+MSOA21CD/E02006712	Broadheath, Sinton & Alfrick
+MSOA21CD/E02006718	Barnard's Green
+MSOA21CD/E02006723	Batchley & Brockhill
+MSOA21CD/E02006737	Barbourne & Rainbow Hill
+MSOA21CD/E02006745	Lower Wick & Bromwich Road
+MSOA21CD/E02006746	Battenhall & Diglis
+MSOA21CD/E02006760	Harvington, Offenham & Badsey
+MSOA21CD/E02006765	Broadway, Wickhamford & Sedgeberrow
+MSOA21CD/E02006766	Bredon, Ashton & Eckington
+MSOA21CD/E02006767	Wolverley, Cookley & Blakedown
+MSOA21CD/E02006771	Bewdley East & Upper Arley
+MSOA21CD/E02006775	Birchen Coppice
+MSOA21CD/E02006777	Bewdley West, Ribbesford & Far Forest
+MSOA21CD/E02006778	Stourport Lickhill & Burlish
+MSOA21CD/E02006789	Biggin Hill East & Cudham
+MSOA21CD/E02006799	Becontree North
+MSOA21CD/E02006822	Bedhampton
+MSOA21CD/E02006835	Bestwood Village
+MSOA21CD/E02006836	Belmont & South Cheam
+MSOA21CD/E02006839	Hindhead, Beacon Hill & Frensham
+MSOA21CD/E02006869	Birley
+MSOA21CD/E02006881	Rose Hill & Burnley Wood
+MSOA21CD/E02006889	Barton Hill
+MSOA21CD/E02006894	Blakenhall
+MSOA21CD/E02006900	Bordesley
+MSOA21CD/E02006941	Butler's Wharf and Queen's Walk
+MSOA21CD/E02006942	Bermondsey North
+MSOA21CD/E02006947	Barkerend West & Little Germany
+MSOA21CD/E02006951	University & Brandon Hill
+MSOA21CD/E02006957	Broughton East
+MSOA21CD/E02006958	Broughton West
+MSOA21CD/E02006959	Greengate & Blackfriars
+MSOA21CD/E02006973	Brentford East
+MSOA21CD/E02006984	New Islington South & Bradford
+MSOA21CD/E02007002	Wickersley South, Bramley South & Whiston
+MSOA21CD/E02007012	Broughton West & Milton Keynes Village
+MSOA21CD/E02007013	Broughton East
+MSOA21CD/E02007022	Barnard Castle & Upper Teesdale
+MSOA21CD/E02007027	Broadclyst, West Clyst & Stoke Canon
+MSOA21CD/E02007029	Bakewell South, Darley Dale & Youlgreave
+MSOA21CD/E02007034	Bishop's Cleeve West & North
+MSOA21CD/E02007035	Bishop's Cleeve East & South
+MSOA21CD/E02007038	Birches Green & Bromford East
+MSOA21CD/E02007046	Bybrook
+MSOA21CD/E02007048	Brinklow, Wolvey & Churchover
+MSOA21CD/E02007049	Houlton, Clifton & Brownsover North
+MSOA21CD/E02007056	Mile End North, Braiswick & Kingswood Heath
+MSOA21CD/E02007070	Broughton, Mawsley & Loddington
+MSOA21CD/E02007071	Burton Latimer
+MSOA21CD/E02007085	Bar Hill, Girton & Grantchester
+MSOA21CD/E02007088	Ashwell, Weston & Barley
+MSOA21CD/E02007098	Byker East
+MSOA21CD/E02007103	Byker South & St Peters
+MSOA21CD/E02007113	Blackwall
+MSOA21CD/E02007115	King's Cross & Bloomsbury North
+MSOA21CD/W02000005	Beaumaris & Benllech
+MSOA21CD/W02000007	Bodedern & Rhosneigr
+MSOA21CD/W02000010	Bangor City
+MSOA21CD/W02000011	Bangor South
+MSOA21CD/W02000012	Bethesda
+MSOA21CD/W02000013	Bethel & Llanrug
+MSOA21CD/W02000018	Blaenau Ffestiniog & Trawsfynydd
+MSOA21CD/W02000024	Bala & Mawddwy
+MSOA21CD/W02000025	Barmouth & Dolgellau
+MSOA21CD/W02000040	Betws-yn-Rhos, Llangernyw & Llansannan
+MSOA21CD/W02000041	Llanrwst & Betws-y-coed
+MSOA21CD/W02000050	Rhuddlan & Bodelwyddan
+MSOA21CD/W02000060	Holywell & Bagillt
+MSOA21CD/W02000069	Buckley North, Northop & Sychdyn
+MSOA21CD/W02000072	Broughton & Saltney
+MSOA21CD/W02000074	Buckley South
+MSOA21CD/W02000082	New Broughton & Bryn Cefn
+MSOA21CD/W02000083	Coedpoeth & Brymbo
+MSOA21CD/W02000095	Bangor-on-Dee, Overton & Penley
+MSOA21CD/W02000100	Machynlleth & Banwy
+MSOA21CD/W02000101	Montgomery, Trewern & Berriew
+MSOA21CD/W02000106	Llanidloes, Blaen Hafren & Llandinam
+MSOA21CD/W02000110	Builth Wells & Llanwrtyd Wells
+MSOA21CD/W02000113	Brecon
+MSOA21CD/W02000116	Borth & Bont-goch
+MSOA21CD/W02000125	Beulah, Troed-yr-aur & Llandysul
+MSOA21CD/W02000133	Johnston, Broad Haven & St Ishmaels
+MSOA21CD/W02000151	Brynaman, Y Garnant & Glanaman
+MSOA21CD/W02000154	Ammanford & Betws
+MSOA21CD/W02000162	Pembrey & Burry Port
+MSOA21CD/W02000166	Bynea & Llwynhendy
+MSOA21CD/W02000173	Birchgrove
+MSOA21CD/W02000181	Bon-y-maen
+MSOA21CD/W02000193	Brynmill
+MSOA21CD/W02000195	Mayals & Bishopston
+MSOA21CD/W02000204	Cadoxton & Bryn-coch
+MSOA21CD/W02000211	Briton Ferry
+MSOA21CD/W02000212	Cwmafan & Bryn
+MSOA21CD/W02000213	Baglan
+MSOA21CD/W02000220	Nant-y-moel, Ogmore Vale & Blackmill
+MSOA21CD/W02000221	Blaengarw, Pontycymer & Bettws
+MSOA21CD/W02000224	Sarn, Bryn-coch & Bryncethin
+MSOA21CD/W02000229	Cefn-glas & Bryntirion
+MSOA21CD/W02000232	Brackla East & Coychurch Lower
+MSOA21CD/W02000233	Brackla West
+MSOA21CD/W02000234	Broadlands
+MSOA21CD/W02000246	Barry Dyfan & Illtyd
+MSOA21CD/W02000248	Barry East
+MSOA21CD/W02000249	Barry West
+MSOA21CD/W02000251	Barry Island
+MSOA21CD/W02000279	Beddau & Tyn-y-nant
+MSOA21CD/W02000280	Bryn-cae & Llanharan
+MSOA21CD/W02000288	Merthyr Vale, Troed-y-rhiw & Bedlinog
+MSOA21CD/W02000293	Bargoed
+MSOA21CD/W02000298	Blackwood
+MSOA21CD/W02000309	Bedwas & Trethomas
+MSOA21CD/W02000314	Rassau & Beaufort
+MSOA21CD/W02000315	Bryn-mawr
+MSOA21CD/W02000318	Blaina & Nantyglo
+MSOA21CD/W02000323	Blaenavon
+MSOA21CD/W02000349	Bettws
+MSOA21CD/W02000351	Beechwood
+MSOA21CD/W02000353	St Julians & Barnardtown
+MSOA21CD/W02000387	Birchgrove
+MSOA21CD/W02000398	Cathays South & Bute Park
+MSOA21CD/W02000423	Butetown
+MSOA21CD/W02000426	Maes-y-dre & Borras
+PCON17CD/E14000539	Banbury
+PCON17CD/E14000540	Barking
+PCON17CD/E14000541	Barnsley Central
+PCON17CD/E14000542	Barnsley East
+PCON17CD/E14000543	Barrow and Furness
+PCON17CD/E14000544	Basildon and Billericay
+PCON17CD/E14000545	Basingstoke
+PCON17CD/E14000546	Bassetlaw
+PCON17CD/E14000547	Bath
+PCON17CD/E14000548	Batley and Spen
+PCON17CD/E14000549	Battersea
+PCON17CD/E14000550	Beaconsfield
+PCON17CD/E14000551	Beckenham
+PCON17CD/E14000552	Bedford
+PCON17CD/E14000553	Bermondsey and Old Southwark
+PCON17CD/E14000554	Berwick-upon-Tweed
+PCON17CD/E14000555	Bethnal Green and Bow
+PCON17CD/E14000556	Beverley and Holderness
+PCON17CD/E14000557	Bexhill and Battle
+PCON17CD/E14000558	Bexleyheath and Crayford
+PCON17CD/E14000559	Birkenhead
+PCON17CD/E14000560	Birmingham, Edgbaston
+PCON17CD/E14000561	Birmingham, Erdington
+PCON17CD/E14000562	Birmingham, Hall Green
+PCON17CD/E14000563	Birmingham, Hodge Hill
+PCON17CD/E14000564	Birmingham, Ladywood
+PCON17CD/E14000565	Birmingham, Northfield
+PCON17CD/E14000566	Birmingham, Perry Barr
+PCON17CD/E14000567	Birmingham, Selly Oak
+PCON17CD/E14000568	Birmingham, Yardley
+PCON17CD/E14000569	Bishop Auckland
+PCON17CD/E14000570	Blackburn
+PCON17CD/E14000571	Blackley and Broughton
+PCON17CD/E14000572	Blackpool North and Cleveleys
+PCON17CD/E14000573	Blackpool South
+PCON17CD/E14000574	Blaydon
+PCON17CD/E14000575	Blyth Valley
+PCON17CD/E14000576	Bognor Regis and Littlehampton
+PCON17CD/E14000577	Bolsover
+PCON17CD/E14000578	Bolton North East
+PCON17CD/E14000579	Bolton South East
+PCON17CD/E14000580	Bolton West
+PCON17CD/E14000581	Bootle
+PCON17CD/E14000582	Boston and Skegness
+PCON17CD/E14000583	Bosworth
+PCON17CD/E14000584	Bournemouth East
+PCON17CD/E14000585	Bournemouth West
+PCON17CD/E14000586	Bracknell
+PCON17CD/E14000587	Bradford East
+PCON17CD/E14000588	Bradford South
+PCON17CD/E14000589	Bradford West
+PCON17CD/E14000590	Braintree
+PCON17CD/E14000591	Brent Central
+PCON17CD/E14000592	Brent North
+PCON17CD/E14000593	Brentford and Isleworth
+PCON17CD/E14000594	Brentwood and Ongar
+PCON17CD/E14000595	Bridgwater and West Somerset
+PCON17CD/E14000596	Brigg and Goole
+PCON17CD/E14000597	Brighton, Kemptown
+PCON17CD/E14000598	Brighton, Pavilion
+PCON17CD/E14000599	Bristol East
+PCON17CD/E14000600	Bristol North West
+PCON17CD/E14000601	Bristol South
+PCON17CD/E14000602	Bristol West
+PCON17CD/E14000603	Broadland
+PCON17CD/E14000604	Bromley and Chislehurst
+PCON17CD/E14000605	Bromsgrove
+PCON17CD/E14000606	Broxbourne
+PCON17CD/E14000607	Broxtowe
+PCON17CD/E14000608	Buckingham
+PCON17CD/E14000609	Burnley
+PCON17CD/E14000610	Burton
+PCON17CD/E14000611	Bury North
+PCON17CD/E14000612	Bury South
+PCON17CD/E14000613	Bury St Edmunds
+PCON17CD/E14000921	Sheffield, Brightside and Hillsborough
+PCON17CD/N06000001	Belfast East
+PCON17CD/N06000002	Belfast North
+PCON17CD/N06000003	Belfast South
+PCON17CD/N06000004	Belfast West
+PCON17CD/S14000007	Banff and Buchan
+PCON17CD/S14000008	Berwickshire, Roxburgh and Selkirk
+PCON17CD/S14000039	Inverness, Nairn, Badenoch and Strathspey
+PCON17CD/W07000068	Brecon and Radnorshire
+PCON17CD/W07000072	Blaenau Gwent
+PCON17CD/W07000073	Bridgend
+WD21CD/E05000028	Becontree
+WD21CD/E05000043	Brunswick Park
+WD21CD/E05000044	Burnt Oak
+WD21CD/E05000086	Barnhill
+WD21CD/E05000087	Brondesbury Park
+WD21CD/E05000106	Bickley
+WD21CD/E05000107	Biggin Hill
+WD21CD/E05000108	Bromley Common and Keston
+WD21CD/E05000109	Bromley Town
+WD21CD/E05000128	Belsize
+WD21CD/E05000129	Bloomsbury
+WD21CD/E05000193	Bowes
+WD21CD/E05000194	Bush Hill Park
+WD21CD/E05000215	Blackheath Westcombe
+WD21CD/E05000267	Bounds Green
+WD21CD/E05000268	Bruce Grove
+WD21CD/E05000285	Belmont
+WD21CD/E05000306	Brooklands
+WD21CD/E05000324	Barnhill
+WD21CD/E05000325	Botwell
+WD21CD/E05000326	Brunel
+WD21CD/E05000346	Bedfont
+WD21CD/E05000347	Brentford
+WD21CD/E05000366	Barnsbury
+WD21CD/E05000367	Bunhill
+WD21CD/E05000401	Berrylands
+WD21CD/E05000402	Beverley
+WD21CD/E05000416	Bishop's
+WD21CD/E05000417	Brixton Hill
+WD21CD/E05000437	Bellingham
+WD21CD/E05000438	Blackheath
+WD21CD/E05000439	Brockley
+WD21CD/E05000475	Beckton
+WD21CD/E05000476	Boleyn
+WD21CD/E05000516	Barnes
+WD21CD/E05000555	Beddington North
+WD21CD/E05000556	Beddington South
+WD21CD/E05000557	Belmont
+WD21CD/E05000610	Balham
+WD21CD/E05000611	Bedford
+WD21CD/E05000631	Bayswater
+WD21CD/E05000632	Bryanston and Dorset Square
+WD21CD/E05000651	Bradshaw
+WD21CD/E05000652	Breightmet
+WD21CD/E05000653	Bromley Cross
+WD21CD/E05000670	Besses
+WD21CD/E05000739	Balderstone and Kirkholt
+WD21CD/E05000740	Bamford
+WD21CD/E05000779	Bramhall North
+WD21CD/E05000780	Bramhall South and Woodford
+WD21CD/E05000781	Bredbury and Woodley
+WD21CD/E05000782	Bredbury Green and Romiley
+WD21CD/E05000783	Brinnington and Central
+WD21CD/E05000821	Bowdon
+WD21CD/E05000822	Broadheath
+WD21CD/E05000823	Brooklands
+WD21CD/E05000824	Bucklow-St Martins
+WD21CD/E05000846	Bryn
+WD21CD/E05000888	Belle Vale
+WD21CD/E05000916	Billinge and Seneley Green
+WD21CD/E05000917	Blackbrook
+WD21CD/E05000918	Bold
+WD21CD/E05000933	Birkdale
+WD21CD/E05000934	Blundellsands
+WD21CD/E05000954	Bebington
+WD21CD/E05000955	Bidston and St James
+WD21CD/E05000956	Birkenhead and Tranmere
+WD21CD/E05000957	Bromborough
+WD21CD/E05001067	Birtley
+WD21CD/E05001068	Blaydon
+WD21CD/E05001069	Bridges
+WD21CD/E05001115	Battle Hill
+WD21CD/E05001116	Benton
+WD21CD/E05001135	Beacon and Bents
+WD21CD/E05001136	Bede
+WD21CD/E05001137	Biddick and All Saints
+WD21CD/E05001138	Boldon Colliery
+WD21CD/E05001153	Barnes
+WD21CD/E05001218	Bablake
+WD21CD/E05001219	Binley and Willenhall
+WD21CD/E05001237	Belle Vale
+WD21CD/E05001238	Brierley Hill
+WD21CD/E05001239	Brockmoor and Pensnett
+WD21CD/E05001261	Blackheath
+WD21CD/E05001262	Bristnall
+WD21CD/E05001284	Bickenhill
+WD21CD/E05001285	Blythe
+WD21CD/E05001303	Bentley and Darlaston North
+WD21CD/E05001304	Birchills Leamore
+WD21CD/E05001305	Blakenall
+WD21CD/E05001306	Bloxwich East
+WD21CD/E05001307	Bloxwich West
+WD21CD/E05001308	Brownhills
+WD21CD/E05001321	Bilston East
+WD21CD/E05001322	Bilston North
+WD21CD/E05001323	Blakenhall
+WD21CD/E05001324	Bushbury North
+WD21CD/E05001325	Bushbury South and Low Hill
+WD21CD/E05001341	Baildon
+WD21CD/E05001342	Bingley
+WD21CD/E05001343	Bingley Rural
+WD21CD/E05001344	Bolton and Undercliffe
+WD21CD/E05001345	Bowling and Barkerend
+WD21CD/E05001346	Bradford Moor
+WD21CD/E05001371	Brighouse
+WD21CD/E05001390	Batley East
+WD21CD/E05001391	Batley West
+WD21CD/E05001392	Birstall and Birkenshaw
+WD21CD/E05001527	Billingham Central
+WD21CD/E05001528	Billingham East
+WD21CD/E05001529	Billingham North
+WD21CD/E05001530	Billingham South
+WD21CD/E05001531	Billingham West
+WD21CD/E05001532	Bishopsgarth and Elm Tree
+WD21CD/E05001644	Bispham
+WD21CD/E05001645	Bloomfield
+WD21CD/E05001646	Brunswick
+WD21CD/E05001687	Beverley Rural
+WD21CD/E05001688	Bridlington Central and Old Town
+WD21CD/E05001689	Bridlington North
+WD21CD/E05001690	Bridlington South
+WD21CD/E05001732	Barton
+WD21CD/E05001733	Bottesford
+WD21CD/E05001734	Brigg and Wolds
+WD21CD/E05001735	Broughton and Appleby
+WD21CD/E05001736	Brumby
+WD21CD/E05001737	Burringham and Gunness
+WD21CD/E05001738	Burton upon Stather and Winterton
+WD21CD/E05001771	Blagreaves
+WD21CD/E05001772	Boulton
+WD21CD/E05002078	Budshead
+WD21CD/E05002193	Barnfield
+WD21CD/E05002194	Biscot
+WD21CD/E05002195	Bramingham
+WD21CD/E05002212	Belfairs
+WD21CD/E05002213	Blenheim Park
+WD21CD/E05002230	Belhus
+WD21CD/E05002272	Binfield with Warfield
+WD21CD/E05002273	Bullbrook
+WD21CD/E05002320	Battle
+WD21CD/E05002373	Barkham
+WD21CD/E05002374	Bulmershe and Whitegates
+WD21CD/E05002420	Brunswick and Adelaide
+WD21CD/E05002441	Baffins
+WD21CD/E05002455	Bargate
+WD21CD/E05002456	Bassett
+WD21CD/E05002457	Bevois
+WD21CD/E05002458	Bitterne
+WD21CD/E05002459	Bitterne Park
+WD21CD/E05003145	Barrow Island
+WD21CD/E05003209	Brough
+WD21CD/E05003282	Belper Central
+WD21CD/E05003283	Belper East
+WD21CD/E05003284	Belper North
+WD21CD/E05003323	Barrow Hill and New Whittington
+WD21CD/E05003324	Brimington North
+WD21CD/E05003325	Brimington South
+WD21CD/E05003326	Brockwell
+WD21CD/E05003344	Bakewell
+WD21CD/E05003345	Bradwell
+WD21CD/E05003346	Brailsford
+WD21CD/E05003510	Bradninch
+WD21CD/E05004021	Billericay East
+WD21CD/E05004022	Billericay West
+WD21CD/E05004023	Burstead
+WD21CD/E05004067	Brentwood North
+WD21CD/E05004068	Brentwood South
+WD21CD/E05004069	Brentwood West
+WD21CD/E05004070	Brizes and Doddinghurst
+WD21CD/E05004083	Boyce
+WD21CD/E05004096	Bicknacre and East and West Hanningfield
+WD21CD/E05004097	Boreham and The Leighs
+WD21CD/E05004098	Broomfield and The Walthams
+WD21CD/E05004147	Broadley Common, Epping Upland and Nazeing
+WD21CD/E05004148	Buckhurst Hill East
+WD21CD/E05004149	Buckhurst Hill West
+WD21CD/E05004179	Bush Fair
+WD21CD/E05004191	Burnham-on-Crouch North
+WD21CD/E05004192	Burnham-on-Crouch South
+WD21CD/E05004289	Battledown
+WD21CD/E05004290	Benhall and The Reddings
+WD21CD/E05004533	Bridgemary North
+WD21CD/E05004534	Bridgemary South
+WD21CD/E05004535	Brockhurst
+WD21CD/E05004566	Barncroft
+WD21CD/E05004567	Battins
+WD21CD/E05004568	Bedhampton
+WD21CD/E05004569	Bondfields
+WD21CD/E05004581	Barton
+WD21CD/E05004582	Bashley
+WD21CD/E05004583	Becton
+WD21CD/E05004584	Boldre and Sway
+WD21CD/E05004585	Bramshaw, Copythorne North and Minstead
+WD21CD/E05004586	Bransgore and Burley
+WD21CD/E05004587	Brockenhurst and Forest South East
+WD21CD/E05004588	Buckland
+WD21CD/E05004589	Butts Ash and Dibden Purlieu
+WD21CD/E05004592	Fawley, Blackfield and Langley
+WD21CD/E05004696	Bennetts End
+WD21CD/E05004697	Berkhamsted Castle
+WD21CD/E05004698	Berkhamsted East
+WD21CD/E05004699	Berkhamsted West
+WD21CD/E05004700	Bovingdon, Flaunden and Chipperfield
+WD21CD/E05004701	Boxmoor
+WD21CD/E05004721	Braughing
+WD21CD/E05004762	Baldock East
+WD21CD/E05004763	Baldock Town
+WD21CD/E05004786	Batchwood
+WD21CD/E05004805	Bandley Hill
+WD21CD/E05004806	Bedwell
+WD21CD/E05004983	Barming and Teston
+WD21CD/E05004984	Bearsted
+WD21CD/E05004985	Boughton Monchelsea and Chart Sutton
+WD21CD/E05004986	Boxley
+WD21CD/E05004987	Bridge
+WD21CD/E05005081	Beacon Road
+WD21CD/E05005082	Birchington North
+WD21CD/E05005083	Birchington South
+WD21CD/E05005084	Bradstowe
+WD21CD/E05005130	Benenden and Cranbrook
+WD21CD/E05005131	Brenchley and Horsmonden
+WD21CD/E05005132	Broadwater
+WD21CD/E05005150	Bank Hall
+WD21CD/E05005151	Briercliffe
+WD21CD/E05005152	Brunshaw
+WD21CD/E05005207	Barnfield
+WD21CD/E05005208	Baxenden
+WD21CD/E05005360	Birch Green
+WD21CD/E05005361	Burscough East
+WD21CD/E05005362	Burscough West
+WD21CD/E05005380	Bickerstaffe
+WD21CD/E05005408	Blaby South
+WD21CD/E05005427	Barrow and Sileby West
+WD21CD/E05005428	Birstall Wanlip
+WD21CD/E05005429	Birstall Watermead
+WD21CD/E05005480	Barlestone, Nailstone and Osbaston
+WD21CD/E05005481	Barwell
+WD21CD/E05005482	Burbage St Catherines and Lash Hill
+WD21CD/E05005483	Burbage Sketchley and Stretton
+WD21CD/E05005493	Ratby, Bagworth and Thornton
+WD21CD/E05005496	Bottesford
+WD21CD/E05005619	Bassingham and Brant Broughton
+WD21CD/E05005620	Billinghay, Martin and North Kyme
+WD21CD/E05005621	Bracebridge Heath and Waddington East
+WD21CD/E05005622	Branston
+WD21CD/E05005759	Blofield with South Walsham
+WD21CD/E05005760	Brundall
+WD21CD/E05005761	Burlingham
+WD21CD/E05005762	Buxton
+WD21CD/E05005784	Bradwell North
+WD21CD/E05005785	Bradwell South and Hopton
+WD21CD/E05006191	Bentham
+WD21CD/E05006377	Beckingham
+WD21CD/E05006378	Blyth
+WD21CD/E05006629	Bampton and Clanfield
+WD21CD/E05006762	Beckington and Selwood
+WD21CD/E05006763	Butleigh and Baltonsborough
+WD21CD/E05006902	Brereton and Ravenhill
+WD21CD/E05006919	Bagots
+WD21CD/E05006920	Branston
+WD21CD/E05006921	Brizlincote
+WD21CD/E05006922	Burton
+WD21CD/E05006988	Bilbrook
+WD21CD/E05006989	Brewood and Coven
+WD21CD/E05007009	Wheaton Aston, Bishopswood and Lapley
+WD21CD/E05007040	Bagnall and Stanley
+WD21CD/E05007041	Biddulph East
+WD21CD/E05007042	Biddulph Moor
+WD21CD/E05007043	Biddulph North
+WD21CD/E05007044	Biddulph South
+WD21CD/E05007045	Biddulph West
+WD21CD/E05007046	Brown Edge and Endon
+WD21CD/E05007067	Belgrave
+WD21CD/E05007068	Bolehall
+WD21CD/E05007118	Bixley
+WD21CD/E05007119	Bridge
+WD21CD/E05007289	Burpham
+WD21CD/E05007311	Beare Green
+WD21CD/E05007312	Bookham North
+WD21CD/E05007313	Bookham South
+WD21CD/E05007314	Box Hill and Headley
+WD21CD/E05007315	Brockham, Betchworth and Buckland
+WD21CD/E05007409	Bletchingley and Nutfield
+WD21CD/E05007410	Burstow, Horne and Outwood
+WD21CD/E05007412	Blackheath and Wonersh
+WD21CD/E05007413	Bramley, Busbridge and Hascombe
+WD21CD/E05007461	Baddesley and Grendon
+WD21CD/E05007477	Bar Pool
+WD21CD/E05007478	Bede
+WD21CD/E05007479	Bulkington
+WD21CD/E05007562	Buckingham
+WD21CD/E05007670	Bolney
+WD21CD/E05007671	Burgess Hill Dunstall
+WD21CD/E05007672	Burgess Hill Franklands
+WD21CD/E05007673	Burgess Hill Leylands
+WD21CD/E05007674	Burgess Hill Meeds
+WD21CD/E05007675	Burgess Hill St Andrews
+WD21CD/E05007676	Burgess Hill Victoria
+WD21CD/E05007694	Broadwater
+WD21CD/E05007847	Baldwin
+WD21CD/E05007848	Broadheath
+WD21CD/E05007870	Batchley & Brockhill
+WD21CD/E05007881	Battenhall
+WD21CD/E05007882	Bedwardine
+WD21CD/E05007895	Badsey
+WD21CD/E05007896	Bengeworth
+WD21CD/E05007897	Bowbrook
+WD21CD/E05007898	Bredon
+WD21CD/E05007899	Bretforton and Offenham
+WD21CD/E05007900	Broadway and Wickhamford
+WD21CD/E05008139	Bagley
+WD21CD/E05008140	Battlefield
+WD21CD/E05008141	Bayston Hill, Column and Sutton
+WD21CD/E05008142	Belle Vue
+WD21CD/E05008143	Bishop's Castle
+WD21CD/E05008144	Bowbrook
+WD21CD/E05008145	Bridgnorth East and Astley Abbotts
+WD21CD/E05008146	Bridgnorth West and Tasley
+WD21CD/E05008147	Broseley
+WD21CD/E05008148	Brown Clee
+WD21CD/E05008149	Burnell
+WD21CD/E05008520	Belper South
+WD21CD/E05008546	Boniface
+WD21CD/E05008613	Bollington
+WD21CD/E05008614	Brereton Rural
+WD21CD/E05008615	Broken Cross and Upton
+WD21CD/E05008616	Bunbury
+WD21CD/E05008715	Baddeley, Milton and Norton
+WD21CD/E05008716	Bentilee and Ubberley
+WD21CD/E05008717	Birches Head and Central Forest Park
+WD21CD/E05008718	Blurton East
+WD21CD/E05008719	Blurton West and Newstead
+WD21CD/E05008720	Boothen and Oak Hill
+WD21CD/E05008721	Bradeley and Chell Heath
+WD21CD/E05008722	Broadway and Longton East
+WD21CD/E05008723	Burslem Central
+WD21CD/E05008724	Burslem Park
+WD21CD/E05008751	Brickhill
+WD21CD/E05008752	Bromham and Biddenham
+WD21CD/E05008781	Barton-le-Clay
+WD21CD/E05008782	Biggleswade North
+WD21CD/E05008783	Biggleswade South
+WD21CD/E05008858	Berry Hill
+WD21CD/E05008859	Brick Kiln
+WD21CD/E05008860	Broomhill
+WD21CD/E05008861	Bull Farm and Pleasley Hill
+WD21CD/E05008894	Berrow
+WD21CD/E05008895	Bridgwater Dunwear
+WD21CD/E05008896	Bridgwater Eastover
+WD21CD/E05008897	Bridgwater Fairfax
+WD21CD/E05008898	Bridgwater Hamp
+WD21CD/E05008899	Bridgwater Victoria
+WD21CD/E05008900	Bridgwater Westover
+WD21CD/E05008901	Bridgwater Wyndham
+WD21CD/E05008902	Burnham Central
+WD21CD/E05008903	Burnham North
+WD21CD/E05008974	Benn
+WD21CD/E05008975	Bilton
+WD21CD/E05009002	Broxbourne and Hoddesdon South
+WD21CD/E05009034	Barnard Castle East
+WD21CD/E05009035	Barnard Castle West
+WD21CD/E05009036	Belmont
+WD21CD/E05009037	Benfieldside
+WD21CD/E05009038	Bishop Auckland Town
+WD21CD/E05009039	Bishop Middleham and Cornforth
+WD21CD/E05009040	Blackhalls
+WD21CD/E05009041	Brandon
+WD21CD/E05009042	Burnopfield and Dipton
+WD21CD/E05009097	Bamburgh
+WD21CD/E05009098	Bedlington Central
+WD21CD/E05009099	Bedlington East
+WD21CD/E05009100	Bedlington West
+WD21CD/E05009101	Bellingham
+WD21CD/E05009102	Berwick East
+WD21CD/E05009103	Berwick North
+WD21CD/E05009104	Berwick West with Ord
+WD21CD/E05009106	Bywell
+WD21CD/E05009290	Bassishaw
+WD21CD/E05009291	Billingsgate
+WD21CD/E05009292	Bishopsgate
+WD21CD/E05009293	Bread Street
+WD21CD/E05009294	Bridge
+WD21CD/E05009295	Broad Street
+WD21CD/E05009317	Bethnal Green
+WD21CD/E05009318	Blackwall & Cubitt Town
+WD21CD/E05009319	Bow East
+WD21CD/E05009320	Bow West
+WD21CD/E05009321	Bromley North
+WD21CD/E05009322	Bromley South
+WD21CD/E05009333	Spitalfields & Banglatown
+WD21CD/E05009337	Baylis and Stoke
+WD21CD/E05009338	Britwell and Northborough
+WD21CD/E05009352	Blackwater and Hawley
+WD21CD/E05009363	Burford
+WD21CD/E05009364	Brize Norton and Shilton
+WD21CD/E05009367	Brownswood
+WD21CD/E05009389	Brompton & Hans Town
+WD21CD/E05009406	Bletchley East
+WD21CD/E05009407	Bletchley Park
+WD21CD/E05009408	Bletchley West
+WD21CD/E05009409	Bradwell
+WD21CD/E05009410	Broughton
+WD21CD/E05009425	Abbots Langley & Bedmond
+WD21CD/E05009440	Backbury
+WD21CD/E05009441	Belmont Rural
+WD21CD/E05009442	Birch
+WD21CD/E05009443	Bircher
+WD21CD/E05009444	Bishops Frome & Cradley
+WD21CD/E05009445	Bobblestock
+WD21CD/E05009446	Bromyard Bringsty
+WD21CD/E05009447	Bromyard West
+WD21CD/E05009491	Bassenhally
+WD21CD/E05009492	Benwick, Coates & Eastrea
+WD21CD/E05009493	Birch
+WD21CD/E05009545	Bobbing, Iwade and Lower Halstow
+WD21CD/E05009546	Borden and Grove Park
+WD21CD/E05009547	Boughton and Courtenay
+WD21CD/E05009570	Borough Green and Long Mill
+WD21CD/E05009571	Burham and Wouldham
+WD21CD/E05009592	Bare
+WD21CD/E05009593	Bolton & Slyne
+WD21CD/E05009594	Bulk
+WD21CD/E05009636	Bardney
+WD21CD/E05009673	Bagby & Thorntons
+WD21CD/E05009674	Bedale
+WD21CD/E05009680	Northallerton North & Brompton
+WD21CD/E05009689	Bestwood St Albans
+WD21CD/E05009709	Bingham East
+WD21CD/E05009710	Bingham West
+WD21CD/E05009711	Bunny
+WD21CD/E05009733	Benson & Crowmarsh
+WD21CD/E05009734	Berinsfield
+WD21CD/E05009804	Barnham
+WD21CD/E05009805	Beach
+WD21CD/E05009806	Bersted
+WD21CD/E05009807	Brookfield
+WD21CD/E05009827	Barnt Green & Hopwood
+WD21CD/E05009828	Belbroughton & Romsley
+WD21CD/E05009829	Bromsgrove Central
+WD21CD/E05009855	Berwick Hills & Pallister
+WD21CD/E05009856	Brambles & Thorntree
+WD21CD/E05009863	Longlands & Beechwood
+WD21CD/E05009870	Park End & Beckfield
+WD21CD/E05009874	Binbrook
+WD21CD/E05009875	Burgh le Marsh
+WD21CD/E05009911	Broad Oak & the Hallingburys
+WD21CD/E05009918	Great Dunmow South & Barnston
+WD21CD/E05009927	Stansted South & Birchanger
+WD21CD/E05009932	Bourne
+WD21CD/E05009933	Breck
+WD21CD/E05009934	Brock with Catterall
+WD21CD/E05009966	Admaston & Bratton
+WD21CD/E05009969	Brookside
+WD21CD/E05010015	Broadmead
+WD21CD/E05010045	Barlby Village
+WD21CD/E05010046	Brayton
+WD21CD/E05010047	Byram & Brotherton
+WD21CD/E05010064	Balderton South
+WD21CD/E05010066	Bilsthorpe
+WD21CD/E05010067	Boughton
+WD21CD/E05010068	Bridge
+WD21CD/E05010080	Rainworth South & Blidworth
+WD21CD/E05010097	Bardon
+WD21CD/E05010098	Blackfordby
+WD21CD/E05010099	Broom Leys
+WD21CD/E05010107	Ellistown & Battleflat
+WD21CD/E05010127	Worthington & Breedon
+WD21CD/E05010129	Bickleigh & Cornwood
+WD21CD/E05010130	Blackawton & Stoke Fleming
+WD21CD/E05010145	Wembury & Brixton
+WD21CD/E05010149	Belmont
+WD21CD/E05010150	Belvoir
+WD21CD/E05010151	Bourne Austerby
+WD21CD/E05010152	Bourne East
+WD21CD/E05010153	Bourne West
+WD21CD/E05010181	Bidford East
+WD21CD/E05010182	Bidford West & Salford
+WD21CD/E05010183	Bishop's Itchington
+WD21CD/E05010184	Bishopton
+WD21CD/E05010185	Brailes & Compton
+WD21CD/E05010186	Bridgetown
+WD21CD/E05010214	Bamber Bridge East
+WD21CD/E05010215	Bamber Bridge West
+WD21CD/E05010216	Broad Oak
+WD21CD/E05010217	Broadfield
+WD21CD/E05010218	Buckshaw & Worden
+WD21CD/E05010239	Bedingfeld
+WD21CD/E05010241	Attleborough Queens & Besthorpe
+WD21CD/E05010257	The Buckenhams & Banham
+WD21CD/E05010276	Backwell
+WD21CD/E05010277	Banwell & Winscombe
+WD21CD/E05010278	Blagdon & Churchill
+WD21CD/E05010312	Bishopthorpe
+WD21CD/E05010365	Bocking Blackwater
+WD21CD/E05010366	Bocking North
+WD21CD/E05010367	Bocking South
+WD21CD/E05010368	Braintree Central & Beckers Green
+WD21CD/E05010369	Braintree South
+WD21CD/E05010370	Braintree West
+WD21CD/E05010371	Bumpstead
+WD21CD/E05010374	Great Notley & Black Notley
+WD21CD/E05010392	Beltinge
+WD21CD/E05010393	Blean Forest
+WD21CD/E05010398	Herne & Broomfield
+WD21CD/E05010412	Bank Top & Lascelles
+WD21CD/E05010413	Brinkburn & Faverdale
+WD21CD/E05010460	Beaumont Leys
+WD21CD/E05010461	Belgrave
+WD21CD/E05010462	Braunstone Park & Rowley Fields
+WD21CD/E05010479	Barlaston
+WD21CD/E05010480	Baswich
+WD21CD/E05010504	Bewdley & Rock
+WD21CD/E05010505	Blakebrook & Habberley South
+WD21CD/E05010506	Broadwaters
+WD21CD/E05010516	Beeston Central
+WD21CD/E05010517	Beeston North
+WD21CD/E05010518	Beeston Rylands
+WD21CD/E05010519	Beeston West
+WD21CD/E05010520	Bramcote
+WD21CD/E05010521	Brinsley
+WD21CD/E05010550	Bere Ferrers
+WD21CD/E05010551	Bridestowe
+WD21CD/E05010552	Buckland Monachorum
+WD21CD/E05010553	Burrator
+WD21CD/E05010605	Breaston
+WD21CD/E05010617	Ockbrook & Borrowash
+WD21CD/E05010623	Barms
+WD21CD/E05010624	Blackbrook
+WD21CD/E05010625	Burbage
+WD21CD/E05010626	Buxton Central
+WD21CD/E05010653	Boley Park
+WD21CD/E05010654	Boney Hay & Central
+WD21CD/E05010655	Bourne Vale
+WD21CD/E05010682	Huthwaite & Brierley
+WD21CD/E05010697	Blockley
+WD21CD/E05010698	Bourton Vale
+WD21CD/E05010699	Bourton Village
+WD21CD/E05010730	Balby South
+WD21CD/E05010731	Bentley
+WD21CD/E05010732	Bessacarr
+WD21CD/E05010738	Hexthorpe & Balby North
+WD21CD/E05010742	Rossington & Bawtry
+WD21CD/E05010744	Stainforth & Barnby Dun
+WD21CD/E05010755	Blunsdon and Highworth
+WD21CD/E05010775	Barden Fell
+WD21CD/E05010785	Birchwood
+WD21CD/E05010786	Boultham
+WD21CD/E05010795	Byfleet and West Byfleet
+WD21CD/E05010805	Barnack
+WD21CD/E05010806	Bretton
+WD21CD/E05010827	Berechurch
+WD21CD/E05010857	Beauchief and Greenhill
+WD21CD/E05010858	Beighton
+WD21CD/E05010859	Birley
+WD21CD/E05010860	Broomhill and Sharrow Vale
+WD21CD/E05010861	Burngreave
+WD21CD/E05010887	Bedminster
+WD21CD/E05010888	Bishopston and Ashley Down
+WD21CD/E05010889	Bishopsworth
+WD21CD/E05010890	Brislington East
+WD21CD/E05010891	Brislington West
+WD21CD/E05010921	Banbury Cross and Neithrop
+WD21CD/E05010922	Banbury Grimsbury and Hightown
+WD21CD/E05010923	Banbury Hardwick
+WD21CD/E05010924	Banbury Ruscote
+WD21CD/E05010925	Bicester East
+WD21CD/E05010926	Bicester North and Caversfield
+WD21CD/E05010928	Bicester West
+WD21CD/E05010952	Barnwood
+WD21CD/E05010953	Barton and Tredworth
+WD21CD/E05010969	Berkeley Vale
+WD21CD/E05010996	Badger Farm and Oliver's Battery
+WD21CD/E05010997	Bishop's Waltham
+WD21CD/E05011025	Bewsey and Whitecross
+WD21CD/E05011026	Birchwood
+WD21CD/E05011027	Burtonwood and Winwick
+WD21CD/E05011058	Brookmans Park and Little Heath
+WD21CD/E05011090	Bryher
+WD21CD/E05011095	Borough & Bankside
+WD21CD/E05011122	Balsall Heath West
+WD21CD/E05011123	Bartley Green
+WD21CD/E05011124	Billesley
+WD21CD/E05011125	Birchfield
+WD21CD/E05011126	Bordesley & Highgate
+WD21CD/E05011127	Bordesley Green
+WD21CD/E05011128	Bournbrook & Selly Park
+WD21CD/E05011129	Bournville & Cotteridge
+WD21CD/E05011130	Brandwood & King's Heath
+WD21CD/E05011131	Bromford & Hodge Hill
+WD21CD/E05011170	Sparkbrook & Balsall Heath East
+WD21CD/E05011187	Bishopstoke
+WD21CD/E05011188	Botley
+WD21CD/E05011189	Bursledon & Hound North
+WD21CD/E05011202	Baird
+WD21CD/E05011203	Braybrooke
+WD21CD/E05011217	Barnehurst
+WD21CD/E05011218	Belvedere
+WD21CD/E05011219	Bexleyheath
+WD21CD/E05011220	Blackfen & Lamorbey
+WD21CD/E05011221	Blendon & Penhill
+WD21CD/E05011235	Barkingside
+WD21CD/E05011236	Bridge
+WD21CD/E05011257	Brampton
+WD21CD/E05011258	Buckden
+WD21CD/E05011282	Balsham
+WD21CD/E05011283	Bar Hill
+WD21CD/E05011284	Barrington
+WD21CD/E05011285	Bassingbourn
+WD21CD/E05011308	Bishop Monkton & Newby
+WD21CD/E05011309	Boroughbridge
+WD21CD/E05011348	Adderbury, Bloxham and Bodicote
+WD21CD/E05011349	Banbury Calthorpe and Easington
+WD21CD/E05011350	Ancoats & Beswick
+WD21CD/E05011352	Baguley
+WD21CD/E05011353	Brooklands
+WD21CD/E05011354	Burnage
+WD21CD/E05011387	Bramley & Stanningley
+WD21CD/E05011388	Burmantofts & Richmond Hill
+WD21CD/E05011416	Bradwell
+WD21CD/E05011425	Madeley & Betley
+WD21CD/E05011430	Talke & Butt Lane
+WD21CD/E05011437	Benwell & Scotswood
+WD21CD/E05011438	Blakelaw
+WD21CD/E05011439	Byker
+WD21CD/E05011464	Bensham Manor
+WD21CD/E05011465	Broad Green
+WD21CD/E05011492	Bowness & Levens
+WD21CD/E05011493	Broughton & Coniston
+WD21CD/E05011494	Burton & Crooklands
+WD21CD/E05011509	Bastwell & Daisyfield
+WD21CD/E05011510	Billinge & Beardwood
+WD21CD/E05011511	Blackburn Central
+WD21CD/E05011512	Blackburn South & Lower Darwen
+WD21CD/E05011513	Blackburn South East
+WD21CD/E05011526	Beverley & Newland
+WD21CD/E05011527	Boothferry
+WD21CD/E05011528	Bricknell
+WD21CD/E05011535	Longhill & Bilton Grange
+WD21CD/E05011552	Balderton North & Coddington
+WD21CD/E05011553	Beacon
+WD21CD/E05011558	Brasted, Chevening and Sundridge
+WD21CD/E05011560	Bottisham
+WD21CD/E05011561	Burwell
+WD21CD/E05011583	Chailey, Barcombe & Hamsey
+WD21CD/E05011604	Bexhill Central
+WD21CD/E05011605	Bexhill Collington
+WD21CD/E05011606	Bexhill Kewhurst
+WD21CD/E05011607	Bexhill Old Town & Worsham
+WD21CD/E05011608	Bexhill Pebsham & St Michaels
+WD21CD/E05011609	Bexhill Sackville
+WD21CD/E05011610	Bexhill Sidley
+WD21CD/E05011611	Bexhill St Marks
+WD21CD/E05011612	Bexhill St Stephens
+WD21CD/E05011613	Brede & Udimore
+WD21CD/E05011614	Burwash & the Weald
+WD21CD/E05011626	Buxted
+WD21CD/E05011713	Blewbury & Harwell
+WD21CD/E05011723	Boltons
+WD21CD/E05011724	Broughton St Bridgets
+WD21CD/E05011744	Beaver
+WD21CD/E05011745	Biddenden
+WD21CD/E05011746	Bircholt
+WD21CD/E05011747	Bockhanger
+WD21CD/E05011748	Bybrook
+WD21CD/E05011759	Kingsnorth Village & Bridgefield
+WD21CD/E05011783	Beer & Branscombe
+WD21CD/E05011784	Broadclyst
+WD21CD/E05011785	Budleigh & Raleigh
+WD21CD/E05011812	Billingshurst
+WD21CD/E05011813	Bramber, Upper Beeding & Woodmancote
+WD21CD/E05011814	Broadbridge Heath
+WD21CD/E05011834	Bacton
+WD21CD/E05011835	Beeston Regis & The Runtons
+WD21CD/E05011836	Briston
+WD21CD/E05011866	Beck Vale, Dickleburgh & Scole
+WD21CD/E05011867	Bressingham & Burston
+WD21CD/E05011868	Brooke
+WD21CD/E05011869	Bunwell
+WD21CD/E05011893	Ashburton & Buckfastleigh
+WD21CD/E05011894	Bishopsteignton
+WD21CD/E05011895	Bovey
+WD21CD/E05011896	Bradley
+WD21CD/E05011897	Buckland & Milber
+WD21CD/E05011898	Bushell
+WD21CD/E05011917	Bideford East
+WD21CD/E05011918	Bideford North
+WD21CD/E05011919	Bideford South
+WD21CD/E05011920	Bideford West
+WD21CD/E05011921	Broadheath
+WD21CD/E05011934	Bluehouse
+WD21CD/E05011935	Brightlingsea
+WD21CD/E05011936	Burrsville
+WD21CD/E05011960	Thorpe, Beaumont & Great Holland
+WD21CD/E05011964	Billesdon & Tilton
+WD21CD/E05011965	Bosworth
+WD21CD/E05011966	Broughton Astley-Primethorpe & Sutton
+WD21CD/E05011967	Broughton Astley South & Leire
+WD21CD/E05011984	Barlborough
+WD21CD/E05011985	Blackwell
+WD21CD/E05011986	Bolsover East
+WD21CD/E05011987	Bolsover North & Shuttlewood
+WD21CD/E05011988	Bolsover South
+WD21CD/E05012001	Billington & Langho
+WD21CD/E05012002	Bowland
+WD21CD/E05012003	Brockhall & Dinckley
+WD21CD/E05012020	Waddington, Bashall Eaves & Mitton
+WD21CD/E05012025	Wiswell & Barrow
+WD21CD/E05012026	Bagshot
+WD21CD/E05012027	Bisley & West End
+WD21CD/E05012041	Barlow & Holmesfield
+WD21CD/E05012042	Brampton & Walton
+WD21CD/E05012064	Badgeworth
+WD21CD/E05012065	Brockworth East
+WD21CD/E05012066	Brockworth West
+WD21CD/E05012093	Blackwater
+WD21CD/E05012104	Bitton & Oldland Common
+WD21CD/E05012105	Boyd Valley
+WD21CD/E05012106	Bradley Stoke North
+WD21CD/E05012107	Bradley Stoke South
+WD21CD/E05012133	Basildon
+WD21CD/E05012134	Bradfield
+WD21CD/E05012135	Bucklebury
+WD21CD/E05012136	Burghfield & Mortimer
+WD21CD/E05012156	Berry Hill
+WD21CD/E05012157	Bream
+WD21CD/E05012179	Bentley Heath & The Royds
+WD21CD/E05012180	Borehamwood Brookmeadow
+WD21CD/E05012181	Borehamwood Cowley Hill
+WD21CD/E05012182	Borehamwood Hillside
+WD21CD/E05012183	Borehamwood Kenilworth
+WD21CD/E05012184	Bushey Heath
+WD21CD/E05012185	Bushey North
+WD21CD/E05012186	Bushey Park
+WD21CD/E05012187	Bushey St James
+WD21CD/E05012194	Brookfield
+WD21CD/E05012209	Blacon
+WD21CD/E05012254	Barton with Watcombe
+WD21CD/E05012271	Basford
+WD21CD/E05012272	Berridge
+WD21CD/E05012273	Bestwood
+WD21CD/E05012274	Bilborough
+WD21CD/E05012275	Bulwell
+WD21CD/E05012276	Bulwell Forest
+WD21CD/E05012297	Bentworth & Froyle
+WD21CD/E05012298	Binsted, Bentley & Selborne
+WD21CD/E05012299	Bramshott & Liphook
+WD21CD/E05012300	Buriton & East Meon
+WD21CD/E05012308	Horndean Kings & Blendworth
+WD21CD/E05012322	Bircham with Rudhams
+WD21CD/E05012323	Brancaster
+WD21CD/E05012324	Burnham Market & Docking
+WD21CD/E05012356	Catterick & Brompton-on-Swale
+WD21CD/E05012372	Burniston & Cloughton
+WD21CD/E05012392	Bean & Village Park
+WD21CD/E05012393	Brent
+WD21CD/E05012394	Bridge
+WD21CD/E05012395	Burnham
+WD21CD/E05012412	Barnstaple Central
+WD21CD/E05012413	Barnstaple with Pilton
+WD21CD/E05012414	Barnstaple with Westacott
+WD21CD/E05012415	Bickington
+WD21CD/E05012416	Bishop's Nympton
+WD21CD/E05012417	Bratton Fleming
+WD21CD/E05012418	Braunton East
+WD21CD/E05012419	Braunton West & Georgeham
+WD21CD/E05012437	Belmont
+WD21CD/E05012438	Brotton
+WD21CD/E05012461	Bathavon North
+WD21CD/E05012462	Bathavon South
+WD21CD/E05012463	Bathwick
+WD21CD/E05012495	Belmont
+WD21CD/E05012496	Bisham & Cookham
+WD21CD/E05012497	Boyn Hill
+WD21CD/E05012498	Bray
+WD21CD/E05012513	Blackdown & Tatworth
+WD21CD/E05012514	Blackmoor Vale
+WD21CD/E05012515	Bruton
+WD21CD/E05012516	Brympton
+WD21CD/E05012517	Burrow Hill
+WD21CD/E05012549	Beckermet
+WD21CD/E05012550	Black Combe & Scafell
+WD21CD/E05012559	Moor Row & Bigrigg
+WD21CD/E05012566	Box Vale
+WD21CD/E05012567	Brantham
+WD21CD/E05012568	Brett Vale
+WD21CD/E05012569	Bures St Mary & Nayland
+WD21CD/E05012589	Bacton
+WD21CD/E05012590	Battisford & Ringshall
+WD21CD/E05012591	Blakenham
+WD21CD/E05012592	Bramford
+WD21CD/E05012594	Claydon & Barham
+WD21CD/E05012615	Bishop's Tachbrook
+WD21CD/E05012616	Budbrooke
+WD21CD/E05012632	Barleythorpe
+WD21CD/E05012633	Braunston & Martinsthorpe
+WD21CD/E05012647	Beeston & Holbeck
+WD21CD/E05012649	Alderney & Bourne Valley
+WD21CD/E05012650	Bearwood & Merley
+WD21CD/E05012651	Boscombe East & Pokesdown
+WD21CD/E05012652	Boscombe West
+WD21CD/E05012653	Bournemouth Central
+WD21CD/E05012654	Broadstone
+WD21CD/E05012655	Burton & Grange
+WD21CD/E05012677	Talbot & Branksome Woods
+WD21CD/E05012682	Beacon
+WD21CD/E05012683	Beaminster
+WD21CD/E05012684	Blackmore Vale
+WD21CD/E05012685	Blandford
+WD21CD/E05012686	Bridport
+WD21CD/E05012723	Upwey & Broadwey
+WD21CD/E05012731	Winterborne & Broadmayne
+WD21CD/E05012735	Beccles & Worlingham
+WD21CD/E05012736	Bungay & Wainford
+WD21CD/E05012744	Halesworth & Blything
+WD21CD/E05012764	Bardwell
+WD21CD/E05012765	Barningham
+WD21CD/E05012766	Barrow
+WD21CD/E05012767	Brandon Central
+WD21CD/E05012768	Brandon East
+WD21CD/E05012769	Brandon West
+WD21CD/E05012807	Blackbrook & Holway
+WD21CD/E05012808	Comeytrowe & Bishop's Hull
+WD21CD/E05012814	Hatch & Blackdown
+WD21CD/E05012857	Buckland
+WD21CD/E05012872	Banstead Village
+WD21CD/E05012901	Bowthorpe
+WD21CD/E05012914	Bewbush & North Broadfield
+WD21CD/E05012915	Broadfield
+WD21CD/E05012927	Ampfield & Braishfield
+WD21CD/E05012933	Bellinger
+WD21CD/E05012934	Bourne Valley
+WD21CD/E05012940	Belah & Kingmoor
+WD21CD/E05012941	Botcherby & Harraby North
+WD21CD/E05012942	Brampton & Fellside
+WD21CD/E05012945	Dalston & Burgh
+WD21CD/E05012968	Bicester South and Ambrosden
+WD21CD/E05012972	Botley & Sunningwell
+WD21CD/E05012981	Bishop's Stortford All Saints
+WD21CD/E05012982	Bishop's Stortford Central
+WD21CD/E05012983	Bishop's Stortford Meads
+WD21CD/E05012984	Bishop's Stortford Silverleys
+WD21CD/E05012985	Bishop's Stortford South
+WD21CD/E05012986	Buntingford
+WD21CD/E05012990	Barton
+WD21CD/E05012996	Boston Castle
+WD21CD/E05012997	Bramley & Ravenfield
+WD21CD/E05012998	Brinsworth
+WD21CD/E05013018	Barton & Winton
+WD21CD/E05013019	Blackfriars & Trinity
+WD21CD/E05013020	Boothstown & Ellenbrook
+WD21CD/E05013021	Broughton
+WD21CD/E05013026	Kersal & Broughton Park
+WD21CD/E05013038	Burn Valley
+WD21CD/E05013065	Buckshaw & Whittle
+WD21CD/E05013072	Clayton East, Brindle & Hoghton
+WD21CD/E05013078	Basing & Upton Grey
+WD21CD/E05013079	Bramley
+WD21CD/E05013080	Brighton Hill
+WD21CD/E05013081	Brookvale & Kings Furlong
+WD21CD/E05013085	Hatch Warren & Beggarwood
+WD21CD/E05013086	Kempshott & Buckskin
+WD21CD/E05013093	Tadley North, Kingsclere & Baughurst
+WD21CD/E05013096	Barton & Sandhills
+WD21CD/E05013097	Blackbird Leys
+WD21CD/E05013129	Beaconsfield
+WD21CD/E05013130	Bernwood
+WD21CD/E05013131	Booker, Cressex and Castlefield
+WD21CD/E05013132	Buckingham East
+WD21CD/E05013133	Buckingham West
+WD21CD/E05013162	The Wooburns, Bourne End and Hedsor
+WD21CD/E05013170	Bankfield
+WD21CD/E05013171	Beechwood & Heath
+WD21CD/E05013172	Birchfield
+WD21CD/E05013173	Bridgewater
+WD21CD/E05013188	Bisley
+WD21CD/E05013200	Barnoldswick
+WD21CD/E05013201	Barrowford & Pendleside
+WD21CD/E05013202	Boulsworth & Foulridge
+WD21CD/E05013203	Bradley
+WD21CD/E05013204	Brierfield East & Clover Hill
+WD21CD/E05013205	Brierfield West & Reedley
+WD21CD/E05013213	Brickhill and Queensway
+WD21CD/E05013214	Burton and Broughton
+WD21CD/E05013240	Billing and Rectory Farm
+WD21CD/E05013241	Boothville and Parklands
+WD21CD/E05013242	Brackley
+WD21CD/E05013243	Braunston and Crick
+WD21CD/E05013244	Brixworth
+WD21CD/E05013245	Bugbrooke
+WD21CD/E05013273	Bodmin St Mary's & St Leonard
+WD21CD/E05013274	Bodmin St Petroc's
+WD21CD/E05013275	Bude
+WD21CD/E05013281	Camelford & Boscastle
+WD21CD/E05013289	Four Lanes, Beacon & Troon
+WD21CD/E05013298	Lanivet, Blisland & Bodmin St Lawrence
+WD21CD/E05013319	Penwithick & Boscoppa
+WD21CD/E05013324	Porthleven, Breage & Germoe
+WD21CD/E05013331	Roche & Bugle
+WD21CD/E05013359	Bembridge
+WD21CD/E05013360	Binstead & Fishbourne
+WD21CD/E05013361	Brading & St Helens
+WD21CD/E05013362	Brighstone, Calbourne & Shalfleet
+WD21CD/E05013383	Pan & Barton
+WD21CD/E05013397	Wroxall, Lowtherville & Bonchurch
+WD21CD/E05013400	Amesbury East & Bulford
+WD21CD/E05013405	Box & Colerne
+WD21CD/E05013406	Bradford-on-Avon North
+WD21CD/E05013407	Bradford-on-Avon South
+WD21CD/E05013408	Brinkworth
+WD21CD/E05013409	Bromham, Rowde & Roundway
+WD21CD/E05013410	By Brook
+WD21CD/E05013463	Salisbury Fisherton & Bemerton Village
+WD21CD/E05013484	Urchfont & Bishops Cannings
+WD21CD/E05013832	Bowerhill
+WD21CD/E05013840	Falmouth Trescobeas & Budock
+WD21CD/E05013862	Bothal
+WD21CD/N08000104	Ballyclare East
+WD21CD/N08000105	Ballyclare West
+WD21CD/N08000106	Ballyduff
+WD21CD/N08000107	Ballyhenry
+WD21CD/N08000108	Ballynure
+WD21CD/N08000109	Ballyrobert
+WD21CD/N08000110	Burnthill
+WD21CD/N08000202	Ballybay
+WD21CD/N08000203	Banbridge East
+WD21CD/N08000204	Banbridge North
+WD21CD/N08000205	Banbridge South
+WD21CD/N08000206	Banbridge West
+WD21CD/N08000207	Blackwatertown
+WD21CD/N08000208	Bleary
+WD21CD/N08000209	Brownlow
+WD21CD/N08000303	Ballygomartin
+WD21CD/N08000304	Ballymacarrett
+WD21CD/N08000305	Ballymurphy
+WD21CD/N08000306	Ballysillan
+WD21CD/N08000307	Beechmount
+WD21CD/N08000308	Beersbridge
+WD21CD/N08000309	Bellevue
+WD21CD/N08000310	Belmont
+WD21CD/N08000311	Belvoir
+WD21CD/N08000312	Blackstaff
+WD21CD/N08000313	Bloomfield
+WD21CD/N08000404	Ballycastle
+WD21CD/N08000405	Ballykelly
+WD21CD/N08000406	Ballymoney East
+WD21CD/N08000407	Ballymoney North
+WD21CD/N08000408	Ballymoney South
+WD21CD/N08000502	Ballycolman
+WD21CD/N08000503	Ballymagroarty
+WD21CD/N08000504	Brandywell
+WD21CD/N08000601	Ballinamallard
+WD21CD/N08000602	Belcoo and Garrison
+WD21CD/N08000603	Belleek and Boa
+WD21CD/N08000604	Beragh
+WD21CD/N08000605	Boho, Cleenish and Letterbreen
+WD21CD/N08000606	Brookeborough
+WD21CD/N08000701	Ballinderry
+WD21CD/N08000702	Ballyhanwood
+WD21CD/N08000703	Ballymacash
+WD21CD/N08000704	Ballymacbrennan
+WD21CD/N08000705	Ballymacoss
+WD21CD/N08000706	Beechill
+WD21CD/N08000707	Blaris
+WD21CD/N08000804	Ballee and Harryville
+WD21CD/N08000805	Ballycarry and Glynn
+WD21CD/N08000806	Ballykeel
+WD21CD/N08000807	Boneybefore
+WD21CD/N08000808	Braidwater
+WD21CD/N08000809	Broughshane
+WD21CD/N08000810	Burleigh Hill
+WD21CD/N08000904	Ballygawley
+WD21CD/N08000905	Ballymaguigan
+WD21CD/N08000906	Ballysaggart
+WD21CD/N08000907	Bellaghy
+WD21CD/N08001003	Ballybot
+WD21CD/N08001004	Ballydugan
+WD21CD/N08001005	Ballynahinch
+WD21CD/N08001006	Ballyward
+WD21CD/N08001007	Bessbrook
+WD21CD/N08001008	Binnian
+WD21CD/N08001009	Burren
+WD21CD/N08001101	Ballycrochan
+WD21CD/N08001102	Ballygowan
+WD21CD/N08001103	Ballygrainey
+WD21CD/N08001104	Ballyholme
+WD21CD/N08001105	Ballymagee
+WD21CD/N08001106	Ballywalter
+WD21CD/N08001107	Bloomfield
+WD21CD/N08001108	Broadway
+WD21CD/N08001109	Bryansburn
+WD21CD/S13002600	Barraigh, Bhatarsaigh, Eirisgeigh agus Uibhist a Deas
+WD21CD/S13002601	Beinn na Foghla agus Uibhist a Tuath
+WD21CD/S13002821	Broxburn, Uphall and Winchburgh
+WD21CD/S13002827	Bathgate
+WD21CD/S13002836	Bridge of Don
+WD21CD/S13002848	Banff and District
+WD21CD/S13002863	Banchory and Mid Deeside
+WD21CD/S13002868	Brechin and Edzell
+WD21CD/S13002898	Ballochmyle
+WD21CD/S13002902	Bearsden North
+WD21CD/S13002903	Bearsden South
+WD21CD/S13002904	Bishopbriggs North and Campsie
+WD21CD/S13002905	Bishopbriggs South
+WD21CD/S13002914	Barrhead, Liboside and Uplawmoor
+WD21CD/S13002936	Bo'ness and Blackness
+WD21CD/S13002940	Bonnybridge and Larbert
+WD21CD/S13002953	Burntisland, Kinghorn and Western Kirkcaldy
+WD21CD/S13002966	Buckhaven, Methil and Wemyss Villages
+WD21CD/S13002986	Baillieston
+WD21CD/S13002998	Black Isle
+WD21CD/S13003009	Badenoch and Strathspey
+WD21CD/S13003019	Bonnyrigg
+WD21CD/S13003026	Buckie
+WD21CD/S13003056	Bellshill
+WD21CD/S13003065	Blairgowrie and Glens
+WD21CD/S13003085	Bishopton, Bridge of Weir and Langbank
+WD21CD/S13003109	Blantyre
+WD21CD/S13003110	Bothwell and Uddingston
+WD21CD/S13003121	Bannockburn
+WD21CD/W05000047	Bala
+WD21CD/W05000048	Bethel
+WD21CD/W05000049	Bontnewydd
+WD21CD/W05000050	Botwnnog
+WD21CD/W05000051	Bowydd and Rhiw
+WD21CD/W05000052	Brithdir and Llanfachreth/Ganllwyd/Llanelltyd
+WD21CD/W05000053	Bryn-crug/Llanfihangel
+WD21CD/W05000113	Betws-y-Coed
+WD21CD/W05000114	Betws yn Rhos
+WD21CD/W05000115	Bryn
+WD21CD/W05000150	Bodelwyddan
+WD21CD/W05000182	Bagillt East
+WD21CD/W05000183	Bagillt West
+WD21CD/W05000186	Brynford
+WD21CD/W05000187	Buckley Bistre East
+WD21CD/W05000188	Buckley Bistre West
+WD21CD/W05000189	Buckley Mountain
+WD21CD/W05000190	Buckley Pentrobin
+WD21CD/W05000238	Borras Park
+WD21CD/W05000239	Bronington
+WD21CD/W05000241	Brynyffynnon
+WD21CD/W05000285	Banwy
+WD21CD/W05000286	Beguildy
+WD21CD/W05000287	Berriew
+WD21CD/W05000288	Blaen Hafren
+WD21CD/W05000289	Bronllys
+WD21CD/W05000290	Builth
+WD21CD/W05000291	Bwlch
+WD21CD/W05000367	Beulah
+WD21CD/W05000368	Borth
+WD21CD/W05000459	Betws
+WD21CD/W05000460	Bigyn
+WD21CD/W05000461	Burry Port
+WD21CD/W05000555	Blaengwrach
+WD21CD/W05000557	Briton Ferry West
+WD21CD/W05000559	Bryn-coch North
+WD21CD/W05000560	Bryn-coch South
+WD21CD/W05000594	Bettws
+WD21CD/W05000595	Blackmill
+WD21CD/W05000596	Blaengarw
+WD21CD/W05000598	Bryncethin
+WD21CD/W05000599	Bryncoch
+WD21CD/W05000632	Baruc
+WD21CD/W05000633	Buttrills
+WD21CD/W05000661	Brynna
+WD21CD/W05000707	Bedlinog
+WD21CD/W05000722	Bargoed
+WD21CD/W05000723	Bedwas, Trethomas and Machen
+WD21CD/W05000724	Blackwood
+WD21CD/W05000768	Blaenavon
+WD21CD/W05000769	Brynwern
+WD21CD/W05000835	Beechwood
+WD21CD/W05000836	Bettws
+WD21CD/W05000854	Butetown
+WD21CD/W05000896	Brackla
+WD21CD/W05000897	Bryntirion, Laleston and Merthyr Mawr
+WD21CD/W05000903	Brymbo
+WD21CD/W05000904	Bryn Cefn
+WD21CD/W05000936	Badminton
+WD21CD/W05000937	Beaufort
+WD21CD/W05000938	Blaina
+WD21CD/W05000939	Brynmawr
+WD21CD/W05000947	Burton
+WD21CD/W05000959	Bishopston
+WD21CD/W05000960	Bonymaen
+WD21CD/W05000982	Bro Aberffraw
+WD21CD/W05000983	Bro Rhosyr
+WD21CD/W05001002	Bynea
+WD21CD/W05001004	Broughton North East
+WD21CD/W05001018	Beddau
+WD21CD/W05001027	Baglan
+WD21CD/W05001028	Briton Ferry East
+WD21CD/W05001029	Bryn and Cwmavon
+WD21CD/W05001036	Broughton South

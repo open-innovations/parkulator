@@ -9,7 +9,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	position: realtive;
+	position: relative;
 }
 .leaflet-touch .leaflet-bar button:hover, .leaflet-touch .leaflet-bar button:focus {
 	background-color: #f4f4f4!important;

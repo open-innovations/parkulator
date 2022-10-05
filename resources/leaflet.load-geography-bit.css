@@ -1,0 +1,26 @@
+.leaflet-control-search .typeahead-results { display: none; }
+.leaflet-control-search.open .typeahead-results { display: block; }
+.leaflet-control-search form {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}
+.leaflet-control-search .typeahead-results > ol {
+	max-width: 80vw;
+}
+.leaflet-control-search .typeahead-results > ol > li {
+	padding: 0;
+}
+.leaflet-control-search .typeahead-results li .item {
+	width: 100%;
+	height: auto;
+	border-radius: 0;
+}
+.leaflet-control-search .typeahead-results li .item span {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+	padding: 0.25em 0.5em;
+}
+.leaflet-control-search .typeahead-results li.selected > .item { background-color: #444; color: white; }

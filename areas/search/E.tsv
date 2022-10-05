@@ -1,0 +1,706 @@
+LAD21CD/E06000011	East Riding of Yorkshire
+LAD21CD/E07000009	East Cambridgeshire
+LAD21CD/E07000030	Eden
+LAD21CD/E07000036	Erewash
+LAD21CD/E07000040	East Devon
+LAD21CD/E07000041	Exeter
+LAD21CD/E07000061	Eastbourne
+LAD21CD/E07000072	Epping Forest
+LAD21CD/E07000085	East Hampshire
+LAD21CD/E07000086	Eastleigh
+LAD21CD/E07000137	East Lindsey
+LAD21CD/E07000193	East Staffordshire
+LAD21CD/E07000207	Elmbridge
+LAD21CD/E07000208	Epsom and Ewell
+LAD21CD/E07000242	East Hertfordshire
+LAD21CD/E07000244	East Suffolk
+LAD21CD/E09000009	Ealing
+LAD21CD/E09000010	Enfield
+LAD21CD/S12000008	East Ayrshire
+LAD21CD/S12000010	East Lothian
+LAD21CD/S12000011	East Renfrewshire
+LAD21CD/S12000045	East Dunbartonshire
+MSOA21CD/E02000004	Eastbrookend
+MSOA21CD/E02000029	New Barnet Town & East Barnet
+MSOA21CD/E02000036	Edgware East
+MSOA21CD/E02000037	Edgware Park
+MSOA21CD/E02000041	Edgware Central
+MSOA21CD/E02000052	East Finchley
+MSOA21CD/E02000068	Erith East
+MSOA21CD/E02000069	Erith West
+MSOA21CD/E02000099	Preston Park & East Lane
+MSOA21CD/E02000133	Chislehurst West & Elmstead
+MSOA21CD/E02000150	Eden Park & Bethlem
+MSOA21CD/E02000184	Camden Street & Elm Village
+MSOA21CD/E02000188	Euston
+MSOA21CD/E02000256	Ealing Broadway West
+MSOA21CD/E02000261	East Acton
+MSOA21CD/E02000264	Ealing Common & Twyford Ave
+MSOA21CD/E02000272	Elthorne Park
+MSOA21CD/E02000279	Enfield Lock
+MSOA21CD/E02000282	Enfield Wash
+MSOA21CD/E02000285	Enfield Town North
+MSOA21CD/E02000291	Enfield Town South & Bush Hill Park
+MSOA21CD/E02000306	Edmonton Green
+MSOA21CD/E02000335	Eltham North
+MSOA21CD/E02000337	Eltham West
+MSOA21CD/E02000339	Eltham Park
+MSOA21CD/E02000340	Eltham South
+MSOA21CD/E02000391	Parsons Green East & Eel Brook Common
+MSOA21CD/E02000439	Edgware West
+MSOA21CD/E02000463	Earlsmead
+MSOA21CD/E02000478	Emerson Park
+MSOA21CD/E02000486	Elm Park East
+MSOA21CD/E02000489	Elm Park West
+MSOA21CD/E02000499	Eastcote
+MSOA21CD/E02000591	Earl's Court
+MSOA21CD/E02000723	East Ham North
+MSOA21CD/E02000731	East Ham Central
+MSOA21CD/E02000732	East Ham West
+MSOA21CD/E02000737	East Ham South
+MSOA21CD/E02000738	East Ham South West
+MSOA21CD/E02000788	East Sheen North
+MSOA21CD/E02000815	Elephant & Castle
+MSOA21CD/E02000836	East Dulwich
+MSOA21CD/E02000934	Clapham Junction & East Hill
+MSOA21CD/E02000936	East Putney
+MSOA21CD/E02000941	Earlsfield North
+MSOA21CD/E02000946	Earlsfield South
+MSOA21CD/E02000984	Dunscar & Egerton
+MSOA21CD/E02000986	Eagley & Sharples
+MSOA21CD/E02001028	Elton Vale
+MSOA21CD/E02001059	Beswick, Eastlands & Openshaw Park
+MSOA21CD/E02001089	East Didsbury
+MSOA21CD/E02001169	Ellenbrook & Boothstown
+MSOA21CD/E02001176	Eccles
+MSOA21CD/E02001202	Edgeley
+MSOA21CD/E02001369	Everton West
+MSOA21CD/E02001370	Everton East
+MSOA21CD/E02001377	Edge Hill
+MSOA21CD/E02001414	Eccleston
+MSOA21CD/E02001415	Earlestown North
+MSOA21CD/E02001418	Earlestown South
+MSOA21CD/E02001423	Eccleston Park
+MSOA21CD/E02001471	Egremont
+MSOA21CD/E02001495	Egerton Park
+MSOA21CD/E02001508	Eastham
+MSOA21CD/E02001537	Elsecar
+MSOA21CD/E02001549	Edenthorpe & Mere Lane
+MSOA21CD/E02001572	Edlington
+MSOA21CD/E02001590	East Herringthorpe
+MSOA21CD/E02001591	Eastwood & East Dene
+MSOA21CD/E02001615	Grenoside & Ecclesfield North
+MSOA21CD/E02001616	Ecclesfield South
+MSOA21CD/E02001648	Endcliffe & Ranmoor
+MSOA21CD/E02001657	Ecclesall & Greystones
+MSOA21CD/E02001704	Easedale Gardens
+MSOA21CD/E02001762	East Benton
+MSOA21CD/E02001789	Cleadon & East Boldon
+MSOA21CD/E02001849	Erdington Town
+MSOA21CD/E02001881	Belchers Lane & Eastfield Road
+MSOA21CD/E02001890	Edgbaston North
+MSOA21CD/E02001905	Edgbaston South & University
+MSOA21CD/E02001982	Eastern Green & Tanyard Farm
+MSOA21CD/E02001989	Earl Place & Lime Tree Park
+MSOA21CD/E02001991	Earlsdon & Canley Gardens
+MSOA21CD/E02001992	Ernesford Grange & Stoke Aldermoor
+MSOA21CD/E02002010	New Dock & Eve Hill
+MSOA21CD/E02002091	Elmdon Park
+MSOA21CD/E02002095	Elmdon Heath & Catherine-de-Barnes
+MSOA21CD/E02002166	East Park
+MSOA21CD/E02002177	Ettingshall
+MSOA21CD/E02002180	Ettingshall Park
+MSOA21CD/E02002188	Riddlesden & East Morton
+MSOA21CD/E02002190	Keighley Central & East
+MSOA21CD/E02002192	Crossflatts & Eldwick
+MSOA21CD/E02002199	Thackley & Esholt
+MSOA21CD/E02002208	Eccleshill
+MSOA21CD/E02002227	Broomfields & East Bowling
+MSOA21CD/E02002268	Elland
+MSOA21CD/E02002288	Earlsheaton & Chickenley
+MSOA21CD/E02002304	Edgerton & Marsh
+MSOA21CD/E02002324	Emley & Skelmanthorpe
+MSOA21CD/E02002404	East End Park & Richmond Hill
+MSOA21CD/E02002436	Tingley East & East Ardsley
+MSOA21CD/E02002457	Eastmoor
+MSOA21CD/E02002509	Easterside
+MSOA21CD/E02002525	Eston
+MSOA21CD/E02002530	Boosbeck, Lingdale & Easington
+MSOA21CD/E02002546	Eastbourne & Newham Grange
+MSOA21CD/E02002547	Elm Tree & Grangefield
+MSOA21CD/E02002555	Eaglescliffe
+MSOA21CD/E02002627	Ewood & Fernhurst
+MSOA21CD/E02002629	East Darwen
+MSOA21CD/E02002632	Tockholes, Edgworth & Hoddlesden
+MSOA21CD/E02002679	East Ella
+MSOA21CD/E02002721	Howden North, Eastrington & Swinefleet
+MSOA21CD/E02002748	Waltham & East Ravendale
+MSOA21CD/E02002768	Epworth & Bracon
+MSOA21CD/E02002791	Dunnington, Elvington & Wheldrake
+MSOA21CD/E02002851	Evington
+MSOA21CD/E02002862	Eyres Monsell
+MSOA21CD/E02002863	Market Overton, Cottesmore & Empingham
+MSOA21CD/E02002910	Kington, Eardisley & Staunton
+MSOA21CD/E02002929	Edgmond & Church Aston
+MSOA21CD/E02002964	Townsend & Eaton Park
+MSOA21CD/E02002965	Hanley & Etruria
+MSOA21CD/E02003005	Chew, Bishop Sutton & East Harptree
+MSOA21CD/E02003030	Eastville
+MSOA21CD/E02003068	Pill & Easton
+MSOA21CD/E02003110	Emersons Green
+MSOA21CD/E02003125	Ernesettle
+MSOA21CD/E02003126	Derriford & Estover
+MSOA21CD/E02003133	Higher Compton & Eggbuckland
+MSOA21CD/E02003142	Efford, Laira & Crabtree
+MSOA21CD/E02003159	Ellacombe
+MSOA21CD/E02003178	East Howe & Ensbury Park
+MSOA21CD/E02003191	East Southbourne & Hengistbury Head
+MSOA21CD/E02003192	East Cliff
+MSOA21CD/E02003230	Central South & Eastcott
+MSOA21CD/E02003234	Eldene & Dorcan
+MSOA21CD/E02003235	Lawn & East Wichel
+MSOA21CD/E02003241	Eye & Thorney
+MSOA21CD/E02003279	Eastwood Park
+MSOA21CD/E02003280	Eastwood
+MSOA21CD/E02003308	East Tilbury
+MSOA21CD/E02003367	Chieveley, East Isley & Compton
+MSOA21CD/E02003430	Windsor Town & Eton
+MSOA21CD/E02003444	Earley
+MSOA21CD/E02003476	Eaglestone & Fishermead
+MSOA21CD/E02003486	Tattenhoe & Emerson Valley
+MSOA21CD/E02003508	Elm Grove & Bear Road
+MSOA21CD/E02003546	Eastney
+MSOA21CD/E02003583	East Cowes & Osborne
+MSOA21CD/E02003632	Kempston Central & East
+MSOA21CD/E02003638	Leighton Buzzard North & East
+MSOA21CD/E02003650	Eaton Bray, Whipsnade & Holywell
+MSOA21CD/E02003660	Cheddington, Pitstone & Edlesborough
+MSOA21CD/E02003661	Oakley, Brill & Edgcott
+MSOA21CD/E02003662	Watermead & Elmhurst
+MSOA21CD/E02003670	Mandeville & Elm Farm
+MSOA21CD/E02003721	East Chesterton
+MSOA21CD/E02003723	Eddington & Castle
+MSOA21CD/E02003724	East Barnwell & Abbey
+MSOA21CD/E02003754	Stilton, Elton & Folksworth
+MSOA21CD/E02003759	Bluntisham, Earith & Needingworth
+MSOA21CD/E02003794	Elton, Mickle Trafford & Great Barrow
+MSOA21CD/E02003845	Ellesmere Port Town & Rossmore
+MSOA21CD/E02003848	Ellesmere Port Pooltown Road
+MSOA21CD/E02003852	Ellesmere Port South
+MSOA21CD/E02003891	Tarporley & Eddisbury Hill
+MSOA21CD/E02003969	Flimby, Ellenborough & Broughton Moor
+MSOA21CD/E02003971	East Cockermouth & Buttermere
+MSOA21CD/E02004003	Cleator Moor, Frizington & Ennerdale
+MSOA21CD/E02004005	Egremont & Moor Row
+MSOA21CD/E02004046	Whitwell & Elmton
+MSOA21CD/E02004103	Buxton South & East
+MSOA21CD/E02004106	Eckington West & Coal Aston
+MSOA21CD/E02004119	Hilton & Etwall
+MSOA21CD/E02004130	Honiton North & East
+MSOA21CD/E02004142	Clyst, Exton & Lympstone
+MSOA21CD/E02004143	Exmouth Brixington
+MSOA21CD/E02004144	Exmouth Halsdon
+MSOA21CD/E02004146	Exmouth Withycombe Raleigh
+MSOA21CD/E02004147	Exmouth Town
+MSOA21CD/E02004148	Exmouth Littleham
+MSOA21CD/E02004153	Exwick & Foxhayes
+MSOA21CD/E02004202	Starcross & Exminster
+MSOA21CD/E02004203	Moretonhampstead, Lustleigh & East Dartmoor
+MSOA21CD/E02004223	Bideford South & East
+MSOA21CD/E02004229	Hatherleigh, Exbourne & North Tawton
+MSOA21CD/E02004244	East Verwood
+MSOA21CD/E02004294	Chester-le-Street South & East
+MSOA21CD/E02004299	Stanley North & East
+MSOA21CD/E02004316	Esh Winning & Ushaw Moor
+MSOA21CD/E02004324	Easington & Hawthorn
+MSOA21CD/E02004345	Evenwood, Cockfield & Staindrop
+MSOA21CD/E02004381	Lewes Central & East
+MSOA21CD/E02004384	East Saltdean & Telscombe Cliffs
+MSOA21CD/E02004389	East Blatchington
+MSOA21CD/E02004417	Hailsham Central & East
+MSOA21CD/E02004420	Hailsham North, Alfriston & East Dean
+MSOA21CD/E02004441	Eversley
+MSOA21CD/E02004497	Great Baddow North & East
+MSOA21CD/E02004528	Roydon, Lower Nazeing & Epping Green
+MSOA21CD/E02004531	Epping North
+MSOA21CD/E02004532	Epping South
+MSOA21CD/E02004577	Elmstead Market & Ardleigh
+MSOA21CD/E02004595	Stansted Mountfitchet & Elsenham
+MSOA21CD/E02004618	Sandywell, Ermin & Chedworth
+MSOA21CD/E02004638	Elmbridge
+MSOA21CD/E02004652	Painswick, Bisley & Eastcombe
+MSOA21CD/E02004653	Frampton, Whitminster & Eastington
+MSOA21CD/E02004654	Ebley & Randwick
+MSOA21CD/E02004685	Basingstoke Central, Black Dam & Eastrop
+MSOA21CD/E02004689	East Oakley
+MSOA21CD/E02004698	Alton Westbrooke & Eastbrooke
+MSOA21CD/E02004707	Petersfield North & East Meon
+MSOA21CD/E02004717	Eastleigh West
+MSOA21CD/E02004743	Elson
+MSOA21CD/E02004752	Yateley West & Eversley
+MSOA21CD/E02004755	Fleet North, Elvetham Heath & Ancells Farm
+MSOA21CD/E02004760	Crookham West, Ewshot & Crondall
+MSOA21CD/E02004774	Emsworth
+MSOA21CD/E02004905	Elstree & Aldenham
+MSOA21CD/E02004910	Royston South, West & East
+MSOA21CD/E02005029	Ebbsfleet & Greenhithe
+MSOA21CD/E02005042	Sandwich & Eastry
+MSOA21CD/E02005046	Aylesham & Elvington
+MSOA21CD/E02005048	Eythorne & Shepherdswell
+MSOA21CD/E02005054	Elms Vale & Capel-le-Ferne
+MSOA21CD/E02005100	Edenbridge
+MSOA21CD/E02005102	Lyminge, Densole & Elham
+MSOA21CD/E02005109	Saltwood, Seabrook & Etchinghill
+MSOA21CD/E02005156	Hadlow & East Peckham
+MSOA21CD/E02005193	Euxton
+MSOA21CD/E02005199	Eccleston & Charnock Richard
+MSOA21CD/E02005203	Elswick, Singleton & Weeton
+MSOA21CD/E02005242	Earby & Salterforth
+MSOA21CD/E02005245	East Colne, Foulridge & Trawden
+MSOA21CD/E02005285	Townsend Fold & Edenfield
+MSOA21CD/E02005310	Ormskirk Town & East
+MSOA21CD/E02005338	Enderby & Glen Parva
+MSOA21CD/E02005342	Cosby, Croft & Elmesthorpe
+MSOA21CD/E02005359	East Goscote & Queniborough
+MSOA21CD/E02005382	Earl Shilton
+MSOA21CD/E02005409	Ibstock & Ellistown
+MSOA21CD/E02005426	Louth North & East
+MSOA21CD/E02005442	Ermine
+MSOA21CD/E02005512	Wayland, Ellingham & Great Hockham
+MSOA21CD/E02005516	East Harling, Garboldisham & Kenninghall
+MSOA21CD/E02005518	Thetford Central & East
+MSOA21CD/E02005562	Grimston, Gayton & East Winch
+MSOA21CD/E02005566	Upwell, Delph & Emneth
+MSOA21CD/E02005589	Earlham
+MSOA21CD/E02005592	Earlham Road & College Road
+MSOA21CD/E02005595	Eaton
+MSOA21CD/E02005598	Cringleford, Little Melton & Easton
+MSOA21CD/E02005629	King's Cliffe, Woodnewton & Easton
+MSOA21CD/E02005661	Eastfield
+MSOA21CD/E02005679	East Hunsbury
+MSOA21CD/E02005691	Kings Sutton, Greatworth & Evenley
+MSOA21CD/E02005700	Earls Barton & Great Doddington
+MSOA21CD/E02005723	Morpeth Central & East
+MSOA21CD/E02005746	Skipton Town & East
+MSOA21CD/E02005759	Easingwold & Stillington
+MSOA21CD/E02005764	Ripon South & East
+MSOA21CD/E02005796	Esk Valley & Runswick Coast
+MSOA21CD/E02005797	Whitby South & East
+MSOA21CD/E02005806	Eastfield, Crossgates & Seamer
+MSOA21CD/E02005818	Eggborough, Kellington & Smeaton
+MSOA21CD/E02005825	East Kirkby
+MSOA21CD/E02005831	Hucknall North & East
+MSOA21CD/E02005837	Ranskill, Everton & Gringley
+MSOA21CD/E02005848	Manton, Clumber & Elkesley
+MSOA21CD/E02005850	Eastwood Hall & Brinsley
+MSOA21CD/E02005851	Eastwood Town
+MSOA21CD/E02005852	Eastwood East
+MSOA21CD/E02005890	Eakring & Ling Forest
+MSOA21CD/E02005894	Edwinstowe & Clipstone
+MSOA21CD/E02005906	East Bridgford & Aslockton
+MSOA21CD/E02005913	Edwalton
+MSOA21CD/E02005920	East Leake
+MSOA21CD/E02005950	East Central Oxford
+MSOA21CD/E02005984	Kingston Bagpuize & East Hanney
+MSOA21CD/E02005994	Kingham, Enstone & Middle Barton
+MSOA21CD/E02006003	Eynsham & Stanton Harcourt
+MSOA21CD/E02006017	Ellesmere
+MSOA21CD/E02006053	Frome South & East
+MSOA21CD/E02006056	Evercreech & Nunney
+MSOA21CD/E02006096	Chard North & East
+MSOA21CD/E02006117	Dunster, Dulverton & Exmoor
+MSOA21CD/E02006118	Rugeley North & Etchinghill
+MSOA21CD/E02006180	Featherstone East & Essington
+MSOA21CD/E02006192	Eccleshall & Yarnfield
+MSOA21CD/E02006211	Endon & Brown Edge
+MSOA21CD/E02006236	East Bergholt, Brantham & Capel St Mary
+MSOA21CD/E02006240	Beck Row, Eriswell & Barton Mills
+MSOA21CD/E02006243	North Newmarket, Studlands & Exning
+MSOA21CD/E02006261	Eye, Palgrave & Occold
+MSOA21CD/E02006264	Thurston, Badwell Ash & Elmswell North
+MSOA21CD/E02006266	Elmswell South, Haughley, Beyton & Felsham
+MSOA21CD/E02006281	Eastgate & Southgate
+MSOA21CD/E02006318	East Molesey
+MSOA21CD/E02006329	Esher
+MSOA21CD/E02006341	Epsom North
+MSOA21CD/E02006342	Epsom Town
+MSOA21CD/E02006343	Epsom Downs & Common
+MSOA21CD/E02006346	Horsley & Effingham
+MSOA21CD/E02006388	Earlswood & Whitebushes
+MSOA21CD/E02006393	Egham Town
+MSOA21CD/E02006394	Englefield Green & University
+MSOA21CD/E02006395	Egham Hythe & Pooley Green
+MSOA21CD/E02006449	Elstead & Milford
+MSOA21CD/E02006453	Ewhurst & Chiddingfold
+MSOA21CD/E02006489	Bedworth Coalpit Field & Exhall
+MSOA21CD/E02006499	Eastlands
+MSOA21CD/E02006504	Earlswood, Tanworth-in-Arden & Sambourne
+MSOA21CD/E02006517	Lower Quinton & Ettington
+MSOA21CD/E02006544	Westergate, Eastergate & Walberton
+MSOA21CD/E02006551	East Preston & Rustington East
+MSOA21CD/E02006565	Easebourne & Petworth
+MSOA21CD/E02006577	Ewhurst & West Green
+MSOA21CD/E02006604	East Grinstead Central & North
+MSOA21CD/E02006606	East Grinstead East
+MSOA21CD/E02006607	East Grinstead West & South
+MSOA21CD/E02006620	Hassocks, Keymer & East Hurstpierpoint
+MSOA21CD/E02006629	East Worthing
+MSOA21CD/E02006654	Chippenham South & East
+MSOA21CD/E02006665	Mere & East Knoyle
+MSOA21CD/E02006669	Wilton, Nadder & Ebble
+MSOA21CD/E02006720	Upton-upon-Severn, Welland & Eldersfield
+MSOA21CD/E02006757	Wick, Elmley Castle & Fladbury
+MSOA21CD/E02006761	Evesham Central
+MSOA21CD/E02006762	Evesham North & Hampton
+MSOA21CD/E02006763	Evesham East
+MSOA21CD/E02006764	Evesham South
+MSOA21CD/E02006766	Bredon, Ashton & Eckington
+MSOA21CD/E02006785	Wickham Street & East Wickham
+MSOA21CD/E02006787	Elmers End
+MSOA21CD/E02006804	Eckington East & Renishaw
+MSOA21CD/E02006833	East Malling, West Malling & Trottiscliffe
+MSOA21CD/E02006837	Ewell East
+MSOA21CD/E02006909	The Fens, Elwick & Hart
+MSOA21CD/E02006969	Ealing Broadway East
+MSOA21CD/E02006986	Levenshulme North & East
+MSOA21CD/E02006995	East Village
+MSOA21CD/E02007011	Wixams & Elstow
+MSOA21CD/E02007019	Ilford Central & East
+MSOA21CD/E02007042	Northallerton North & East
+MSOA21CD/E02007068	Elliman
+MSOA21CD/E02007076	Augusta Park, East Anton & the Enhams
+MSOA21CD/E02007101	Elswick North
+MSOA21CD/E02007104	Elswick South
+MSOA21CD/E02007106	Cramlington North & East
+MSOA21CD/E02007110	Hoxton South & East
+MSOA21CD/W02000043	Prestatyn Central & East
+MSOA21CD/W02000056	Corwen, Llanelidan & Efenechdyd
+MSOA21CD/W02000070	Ewloe & Hawarden
+MSOA21CD/W02000108	Rhayader, Newbridge-on-Wye & Elan Valley
+MSOA21CD/W02000317	Ebbw Vale North & Glyncoed
+MSOA21CD/W02000320	Ebbw Vale South & Cwm
+MSOA21CD/W02000405	Ely East
+MSOA21CD/W02000409	Ely West
+PCON17CD/E14000560	Birmingham, Edgbaston
+PCON17CD/E14000561	Birmingham, Erdington
+PCON17CD/E14000674	Ealing Central and Acton
+PCON17CD/E14000675	Ealing North
+PCON17CD/E14000676	Ealing, Southall
+PCON17CD/E14000677	Easington
+PCON17CD/E14000678	East Devon
+PCON17CD/E14000679	East Ham
+PCON17CD/E14000680	East Hampshire
+PCON17CD/E14000681	East Surrey
+PCON17CD/E14000682	East Worthing and Shoreham
+PCON17CD/E14000683	East Yorkshire
+PCON17CD/E14000684	Eastbourne
+PCON17CD/E14000685	Eastleigh
+PCON17CD/E14000686	Eddisbury
+PCON17CD/E14000687	Edmonton
+PCON17CD/E14000688	Ellesmere Port and Neston
+PCON17CD/E14000689	Elmet and Rothwell
+PCON17CD/E14000690	Eltham
+PCON17CD/E14000691	Enfield North
+PCON17CD/E14000692	Enfield, Southgate
+PCON17CD/E14000693	Epping Forest
+PCON17CD/E14000694	Epsom and Ewell
+PCON17CD/E14000695	Erewash
+PCON17CD/E14000696	Erith and Thamesmead
+PCON17CD/E14000697	Esher and Walton
+PCON17CD/E14000698	Exeter
+PCON17CD/N06000005	East Antrim
+PCON17CD/N06000006	East Londonderry
+PCON17CD/S14000018	East Dunbartonshire
+PCON17CD/S14000019	East Kilbride, Strathaven and Lesmahagow
+PCON17CD/S14000020	East Lothian
+PCON17CD/S14000021	East Renfrewshire
+PCON17CD/S14000022	Edinburgh East
+PCON17CD/S14000023	Edinburgh North and Leith
+PCON17CD/S14000024	Edinburgh South
+PCON17CD/S14000025	Edinburgh South West
+PCON17CD/S14000026	Edinburgh West
+WD21CD/E05000030	Eastbrook
+WD21CD/E05000031	Eastbury
+WD21CD/E05000048	East Barnet
+WD21CD/E05000049	East Finchley
+WD21CD/E05000050	Edgware
+WD21CD/E05000173	Ealing Broadway
+WD21CD/E05000174	Ealing Common
+WD21CD/E05000175	East Acton
+WD21CD/E05000176	Elthorne
+WD21CD/E05000197	Edmonton Green
+WD21CD/E05000198	Enfield Highway
+WD21CD/E05000199	Enfield Lock
+WD21CD/E05000218	Eltham North
+WD21CD/E05000219	Eltham South
+WD21CD/E05000220	Eltham West
+WD21CD/E05000287	Edgware
+WD21CD/E05000308	Elm Park
+WD21CD/E05000309	Emerson Park
+WD21CD/E05000329	Eastcote and East Ruislip
+WD21CD/E05000443	Evelyn
+WD21CD/E05000480	East Ham Central
+WD21CD/E05000481	East Ham North
+WD21CD/E05000482	East Ham South
+WD21CD/E05000517	East Sheen
+WD21CD/E05000594	Endlebury
+WD21CD/E05000612	Earlsfield
+WD21CD/E05000613	East Putney
+WD21CD/E05000672	East
+WD21CD/E05000673	Elton
+WD21CD/E05000743	East Middleton
+WD21CD/E05000788	Edgeley and Cheadle Heath
+WD21CD/E05000896	Everton
+WD21CD/E05000919	Earlestown
+WD21CD/E05000920	Eccleston
+WD21CD/E05000960	Eastham
+WD21CD/E05001221	Earlsdon
+WD21CD/E05001289	Elmdon
+WD21CD/E05001326	East Park
+WD21CD/E05001327	Ettingshall
+WD21CD/E05001350	Eccleshill
+WD21CD/E05001373	Elland
+WD21CD/E05001533	Eaglescliffe
+WD21CD/E05001695	East Wolds and Coastal
+WD21CD/E05001714	East Marsh
+WD21CD/E05002082	Efford and Lipson
+WD21CD/E05002083	Eggbuckland
+WD21CD/E05002215	Eastwood Park
+WD21CD/E05002234	East Tilbury
+WD21CD/E05002377	Emmbrook
+WD21CD/E05002378	Evendons
+WD21CD/E05002422	East Brighton
+WD21CD/E05002447	Eastney and Craneswater
+WD21CD/E05003212	Eamont
+WD21CD/E05004147	Broadley Common, Epping Upland and Nazeing
+WD21CD/E05004153	Epping Hemnall
+WD21CD/E05004154	Epping Lindsey and Thornwood Common
+WD21CD/E05004537	Elson
+WD21CD/E05004571	Emsworth
+WD21CD/E05004767	Ermine
+WD21CD/E05004991	East
+WD21CD/E05005013	Edenbridge North and East
+WD21CD/E05005014	Edenbridge South and West
+WD21CD/E05005090	Eastcliff
+WD21CD/E05005189	Elswick and Little Eccleston
+WD21CD/E05005317	Eden
+WD21CD/E05005412	Ellis
+WD21CD/E05005413	Enderby and St John's
+WD21CD/E05005430	East Goscote
+WD21CD/E05005485	Earl Shilton
+WD21CD/E05005624	Eagle, Swinderby and Witham St Hughs
+WD21CD/E05005766	Eynesford
+WD21CD/E05005790	East Flegg
+WD21CD/E05006381	East Markham
+WD21CD/E05006382	East Retford East
+WD21CD/E05006383	East Retford North
+WD21CD/E05006384	East Retford South
+WD21CD/E05006385	East Retford West
+WD21CD/E05006386	Everton
+WD21CD/E05006639	Eynsham and Cassington
+WD21CD/E05006907	Etching Hill and The Heath
+WD21CD/E05006925	Eton Park
+WD21CD/E05006994	Essington
+WD21CD/E05007277	Ewell
+WD21CD/E05007278	Ewell Court
+WD21CD/E05007292	Effingham
+WD21CD/E05007417	Elstead and Thursley
+WD21CD/E05007418	Ewhurst
+WD21CD/E05007481	Exhall
+WD21CD/E05007565	Eastbrook
+WD21CD/E05007680	East Grinstead Ashplats
+WD21CD/E05007681	East Grinstead Baldwins
+WD21CD/E05007682	East Grinstead Herontye
+WD21CD/E05007683	East Grinstead Imberhorne
+WD21CD/E05007684	East Grinstead Town
+WD21CD/E05007908	Eckington
+WD21CD/E05007909	Elmley Castle and Somerville
+WD21CD/E05007910	Evesham North
+WD21CD/E05007911	Evesham South
+WD21CD/E05008159	Ellesmere Urban
+WD21CD/E05008726	Eaton Park
+WD21CD/E05008727	Etruria and Hanley
+WD21CD/E05008757	Eastcotts
+WD21CD/E05008758	Elstow and Stewartby
+WD21CD/E05008791	Eaton Bray
+WD21CD/E05008811	Etwall
+WD21CD/E05008863	Eakring
+WD21CD/E05008906	East Polden
+WD21CD/E05008957	Eastcott
+WD21CD/E05008960	Liden, Eldene and Park South
+WD21CD/E05008986	Eastlands
+WD21CD/E05008992	Empress
+WD21CD/E05009059	Easington
+WD21CD/E05009060	Elvet and Gilesgate
+WD21CD/E05009061	Esh and Witton Gilbert
+WD21CD/E05009062	Evenwood
+WD21CD/E05009344	Elliman
+WD21CD/E05009395	Earl's Court
+WD21CD/E05009433	Moor Park & Eastbury
+WD21CD/E05009453	Eign Hill
+WD21CD/E05009492	Benwick, Coates & Eastrea
+WD21CD/E05009496	Elm & Christchurch
+WD21CD/E05009549	East Downs
+WD21CD/E05009597	Ellel
+WD21CD/E05009664	Embsay-with-Eastby
+WD21CD/E05009675	Easingwold
+WD21CD/E05009698	Ernehale
+WD21CD/E05009716	East Bridgford
+WD21CD/E05009717	Edwalton
+WD21CD/E05009809	East Preston
+WD21CD/E05009914	Elsenham & Henham
+WD21CD/E05009958	Eynsford
+WD21CD/E05009975	Edgmond & Ercall Magna
+WD21CD/E05009976	Ercall
+WD21CD/E05009986	Newport South & East
+WD21CD/E05010017	East Folkestone
+WD21CD/E05010051	Eggborough
+WD21CD/E05010052	Escrick
+WD21CD/E05010073	Edwinstowe & Clipstone
+WD21CD/E05010107	Ellistown & Battleflat
+WD21CD/E05010133	Dartmouth & East Dart
+WD21CD/E05010134	Ermington & Ugborough
+WD21CD/E05010188	Ettington
+WD21CD/E05010221	Earnshaw Bridge
+WD21CD/E05010416	Eastbourne
+WD21CD/E05010464	Evington
+WD21CD/E05010465	Eyres Monsell
+WD21CD/E05010484	Eccleshall
+WD21CD/E05010523	Eastwood Hall
+WD21CD/E05010524	Eastwood Hilltop
+WD21CD/E05010525	Eastwood St Mary's
+WD21CD/E05010557	Exbourne
+WD21CD/E05010704	Ermin
+WD21CD/E05010734	Edenthorpe & Kirk Sandall
+WD21CD/E05010735	Edlington & Warmsworth
+WD21CD/E05010809	East
+WD21CD/E05010810	Eye, Thorney and Newborough
+WD21CD/E05010866	East Ecclesfield
+WD21CD/E05010867	Ecclesall
+WD21CD/E05010896	Easton
+WD21CD/E05010897	Eastville
+WD21CD/E05010955	Elmbridge
+WD21CD/E05011013	Exwick
+WD21CD/E05011076	Esher
+WD21CD/E05011134	Edgbaston
+WD21CD/E05011135	Erdington
+WD21CD/E05011191	Eastleigh Central
+WD21CD/E05011192	Eastleigh North
+WD21CD/E05011193	Eastleigh South
+WD21CD/E05011224	East Wickham
+WD21CD/E05011225	Erith
+WD21CD/E05011445	Elswick
+WD21CD/E05011517	Ewood
+WD21CD/E05011563	Ely East
+WD21CD/E05011564	Ely North
+WD21CD/E05011565	Ely West
+WD21CD/E05011585	East Saltdean & Telscombe Cliffs
+WD21CD/E05011597	Plumpton, Streat, East Chiltington & St John
+WD21CD/E05011616	Eastern Rother
+WD21CD/E05011627	Chiddingly, East Hoathly & Waldron
+WD21CD/E05011671	Easebourne
+WD21CD/E05011728	Ellen & Gilcrux
+WD21CD/E05011743	Aylesford & East Stour
+WD21CD/E05011790	Exe Valley
+WD21CD/E05011791	Exmouth Brixington
+WD21CD/E05011792	Exmouth Halsdon
+WD21CD/E05011793	Exmouth Littleham
+WD21CD/E05011794	Exmouth Town
+WD21CD/E05011795	Exmouth Withycombe Raleigh
+WD21CD/E05011839	Erpingham
+WD21CD/E05011874	Easton
+WD21CD/E05011932	Alresford & Elmstead
+WD21CD/E05011943	Eastcliff
+WD21CD/E05011991	Elmton-with-Creswell
+WD21CD/E05012009	East Whalley, Read & Simonstone
+WD21CD/E05012010	Edisford & Low Moor
+WD21CD/E05012049	Eckington North
+WD21CD/E05012050	Eckington South & Renishaw
+WD21CD/E05012112	Emersons Green
+WD21CD/E05012188	Elstree
+WD21CD/E05012259	Ellacombe
+WD21CD/E05012300	Buriton & East Meon
+WD21CD/E05012329	East Downham
+WD21CD/E05012330	Emneth & Outwell
+WD21CD/E05012377	Eastfield
+WD21CD/E05012378	Esk Valley
+WD21CD/E05012397	Ebbsfleet
+WD21CD/E05012441	Eston
+WD21CD/E05012504	Eton & Castle
+WD21CD/E05012528	Eggwood
+WD21CD/E05012548	Arlecdon & Ennerdale
+WD21CD/E05012554	Egremont
+WD21CD/E05012573	East Bergholt
+WD21CD/E05012597	Elmswell & Woolpit
+WD21CD/E05012598	Eye
+WD21CD/E05012635	Exton
+WD21CD/E05012661	East Cliff & Springbourne
+WD21CD/E05012662	East Southbourne & Tuckton
+WD21CD/E05012699	Eggardon
+WD21CD/E05012741	Eastern Felixstowe
+WD21CD/E05012772	Eastgate
+WD21CD/E05012773	Exning
+WD21CD/E05012812	Exmoor
+WD21CD/E05012851	Ditchingham & Earsham
+WD21CD/E05012856	Aylesham, Eythorne & Shepherdswell
+WD21CD/E05012859	Eastry Rural
+WD21CD/E05012862	Maxton & Elms Vale
+WD21CD/E05012874	Earlswood & Whitebushes
+WD21CD/E05012891	Egham Hythe
+WD21CD/E05012892	Egham Town
+WD21CD/E05012893	Englefield Green East
+WD21CD/E05012894	Englefield Green West
+WD21CD/E05012904	Eaton
+WD21CD/E05012988	East Malling
+WD21CD/E05013020	Boothstown & Ellenbrook
+WD21CD/E05013024	Eccles
+WD21CD/E05013055	East Chesterton
+WD21CD/E05013075	Croston, Mawdesley & Euxton South
+WD21CD/E05013076	Eccleston, Heskin & Charnock Richard
+WD21CD/E05013077	Euxton
+WD21CD/E05013083	Eastrop & Grove
+WD21CD/E05013084	Evingar
+WD21CD/E05013206	Earby & Coates
+WD21CD/E05013220	Earls Barton
+WD21CD/E05013254	East Hunsbury and Shelfleys
+WD21CD/E05013370	East Cowes
+WD21CD/E05013385	Ryde Appley & Elmfield
+WD21CD/E05013432	Downton & Ebble Valley
+WD21CD/E05013434	Ethandune
+WD21CD/N08000516	Ebrington
+WD21CD/N08000517	Eglinton
+WD21CD/N08000518	Enagh
+WD21CD/N08000617	Ederney and Kesh
+WD21CD/N08000618	Erne
+WD21CD/N08000716	Enler
+WD21CD/S13002551	East End
+WD21CD/S13002600	Barraigh, Bhatarsaigh, Eirisgeigh agus Uibhist a Deas
+WD21CD/S13002736	East Mainland, South Ronaldsay and Burray
+WD21CD/S13002767	East Berwickshire
+WD21CD/S13002824	East Livingston and East Calder
+WD21CD/S13002856	Ellon and District
+WD21CD/S13002859	East Garioch
+WD21CD/S13002963	East Neuk and Landward
+WD21CD/S13002984	East Centre
+WD21CD/S13002993	East Sutherland and Edderton
+WD21CD/S13002999	Eilean á Chèo
+WD21CD/S13003029	Elgin City North
+WD21CD/S13003030	Elgin City South
+WD21CD/S13003086	Erskine and Inchinnan
+WD21CD/S13003100	East Kilbride South
+WD21CD/S13003101	East Kilbride Central South
+WD21CD/S13003102	East Kilbride Central North
+WD21CD/S13003103	East Kilbride West
+WD21CD/S13003104	East Kilbride East
+WD21CD/W05000067	Efail-newydd/Buan
+WD21CD/W05000123	Eglwysbach
+WD21CD/W05000124	Eirias
+WD21CD/W05000156	Efenechtyd
+WD21CD/W05000198	Ewloe
+WD21CD/W05000249	Erddig
+WD21CD/W05000250	Esclusham
+WD21CD/W05000471	Elli
+WD21CD/W05000860	Ely
+WD21CD/W05000942	Ebbw Vale North
+WD21CD/W05000943	Ebbw Vale South
+WD21CD/W05000952	East Williamston

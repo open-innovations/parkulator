@@ -435,7 +435,6 @@
 		});
 	}
 	function onPolygonCreationEnd() {
-		console.log('onPolygonCreationEnd');
 		var map = this.getMap();
 		map.dragging.enable();
 		if(this.closeLine) map.removeLayer(this.closeLine);
@@ -447,10 +446,6 @@
 		removeEndClickArea(this);
 	}
 	function onActivate(event) {
-		console.log('onActivate',event);
-		/*if (!isTrustedEvent(event)) {
-			return;
-		}*/
 
 		var map = this.getMap();
 		this._dragStatus = map.dragging._enabled;
@@ -460,7 +455,7 @@
 
 		if (activeState) {
 			if (!this._dragStatus) {
-				map.dragging.disable();
+				map.dragging.enable();
 			}
 
 			this.options.onButtonDeactivate(this.polygon, this, event);
@@ -477,6 +472,7 @@
 				map.getContainer().classList.add('drawing-area');
 				this.setPhase('draw', true);
 			}
+			
 		}
 	}
 	function onMarkerDrag(index) {

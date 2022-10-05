@@ -1,0 +1,2122 @@
+LAD21CD/E06000010	Kingston upon Hull, City of
+LAD21CD/E06000019	Herefordshire, County of
+LAD21CD/E06000023	Bristol, City of
+LAD21CD/E06000047	County Durham
+LAD21CD/E06000049	Cheshire East
+LAD21CD/E06000050	Cheshire West and Chester
+LAD21CD/E06000052	Cornwall
+LAD21CD/E06000056	Central Bedfordshire
+LAD21CD/E06000058	Bournemouth, Christchurch and Poole
+LAD21CD/E07000008	Cambridge
+LAD21CD/E07000028	Carlisle
+LAD21CD/E07000029	Copeland
+LAD21CD/E07000034	Chesterfield
+LAD21CD/E07000069	Castle Point
+LAD21CD/E07000070	Chelmsford
+LAD21CD/E07000071	Colchester
+LAD21CD/E07000078	Cheltenham
+LAD21CD/E07000079	Cotswold
+LAD21CD/E07000106	Canterbury
+LAD21CD/E07000118	Chorley
+LAD21CD/E07000130	Charnwood
+LAD21CD/E07000163	Craven
+LAD21CD/E07000177	Cherwell
+LAD21CD/E07000192	Cannock Chase
+LAD21CD/E07000225	Chichester
+LAD21CD/E07000226	Crawley
+LAD21CD/E08000026	Coventry
+LAD21CD/E08000033	Calderdale
+LAD21CD/E09000001	City of London
+LAD21CD/E09000007	Camden
+LAD21CD/E09000008	Croydon
+LAD21CD/N09000004	Causeway Coast and Glens
+LAD21CD/S12000005	Clackmannanshire
+LAD21CD/S12000036	City of Edinburgh
+LAD21CD/W06000003	Conwy
+LAD21CD/W06000008	Ceredigion
+LAD21CD/W06000010	Carmarthenshire
+LAD21CD/W06000015	Cardiff
+LAD21CD/W06000018	Caerphilly
+MSOA21CD/E02000001	City of London
+MSOA21CD/E02000003	Chadwell Heath East
+MSOA21CD/E02000007	Central Park & Frizlands Lane
+MSOA21CD/E02000020	Creekmouth & Barking Riverside
+MSOA21CD/E02000045	Colney Hatch
+MSOA21CD/E02000046	Church End
+MSOA21CD/E02000048	Copthall & Downage
+MSOA21CD/E02000064	Childs Hill
+MSOA21CD/E02000065	Crossway Park
+MSOA21CD/E02000072	Slade Green & Crayford Marshes
+MSOA21CD/E02000074	Lesney Farm & Colyers East
+MSOA21CD/E02000083	Crayford
+MSOA21CD/E02000107	Cricklewood Anson Road
+MSOA21CD/E02000117	Church End
+MSOA21CD/E02000128	Chislehurst North
+MSOA21CD/E02000131	Crystal Palace Park
+MSOA21CD/E02000133	Chislehurst West & Elmstead
+MSOA21CD/E02000136	Chislehurst East & Hoblingwell Wood
+MSOA21CD/E02000139	Clock House & Cator Park
+MSOA21CD/E02000157	Crofton
+MSOA21CD/E02000160	Hayes South & Coney Hall
+MSOA21CD/E02000163	Chelsfield & Green Street Green
+MSOA21CD/E02000177	Chalk Farm
+MSOA21CD/E02000180	Camden Road South
+MSOA21CD/E02000184	Camden Street & Elm Village
+MSOA21CD/E02000186	Camden Town & Mornington Crescent
+MSOA21CD/E02000194	Crystal Palace Triangle
+MSOA21CD/E02000217	Croydon Minster & Waddon North
+MSOA21CD/E02000222	Croham
+MSOA21CD/E02000234	Coulsdon
+MSOA21CD/E02000253	Cuckoo Park
+MSOA21CD/E02000255	Drayton Green & Cleveland
+MSOA21CD/E02000280	Chase & Crews Hill
+MSOA21CD/E02000281	Carterhatch & Forty Hall
+MSOA21CD/E02000284	Chase Side
+MSOA21CD/E02000286	Chase Farm & The Ridgeway
+MSOA21CD/E02000287	Cockfosters & Hadley Wood
+MSOA21CD/E02000324	Charlton Village
+MSOA21CD/E02000326	Charlton Slopes
+MSOA21CD/E02000350	Stoke Newington East & Cazenove
+MSOA21CD/E02000352	Clissold North
+MSOA21CD/E02000356	Clissold South
+MSOA21CD/E02000394	Sands End & Chelsea Harbour
+MSOA21CD/E02000413	Fortis Green & Coldfall
+MSOA21CD/E02000429	Crouch End West
+MSOA21CD/E02000430	Crouch End East
+MSOA21CD/E02000434	Canons Park
+MSOA21CD/E02000466	Havering-atte-Bower & Chase Cross
+MSOA21CD/E02000468	Collier Row & Park Farm
+MSOA21CD/E02000476	Central Romford
+MSOA21CD/E02000481	Cranham East
+MSOA21CD/E02000482	Upminster North & Cranham West
+MSOA21CD/E02000487	Upminster South & Corbets Tey
+MSOA21CD/E02000511	Charville
+MSOA21CD/E02000525	Harlington & Cranford Cross
+MSOA21CD/E02000526	Chiswick North East
+MSOA21CD/E02000532	Chiswick South East
+MSOA21CD/E02000533	Chiswick South West
+MSOA21CD/E02000538	Cranford
+MSOA21CD/E02000567	Canonbury East & Mildmay Park
+MSOA21CD/E02000568	Caledonian Road
+MSOA21CD/E02000569	Islington North & Canonbury West
+MSOA21CD/E02000575	Clerkenwell
+MSOA21CD/E02000594	Chelsea Manor & Royal Hospital
+MSOA21CD/E02000595	Chelsea Riverside East
+MSOA21CD/E02000597	Chelsea Riverside West
+MSOA21CD/E02000599	Kingston Vale & Coombe Hill
+MSOA21CD/E02000616	Chessington North
+MSOA21CD/E02000617	Chessington South & Malden Rushett
+MSOA21CD/E02000629	Clapham North
+MSOA21CD/E02000630	Clapham Old Town
+MSOA21CD/E02000634	Clapham Common North
+MSOA21CD/E02000636	Clapham South
+MSOA21CD/E02000639	Clapham Park East & Streatham Hill North
+MSOA21CD/E02000640	Clapham Park West
+MSOA21CD/E02000667	Crofton Park
+MSOA21CD/E02000670	Catford East & Mountsfield Park
+MSOA21CD/E02000672	Catford Bridge
+MSOA21CD/E02000674	Corbett Estate
+MSOA21CD/E02000677	Culverley Green
+MSOA21CD/E02000683	Chinbrook
+MSOA21CD/E02000693	Colliers Wood
+MSOA21CD/E02000698	Cottenham Park
+MSOA21CD/E02000709	Cannon Hill
+MSOA21CD/E02000740	Canning Town North
+MSOA21CD/E02000743	Canning Town Central
+MSOA21CD/E02000744	Canning Town East
+MSOA21CD/E02000747	Canning Town South & Bow Creek
+MSOA21CD/E02000749	Custom House
+MSOA21CD/E02000758	Clayhall North
+MSOA21CD/E02000813	Canada Water
+MSOA21CD/E02000815	Elephant & Castle
+MSOA21CD/E02000826	Camberwell North
+MSOA21CD/E02000827	Camberwell Green
+MSOA21CD/E02000830	Camberwell South
+MSOA21CD/E02000854	Carshalton Village
+MSOA21CD/E02000855	Cheam High Street
+MSOA21CD/E02000859	Carshalton on the Hill
+MSOA21CD/E02000861	Carshalton Beeches & Banstead Road
+MSOA21CD/E02000863	Orchard Hill, Woodcote Green & Clockhouse
+MSOA21CD/E02000869	Columbia Road
+MSOA21CD/E02000895	Chingford Green West
+MSOA21CD/E02000896	Chingford Green East
+MSOA21CD/E02000899	Chingford Mount
+MSOA21CD/E02000926	St Mary's & Cotton Row
+MSOA21CD/E02000931	Clapham Common West
+MSOA21CD/E02000934	Clapham Junction & East Hill
+MSOA21CD/E02000968	Church Street
+MSOA21CD/E02000979	Central Westminster
+MSOA21CD/E02000999	Central Bolton
+MSOA21CD/E02001047	Charlestown
+MSOA21CD/E02001048	Crumpsall North & Heaton Park
+MSOA21CD/E02001052	Crumpsall South
+MSOA21CD/E02001056	Clayton Vale
+MSOA21CD/E02001073	Chorlton North
+MSOA21CD/E02001077	Chorlton South
+MSOA21CD/E02001081	Beech Road & Chorlton Meadows
+MSOA21CD/E02001098	Shaw & Crompton
+MSOA21CD/E02001100	Clough & Shaw Side
+MSOA21CD/E02001102	Royton East & Cowlishaw
+MSOA21CD/E02001107	Chadderton North
+MSOA21CD/E02001114	Chadderton Central
+MSOA21CD/E02001124	Chadderton South East
+MSOA21CD/E02001125	Chadderton South West
+MSOA21CD/E02001132	Littleborough North & Calderbook
+MSOA21CD/E02001141	Central Rochdale & Mandale Park
+MSOA21CD/E02001148	Castleton & Trub
+MSOA21CD/E02001161	Clifton
+MSOA21CD/E02001164	Clifton Green & Pendlebury East
+MSOA21CD/E02001173	Cromwell Road & Broad Street
+MSOA21CD/E02001186	Lower Irlam & Cadishead
+MSOA21CD/E02001189	Central Reddish
+MSOA21CD/E02001196	Romiley & Compstall
+MSOA21CD/E02001200	Central Stockport, Portwood & Shaw Heath
+MSOA21CD/E02001204	Cheadle Heath
+MSOA21CD/E02001208	Cheadle East
+MSOA21CD/E02001214	Gatley South & Cheadle West
+MSOA21CD/E02001216	Cheadle Hulme Orrishmere
+MSOA21CD/E02001220	Cheadle Hulme West
+MSOA21CD/E02001225	Cheadle Hulme South East
+MSOA21CD/E02001231	Carrbrook & Micklehurst
+MSOA21CD/E02001258	Cheetham Fold & Gee Cross
+MSOA21CD/E02001340	Court Hey & Swanside
+MSOA21CD/E02001343	Halsnead, Cronton & Halewood East
+MSOA21CD/E02001350	Croxteth West & Gillmoss
+MSOA21CD/E02001353	Croxteth East
+MSOA21CD/E02001359	Croxteth Park
+MSOA21CD/E02001382	Childwall East
+MSOA21CD/E02001383	Chinatown, St James & Georgian Quarter
+MSOA21CD/E02001387	Childwall West & Wavertree Green
+MSOA21CD/E02001393	Calderstones
+MSOA21CD/E02001427	Bold & Clock Face
+MSOA21CD/E02001429	Crossens
+MSOA21CD/E02001453	Crosby East
+MSOA21CD/E02001456	Brighton le Sands & Crosby West
+MSOA21CD/E02001481	Claughton North
+MSOA21CD/E02001486	Claughton South & Oxton North
+MSOA21CD/E02001494	Caldy & Newton
+MSOA21CD/E02001510	Royston East & Carlton
+MSOA21CD/E02001516	Cudworth Village
+MSOA21CD/E02001524	Silkstone, Hoylandswaine & Cawthorne
+MSOA21CD/E02001540	Askern, Campsall & Norton
+MSOA21CD/E02001543	Carcroft
+MSOA21CD/E02001554	Cusworth
+MSOA21CD/E02001558	Cadeby, Hickleton & Hampole
+MSOA21CD/E02001560	Central Doncaster & Hyde Park
+MSOA21CD/E02001562	Cantley Park
+MSOA21CD/E02001570	Conisbrough North
+MSOA21CD/E02001573	Conisbrough South
+MSOA21CD/E02001604	Catcliffe, Treeton & Waverley
+MSOA21CD/E02001614	Chapeltown
+MSOA21CD/E02001628	Tinsley & Carbrook
+MSOA21CD/E02001630	Crabtree & Fir Vale
+MSOA21CD/E02001639	Crookes
+MSOA21CD/E02001643	Sandygate & Crosspool
+MSOA21CD/E02001672	Charnock & Basegreen
+MSOA21CD/E02001683	Crawcrook & Greenside
+MSOA21CD/E02001713	Coxlodge & West Gosforth
+MSOA21CD/E02001723	Cowgate
+MSOA21CD/E02001745	Killingworth West & Camperdown
+MSOA21CD/E02001747	Cullercoats
+MSOA21CD/E02001760	Chirton
+MSOA21CD/E02001780	Cleadon Park
+MSOA21CD/E02001789	Cleadon & East Boldon
+MSOA21CD/E02001799	Concord and Sulgrave
+MSOA21CD/E02001807	Columbia, Barmston & Teal Farm
+MSOA21CD/E02001835	Sutton Coldfield South & Central
+MSOA21CD/E02001844	Chester Road
+MSOA21CD/E02001855	Castle Vale
+MSOA21CD/E02001900	Five Ways South & Calthorpe Park
+MSOA21CD/E02001914	Moor Green & Cannon Hill
+MSOA21CD/E02001921	California
+MSOA21CD/E02001942	Cotteridge
+MSOA21CD/E02001971	Coundon
+MSOA21CD/E02001976	Clifford Park
+MSOA21CD/E02001984	Copsewood
+MSOA21CD/E02001987	Chapelfields
+MSOA21CD/E02001988	Central Coventry
+MSOA21CD/E02001991	Earlsdon & Canley Gardens
+MSOA21CD/E02001993	Canley & Westwood Heath
+MSOA21CD/E02001994	Cheylesmore Daventry Road
+MSOA21CD/E02001999	Cannon Park & University
+MSOA21CD/E02002000	Coseley Wallbrook
+MSOA21CD/E02002031	Cradley West & Hayes Lane
+MSOA21CD/E02002032	Cradley East
+MSOA21CD/E02002080	Cradley Heath
+MSOA21CD/E02002081	Castle Bromwich West
+MSOA21CD/E02002083	Castle Bromwich East
+MSOA21CD/E02002086	Chelmsley Wood West
+MSOA21CD/E02002088	Chelmsley Wood East
+MSOA21CD/E02002095	Elmdon Heath & Catherine-de-Barnes
+MSOA21CD/E02002099	Central Solihull & Sharmans Cross
+MSOA21CD/E02002109	Dickens Heath, Cheswick Green & Hockley Heath
+MSOA21CD/E02002110	Brownhills West & Clayhanger
+MSOA21CD/E02002167	Castlecroft
+MSOA21CD/E02002169	Compton & Merryhill North
+MSOA21CD/E02002192	Crossflatts & Eldwick
+MSOA21CD/E02002204	Cottingley, Harden & Wilsden
+MSOA21CD/E02002212	Chellow Heights
+MSOA21CD/E02002213	Cullingworth & Denholme
+MSOA21CD/E02002229	Clayton
+MSOA21CD/E02002233	Canterbury
+MSOA21CD/E02002250	Mytholmroyd & Cragg Vale
+MSOA21CD/E02002251	Central Halifax & Boothtown
+MSOA21CD/E02002256	Todmorden West & Cornholme
+MSOA21CD/E02002258	Clifton & Bailiff Bridge
+MSOA21CD/E02002275	Cleckheaton
+MSOA21CD/E02002276	Wilton Park, Carlinghow & Brookroyd
+MSOA21CD/E02002288	Earlsheaton & Chickenley
+MSOA21CD/E02002290	Northorpe & Crossley
+MSOA21CD/E02002297	Cowcliffe & South Fixby
+MSOA21CD/E02002315	Cowlersley & Milnsbridge
+MSOA21CD/E02002317	Crosland Moor
+MSOA21CD/E02002327	Denby Dale, Cumberworth & Clayton West
+MSOA21CD/E02002335	Collingham, Rigton & Harewood
+MSOA21CD/E02002342	Cookridge & Holt Park
+MSOA21CD/E02002354	Carr Manor
+MSOA21CD/E02002363	Chapel Allerton North
+MSOA21CD/E02002368	Calverley & Farsley North
+MSOA21CD/E02002371	Chapel Allerton South & Chapeltown
+MSOA21CD/E02002386	Cross Gates East & Manston
+MSOA21CD/E02002390	Cross Gates West & Killingbeck
+MSOA21CD/E02002402	Colton, Austhorpe & Whitkirk
+MSOA21CD/E02002415	Cross Flats Park & Garnets
+MSOA21CD/E02002419	Beeston West & Cottingley
+MSOA21CD/E02002422	Churwell
+MSOA21CD/E02002439	Castleford Town
+MSOA21CD/E02002441	Castleford West
+MSOA21CD/E02002469	Crofton
+MSOA21CD/E02002473	Durkar & Crigglestone
+MSOA21CD/E02002474	Kettlethorpe & Chapelthorpe
+MSOA21CD/E02002483	Clavering
+MSOA21CD/E02002514	Coulby Newham
+MSOA21CD/E02002515	Redcar Town & Coatham
+MSOA21CD/E02002564	Cockerton & Hopetown
+MSOA21CD/E02002568	College & Park West
+MSOA21CD/E02002590	Culcheth West & Croft
+MSOA21CD/E02002591	Culcheth East & Hollins Green
+MSOA21CD/E02002599	Callands & Old Hall
+MSOA21CD/E02002607	Central Warrington
+MSOA21CD/E02002608	Penketh & Cuerdley
+MSOA21CD/E02002620	Central Blackburn
+MSOA21CD/E02002634	Churchtown
+MSOA21CD/E02002642	Central Blackpool
+MSOA21CD/E02002650	Common Edge
+MSOA21CD/E02002676	Chanterlands Avenue
+MSOA21CD/E02002696	Cherry Burton, Leconfield & Middleton
+MSOA21CD/E02002705	Cottingham West
+MSOA21CD/E02002706	Cottingham East
+MSOA21CD/E02002708	Cottingham South & North Ella
+MSOA21CD/E02002739	Cleethorpes Beacon Hill
+MSOA21CD/E02002743	Cleethorpes West
+MSOA21CD/E02002754	Crowle & Keadby
+MSOA21CD/E02002756	Scunthorpe Central & Crosby
+MSOA21CD/E02002777	Clifton Without & Skelton
+MSOA21CD/E02002778	Rawcliffe & Clifton South
+MSOA21CD/E02002780	Clifton North
+MSOA21CD/E02002789	Westfield, Chapelfields & Foxwood
+MSOA21CD/E02002790	Fulford Road & Clementhorpe
+MSOA21CD/E02002795	Bishopthorpe & Copmanthorpe
+MSOA21CD/E02002801	Chaddesden North
+MSOA21CD/E02002802	Chaddesden West
+MSOA21CD/E02002807	Chaddesden Park
+MSOA21CD/E02002808	Cathedral Quarter & California
+MSOA21CD/E02002813	Rose Hill & Castleward
+MSOA21CD/E02002820	Alvaston & Crewton
+MSOA21CD/E02002825	Chellaston West & Shelton Lock
+MSOA21CD/E02002826	Chellaston East
+MSOA21CD/E02002839	Colchester Road
+MSOA21CD/E02002847	Crown Hills
+MSOA21CD/E02002856	Clarendon Park & Stoneygate South
+MSOA21CD/E02002863	Market Overton, Cottesmore & Empingham
+MSOA21CD/E02002878	Broxtowe & Cinderhill
+MSOA21CD/E02002895	The Park & Castle
+MSOA21CD/E02002902	Clifton North
+MSOA21CD/E02002903	Clifton West
+MSOA21CD/E02002904	Clifton South
+MSOA21CD/E02002911	Credenhill, Weobley & Wellington
+MSOA21CD/E02002913	Colwall, Cradley & Wellington Heath
+MSOA21CD/E02002920	Belmont, Madley & Clehonger
+MSOA21CD/E02002929	Edgmond & Church Aston
+MSOA21CD/E02002953	Bradeley & Chell Heath
+MSOA21CD/E02002961	Cobridge & Central Forest
+MSOA21CD/E02002991	Central Bath & Lansdown
+MSOA21CD/E02002996	Widcombe, Bathwick Hill & Claverton Down
+MSOA21CD/E02003002	Combe Down
+MSOA21CD/E02003004	Pensford, Clutton & Temple Cloud
+MSOA21CD/E02003005	Chew, Bishop Sutton & East Harptree
+MSOA21CD/E02003033	Cotham
+MSOA21CD/E02003037	Clifton East
+MSOA21CD/E02003041	Clifton Village
+MSOA21CD/E02003044	Crews Hole
+MSOA21CD/E02003069	Clevedon North & Walton
+MSOA21CD/E02003071	Clevedon Central
+MSOA21CD/E02003074	Clevedon South & Yeo
+MSOA21CD/E02003076	Yatton & Cleeve
+MSOA21CD/E02003078	Congresbury & Kewstoke
+MSOA21CD/E02003092	Charfield, Wickwar & Iron Acton
+MSOA21CD/E02003097	Chipping Sodbury
+MSOA21CD/E02003118	Cadbury Heath North & Bridgeyate
+MSOA21CD/E02003119	Cadbury Heath South & North Common
+MSOA21CD/E02003129	Crownhill
+MSOA21CD/E02003142	Efford, Laira & Crabtree
+MSOA21CD/E02003148	City Centre, Barbican & Sutton Harbour
+MSOA21CD/E02003149	Cattedown & Prince Rock
+MSOA21CD/E02003165	Clifton & Maidenway
+MSOA21CD/E02003169	Churston & Galmpton
+MSOA21CD/E02003184	Charminster
+MSOA21CD/E02003188	Central Bournemouth
+MSOA21CD/E02003197	Canford Heath West
+MSOA21CD/E02003198	Canford Heath East
+MSOA21CD/E02003199	Creekmoor
+MSOA21CD/E02003211	Branksome Park, Canford Cliffs & Sandbanks
+MSOA21CD/E02003223	Rodbourne & Cheney Manor
+MSOA21CD/E02003224	Covingham
+MSOA21CD/E02003226	Central North
+MSOA21CD/E02003228	Central East & Walcot West
+MSOA21CD/E02003230	Central South & Eastcott
+MSOA21CD/E02003236	Wroughton, Wichelstowe & Chiseldon
+MSOA21CD/E02003248	Central Park
+MSOA21CD/E02003254	Orton West & Castor
+MSOA21CD/E02003268	Challney
+MSOA21CD/E02003290	Chalkwell
+MSOA21CD/E02003296	Corringham North & London Gateway
+MSOA21CD/E02003297	Corringham South
+MSOA21CD/E02003307	Chadwell St Mary
+MSOA21CD/E02003315	Cliffe
+MSOA21CD/E02003317	Wainscott & City Estate
+MSOA21CD/E02003320	Chatham Maritime
+MSOA21CD/E02003328	Chatham Central and Rochester Riverside
+MSOA21CD/E02003334	Chatham South West
+MSOA21CD/E02003335	Chatham South East
+MSOA21CD/E02003341	Cuxton & Halling
+MSOA21CD/E02003344	Capstone
+MSOA21CD/E02003352	Winkfield & Cranbourne
+MSOA21CD/E02003356	Chavey Down & North Ascot West
+MSOA21CD/E02003358	Central Bracknell & Wildridings
+MSOA21CD/E02003359	Crown Wood
+MSOA21CD/E02003363	Crowthorne South
+MSOA21CD/E02003366	College Town
+MSOA21CD/E02003367	Chieveley, East Isley & Compton
+MSOA21CD/E02003372	Calcot North & Little Heath
+MSOA21CD/E02003373	Hermitage & Cold Ash
+MSOA21CD/E02003374	Calcot South
+MSOA21CD/E02003389	Caversham Emmer Green
+MSOA21CD/E02003390	Caversham Heights
+MSOA21CD/E02003391	Caversham Balmore Park
+MSOA21CD/E02003395	Battle & Caversham Bridge
+MSOA21CD/E02003401	Coley Park
+MSOA21CD/E02003412	Cippenham Green
+MSOA21CD/E02003414	Cippenham Meadows
+MSOA21CD/E02003415	Chalvey
+MSOA21CD/E02003417	Central Slough & Upton Court
+MSOA21CD/E02003420	Colnbrook & Poyle
+MSOA21CD/E02003422	Cookham & Waltham
+MSOA21CD/E02003428	Cox Green
+MSOA21CD/E02003432	Clewer Village
+MSOA21CD/E02003434	Clewer New Town
+MSOA21CD/E02003435	Spital & Cranbourne Park
+MSOA21CD/E02003440	Twyford West & Charvil
+MSOA21CD/E02003458	Crowthorne North
+MSOA21CD/E02003460	Hanslope, Castlethorpe & Sherington
+MSOA21CD/E02003472	Central Milton Keynes & Newlands
+MSOA21CD/E02003479	Oldbrook & Coffee Hall
+MSOA21CD/E02003492	Coldean & Moulsecoomb North
+MSOA21CD/E02003526	Cosham North
+MSOA21CD/E02003529	Cosham South
+MSOA21CD/E02003531	Anchorage Park & Copnor
+MSOA21CD/E02003552	Coxford & Lords Hill
+MSOA21CD/E02003571	City Centre & The Polygon
+MSOA21CD/E02003581	Cowes Central
+MSOA21CD/E02003582	Cowes West, Gurnard & Northwood
+MSOA21CD/E02003602	Blunham, Caldecote & Broom
+MSOA21CD/E02003605	Cranfield & Aspley Guise
+MSOA21CD/E02003606	Houghton Conquest & Clophill
+MSOA21CD/E02003611	Clifton, Meppershall & Stondon
+MSOA21CD/E02003617	Harrold, Chellington & Turvey
+MSOA21CD/E02003618	Clapham, Oakley & Thurleigh
+MSOA21CD/E02003619	Wyboston, Great Barford & Cople
+MSOA21CD/E02003627	Castle & Kingsway
+MSOA21CD/E02003630	Cauldwell
+MSOA21CD/E02003651	Caddington & Slip End
+MSOA21CD/E02003660	Cheddington, Pitstone & Edlesborough
+MSOA21CD/E02003669	California & Southcourt
+MSOA21CD/E02003674	Worminghall, Long Crendon & Cuddington
+MSOA21CD/E02003677	Chesham West
+MSOA21CD/E02003678	Chesham East
+MSOA21CD/E02003679	Chesham South
+MSOA21CD/E02003681	Amersham-on-the-Hill & Chesham Bois
+MSOA21CD/E02003685	Chalfont St Giles, Seer Green & Jordans
+MSOA21CD/E02003686	Chalfont Common & St Peter East
+MSOA21CD/E02003687	Chalfont St Peter West
+MSOA21CD/E02003702	Bledlow, Cadmore End & Hambleden Valley
+MSOA21CD/E02003708	Oakridge & Castlefield
+MSOA21CD/E02003723	Eddington & Castle
+MSOA21CD/E02003725	Central & West Cambridge
+MSOA21CD/E02003728	Coleridge
+MSOA21CD/E02003729	Cherry Hinton
+MSOA21CD/E02003738	Isleham, Fordham & Chippenham
+MSOA21CD/E02003745	Wisbech St Mary, Waldersea & Christchurch
+MSOA21CD/E02003749	Coates, Benwick & Pondersbridge
+MSOA21CD/E02003752	Chatteris
+MSOA21CD/E02003776	Cottenham
+MSOA21CD/E02003795	Capenhurst, Saughall & Moston
+MSOA21CD/E02003802	Chester Boughton West & Hoole
+MSOA21CD/E02003803	Chester City & Garden Quarter
+MSOA21CD/E02003804	Chester Boughton East
+MSOA21CD/E02003805	Christleton, Guilden Sutton & Waverton
+MSOA21CD/E02003807	Chester Handbridge Park
+MSOA21CD/E02003810	Churton, Farndon & Malpas
+MSOA21CD/E02003811	Cranage & Goostrey
+MSOA21CD/E02003816	Congleton Town
+MSOA21CD/E02003817	Congleton West Heath
+MSOA21CD/E02003825	Crewe Leighton
+MSOA21CD/E02003826	Crewe North East
+MSOA21CD/E02003827	Crewe Coppenhall & Underwood
+MSOA21CD/E02003828	Crewe North West
+MSOA21CD/E02003829	Crewe Sydney & Gateway
+MSOA21CD/E02003830	Crewe Town & Victoria Avenue
+MSOA21CD/E02003832	Crewe Mill Street & College
+MSOA21CD/E02003834	Crewe Gresty Road
+MSOA21CD/E02003835	Crewe South West & Wistaston
+MSOA21CD/E02003864	Alderley Edge & Chelford
+MSOA21CD/E02003870	Central Macclesfield
+MSOA21CD/E02003875	Comberbach, Acton Bridge & Whitley
+MSOA21CD/E02003892	Gunnislake & Calstock
+MSOA21CD/E02003894	Callington & Pensilva
+MSOA21CD/E02003910	Truro South & Central
+MSOA21CD/E02003911	Shortlanesend, Chacewater & Carnon Downs
+MSOA21CD/E02003923	Camborne East
+MSOA21CD/E02003924	Camborne West
+MSOA21CD/E02003925	Camborne South
+MSOA21CD/E02003926	Crowan, Wendron & Stithians
+MSOA21CD/E02003927	Ponsanooth, Mabe Burnthouse & Constantine
+MSOA21CD/E02003933	Crackington & Tintagel
+MSOA21CD/E02003934	Camelford & Tresmeer
+MSOA21CD/E02003945	Towednack, Lelant & Carbis Bay
+MSOA21CD/E02003958	Trewoon, Coombe & Foxhole
+MSOA21CD/E02003961	St Austell East & Carlyon Bay
+MSOA21CD/E02003962	St Austell North & Carclaze
+MSOA21CD/E02003968	Maryport, Dearham & Crosby
+MSOA21CD/E02003989	Carlisle Belah
+MSOA21CD/E02003992	Central Carlisle
+MSOA21CD/E02003993	Wetheral, Corby & Geltsdale
+MSOA21CD/E02003994	Longsowerby & Caldewgate
+MSOA21CD/E02003998	Currock & Upperby
+MSOA21CD/E02004001	Whitehaven Harbour & Corkickle
+MSOA21CD/E02004003	Cleator Moor, Frizington & Ennerdale
+MSOA21CD/E02004021	Hawkshead & Cartmel Fell
+MSOA21CD/E02004022	Coniston, Broughton & Kirkby
+MSOA21CD/E02004027	Grange-over-Sands & Cartmel Peninsula
+MSOA21CD/E02004030	Crich, Holloway & Wingfield
+MSOA21CD/E02004045	Clowne & Barlborough
+MSOA21CD/E02004047	Creswell & Hodthorpe
+MSOA21CD/E02004064	Central Chesterfield & Stonegravels
+MSOA21CD/E02004069	Bakewell North, Baslow & Calver
+MSOA21CD/E02004073	Matlock South, Cromford & Winster
+MSOA21CD/E02004075	Ashbourne North, Dovedale & Carsington
+MSOA21CD/E02004078	Cotmanhay
+MSOA21CD/E02004096	Dinting, Simmondley & Charlesworth
+MSOA21CD/E02004100	Whaley Bridge & Chinley
+MSOA21CD/E02004106	Eckington West & Coal Aston
+MSOA21CD/E02004116	Clay Cross
+MSOA21CD/E02004128	Castle Gresley, Overseal & Coton
+MSOA21CD/E02004135	Kilmington, Colyton & Uplyme
+MSOA21CD/E02004142	Clyst, Exton & Lympstone
+MSOA21CD/E02004156	Central Exeter
+MSOA21CD/E02004163	Countess Wear & Topsham
+MSOA21CD/E02004170	Cullompton
+MSOA21CD/E02004173	Morchard Bishop, Copplestone & Newton St Cyres
+MSOA21CD/E02004174	Crediton
+MSOA21CD/E02004176	Lynton & Combe Martin
+MSOA21CD/E02004178	Woolacombe, Georgeham & Croyde
+MSOA21CD/E02004188	Bishop's Nympton, Witheridge & Chulmleigh
+MSOA21CD/E02004190	South Brent & Cornwood
+MSOA21CD/E02004199	Chillington, Torcross & Stoke Fleming
+MSOA21CD/E02004204	Chudleigh & Bovey Tracey
+MSOA21CD/E02004228	Shebbear, Cookworthy & Broadheath
+MSOA21CD/E02004231	Chagford, Princetown & Dartmoor
+MSOA21CD/E02004241	Christchurch Town
+MSOA21CD/E02004247	Sturminster Marshall & Crichel
+MSOA21CD/E02004249	Colehill
+MSOA21CD/E02004251	Ferndown West & Canford Bottom
+MSOA21CD/E02004254	Corfe Mullen
+MSOA21CD/E02004259	Child Okeford & Iwerne Minster
+MSOA21CD/E02004267	Corfe Castle & Langton Matravers
+MSOA21CD/E02004272	Charlton Down, Cerne Abbas & Puddletown
+MSOA21CD/E02004273	Lyme Regis, Charmouth & Marshwood Vale
+MSOA21CD/E02004275	Burton Bradstock & Chideock
+MSOA21CD/E02004280	Chickerell & Chesil Bank
+MSOA21CD/E02004292	Chester-le-Street North
+MSOA21CD/E02004293	Chester-le-Street Town & Pelton Fell
+MSOA21CD/E02004294	Chester-le-Street South & East
+MSOA21CD/E02004300	Catchgate & Dipton
+MSOA21CD/E02004303	Consett
+MSOA21CD/E02004305	Bridgehill, Castleside & Harehope Hill
+MSOA21CD/E02004312	Belmont & Carrville
+MSOA21CD/E02004319	Coxhoe & Quarrington Hill
+MSOA21CD/E02004332	Wingate & Castle Eden
+MSOA21CD/E02004336	Ferryhill East & Cornforth
+MSOA21CD/E02004338	Chilton
+MSOA21CD/E02004345	Evenwood, Cockfield & Staindrop
+MSOA21CD/E02004349	Crook North & Tow Law
+MSOA21CD/E02004350	Crook South
+MSOA21CD/E02004351	Coundon North
+MSOA21CD/E02004352	Bishop Auckland North & Coundon Grange
+MSOA21CD/E02004369	Conquest & St Helens
+MSOA21CD/E02004376	Central Hastings
+MSOA21CD/E02004378	Central St Leonards
+MSOA21CD/E02004379	Chailey, Newick & Barcombe
+MSOA21CD/E02004393	Northiam, Peasmarsh & Camber
+MSOA21CD/E02004397	Battle & Catsfield
+MSOA21CD/E02004400	Collington, Cooden & Little Common
+MSOA21CD/E02004403	Forest Row & Coleman's Hatch
+MSOA21CD/E02004405	Crowborough North East
+MSOA21CD/E02004406	Crowborough Whitehill & Warren
+MSOA21CD/E02004408	Crowborough South East
+MSOA21CD/E02004409	Chelwood & Nutley
+MSOA21CD/E02004415	Five Ash Down, Horsted & Chiddingly
+MSOA21CD/E02004436	Chalvedon
+MSOA21CD/E02004451	Halstead East & Colnes
+MSOA21CD/E02004454	Central Braintree
+MSOA21CD/E02004459	Coggeshall & Kelvedon
+MSOA21CD/E02004480	Canvey Island Winter Gardens
+MSOA21CD/E02004481	Canvey Island Newlands
+MSOA21CD/E02004482	Canvey Island North West
+MSOA21CD/E02004483	Canvey Island South West
+MSOA21CD/E02004484	Canvey Island Leigh Beck
+MSOA21CD/E02004487	Melbourne Park, Chignall & Pleshey
+MSOA21CD/E02004491	Springfield South & Coronation Park
+MSOA21CD/E02004492	Chelmer Village
+MSOA21CD/E02004512	Central Colchester
+MSOA21CD/E02004530	Chipping Ongar
+MSOA21CD/E02004542	Chigwell
+MSOA21CD/E02004548	Church Langley
+MSOA21CD/E02004561	Mayland, Althorne & Cold Norton
+MSOA21CD/E02004566	Rochford Town & Canewdon
+MSOA21CD/E02004582	Clacton North
+MSOA21CD/E02004585	Clacton Bocking's Elm
+MSOA21CD/E02004586	Clacton East
+MSOA21CD/E02004587	Clacton Rush Green
+MSOA21CD/E02004588	Clacton Central
+MSOA21CD/E02004589	Clacton West
+MSOA21CD/E02004593	Newport, Littlebury & Clavering
+MSOA21CD/E02004611	Battledown & Charlton Kings
+MSOA21CD/E02004613	Charlton Park
+MSOA21CD/E02004615	Willersey, Chipping Campden & Blockley
+MSOA21CD/E02004618	Sandywell, Ermin & Chedworth
+MSOA21CD/E02004619	Northleach, Coln Valley & Ampneys
+MSOA21CD/E02004620	Cirencester East & Stratton
+MSOA21CD/E02004621	Cirencester Central
+MSOA21CD/E02004622	Cirencester South
+MSOA21CD/E02004629	Cinderford
+MSOA21CD/E02004632	Coleford
+MSOA21CD/E02004639	Central Gloucester & Hempsted
+MSOA21CD/E02004642	Coney Hill, Barnwood & Abbeydale
+MSOA21CD/E02004658	Chalford & Bussage
+MSOA21CD/E02004661	Cam
+MSOA21CD/E02004669	Cleeve Hill, Gotherington & Apperley
+MSOA21CD/E02004672	Churchdown & Innsworth
+MSOA21CD/E02004674	Brockworth & Coopers Edge
+MSOA21CD/E02004680	Chineham
+MSOA21CD/E02004709	Clanfield & Finchdean
+MSOA21CD/E02004713	Chandler's Ford East
+MSOA21CD/E02004714	Chandler's Ford West
+MSOA21CD/E02004718	Central Eastleigh
+MSOA21CD/E02004720	West End & Chartwell Green
+MSOA21CD/E02004734	Fareham Town & Cams Hill
+MSOA21CD/E02004750	Clayhall & Anglesey
+MSOA21CD/E02004759	Crookham East
+MSOA21CD/E02004760	Crookham West, Ewshot & Crondall
+MSOA21CD/E02004775	Central Havant & Langstone
+MSOA21CD/E02004784	Ashurst & Cadnam
+MSOA21CD/E02004806	Cove & Southwood
+MSOA21CD/E02004821	Chilbolton, Clatford & Barton Stacey
+MSOA21CD/E02004828	Chilworth, Nursling & Rownhams
+MSOA21CD/E02004838	Colden Common & Twyford
+MSOA21CD/E02004850	Cheshunt Coopers Walk
+MSOA21CD/E02004852	Cheshunt Central
+MSOA21CD/E02004853	Churchgate
+MSOA21CD/E02004854	Cheshunt South
+MSOA21CD/E02004871	Chaulden
+MSOA21CD/E02004874	Corner Hall
+MSOA21CD/E02004876	Bovingdon & Chipperfield
+MSOA21CD/E02004909	Royston North & Central
+MSOA21CD/E02004923	Knebworth, Codicote & Kimpton
+MSOA21CD/E02004934	Clarence Park
+MSOA21CD/E02004939	The Camp & Cunningham
+MSOA21CD/E02004940	Cottonmill & Sopwell
+MSOA21CD/E02004943	Bricket Wood & Chiswell Green
+MSOA21CD/E02004950	Chells South
+MSOA21CD/E02004958	Croxley North & Sarratt
+MSOA21CD/E02004960	Chorleywood
+MSOA21CD/E02004961	Croxley Green
+MSOA21CD/E02004965	Carpenders Park
+MSOA21CD/E02004975	Cassiobury
+MSOA21CD/E02004976	Central Watford
+MSOA21CD/E02004995	Cuffley & Northaw
+MSOA21CD/E02004996	Wye, Chilham & Kennington
+MSOA21CD/E02004997	Charing, Pluckley & Challock
+MSOA21CD/E02005014	Chestfield & South Tankerton
+MSOA21CD/E02005021	Blean Forest, Chartham Hatch & University
+MSOA21CD/E02005022	Canterbury St Stephen's
+MSOA21CD/E02005023	Canterbury Barracks
+MSOA21CD/E02005026	Thanington & Chartham
+MSOA21CD/E02005030	Central Dartford & West Hill
+MSOA21CD/E02005033	Stone & Crossways
+MSOA21CD/E02005054	Elms Vale & Capel-le-Ferne
+MSOA21CD/E02005057	Milton & Chalk
+MSOA21CD/E02005063	Gravesend South & Coldharbour
+MSOA21CD/E02005071	Ringlestone & Central Maidstone
+MSOA21CD/E02005082	Kingswood, Langley Heath & Chart Sutton
+MSOA21CD/E02005083	Loose & Coxheath
+MSOA21CD/E02005089	Swanley South & Crockenhill
+MSOA21CD/E02005097	Sevenoaks West & Chevening
+MSOA21CD/E02005106	Cheriton & Horn Street
+MSOA21CD/E02005132	Cliftonville West
+MSOA21CD/E02005133	Cliftonville East & Kingsgate
+MSOA21CD/E02005148	Nethercourt, Pegwell & Cliffsend
+MSOA21CD/E02005174	Cranbrook, Sissinghurst & Frittenden
+MSOA21CD/E02005178	Central Burnley & Daneshouse
+MSOA21CD/E02005184	Cliviger, Worsthorne & Lane Bottom
+MSOA21CD/E02005189	Clayton Brook
+MSOA21CD/E02005191	Clayton-le-Woods
+MSOA21CD/E02005194	Chorley North
+MSOA21CD/E02005195	Croston & Mawdesley
+MSOA21CD/E02005196	Chorley West
+MSOA21CD/E02005197	Chorley East
+MSOA21CD/E02005198	Chorley Town & South
+MSOA21CD/E02005199	Eccleston & Charnock Richard
+MSOA21CD/E02005200	Chorley South West
+MSOA21CD/E02005201	Coppull
+MSOA21CD/E02005205	Clifton & Newton-with-Scales
+MSOA21CD/E02005213	Clayton-le-Moors & Huncoat
+MSOA21CD/E02005216	Church
+MSOA21CD/E02005221	Carnforth, Silverdale & Warton
+MSOA21CD/E02005225	Halton & Caton
+MSOA21CD/E02005246	Colne Waterside
+MSOA21CD/E02005258	Cadley & College
+MSOA21CD/E02005271	Clitheroe North
+MSOA21CD/E02005272	Clitheroe South
+MSOA21CD/E02005273	Longridge North, Ribchester & Chipping
+MSOA21CD/E02005274	Read, Sabden & Chatburn
+MSOA21CD/E02005278	Crawshawbooth, Reedsholme & Water
+MSOA21CD/E02005288	Gregson Lane & Coupe Green
+MSOA21CD/E02005321	Fleetwood Rossall & Chatsworth
+MSOA21CD/E02005325	Garstang & Catterall
+MSOA21CD/E02005326	Cleveleys West
+MSOA21CD/E02005328	Cleveleys East
+MSOA21CD/E02005330	Thornton East & Carleton West
+MSOA21CD/E02005331	Poulton North & Carleton East
+MSOA21CD/E02005342	Cosby, Croft & Elmesthorpe
+MSOA21CD/E02005343	Countesthorpe & Kilby
+MSOA21CD/E02005352	Wymeswold, Rearsby & Cossington
+MSOA21CD/E02005372	Dunton Bassett, Claybrooke & Swinford
+MSOA21CD/E02005391	Bottesford, Harby & Croxton Kerrial
+MSOA21CD/E02005397	Castle Donington
+MSOA21CD/E02005401	Packington, Ravenstone & Coleorton
+MSOA21CD/E02005406	Coalville
+MSOA21CD/E02005433	Ingoldmells & Chapel St Leonards
+MSOA21CD/E02005439	Coningsby & Woodhall Spa
+MSOA21CD/E02005444	Cathedral & West Common
+MSOA21CD/E02005460	Ruskington West & Cranwell
+MSOA21CD/E02005475	Crowland & Cowbit
+MSOA21CD/E02005476	Ancaster, Caythorpe & Claypole
+MSOA21CD/E02005482	Corby Glen, Ropsley & Grantham Outskirts
+MSOA21CD/E02005484	Harlaxton, Colsterworth & South Witham
+MSOA21CD/E02005492	Caistor, Kelsey & Keelby
+MSOA21CD/E02005502	Cherry Willingham & Bardney
+MSOA21CD/E02005508	Hockering, Mattishall & Cranworth
+MSOA21CD/E02005521	Reepham, Cawston & Lenwade
+MSOA21CD/E02005522	Coltishall, Buxton & Frettenham
+MSOA21CD/E02005536	Brundall & Cantley
+MSOA21CD/E02005540	Caister on Sea
+MSOA21CD/E02005544	Southtown & Cobholm
+MSOA21CD/E02005558	Terrington & Clenchwarton
+MSOA21CD/E02005572	Cromer
+MSOA21CD/E02005584	Catton Grove & Airport
+MSOA21CD/E02005592	Earlham Road & College Road
+MSOA21CD/E02005598	Cringleford, Little Melton & Easton
+MSOA21CD/E02005607	Long Stratton, Carlton Rode & Tibenham
+MSOA21CD/E02005612	Rowlett, Gretton & Cottingham
+MSOA21CD/E02005613	Corby North
+MSOA21CD/E02005614	Corby Village & Weldon
+MSOA21CD/E02005615	Corby Lodge Park
+MSOA21CD/E02005616	Corby Town
+MSOA21CD/E02005617	Corby Kingswood
+MSOA21CD/E02005619	Clipston, Naseby & Yelvertoft
+MSOA21CD/E02005621	Braunston & Crick
+MSOA21CD/E02005674	Cliftonville & Rushmere
+MSOA21CD/E02005677	Cotton End, Brackmills & Hardingstone
+MSOA21CD/E02005680	Wootton & Collingtree
+MSOA21CD/E02005682	Cogenhoe, Hackleton & Denton
+MSOA21CD/E02005686	Middleton Cheney & Chipping Warden
+MSOA21CD/E02005697	Central Wellingborough
+MSOA21CD/E02005699	Croyland
+MSOA21CD/E02005715	Cramlington Town & Beaconhill
+MSOA21CD/E02005718	Cramlington South
+MSOA21CD/E02005722	Longhorsley, Hepscott & Capheaton
+MSOA21CD/E02005748	Carleton, Cowling & Cononley
+MSOA21CD/E02005749	Sutton & Crosshills
+MSOA21CD/E02005758	Thirsk South & Coxwold
+MSOA21CD/E02005775	Central Harrogate
+MSOA21CD/E02005784	Catterick & Brompton-on-Swale
+MSOA21CD/E02005785	Catterick Garrison & Colburn
+MSOA21CD/E02005805	Wheatcroft & Cayton
+MSOA21CD/E02005806	Eastfield, Crossgates & Seamer
+MSOA21CD/E02005810	Church Fenton, Appleton & Wistow
+MSOA21CD/E02005816	Carlton, Hemingbrough & Osgodby
+MSOA21CD/E02005836	Clarborough, Beckingham & Misterton
+MSOA21CD/E02005838	Carlton & Langold
+MSOA21CD/E02005848	Manton, Clumber & Elkesley
+MSOA21CD/E02005862	Chilwell West
+MSOA21CD/E02005863	Attenborough & Chilwell East
+MSOA21CD/E02005866	Calverton & Woodborough
+MSOA21CD/E02005877	Carlton Hill
+MSOA21CD/E02005878	Carlton
+MSOA21CD/E02005879	Netherfield & Colwick
+MSOA21CD/E02005880	Church Warsop & Meden Vale
+MSOA21CD/E02005888	Newgate & Carr Bank
+MSOA21CD/E02005894	Edwinstowe & Clipstone
+MSOA21CD/E02005896	Winthorpe, Coddington & Collingham
+MSOA21CD/E02005912	Compton Acres & Lutterell
+MSOA21CD/E02005914	Cotgrave
+MSOA21CD/E02005915	Cropwell Bishop, Kinoulton & Upper Broughton
+MSOA21CD/E02005921	Cropredy, Wroxton & Shennington
+MSOA21CD/E02005931	Caversfield, Ambrosden & Fringford
+MSOA21CD/E02005936	Islip, Arncott & Chesterton
+MSOA21CD/E02005940	Wolvercote & Cutteslowe
+MSOA21CD/E02005949	Churchill
+MSOA21CD/E02005954	Cowley South & Iffley
+MSOA21CD/E02005962	Chinnor & Tetsworth
+MSOA21CD/E02005964	Chalgrove, Stadhampton & Dorchester
+MSOA21CD/E02005968	Benson & Crowmarsh Gifford
+MSOA21CD/E02005972	Hagbourne, Moreton & Cholsey
+MSOA21CD/E02005978	Dean Court, Cumnor & Appleton
+MSOA21CD/E02005993	Chipping Norton
+MSOA21CD/E02005995	Chadlington & Wychwoods
+MSOA21CD/E02005997	Charlbury & North Leigh
+MSOA21CD/E02005998	Hanborough & Cassington
+MSOA21CD/E02006005	Carterton North
+MSOA21CD/E02006006	Carterton South
+MSOA21CD/E02006007	Bampton, Clanfield & Standlake
+MSOA21CD/E02006009	Cosford & Albrighton
+MSOA21CD/E02006013	Alveley, Claverley & Worfield
+MSOA21CD/E02006021	Baschurch, Cockshutt & Harmer Hill
+MSOA21CD/E02006036	Shrewsbury Sutton & Coleham
+MSOA21CD/E02006040	Cressage, Dorrington & Pulverbatch
+MSOA21CD/E02006041	Bishop's Castle, Brockton & Chirbury
+MSOA21CD/E02006042	Church Stretton
+MSOA21CD/E02006043	Craven Arms & Broadstone
+MSOA21CD/E02006044	Clun & Bucknell
+MSOA21CD/E02006046	Cleobury Mortimer, Burford & Ashford Carbonell
+MSOA21CD/E02006052	Oakhill, Horrington & Chewton Mendip
+MSOA21CD/E02006061	Cheddar & Axbridge
+MSOA21CD/E02006067	Cannington, Combwich & Nether Stowey
+MSOA21CD/E02006071	Wembdon & Chilton Trinity
+MSOA21CD/E02006072	Westonzoyland, Ashcott & Cossington
+MSOA21CD/E02006075	Bruton, Brewham & Cucklington
+MSOA21CD/E02006076	Castle Cary & Kenton Mandeville
+MSOA21CD/E02006079	Wincanton, Cheriton & Charlton Horethorne
+MSOA21CD/E02006081	Curry Rivel & Fivehead
+MSOA21CD/E02006095	Crewkerne
+MSOA21CD/E02006096	Chard North & East
+MSOA21CD/E02006097	Chard West
+MSOA21CD/E02006098	Tatworth & Combe St Nicholas
+MSOA21CD/E02006099	Bishops Lydeard & Cotford St Luke
+MSOA21CD/E02006115	Watchet, Washford & Carhampton
+MSOA21CD/E02006123	Wimblebury & Cannock Wood
+MSOA21CD/E02006124	Cannock North
+MSOA21CD/E02006125	Cannock North East
+MSOA21CD/E02006128	Cannock West & Mill Green
+MSOA21CD/E02006129	Cannock South
+MSOA21CD/E02006146	Armitage & Colton
+MSOA21CD/E02006153	Whittington, Hopwas & Clifton Campville
+MSOA21CD/E02006161	Talke & Crackley
+MSOA21CD/E02006164	Chesterton & Knutton
+MSOA21CD/E02006167	Newcastle West & Cross Heath
+MSOA21CD/E02006171	Clayton & Langdale
+MSOA21CD/E02006177	Cheslyn Hay
+MSOA21CD/E02006179	Featherstone West, Coven & Shareshill
+MSOA21CD/E02006182	Codsall
+MSOA21CD/E02006197	Central Stafford
+MSOA21CD/E02006209	Leek South & Cheddleton
+MSOA21CD/E02006213	Cheadle North, Alton & Kingsley
+MSOA21CD/E02006214	Cheadle Town
+MSOA21CD/E02006215	Blythe Bridge, Forsbrook & Caverswall
+MSOA21CD/E02006216	Cheadle South & Upper Tean
+MSOA21CD/E02006217	Coton Farm & Perry Crofts
+MSOA21CD/E02006218	Central Tamworth
+MSOA21CD/E02006236	East Bergholt, Brantham & Capel St Mary
+MSOA21CD/E02006246	Castle Hill
+MSOA21CD/E02006249	Christchurch Park
+MSOA21CD/E02006252	California
+MSOA21CD/E02006254	Gipping & Chantry Park
+MSOA21CD/E02006267	Debenham, Stonham & Coddenham
+MSOA21CD/E02006272	Claydon & Bramford
+MSOA21CD/E02006280	Barrow, Chedburgh & Sicklesmere
+MSOA21CD/E02006282	Clare, Cavendish & Wickhambrook
+MSOA21CD/E02006289	Saxmundham & Coldfair Green
+MSOA21CD/E02006302	Gunton East, Corton & Somerleyton
+MSOA21CD/E02006310	Carlton Colville
+MSOA21CD/E02006331	Claygate
+MSOA21CD/E02006333	Cobham
+MSOA21CD/E02006343	Epsom Downs & Common
+MSOA21CD/E02006373	Westcott, Ockley & Capel
+MSOA21CD/E02006374	Charlwood, Newdigate & Beare Green
+MSOA21CD/E02006378	Chipstead & Netherne
+MSOA21CD/E02006398	Chertsey
+MSOA21CD/E02006416	Chobham & Windlesham
+MSOA21CD/E02006419	Camberley North
+MSOA21CD/E02006420	Camberley Town
+MSOA21CD/E02006422	Camberley Heatherside
+MSOA21CD/E02006423	Camberley West
+MSOA21CD/E02006424	Camberley Parkside
+MSOA21CD/E02006430	Caterham North
+MSOA21CD/E02006431	Caterham Valley
+MSOA21CD/E02006432	Caterham West
+MSOA21CD/E02006451	Cranleigh
+MSOA21CD/E02006453	Ewhurst & Chiddingfold
+MSOA21CD/E02006471	Kingsbury & Curdworth
+MSOA21CD/E02006473	Coleshill & Water Orton
+MSOA21CD/E02006476	Camp Hill
+MSOA21CD/E02006483	Caldwell & Chilvers Coton
+MSOA21CD/E02006498	Cawston & Long Lawford
+MSOA21CD/E02006505	Henley-in-Arden & Claverdon
+MSOA21CD/E02006523	Cubbington, Stoneleigh & Radford Semele
+MSOA21CD/E02006539	Cokeham & Sompting
+MSOA21CD/E02006547	Yapton & Climping
+MSOA21CD/E02006564	Midhurst & Cocking
+MSOA21CD/E02006568	College Lane & Oaklands
+MSOA21CD/E02006570	Central Chichester
+MSOA21CD/E02006598	Cowfold & Partridge Green
+MSOA21CD/E02006605	Copthorne & Turners Hill
+MSOA21CD/E02006608	Crawley Down
+MSOA21CD/E02006614	Haywards Heath South & Cuckfield
+MSOA21CD/E02006640	Bedwyn, Burbage & Collingbourne
+MSOA21CD/E02006644	Cricklade & Ashton Keynes
+MSOA21CD/E02006645	Malmesbury, Crudwell & Oaksey
+MSOA21CD/E02006652	Chippenham North
+MSOA21CD/E02006653	Chippenham West
+MSOA21CD/E02006654	Chippenham South & East
+MSOA21CD/E02006656	Chippenham Pewsham
+MSOA21CD/E02006657	Calne North
+MSOA21CD/E02006658	Calne South
+MSOA21CD/E02006659	Box, Colerne & Rudloe
+MSOA21CD/E02006660	Corsham, Bowden Hill & Lacock
+MSOA21CD/E02006672	Laverstock, Bodenham & Coombe Bissett
+MSOA21CD/E02006702	Catshill
+MSOA21CD/E02006710	Tenbury Wells, Mamble & Clifton
+MSOA21CD/E02006714	Colletts Green, Callow End & Hanley
+MSOA21CD/E02006721	Riverside & Church Hill North
+MSOA21CD/E02006722	Church Hill South
+MSOA21CD/E02006732	Crabbs Cross
+MSOA21CD/E02006754	Crowle & Tibberton
+MSOA21CD/E02006767	Wolverley, Cookley & Blakedown
+MSOA21CD/E02006773	Comberton
+MSOA21CD/E02006789	Biggin Hill East & Cudham
+MSOA21CD/E02006791	Chiswick North West
+MSOA21CD/E02006792	Chiswick Park
+MSOA21CD/E02006810	Charlemont
+MSOA21CD/E02006825	Dullingham & Cheveley
+MSOA21CD/E02006830	Cowplain West
+MSOA21CD/E02006831	Cowplain East
+MSOA21CD/E02006840	Chelston, Cockington & Livermead
+MSOA21CD/E02006843	Cathedral & Kelham
+MSOA21CD/E02006854	Canary Wharf
+MSOA21CD/E02006855	Canterbury Wincheap
+MSOA21CD/E02006856	Canterbury Central & Westgate
+MSOA21CD/E02006872	Chapel-en-le-Frith & Hope Valley
+MSOA21CD/E02006873	Cambourne
+MSOA21CD/E02006874	Papworth, Caxton & Fen Drayton
+MSOA21CD/E02006899	Central
+MSOA21CD/E02006902	City Centre North & Collyhurst
+MSOA21CD/E02006904	City Centre & Trent Bridge
+MSOA21CD/E02006907	City Centre East
+MSOA21CD/E02006913	Cheetham Hill
+MSOA21CD/E02006917	Castlefield & Deansgate
+MSOA21CD/E02006918	Clapton Leaside
+MSOA21CD/E02006924	Valentines Park & Cranbrook
+MSOA21CD/E02006925	Clayhall South
+MSOA21CD/E02006926	Chafford & North Stifford
+MSOA21CD/E02006932	Central & Islington
+MSOA21CD/E02006938	Central Luton
+MSOA21CD/E02006939	Central Reading North
+MSOA21CD/E02006940	Central Reading South
+MSOA21CD/E02006948	Central Bradford
+MSOA21CD/E02006952	City Centre & Harbourside
+MSOA21CD/E02006953	Colindale East
+MSOA21CD/E02006954	Colindale West & South
+MSOA21CD/E02006978	Central Chelmsford East
+MSOA21CD/E02006979	Central Chelmsford West
+MSOA21CD/E02006987	Central Croydon
+MSOA21CD/E02006994	Charlton Riverside & Woolwich Dockyard
+MSOA21CD/E02006996	Carpenters Estate & Stratford New Town
+MSOA21CD/E02007001	Coppice
+MSOA21CD/E02007003	Colne North
+MSOA21CD/E02007008	Central Lewisham North
+MSOA21CD/E02007009	Central Lewisham South
+MSOA21CD/E02007016	Shenley Wood & Crownhill
+MSOA21CD/E02007017	Chadwell Heath North West
+MSOA21CD/E02007018	Chadwell Heath South West
+MSOA21CD/E02007021	Lye Valley & Cowley East
+MSOA21CD/E02007028	Cranbrook
+MSOA21CD/E02007030	Church Minshull, Kingsbourne & Sound
+MSOA21CD/E02007048	Brinklow, Wolvey & Churchover
+MSOA21CD/E02007049	Houlton, Clifton & Brownsover North
+MSOA21CD/E02007053	City Centre West
+MSOA21CD/E02007058	Central Darlington & Pierremont
+MSOA21CD/E02007060	Central Stockton & Portrack
+MSOA21CD/E02007065	Charlton Hayes
+MSOA21CD/E02007081	Cleethorpes North & Haverstoe
+MSOA21CD/E02007090	Colney Heath & Highfield Park
+MSOA21CD/E02007091	Chells North
+MSOA21CD/E02007093	Datchworth, Walkern & Cottered
+MSOA21CD/E02007094	Chopwell & High Spen
+MSOA21CD/E02007106	Cramlington North & East
+MSOA21CD/E02007107	Stocksfield, Riding Mill & Corbridge
+MSOA21CD/E02007114	Cubitt Town
+MSOA21CD/E02007116	Cowley North
+MSOA21CD/W02000015	Caernarfon East
+MSOA21CD/W02000016	Caernarfon West & Waunfawr
+MSOA21CD/W02000020	Cricieth & Llanaelhaearn
+MSOA21CD/W02000033	Colwyn Bay North
+MSOA21CD/W02000038	Conwy & Afon Roe
+MSOA21CD/W02000056	Corwen, Llanelidan & Efenechdyd
+MSOA21CD/W02000063	Caerwys, Halkyn & Nannerch
+MSOA21CD/W02000064	Connah's Quay North
+MSOA21CD/W02000065	Connah's Quay Wepre
+MSOA21CD/W02000067	Connah's Quay South & Northop Hall
+MSOA21CD/W02000083	Coedpoeth & Brymbo
+MSOA21CD/W02000087	Caia Park
+MSOA21CD/W02000094	Cefn Mawr
+MSOA21CD/W02000096	Chirk & Ceiriog Valley
+MSOA21CD/W02000102	Llanfair Caereinion & Caersws
+MSOA21CD/W02000103	Abermule, Churchstoke & Kerry
+MSOA21CD/W02000114	Crickhowell, Llangynidr & Llangorse
+MSOA21CD/W02000124	Cardigan & Aber-porth
+MSOA21CD/W02000126	Cilgerran & Crymych
+MSOA21CD/W02000129	Crundale, Clynderwen & Maenclochog
+MSOA21CD/W02000140	Pembroke West & Castlemartin
+MSOA21CD/W02000141	Tenby & Caldey
+MSOA21CD/W02000143	Llandovery, Cil-y-cwm & Cynwyl Gaeo
+MSOA21CD/W02000144	Tre-lech, Cenarth & Llangeler
+MSOA21CD/W02000146	Abergwili, Llanegwad & Carmel
+MSOA21CD/W02000147	Carmarthen West & Cynwyl Elfed
+MSOA21CD/W02000148	Carmarthen North
+MSOA21CD/W02000149	Carmarthen South & Llangynnwr
+MSOA21CD/W02000156	Llan-non, Cross Hands & Pen-y-groes
+MSOA21CD/W02000159	Cydweli & Trimsaran
+MSOA21CD/W02000169	Clydach & Mawr
+MSOA21CD/W02000182	Cwmbwrla
+MSOA21CD/W02000184	Cockett
+MSOA21CD/W02000192	Central Swansea
+MSOA21CD/W02000204	Cadoxton & Bryn-coch
+MSOA21CD/W02000207	Cimla
+MSOA21CD/W02000212	Cwmafan & Bryn
+MSOA21CD/W02000218	Caerau
+MSOA21CD/W02000225	Pyle, Kenfig Hill & Cefncribwr
+MSOA21CD/W02000227	Cornelly
+MSOA21CD/W02000228	Pen-dre, Litchard & Coity
+MSOA21CD/W02000229	Cefn-glas & Bryntirion
+MSOA21CD/W02000231	Central Bridgend
+MSOA21CD/W02000232	Brackla East & Coychurch Lower
+MSOA21CD/W02000238	Cowbridge
+MSOA21CD/W02000240	Llandough & Cogan
+MSOA21CD/W02000255	Aberdare East & Cwm-bach
+MSOA21CD/W02000267	Tonypandy West & Clydach Vale
+MSOA21CD/W02000270	Pontypridd East & Cilfynydd
+MSOA21CD/W02000276	Church Village East & Ton-teg
+MSOA21CD/W02000278	Church Village West
+MSOA21CD/W02000285	Cefncoedycymer, Heolgerrig & Park
+MSOA21CD/W02000296	Pengam & Cefn Fforest
+MSOA21CD/W02000303	Crosskeys North & Abercarn
+MSOA21CD/W02000304	Crosskeys South & Ynysddu
+MSOA21CD/W02000311	Caerphilly East
+MSOA21CD/W02000312	Caerphilly West
+MSOA21CD/W02000313	Caerphilly South
+MSOA21CD/W02000320	Ebbw Vale South & Cwm
+MSOA21CD/W02000321	Abertillery North & Cwmtillery
+MSOA21CD/W02000330	Croesyceiliog
+MSOA21CD/W02000332	Cwmbran
+MSOA21CD/W02000336	Abergavenny South & Crucorney
+MSOA21CD/W02000342	Chepstow North & Trellech
+MSOA21CD/W02000343	Chepstow South
+MSOA21CD/W02000344	Caldicot North & Caer-went
+MSOA21CD/W02000345	Caldicot South
+MSOA21CD/W02000347	Caerleon
+MSOA21CD/W02000352	Shaftesbury & Crindai
+MSOA21CD/W02000374	Cyncoed North
+MSOA21CD/W02000376	Tongwynlais & Coryton
+MSOA21CD/W02000380	Creigiau, Pentyrch & St Fagans
+MSOA21CD/W02000385	Cyncoed South & Roath Park
+MSOA21CD/W02000394	Cathays North
+MSOA21CD/W02000398	Cathays South & Bute Park
+MSOA21CD/W02000406	Canton
+MSOA21CD/W02000407	Caerau East
+MSOA21CD/W02000411	Caerau West
+MSOA21CD/W02000421	Rheidol, Ystwyth & Caron
+MSOA21CD/W02000422	Cardiff Bay
+PCON17CD/E14000614	Calder Valley
+PCON17CD/E14000615	Camberwell and Peckham
+PCON17CD/E14000616	Camborne and Redruth
+PCON17CD/E14000617	Cambridge
+PCON17CD/E14000618	Cannock Chase
+PCON17CD/E14000619	Canterbury
+PCON17CD/E14000620	Carlisle
+PCON17CD/E14000621	Carshalton and Wallington
+PCON17CD/E14000622	Castle Point
+PCON17CD/E14000623	Central Devon
+PCON17CD/E14000624	Central Suffolk and North Ipswich
+PCON17CD/E14000625	Charnwood
+PCON17CD/E14000626	Chatham and Aylesford
+PCON17CD/E14000627	Cheadle
+PCON17CD/E14000628	Chelmsford
+PCON17CD/E14000629	Chelsea and Fulham
+PCON17CD/E14000630	Cheltenham
+PCON17CD/E14000631	Chesham and Amersham
+PCON17CD/E14000632	Chesterfield
+PCON17CD/E14000633	Chichester
+PCON17CD/E14000634	Chingford and Woodford Green
+PCON17CD/E14000635	Chippenham
+PCON17CD/E14000636	Chipping Barnet
+PCON17CD/E14000637	Chorley
+PCON17CD/E14000638	Christchurch
+PCON17CD/E14000639	Cities of London and Westminster
+PCON17CD/E14000640	City of Chester
+PCON17CD/E14000641	City of Durham
+PCON17CD/E14000642	Clacton
+PCON17CD/E14000643	Cleethorpes
+PCON17CD/E14000644	Colchester
+PCON17CD/E14000645	Colne Valley
+PCON17CD/E14000646	Congleton
+PCON17CD/E14000647	Copeland
+PCON17CD/E14000648	Corby
+PCON17CD/E14000649	Coventry North East
+PCON17CD/E14000650	Coventry North West
+PCON17CD/E14000651	Coventry South
+PCON17CD/E14000652	Crawley
+PCON17CD/E14000653	Crewe and Nantwich
+PCON17CD/E14000654	Croydon Central
+PCON17CD/E14000655	Croydon North
+PCON17CD/E14000656	Croydon South
+PCON17CD/S14000006	Ayr, Carrick and Cumnock
+PCON17CD/S14000009	Caithness, Sutherland and Easter Ross
+PCON17CD/S14000010	Central Ayrshire
+PCON17CD/S14000011	Coatbridge, Chryston and Bellshill
+PCON17CD/S14000012	Cumbernauld, Kilsyth and Kirkintilloch East
+PCON17CD/S14000014	Dumfriesshire, Clydesdale and Tweeddale
+PCON17CD/W07000050	Cardiff Central
+PCON17CD/W07000051	Cardiff North
+PCON17CD/W07000059	Clwyd West
+PCON17CD/W07000062	Clwyd South
+PCON17CD/W07000064	Ceredigion
+PCON17CD/W07000066	Carmarthen West and South Pembrokeshire
+PCON17CD/W07000067	Carmarthen East and Dinefwr
+PCON17CD/W07000070	Cynon Valley
+PCON17CD/W07000076	Caerphilly
+PCON17CD/W07000079	Cardiff West
+PCON17CD/W07000080	Cardiff South and Penarth
+WD21CD/E05000029	Chadwell Heath
+WD21CD/E05000045	Childs Hill
+WD21CD/E05000046	Colindale
+WD21CD/E05000047	Coppetts
+WD21CD/E05000110	Chelsfield and Pratts Bottom
+WD21CD/E05000111	Chislehurst
+WD21CD/E05000112	Clock House
+WD21CD/E05000113	Copers Cope
+WD21CD/E05000114	Cray Valley East
+WD21CD/E05000115	Cray Valley West
+WD21CD/E05000116	Crystal Palace
+WD21CD/E05000130	Camden Town with Primrose Hill
+WD21CD/E05000131	Cantelowes
+WD21CD/E05000171	Cleveland
+WD21CD/E05000195	Chase
+WD21CD/E05000196	Cockfosters
+WD21CD/E05000216	Charlton
+WD21CD/E05000217	Coldharbour and New Eltham
+WD21CD/E05000253	College Park and Old Oak
+WD21CD/E05000269	Crouch End
+WD21CD/E05000286	Canons
+WD21CD/E05000307	Cranham
+WD21CD/E05000327	Cavendish
+WD21CD/E05000328	Charville
+WD21CD/E05000348	Chiswick Homefields
+WD21CD/E05000349	Chiswick Riverside
+WD21CD/E05000350	Cranford
+WD21CD/E05000368	Caledonian
+WD21CD/E05000369	Canonbury
+WD21CD/E05000370	Clerkenwell
+WD21CD/E05000403	Canbury
+WD21CD/E05000404	Chessington North and Hook
+WD21CD/E05000405	Chessington South
+WD21CD/E05000406	Coombe Hill
+WD21CD/E05000407	Coombe Vale
+WD21CD/E05000418	Clapham Common
+WD21CD/E05000419	Clapham Town
+WD21CD/E05000420	Coldharbour
+WD21CD/E05000440	Catford South
+WD21CD/E05000441	Crofton Park
+WD21CD/E05000456	Cannon Hill
+WD21CD/E05000457	Colliers Wood
+WD21CD/E05000458	Cricket Green
+WD21CD/E05000477	Canning Town North
+WD21CD/E05000478	Canning Town South
+WD21CD/E05000479	Custom House
+WD21CD/E05000558	Carshalton Central
+WD21CD/E05000559	Carshalton South and Clockhouse
+WD21CD/E05000560	Cheam
+WD21CD/E05000590	Cann Hall
+WD21CD/E05000591	Cathall
+WD21CD/E05000592	Chapel End
+WD21CD/E05000593	Chingford Green
+WD21CD/E05000633	Churchill
+WD21CD/E05000634	Church Street
+WD21CD/E05000654	Crompton
+WD21CD/E05000671	Church
+WD21CD/E05000720	Chadderton Central
+WD21CD/E05000721	Chadderton North
+WD21CD/E05000722	Chadderton South
+WD21CD/E05000723	Coldhurst
+WD21CD/E05000724	Crompton
+WD21CD/E05000741	Castleton
+WD21CD/E05000742	Central Rochdale
+WD21CD/E05000784	Cheadle and Gatley
+WD21CD/E05000785	Cheadle Hulme North
+WD21CD/E05000786	Cheadle Hulme South
+WD21CD/E05000825	Clifford
+WD21CD/E05000889	Central
+WD21CD/E05000890	Childwall
+WD21CD/E05000891	Church
+WD21CD/E05000892	Clubmoor
+WD21CD/E05000893	County
+WD21CD/E05000894	Cressington
+WD21CD/E05000895	Croxteth
+WD21CD/E05000935	Cambridge
+WD21CD/E05000936	Church
+WD21CD/E05000958	Clatterbridge
+WD21CD/E05000959	Claughton
+WD21CD/E05000976	Central
+WD21CD/E05000977	Cudworth
+WD21CD/E05001071	Chowdene
+WD21CD/E05001072	Crawcrook and Greenside
+WD21CD/E05001082	Ryton, Crookhill and Stella
+WD21CD/E05001117	Camperdown
+WD21CD/E05001118	Chirton
+WD21CD/E05001119	Collingwood
+WD21CD/E05001120	Cullercoats
+WD21CD/E05001139	Cleadon and East Boldon
+WD21CD/E05001140	Cleadon Park
+WD21CD/E05001154	Castle
+WD21CD/E05001155	Copt Hill
+WD21CD/E05001220	Cheylesmore
+WD21CD/E05001240	Castle and Priory
+WD21CD/E05001241	Coseley East
+WD21CD/E05001242	Cradley and Wollescote
+WD21CD/E05001263	Charlemont with Grove Vale
+WD21CD/E05001264	Cradley Heath and Old Hill
+WD21CD/E05001286	Castle Bromwich
+WD21CD/E05001287	Chelmsley Wood
+WD21CD/E05001347	City
+WD21CD/E05001348	Clayton and Fairweather Green
+WD21CD/E05001349	Craven
+WD21CD/E05001372	Calder
+WD21CD/E05001393	Cleckheaton
+WD21CD/E05001447	Castleford Central and Glasshoughton
+WD21CD/E05001448	Crofton, Ryhill and Walton
+WD21CD/E05001647	Claremont
+WD21CD/E05001648	Clifton
+WD21CD/E05001691	Cottingham North
+WD21CD/E05001692	Cottingham South
+WD21CD/E05001713	Croft Baker
+WD21CD/E05001739	Crosby and Park
+WD21CD/E05001773	Chaddesden
+WD21CD/E05001774	Chellaston
+WD21CD/E05002079	Compton
+WD21CD/E05002196	Challney
+WD21CD/E05002197	Crawley
+WD21CD/E05002214	Chalkwell
+WD21CD/E05002231	Chadwell St Mary
+WD21CD/E05002232	Chafford and North Stifford
+WD21CD/E05002233	Corringham and Fobbing
+WD21CD/E05002249	Chatham Central
+WD21CD/E05002250	Cuxton and Halling
+WD21CD/E05002274	Central Sandhurst
+WD21CD/E05002275	College Town
+WD21CD/E05002276	Crown Wood
+WD21CD/E05002277	Crowthorne
+WD21CD/E05002321	Caversham
+WD21CD/E05002322	Church
+WD21CD/E05002375	Charvil
+WD21CD/E05002376	Coronation
+WD21CD/E05002421	Central Hove
+WD21CD/E05002442	Central Southsea
+WD21CD/E05002443	Charles Dickens
+WD21CD/E05002444	Copnor
+WD21CD/E05002445	Cosham
+WD21CD/E05002460	Coxford
+WD21CD/E05003146	Central
+WD21CD/E05003210	Crosby Ravensworth
+WD21CD/E05003286	Codnor and Waingroves
+WD21CD/E05003287	Crich
+WD21CD/E05003347	Calver
+WD21CD/E05003348	Carsington Water
+WD21CD/E05003349	Chatsworth
+WD21CD/E05003350	Clifton and Bradley
+WD21CD/E05003511	Cadbury
+WD21CD/E05003512	Canonsleigh
+WD21CD/E05003513	Castle
+WD21CD/E05003514	Clare and Shuttern
+WD21CD/E05003515	Cranmore
+WD21CD/E05003516	Cullompton North
+WD21CD/E05003517	Cullompton Outer
+WD21CD/E05003518	Cullompton South
+WD21CD/E05004024	Crouch
+WD21CD/E05004084	Canvey Island Central
+WD21CD/E05004085	Canvey Island East
+WD21CD/E05004086	Canvey Island North
+WD21CD/E05004087	Canvey Island South
+WD21CD/E05004088	Canvey Island West
+WD21CD/E05004089	Canvey Island Winter Gardens
+WD21CD/E05004090	Cedar Hall
+WD21CD/E05004099	Chelmer Village and Beaulieu Park
+WD21CD/E05004100	Chelmsford Rural West
+WD21CD/E05004150	Chigwell Row
+WD21CD/E05004151	Chigwell Village
+WD21CD/E05004152	Chipping Ongar, Greensted and Marden Ash
+WD21CD/E05004180	Church Langley
+WD21CD/E05004291	Charlton Kings
+WD21CD/E05004292	Charlton Park
+WD21CD/E05004293	College
+WD21CD/E05004536	Christchurch
+WD21CD/E05004570	Cowplain
+WD21CD/E05004580	Ashurst, Copythorne South and Netley Marsh
+WD21CD/E05004585	Bramshaw, Copythorne North and Minstead
+WD21CD/E05004702	Chaulden and Warners End
+WD21CD/E05004764	Cadwell
+WD21CD/E05004765	Chesfield
+WD21CD/E05004766	Codicote
+WD21CD/E05004787	Clarence
+WD21CD/E05004789	Cunningham
+WD21CD/E05004807	Chells
+WD21CD/E05004964	Central
+WD21CD/E05004965	Chalk
+WD21CD/E05004966	Coldharbour
+WD21CD/E05004977	Shorne, Cobham and Luddesdown
+WD21CD/E05005010	Cowden and Hever
+WD21CD/E05005011	Crockenhill and Well Hill
+WD21CD/E05005085	Central Harbour
+WD21CD/E05005086	Cliffsend and Pegwell
+WD21CD/E05005087	Cliftonville East
+WD21CD/E05005088	Cliftonville West
+WD21CD/E05005133	Capel
+WD21CD/E05005134	Culverden
+WD21CD/E05005153	Cliviger with Worsthorne
+WD21CD/E05005154	Coal Clough with Deerplay
+WD21CD/E05005187	Central
+WD21CD/E05005188	Clifton
+WD21CD/E05005209	Central
+WD21CD/E05005210	Church
+WD21CD/E05005211	Clayton-le-Moors
+WD21CD/E05005316	Cribden
+WD21CD/E05005409	Cosby with South Whetstone
+WD21CD/E05005410	Countesthorpe
+WD21CD/E05005411	Croft Hill
+WD21CD/E05005484	Cadeby, Carlton and Market Bosworth with Shackerstone
+WD21CD/E05005497	Croxton Kerrial
+WD21CD/E05005623	Cliff Villages
+WD21CD/E05005644	Crowland and Deeping St Nicholas
+WD21CD/E05005763	Coltishall
+WD21CD/E05005786	Caister North
+WD21CD/E05005787	Caister South
+WD21CD/E05005788	Central and Northgate
+WD21CD/E05005789	Claydon
+WD21CD/E05006299	Cropton
+WD21CD/E05006379	Carlton
+WD21CD/E05006380	Clayworth
+WD21CD/E05006632	Carterton North East
+WD21CD/E05006634	Carterton South
+WD21CD/E05006637	Chipping Norton
+WD21CD/E05006761	Ashwick, Chilcompton and Stratton
+WD21CD/E05006764	Chewton Mendip and Ston Easton
+WD21CD/E05006765	Coleford and Holcombe
+WD21CD/E05006766	Cranmore, Doulting and Nunney
+WD21CD/E05006767	Creech
+WD21CD/E05006768	Croscombe and Pilton
+WD21CD/E05006903	Cannock East
+WD21CD/E05006904	Cannock North
+WD21CD/E05006905	Cannock South
+WD21CD/E05006906	Cannock West
+WD21CD/E05006923	Churnet
+WD21CD/E05006924	Crown
+WD21CD/E05006990	Cheslyn Hay North and Saredon
+WD21CD/E05006991	Cheslyn Hay South
+WD21CD/E05006992	Codsall North
+WD21CD/E05006993	Codsall South
+WD21CD/E05007047	Caverswall
+WD21CD/E05007048	Cellarhead
+WD21CD/E05007049	Cheadle North East
+WD21CD/E05007050	Cheadle South East
+WD21CD/E05007051	Cheadle West
+WD21CD/E05007052	Checkley
+WD21CD/E05007053	Cheddleton
+WD21CD/E05007054	Churnet
+WD21CD/E05007069	Castle
+WD21CD/E05007120	Castle Hill
+WD21CD/E05007274	College
+WD21CD/E05007275	Court
+WD21CD/E05007276	Cuddington
+WD21CD/E05007290	Christchurch
+WD21CD/E05007291	Clandon and Horsley
+WD21CD/E05007316	Capel, Leigh and Newdigate
+WD21CD/E05007317	Charlwood
+WD21CD/E05007391	Chaldon
+WD21CD/E05007411	Alfold, Cranleigh Rural and Ellens Green
+WD21CD/E05007414	Chiddingfold and Dunsfold
+WD21CD/E05007415	Cranleigh East
+WD21CD/E05007416	Cranleigh West
+WD21CD/E05007462	Coleshill North
+WD21CD/E05007463	Coleshill South
+WD21CD/E05007464	Curdworth
+WD21CD/E05007480	Camp Hill
+WD21CD/E05007563	Churchill
+WD21CD/E05007564	Cokeham
+WD21CD/E05007677	Copthorne and Worth
+WD21CD/E05007678	Crawley Down and Turners Hill
+WD21CD/E05007679	Cuckfield
+WD21CD/E05007695	Castle
+WD21CD/E05007696	Central
+WD21CD/E05007849	Chase
+WD21CD/E05007871	Central
+WD21CD/E05007872	Church Hill
+WD21CD/E05007873	Crabbs Cross
+WD21CD/E05007883	Cathedral
+WD21CD/E05007884	Claines
+WD21CD/E05008141	Bayston Hill, Column and Sutton
+WD21CD/E05008150	Castlefields and Ditherington
+WD21CD/E05008151	Cheswardine
+WD21CD/E05008152	Chirbury and Worthen
+WD21CD/E05008153	Church Stretton and Craven Arms
+WD21CD/E05008154	Clee
+WD21CD/E05008155	Cleobury Mortimer
+WD21CD/E05008156	Clun
+WD21CD/E05008157	Copthorne
+WD21CD/E05008158	Corvedale
+WD21CD/E05008553	Coxheath and Hunton
+WD21CD/E05008559	Colne Valley
+WD21CD/E05008560	Crosland Moor and Netherton
+WD21CD/E05008617	Chelford
+WD21CD/E05008618	Congleton East
+WD21CD/E05008619	Congleton West
+WD21CD/E05008620	Crewe Central
+WD21CD/E05008621	Crewe East
+WD21CD/E05008622	Crewe North
+WD21CD/E05008623	Crewe St Barnabas
+WD21CD/E05008624	Crewe South
+WD21CD/E05008625	Crewe West
+WD21CD/E05008753	Castle
+WD21CD/E05008754	Cauldwell
+WD21CD/E05008755	Clapham
+WD21CD/E05008785	Cranfield and Marston Moretaine
+WD21CD/E05008810	Church Gresley
+WD21CD/E05008862	Carr Bank
+WD21CD/E05008904	Cannington and Wembdon
+WD21CD/E05008905	Cheddar and Shipham
+WD21CD/E05008954	Central
+WD21CD/E05008955	Chiseldon and Lawn
+WD21CD/E05008956	Covingham and Dorcan
+WD21CD/E05008976	Clifton, Newton and Churchover
+WD21CD/E05008977	Coton and Boughton
+WD21CD/E05008990	Cherrywood
+WD21CD/E05008991	Cove and Southwood
+WD21CD/E05009003	Cheshunt North
+WD21CD/E05009004	Cheshunt South and Theobalds
+WD21CD/E05009028	Colney Heath
+WD21CD/E05009043	Chester-le-Street East
+WD21CD/E05009044	Chester-le-Street North
+WD21CD/E05009045	Chester-le-Street South
+WD21CD/E05009046	Chester-le-Street West Central
+WD21CD/E05009047	Chilton
+WD21CD/E05009048	Consett North
+WD21CD/E05009049	Consett South
+WD21CD/E05009050	Coundon
+WD21CD/E05009051	Coxhoe
+WD21CD/E05009052	Craghead and South Moor
+WD21CD/E05009053	Crook
+WD21CD/E05009107	Choppington
+WD21CD/E05009108	College
+WD21CD/E05009109	Corbridge
+WD21CD/E05009110	Cowpen
+WD21CD/E05009111	Cramlington East
+WD21CD/E05009112	Cramlington Eastfield
+WD21CD/E05009113	Cramlington North
+WD21CD/E05009114	Cramlington South East
+WD21CD/E05009115	Cramlington Village
+WD21CD/E05009116	Cramlington West
+WD21CD/E05009117	Croft
+WD21CD/E05009296	Candlewick
+WD21CD/E05009297	Castle Baynard
+WD21CD/E05009298	Cheap
+WD21CD/E05009299	Coleman Street
+WD21CD/E05009300	Cordwainer
+WD21CD/E05009301	Cornhill
+WD21CD/E05009302	Cripplegate
+WD21CD/E05009313	Chopwell and Rowlands Gill
+WD21CD/E05009318	Blackwall & Cubitt Town
+WD21CD/E05009323	Canary Wharf
+WD21CD/E05009339	Central
+WD21CD/E05009340	Chalvey
+WD21CD/E05009341	Cippenham Green
+WD21CD/E05009342	Cippenham Meadows
+WD21CD/E05009343	Colnbrook with Poyle
+WD21CD/E05009353	Crookham East
+WD21CD/E05009354	Crookham West and Ewshot
+WD21CD/E05009365	Carterton North West
+WD21CD/E05009368	Cazenove
+WD21CD/E05009369	Clissold
+WD21CD/E05009390	Campden
+WD21CD/E05009391	Chelsea Riverside
+WD21CD/E05009392	Colville
+WD21CD/E05009393	Courtfield
+WD21CD/E05009411	Campbell Park & Old Woughton
+WD21CD/E05009412	Central Milton Keynes
+WD21CD/E05009426	Carpenders Park
+WD21CD/E05009427	Chorleywood North & Sarratt
+WD21CD/E05009428	Chorleywood South & Maple Cross
+WD21CD/E05009444	Bishops Frome & Cradley
+WD21CD/E05009448	Castle
+WD21CD/E05009449	Central
+WD21CD/E05009450	College
+WD21CD/E05009492	Benwick, Coates & Eastrea
+WD21CD/E05009494	Clarkson
+WD21CD/E05009496	Elm & Christchurch
+WD21CD/E05009548	Chalkwell
+WD21CD/E05009572	Cage Green
+WD21CD/E05009573	Castle
+WD21CD/E05009595	Carnforth & Millhead
+WD21CD/E05009596	Castle
+WD21CD/E05009621	Coastal
+WD21CD/E05009637	Caistor and Yarborough
+WD21CD/E05009638	Cherry Willingham
+WD21CD/E05009690	Calverton
+WD21CD/E05009691	Carlton
+WD21CD/E05009692	Carlton Hill
+WD21CD/E05009693	Cavendish
+WD21CD/E05009694	Colwick
+WD21CD/E05009695	Coppice
+WD21CD/E05009712	Compton Acres
+WD21CD/E05009713	Cotgrave
+WD21CD/E05009714	Cranmer
+WD21CD/E05009715	Cropwell
+WD21CD/E05009733	Benson & Crowmarsh
+WD21CD/E05009735	Chalgrove
+WD21CD/E05009736	Chinnor
+WD21CD/E05009808	Courtwick with Toddington
+WD21CD/E05009830	Catshill North
+WD21CD/E05009831	Catshill South
+WD21CD/E05009832	Charford
+WD21CD/E05009833	Cofton
+WD21CD/E05009857	Central
+WD21CD/E05009858	Coulby Newham
+WD21CD/E05009876	Chapel St Leonards
+WD21CD/E05009877	Coningsby & Mareham
+WD21CD/E05009878	Croft
+WD21CD/E05009912	Clavering
+WD21CD/E05009921	Littlebury, Chesterford & Wenden Lofts
+WD21CD/E05009935	Calder
+WD21CD/E05009936	Carleton
+WD21CD/E05009937	Cleveleys Park
+WD21CD/E05009970	Church Aston & Lilleshall
+WD21CD/E05009971	College
+WD21CD/E05010016	Cheriton
+WD21CD/E05010044	Appleton Roebuck & Church Fenton
+WD21CD/E05010048	Camblesforth & Carlton
+WD21CD/E05010049	Cawood & Wistow
+WD21CD/E05010070	Collingham
+WD21CD/E05010073	Edwinstowe & Clipstone
+WD21CD/E05010100	Castle Donington Castle
+WD21CD/E05010101	Castle Donington Central
+WD21CD/E05010102	Castle Donington Park
+WD21CD/E05010103	Castle Rock
+WD21CD/E05010104	Coalville East
+WD21CD/E05010105	Coalville West
+WD21CD/E05010129	Bickleigh & Cornwood
+WD21CD/E05010131	Charterlands
+WD21CD/E05010154	Casewick
+WD21CD/E05010155	Castle
+WD21CD/E05010185	Brailes & Compton
+WD21CD/E05010187	Clopton
+WD21CD/E05010219	Charnock
+WD21CD/E05010220	Coupe Green & Gregson Lane
+WD21CD/E05010278	Blagdon & Churchill
+WD21CD/E05010279	Clevedon East
+WD21CD/E05010280	Clevedon South
+WD21CD/E05010281	Clevedon Walton
+WD21CD/E05010282	Clevedon West
+WD21CD/E05010283	Clevedon Yeo
+WD21CD/E05010284	Congresbury & Puxton
+WD21CD/E05010313	Clifton
+WD21CD/E05010314	Copmanthorpe
+WD21CD/E05010327	Rawcliffe & Clifton Without
+WD21CD/E05010372	Coggeshall
+WD21CD/E05010395	Chestfield
+WD21CD/E05010414	Cockerton
+WD21CD/E05010415	College
+WD21CD/E05010419	Heighington & Coniscliffe
+WD21CD/E05010463	Castle
+WD21CD/E05010481	Common
+WD21CD/E05010482	Coton
+WD21CD/E05010483	Doxey & Castletown
+WD21CD/E05010498	Seighford & Church Eaton
+WD21CD/E05010511	Offmore & Comberton
+WD21CD/E05010514	Attenborough & Chilwell East
+WD21CD/E05010515	Awsworth, Cossall & Trowell
+WD21CD/E05010522	Chilwell West
+WD21CD/E05010532	Toton & Chilwell Meadows
+WD21CD/E05010554	Chagford
+WD21CD/E05010606	Cotmanhay
+WD21CD/E05010627	Chapel East
+WD21CD/E05010628	Chapel West
+WD21CD/E05010629	Corbar
+WD21CD/E05010630	Cote Heath
+WD21CD/E05010654	Boney Hay & Central
+WD21CD/E05010656	Chadsmead
+WD21CD/E05010657	Chase Terrace
+WD21CD/E05010658	Chasetown
+WD21CD/E05010659	Colton & the Ridwares
+WD21CD/E05010660	Curborough
+WD21CD/E05010676	Carsic
+WD21CD/E05010700	Campden & Vale
+WD21CD/E05010701	Chedworth & Churn Valley
+WD21CD/E05010702	Chesterton
+WD21CD/E05010703	Coln Valley
+WD21CD/E05010717	Siddington & Cerney Rural
+WD21CD/E05010728	Adwick le Street & Carcroft
+WD21CD/E05010733	Conisbrough
+WD21CD/E05010776	Cowling
+WD21CD/E05010781	Chadlington and Churchill
+WD21CD/E05010782	Charlbury and Finstock
+WD21CD/E05010787	Carholme
+WD21CD/E05010788	Castle
+WD21CD/E05010796	Canalside
+WD21CD/E05010807	Central
+WD21CD/E05010828	Castle
+WD21CD/E05010862	City
+WD21CD/E05010863	Crookes and Crosspool
+WD21CD/E05010892	Central
+WD21CD/E05010893	Clifton
+WD21CD/E05010894	Clifton Down
+WD21CD/E05010895	Cotham
+WD21CD/E05010929	Cropredy, Sibfords and Wroxton
+WD21CD/E05010935	Cherryfield
+WD21CD/E05010954	Coney Hill
+WD21CD/E05010972	Cam East
+WD21CD/E05010973	Cam West
+WD21CD/E05010975	Coaley and Uley
+WD21CD/E05010998	Central Meon Valley
+WD21CD/E05010999	Colden Common and Twyford
+WD21CD/E05011028	Chapelford and Old Hall
+WD21CD/E05011029	Culcheth, Glazebury and Croft
+WD21CD/E05011046	Callowland
+WD21CD/E05011047	Central
+WD21CD/E05011074	Claygate
+WD21CD/E05011075	Cobham and Downside
+WD21CD/E05011096	Camberwell Green
+WD21CD/E05011097	Champion Hill
+WD21CD/E05011098	Chaucer
+WD21CD/E05011129	Bournville & Cotteridge
+WD21CD/E05011132	Castle Vale
+WD21CD/E05011190	Chandler's Ford
+WD21CD/E05011204	Castle
+WD21CD/E05011205	Central St Leonards
+WD21CD/E05011206	Conquest
+WD21CD/E05011222	Crayford
+WD21CD/E05011223	Crook Log
+WD21CD/E05011237	Chadwell
+WD21CD/E05011238	Churchfields
+WD21CD/E05011239	Clayhall
+WD21CD/E05011240	Clementswood
+WD21CD/E05011241	Cranbrook
+WD21CD/E05011286	Caldecote
+WD21CD/E05011287	Cambourne
+WD21CD/E05011288	Caxton & Papworth
+WD21CD/E05011289	Cottenham
+WD21CD/E05011296	Harston & Comberton
+WD21CD/E05011310	Claro
+WD21CD/E05011332	Knaresborough Aspin & Calcutt
+WD21CD/E05011355	Charlestown
+WD21CD/E05011356	Cheetham
+WD21CD/E05011357	Chorlton
+WD21CD/E05011358	Chorlton Park
+WD21CD/E05011359	Clayton & Openshaw
+WD21CD/E05011360	Crumpsall
+WD21CD/E05011389	Calverley & Farsley
+WD21CD/E05011390	Chapel Allerton
+WD21CD/E05011391	Cross Gates & Whinmoor
+WD21CD/E05011417	Clayton
+WD21CD/E05011418	Crackley & Red Street
+WD21CD/E05011419	Cross Heath
+WD21CD/E05011420	Holditch & Chesterton
+WD21CD/E05011440	Callerton & Throckley
+WD21CD/E05011441	Castle
+WD21CD/E05011442	Chapel
+WD21CD/E05011466	Coulsdon Town
+WD21CD/E05011467	Crystal Palace & Upper Norwood
+WD21CD/E05011493	Broughton & Coniston
+WD21CD/E05011494	Burton & Crooklands
+WD21CD/E05011495	Cartmel
+WD21CD/E05011522	Shear Brow & Corporation Park
+WD21CD/E05011529	Central
+WD21CD/E05011552	Balderton North & Coddington
+WD21CD/E05011554	Castle
+WD21CD/E05011558	Brasted, Chevening and Sundridge
+WD21CD/E05011583	Chailey, Barcombe & Hamsey
+WD21CD/E05011615	Catsfield & Crowhurst
+WD21CD/E05011627	Chiddingly, East Hoathly & Waldron
+WD21CD/E05011628	Crowborough Central
+WD21CD/E05011629	Crowborough Jarvis Brook
+WD21CD/E05011630	Crowborough North
+WD21CD/E05011631	Crowborough South East
+WD21CD/E05011632	Crowborough South West
+WD21CD/E05011633	Crowborough St Johns
+WD21CD/E05011636	Framfield & Cross-in-Hand
+WD21CD/E05011666	Chichester Central
+WD21CD/E05011667	Chichester East
+WD21CD/E05011668	Chichester North
+WD21CD/E05011669	Chichester South
+WD21CD/E05011670	Chichester West
+WD21CD/E05011701	Cholsey
+WD21CD/E05011714	Cumnor
+WD21CD/E05011725	Christchurch
+WD21CD/E05011726	Crummock & Derwent Valley
+WD21CD/E05011740	Stainburn & Clifton
+WD21CD/E05011749	Charing
+WD21CD/E05011750	Conningbrook & Little Burton Farm
+WD21CD/E05011786	Clyst Valley
+WD21CD/E05011787	Coly Valley
+WD21CD/E05011788	Cranbrook
+WD21CD/E05011815	Colgate & Rusper
+WD21CD/E05011816	Cowfold, Shermanbury & West Grinstead
+WD21CD/E05011824	Pulborough, Coldwaltham & Amberley
+WD21CD/E05011837	Coastal
+WD21CD/E05011838	Cromer Town
+WD21CD/E05011870	Central Wymondham
+WD21CD/E05011871	Cringleford
+WD21CD/E05011880	Loddon & Chedgrave
+WD21CD/E05011899	Chudleigh
+WD21CD/E05011900	College
+WD21CD/E05011937	Cann Hall
+WD21CD/E05011938	Coppins
+WD21CD/E05011989	Clowne East
+WD21CD/E05011990	Clowne West
+WD21CD/E05012004	Chatburn
+WD21CD/E05012005	Chipping
+WD21CD/E05012006	Clayton-le-Dale & Salesbury
+WD21CD/E05012039	Windlesham & Chobham
+WD21CD/E05012043	Clay Cross North
+WD21CD/E05012044	Clay Cross South
+WD21CD/E05012045	Coal Aston
+WD21CD/E05012067	Churchdown Brookfield with Hucclecote
+WD21CD/E05012068	Churchdown St John's
+WD21CD/E05012069	Cleeve Grange
+WD21CD/E05012070	Cleeve Hill
+WD21CD/E05012071	Cleeve St Michael's
+WD21CD/E05012072	Cleeve West
+WD21CD/E05012108	Charfield
+WD21CD/E05012109	Charlton & Cribbs
+WD21CD/E05012110	Chipping Sodbury & Cotswold Edge
+WD21CD/E05012126	Stoke Park & Cheswick
+WD21CD/E05012137	Chieveley & Cold Ash
+WD21CD/E05012149	Thatcham Colthrop & Crookham
+WD21CD/E05012158	Cinderford East
+WD21CD/E05012159	Cinderford West
+WD21CD/E05012160	Coleford
+WD21CD/E05012195	Cadley
+WD21CD/E05012196	City Centre
+WD21CD/E05012201	Ingol & Cottam
+WD21CD/E05012210	Central & Grange
+WD21CD/E05012211	Chester City & the Garden Quarter
+WD21CD/E05012212	Christleton & Huntington
+WD21CD/E05012230	Northwich Winnington & Castle
+WD21CD/E05012243	Weaver & Cuddington
+WD21CD/E05012255	Churston with Galmpton
+WD21CD/E05012256	Clifton with Maidenway
+WD21CD/E05012257	Cockington with Chelston
+WD21CD/E05012258	Collaton St Mary
+WD21CD/E05012277	Castle
+WD21CD/E05012278	Clifton East
+WD21CD/E05012279	Clifton West
+WD21CD/E05012301	Clanfield
+WD21CD/E05012325	Clenchwarton
+WD21CD/E05012356	Catterick & Brompton-on-Swale
+WD21CD/E05012357	Colburn
+WD21CD/E05012358	Croft & Middleton Tyas
+WD21CD/E05012372	Burniston & Cloughton
+WD21CD/E05012373	Castle
+WD21CD/E05012374	Cayton
+WD21CD/E05012420	Chittlehampton
+WD21CD/E05012421	Chulmleigh
+WD21CD/E05012422	Combe Martin
+WD21CD/E05012439	Coatham
+WD21CD/E05012464	Chew Valley
+WD21CD/E05012465	Clutton & Farmborough
+WD21CD/E05012466	Combe Down
+WD21CD/E05012496	Bisham & Cookham
+WD21CD/E05012499	Clewer & Dedworth East
+WD21CD/E05012500	Clewer & Dedworth West
+WD21CD/E05012501	Clewer East
+WD21CD/E05012502	Cox Green
+WD21CD/E05012504	Eton & Castle
+WD21CD/E05012512	Sunningdale & Cheapside
+WD21CD/E05012518	Camelot
+WD21CD/E05012519	Cary
+WD21CD/E05012520	Chard Avishayes
+WD21CD/E05012521	Chard Combe
+WD21CD/E05012522	Chard Crimchard
+WD21CD/E05012523	Chard Holyrood
+WD21CD/E05012524	Chard Jocelyn
+WD21CD/E05012525	Coker
+WD21CD/E05012526	Crewkerne
+WD21CD/E05012527	Curry Rivel, Huish & Langport
+WD21CD/E05012551	Cleator Moor
+WD21CD/E05012552	Corkickle
+WD21CD/E05012570	Capel St Mary
+WD21CD/E05012571	Chadacre
+WD21CD/E05012572	Copdock & Washbrook
+WD21CD/E05012593	Chilton
+WD21CD/E05012594	Claydon & Barham
+WD21CD/E05012595	Combs Ford
+WD21CD/E05012617	Cubbington & Leek Wootton
+WD21CD/E05012634	Cottesmore
+WD21CD/E05012644	Ryhall & Casterton
+WD21CD/E05012656	Canford Cliffs
+WD21CD/E05012657	Canford Heath
+WD21CD/E05012658	Christchurch Town
+WD21CD/E05012659	Commons
+WD21CD/E05012660	Creekmoor
+WD21CD/E05012687	Chalk Valleys
+WD21CD/E05012688	Charminster St Mary's
+WD21CD/E05012689	Chesil Bank
+WD21CD/E05012690	Chickerell
+WD21CD/E05012691	Colehill & Wimborne Minster East
+WD21CD/E05012692	Corfe Mullen
+WD21CD/E05012693	Cranborne & Alderholt
+WD21CD/E05012694	Cranborne Chase
+WD21CD/E05012695	Crossways
+WD21CD/E05012705	Lyme & Charmouth
+WD21CD/E05012737	Carlford & Fynn Valley
+WD21CD/E05012738	Carlton & Whitton
+WD21CD/E05012739	Carlton Colville
+WD21CD/E05012770	Chedburgh & Chevington
+WD21CD/E05012771	Clare, Hundon & Kedington
+WD21CD/E05012808	Comeytrowe & Bishop's Hull
+WD21CD/E05012809	Cotford St Luke & Oake
+WD21CD/E05012810	Creech St Michael
+WD21CD/E05012830	Trull, Pitminster & Corfe
+WD21CD/E05012838	West Monkton & Cheddon Fitzpaine
+WD21CD/E05012844	Caddington
+WD21CD/E05012855	Alkham & Capel-le-Ferne
+WD21CD/E05012869	Town & Castle
+WD21CD/E05012873	Chipstead, Kingswood & Woodmansterne
+WD21CD/E05012889	Chertsey Riverside
+WD21CD/E05012890	Chertsey St Ann's
+WD21CD/E05012895	Longcross, Lyne & Chertsey South
+WD21CD/E05012902	Catton Grove
+WD21CD/E05012903	Crome
+WD21CD/E05012935	Charlton & the Pentons
+WD21CD/E05012936	Chilworth, Nursling & Rownhams
+WD21CD/E05012943	Cathedral & Castle
+WD21CD/E05012944	Currock & Upperby
+WD21CD/E05012952	Wetheral & Corby
+WD21CD/E05012957	Credenhill
+WD21CD/E05012965	Silver End & Cressing
+WD21CD/E05012991	Chartham & Stone Street
+WD21CD/E05013022	Cadishead & Lower Irlam
+WD21CD/E05013023	Claremont
+WD21CD/E05013029	Pendlebury & Clifton
+WD21CD/E05013030	Pendleton & Charlestown
+WD21CD/E05013052	Castle
+WD21CD/E05013053	Cherry Hinton
+WD21CD/E05013054	Coleridge
+WD21CD/E05013066	Chorley East
+WD21CD/E05013067	Chorley North East
+WD21CD/E05013068	Chorley North West
+WD21CD/E05013069	Chorley North & Astley
+WD21CD/E05013070	Chorley South East & Heath Charnock
+WD21CD/E05013071	Chorley South West
+WD21CD/E05013072	Clayton East, Brindle & Hoghton
+WD21CD/E05013073	Clayton West & Cuerden
+WD21CD/E05013074	Coppull
+WD21CD/E05013075	Croston, Mawdesley & Euxton South
+WD21CD/E05013076	Eccleston, Heskin & Charnock Richard
+WD21CD/E05013082	Chineham
+WD21CD/E05013098	Carfax & Jericho
+WD21CD/E05013099	Churchill
+WD21CD/E05013100	Cowley
+WD21CD/E05013101	Cutteslowe & Sunnymead
+WD21CD/E05013131	Booker, Cressex and Castlefield
+WD21CD/E05013134	Chalfont St Giles
+WD21CD/E05013135	Chalfont St Peter
+WD21CD/E05013136	Chesham
+WD21CD/E05013137	Chess Valley
+WD21CD/E05013138	Chiltern Ridges
+WD21CD/E05013139	Chiltern Villages
+WD21CD/E05013140	Cliveden
+WD21CD/E05013174	Central & West Bank
+WD21CD/E05013189	Chalford
+WD21CD/E05013204	Brierfield East & Clover Hill
+WD21CD/E05013206	Earby & Coates
+WD21CD/E05013212	Cainscross
+WD21CD/E05013215	Clover Hill
+WD21CD/E05013216	Corby Rural
+WD21CD/E05013217	Corby West
+WD21CD/E05013218	Croyland and Swanspool
+WD21CD/E05013246	Castle
+WD21CD/E05013276	Callington & St Dominic
+WD21CD/E05013277	Calstock
+WD21CD/E05013278	Camborne Roskear & Tuckingmill
+WD21CD/E05013279	Camborne Trelowarren
+WD21CD/E05013280	Camborne West & Treswithian
+WD21CD/E05013281	Camelford & Boscastle
+WD21CD/E05013282	Constantine, Mabe & Mawnan
+WD21CD/E05013362	Brighstone, Calbourne & Shalfleet
+WD21CD/E05013363	Carisbrooke & Gunville
+WD21CD/E05013364	Central Rural
+WD21CD/E05013365	Chale, Niton & Shorwell
+WD21CD/E05013366	Cowes Medina
+WD21CD/E05013367	Cowes North
+WD21CD/E05013368	Cowes South & Northwood
+WD21CD/E05013369	Cowes West & Gurnard
+WD21CD/E05013394	Totland & Colwell
+WD21CD/E05013405	Box & Colerne
+WD21CD/E05013411	Calne Central
+WD21CD/E05013412	Calne Chilvester & Abberd
+WD21CD/E05013413	Calne North
+WD21CD/E05013414	Calne Rural
+WD21CD/E05013415	Calne South
+WD21CD/E05013416	Chippenham Cepen Park & Derriads
+WD21CD/E05013417	Chippenham Cepen Park & Hunters Moon
+WD21CD/E05013418	Chippenham Hardenhuish
+WD21CD/E05013419	Chippenham Hardens & Central
+WD21CD/E05013420	Chippenham Lowden & Rowden
+WD21CD/E05013421	Chippenham Monkton
+WD21CD/E05013422	Chippenham Pewsham
+WD21CD/E05013423	Chippenham Sheldon
+WD21CD/E05013424	Corsham Ladbrook
+WD21CD/E05013425	Corsham Pickwick
+WD21CD/E05013426	Corsham Without
+WD21CD/E05013427	Cricklade & Latton
+WD21CD/E05013435	Fovant & Chalke Valley
+WD21CD/E05013838	Crowan, Sithney & Wendron
+WD21CD/E05013851	Redruth Central, Carharrack & St Day
+WD21CD/E05013855	St Columb Minor & Colan
+WD21CD/E05013857	St Ives East, Lelant & Carbis Bay
+WD21CD/E05013860	St Newlyn East, Cubert & Goonhavern
+WD21CD/E05013861	Threemilestone & Chacewater
+WD21CD/N08000111	Carnmoney
+WD21CD/N08000112	Carnmoney Hill
+WD21CD/N08000113	Clady
+WD21CD/N08000114	Collinbridge
+WD21CD/N08000115	Cranfield
+WD21CD/N08000116	Crumlin
+WD21CD/N08000210	Cathedral
+WD21CD/N08000211	Corcrain
+WD21CD/N08000212	Craigavon Centre
+WD21CD/N08000314	Cavehill
+WD21CD/N08000315	Central
+WD21CD/N08000316	Chichester Park
+WD21CD/N08000317	Cliftonville
+WD21CD/N08000318	Clonard
+WD21CD/N08000319	Collin Glen
+WD21CD/N08000320	Connswater
+WD21CD/N08000321	Cregagh
+WD21CD/N08000409	Castlerock
+WD21CD/N08000410	Churchland
+WD21CD/N08000411	Clogh Mills
+WD21CD/N08000412	Coolessan
+WD21CD/N08000505	Carn Hill
+WD21CD/N08000506	Castlederg
+WD21CD/N08000507	Caw
+WD21CD/N08000508	City Walls
+WD21CD/N08000509	Claudy
+WD21CD/N08000510	Clondermot
+WD21CD/N08000511	Creggan
+WD21CD/N08000512	Creggan South
+WD21CD/N08000513	Culmore
+WD21CD/N08000605	Boho, Cleenish and Letterbreen
+WD21CD/N08000607	Camowen
+WD21CD/N08000608	Castlecoole
+WD21CD/N08000609	Coolnagard
+WD21CD/N08000708	Cairnshill
+WD21CD/N08000709	Carrowreagh
+WD21CD/N08000710	Carryduff East
+WD21CD/N08000711	Carryduff West
+WD21CD/N08000811	Cairncastle
+WD21CD/N08000812	Carnlough and Glenarm
+WD21CD/N08000813	Castle
+WD21CD/N08000814	Castle Demesne
+WD21CD/N08000815	Craigyhill
+WD21CD/N08000816	Cullybackey
+WD21CD/N08000817	Curran and Inver
+WD21CD/N08000908	Caledon
+WD21CD/N08000909	Castlecaulfield
+WD21CD/N08000910	Castledawson
+WD21CD/N08000911	Coagh
+WD21CD/N08000912	Coalisland North
+WD21CD/N08000913	Coalisland South
+WD21CD/N08000914	Cookstown East
+WD21CD/N08000915	Cookstown South
+WD21CD/N08000916	Cookstown West
+WD21CD/N08000917	Coolshinny
+WD21CD/N08001010	Camlough
+WD21CD/N08001011	Castlewellan
+WD21CD/N08001012	Cathedral
+WD21CD/N08001013	Crossgar and Killyleagh
+WD21CD/N08001014	Crossmaglen
+WD21CD/N08001110	Carrowdore
+WD21CD/N08001111	Castle
+WD21CD/N08001112	Clandeboye
+WD21CD/N08001113	Comber North
+WD21CD/N08001114	Comber South
+WD21CD/N08001115	Comber West
+WD21CD/N08001116	Conway Square
+WD21CD/N08001117	Cronstown
+WD21CD/N08001118	Cultra
+WD21CD/S13002521	Cowal
+WD21CD/S13002548	Coldside
+WD21CD/S13002851	Central Buchan
+WD21CD/S13002871	Carnoustie and District
+WD21CD/S13002875	Clackmannanshire West
+WD21CD/S13002876	Clackmannanshire North
+WD21CD/S13002877	Clackmannanshire Central
+WD21CD/S13002878	Clackmannanshire South
+WD21CD/S13002879	Clackmannanshire East
+WD21CD/S13002883	Castle Douglas and Crocketford
+WD21CD/S13002899	Cumnock and New Cumnock
+WD21CD/S13002917	Clarkston, Netherlee and Williamwood
+WD21CD/S13002924	Corstorphine/Murrayfield
+WD21CD/S13002926	Colinton/Fairmilehead
+WD21CD/S13002929	City Centre
+WD21CD/S13002932	Craigentinny/Duddingston
+WD21CD/S13002939	Carse, Kinnaird and Tryst
+WD21CD/S13002964	Cupar
+WD21CD/S13002970	Cardonald
+WD21CD/S13002975	Calton
+WD21CD/S13002982	Canal
+WD21CD/S13002995	Cromarty Firth
+WD21CD/S13003000	Caol and Mallaig
+WD21CD/S13003006	Culloden and Ardersier
+WD21CD/S13003043	Cumbernauld North
+WD21CD/S13003044	Cumbernauld South
+WD21CD/S13003045	Cumbernauld East
+WD21CD/S13003048	Coatbridge North
+WD21CD/S13003051	Coatbridge West
+WD21CD/S13003052	Coatbridge South
+WD21CD/S13003063	Carse of Gowrie
+WD21CD/S13003084	Houston, Crosslee and Linwood
+WD21CD/S13003095	Clydesdale West
+WD21CD/S13003096	Clydesdale North
+WD21CD/S13003097	Clydesdale East
+WD21CD/S13003098	Clydesdale South
+WD21CD/S13003107	Cambuslang West
+WD21CD/S13003108	Cambuslang East
+WD21CD/S13003126	Clydebank Central
+WD21CD/S13003127	Clydebank Waterfront
+WD21CD/S13003128	Cowdenbeath
+WD21CD/S13003130	Lochgelly, Cardenden and Benarty
+WD21CD/S13003134	Stepps, Chryston and Muirhead
+WD21CD/W05000054	Cadnant
+WD21CD/W05000055	Clynnog
+WD21CD/W05000056	Corris/Mawddwy
+WD21CD/W05000057	Criccieth
+WD21CD/W05000058	Cwm-y-Glo
+WD21CD/W05000116	Caerhun
+WD21CD/W05000117	Capelulo
+WD21CD/W05000118	Colwyn
+WD21CD/W05000119	Conwy
+WD21CD/W05000121	Crwst
+WD21CD/W05000151	Corwen
+WD21CD/W05000191	Caergwrle
+WD21CD/W05000192	Caerwys
+WD21CD/W05000193	Cilcain
+WD21CD/W05000194	Connah's Quay Central
+WD21CD/W05000195	Connah's Quay Golftyn
+WD21CD/W05000196	Connah's Quay South
+WD21CD/W05000197	Connah's Quay Wepre
+WD21CD/W05000244	Cefn
+WD21CD/W05000246	Chirk North
+WD21CD/W05000247	Chirk South
+WD21CD/W05000292	Caersws
+WD21CD/W05000293	Churchstoke
+WD21CD/W05000294	Crickhowell
+WD21CD/W05000295	Cwm-twrch
+WD21CD/W05000369	Capel Dewi
+WD21CD/W05000370	Ceulanamaesmawr
+WD21CD/W05000371	Ciliau Aeron
+WD21CD/W05000400	Carew
+WD21CD/W05000402	Clydau
+WD21CD/W05000463	Carmarthen Town North
+WD21CD/W05000464	Carmarthen Town South
+WD21CD/W05000465	Carmarthen Town West
+WD21CD/W05000466	Cenarth
+WD21CD/W05000467	Cilycwm
+WD21CD/W05000468	Cynwyl Elfed
+WD21CD/W05000469	Cynwyl Gaeo
+WD21CD/W05000561	Cadoxton
+WD21CD/W05000562	Cimla
+WD21CD/W05000563	Coedffranc Central
+WD21CD/W05000564	Coedffranc North
+WD21CD/W05000565	Coedffranc West
+WD21CD/W05000566	Crynant
+WD21CD/W05000567	Cwmllynfell
+WD21CD/W05000568	Cymmer
+WD21CD/W05000601	Caerau
+WD21CD/W05000602	Cefn Cribwr
+WD21CD/W05000603	Cefn Glas
+WD21CD/W05000604	Coity
+WD21CD/W05000605	Cornelly
+WD21CD/W05000634	Cadoc
+WD21CD/W05000635	Castleland
+WD21CD/W05000636	Cornerswell
+WD21CD/W05000637	Court
+WD21CD/W05000638	Cowbridge
+WD21CD/W05000663	Cilfynydd
+WD21CD/W05000664	Cwm Clydach
+WD21CD/W05000666	Cymmer
+WD21CD/W05000708	Cyfarthfa
+WD21CD/W05000726	Crosskeys
+WD21CD/W05000770	Coed Eva
+WD21CD/W05000772	Croesyceiliog South
+WD21CD/W05000773	Cwmyniscoy
+WD21CD/W05000791	Caerwent
+WD21CD/W05000792	Caldicot Castle
+WD21CD/W05000793	Cantref
+WD21CD/W05000794	Castle
+WD21CD/W05000795	Croesonen
+WD21CD/W05000796	Crucorney
+WD21CD/W05000837	Caerleon
+WD21CD/W05000855	Caerau
+WD21CD/W05000856	Canton
+WD21CD/W05000857	Cathays
+WD21CD/W05000858	Creigiau/St. Fagans
+WD21CD/W05000898	Coychurch Lower
+WD21CD/W05000905	Cartrefle
+WD21CD/W05000906	Coedpoeth
+WD21CD/W05000913	Craig-y-Don
+WD21CD/W05000919	Cefn Fforest
+WD21CD/W05000920	Crumlin
+WD21CD/W05000940	Cwm
+WD21CD/W05000941	Cwmtillery
+WD21CD/W05000948	Camrose
+WD21CD/W05000949	Cilgerran
+WD21CD/W05000950	Crymych
+WD21CD/W05000961	Castle
+WD21CD/W05000962	Clydach
+WD21CD/W05000963	Cockett
+WD21CD/W05000964	Cwmbwrla
+WD21CD/W05000984	Caergybi
+WD21CD/W05000985	Canolbarth Môn
+WD21CD/W05000993	Croesyceiliog North
+WD21CD/W05001011	Cyncoed
+WD21CD/W05001019	Church Village
+WD21CD/W05001020	Cwmbach

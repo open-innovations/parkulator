@@ -1,0 +1,953 @@
+LAD21CD/E06000026	Plymouth
+LAD21CD/E06000031	Peterborough
+LAD21CD/E06000044	Portsmouth
+LAD21CD/E07000122	Pendle
+LAD21CD/E07000123	Preston
+LAD21CD/S12000048	Perth and Kinross
+LAD21CD/W06000009	Pembrokeshire
+LAD21CD/W06000023	Powys
+MSOA21CD/E02000099	Preston Park & East Lane
+MSOA21CD/E02000130	Penge East
+MSOA21CD/E02000135	Anerley North & Penge West
+MSOA21CD/E02000151	Petts Wood
+MSOA21CD/E02000171	Mansfield Road & Park Hill Road
+MSOA21CD/E02000183	Primrose Hill
+MSOA21CD/E02000216	Park Hill & Lloyd Park
+MSOA21CD/E02000224	Purley North
+MSOA21CD/E02000230	Purley Central
+MSOA21CD/E02000244	Perivale
+MSOA21CD/E02000250	Pitshanger
+MSOA21CD/E02000290	Brimsdown & Ponders End
+MSOA21CD/E02000294	Ponders End South
+MSOA21CD/E02000302	Palmers Green East
+MSOA21CD/E02000305	Palmers Green West
+MSOA21CD/E02000318	Plumstead High Street
+MSOA21CD/E02000319	Plumstead Common & Riverside
+MSOA21CD/E02000329	Plumstead South
+MSOA21CD/E02000360	Amhurst Road & Pembury Estate
+MSOA21CD/E02000391	Parsons Green East & Eel Brook Common
+MSOA21CD/E02000392	Parsons Green West
+MSOA21CD/E02000441	Pinner Green
+MSOA21CD/E02000448	Pinner Central
+MSOA21CD/E02000453	Pinner Road
+MSOA21CD/E02000454	Pinner South
+MSOA21CD/E02000465	Petersfield Avenue & Duck Wood
+MSOA21CD/E02000468	Collier Row & Park Farm
+MSOA21CD/E02000574	Pentonville
+MSOA21CD/E02000580	Portobello
+MSOA21CD/E02000635	Poets' Corner & Brockwell Park
+MSOA21CD/E02000653	Silwood & Pepys
+MSOA21CD/E02000679	Perry Vale
+MSOA21CD/E02000681	Bellingham & Perry Hill
+MSOA21CD/E02000700	Merton Church Road & Phipps Bridge
+MSOA21CD/E02000707	Pollards Hill
+MSOA21CD/E02000724	Plashet East
+MSOA21CD/E02000727	Plashet West
+MSOA21CD/E02000734	Plaistow North
+MSOA21CD/E02000735	Plaistow North East
+MSOA21CD/E02000739	Plaistow Park
+MSOA21CD/E02000741	Plaistow South
+MSOA21CD/E02000795	Richmond Park, Sheen Gate & Petersham
+MSOA21CD/E02000824	Peckham Park Road
+MSOA21CD/E02000825	Peckham North West
+MSOA21CD/E02000828	Peckham North
+MSOA21CD/E02000831	Peckham Rye
+MSOA21CD/E02000834	Peckham Rye Common
+MSOA21CD/E02000881	Poplar Leaside
+MSOA21CD/E02000883	Poplar Central
+MSOA21CD/E02000887	Poplar West
+MSOA21CD/E02000928	Putney Embankment & Lower Common
+MSOA21CD/E02000932	Putney Town & Wandsworth Park
+MSOA21CD/E02000933	Putney West
+MSOA21CD/E02000945	Roehampton South & Putney Vale
+MSOA21CD/E02000970	Marylebone & Park Lane
+MSOA21CD/E02000974	Paddington & St George's Fields
+MSOA21CD/E02000981	Pimlico North
+MSOA21CD/E02000983	Pimlico South
+MSOA21CD/E02001026	Fernhill & Pimhole
+MSOA21CD/E02001037	Whitefield West & Park Lane
+MSOA21CD/E02001041	Prestwich East
+MSOA21CD/E02001042	Prestwich Central
+MSOA21CD/E02001043	Prestwich Clough & Rainsough
+MSOA21CD/E02001096	Wythenshawe East & Peel Hall
+MSOA21CD/E02001164	Clifton Green & Pendlebury East
+MSOA21CD/E02001171	Swinton South East & Pendlebury West
+MSOA21CD/E02001180	Pendleton
+MSOA21CD/E02001181	Peel Green
+MSOA21CD/E02001183	Patricroft
+MSOA21CD/E02001200	Central Stockport, Portwood & Shaw Heath
+MSOA21CD/E02001275	Partington
+MSOA21CD/E02001297	Pemberton North
+MSOA21CD/E02001300	Pemberton South
+MSOA21CD/E02001310	Platt Bridge & Spring View
+MSOA21CD/E02001333	Prescot
+MSOA21CD/E02001334	Page Moss & Fincham
+MSOA21CD/E02001389	Princes Park
+MSOA21CD/E02001476	Poulton
+MSOA21CD/E02001496	Prenton
+MSOA21CD/E02001500	Pensby & Thingwall
+MSOA21CD/E02001504	Poulton, Raby Mere & Thornton Hough
+MSOA21CD/E02001521	Barnsley Town & Park Road
+MSOA21CD/E02001532	Penistone
+MSOA21CD/E02001619	Parson Cross
+MSOA21CD/E02001629	Shirecliffe & Parkwood Springs
+MSOA21CD/E02001684	Pelaw, Felling Shore & Bill Quay
+MSOA21CD/E02001750	Preston Grange
+MSOA21CD/E02001757	Preston Billy Mill
+MSOA21CD/E02001764	Percy Main
+MSOA21CD/E02001784	Primrose
+MSOA21CD/E02001802	Pallion North
+MSOA21CD/E02001805	Pallion South & High Barnes
+MSOA21CD/E02001811	Pennywell and Grindon
+MSOA21CD/E02001813	Thorney Close & Plains Farm
+MSOA21CD/E02001822	Newbottle & Penshaw
+MSOA21CD/E02001830	Sutton Coldfield North & Park
+MSOA21CD/E02001840	Perry Common - College Road
+MSOA21CD/E02001842	Perry Beeches West
+MSOA21CD/E02001845	Perry Beeches East
+MSOA21CD/E02001850	Perry Barr & South Hamstead
+MSOA21CD/E02001851	Pype Hayes Park
+MSOA21CD/E02002015	Pensett & Kingswinford East
+MSOA21CD/E02002039	Oldswinford & Pedmore
+MSOA21CD/E02002041	Pedmore Fields
+MSOA21CD/E02002049	Princes End & Willingsworth
+MSOA21CD/E02002112	Pelsall North
+MSOA21CD/E02002114	Pelsall South
+MSOA21CD/E02002140	Pleck
+MSOA21CD/E02002143	Palfrey
+MSOA21CD/E02002148	Pheasey & Sutton Road
+MSOA21CD/E02002151	Pendeford
+MSOA21CD/E02002159	Park Lane
+MSOA21CD/E02002253	Pellon West & Highroad Well
+MSOA21CD/E02002255	Pellon East
+MSOA21CD/E02002309	Paddock & Greenhead
+MSOA21CD/E02002318	Primrose Hill, Newsome & Berry Brow
+MSOA21CD/E02002322	Marsden & Pole Moor
+MSOA21CD/E02002336	Bramhope & Pool-in-Wharfedale
+MSOA21CD/E02002344	Primley Park & Wigton Moor
+MSOA21CD/E02002391	Farsley South, Stanningley & Pudsey North West
+MSOA21CD/E02002397	Pudsey North East
+MSOA21CD/E02002405	Pudsey South West
+MSOA21CD/E02002408	Pudsey South East
+MSOA21CD/E02002449	Pontefract North East
+MSOA21CD/E02002452	Pontefract North West
+MSOA21CD/E02002455	Pontefract South East
+MSOA21CD/E02002460	Pontefract South West
+MSOA21CD/E02002501	Park Vale
+MSOA21CD/E02002505	Park End
+MSOA21CD/E02002568	College & Park West
+MSOA21CD/E02002572	Park East
+MSOA21CD/E02002582	Sandymoor, Daresbury & Preston Brook
+MSOA21CD/E02002601	Padgate & Paddington
+MSOA21CD/E02002608	Penketh & Cuerdley
+MSOA21CD/E02002624	Beardwood, Pleasington & Livesey
+MSOA21CD/E02002643	Park Road
+MSOA21CD/E02002694	Pocklington
+MSOA21CD/E02002712	Hedon & Preston
+MSOA21CD/E02002722	Withernsea East & Patrington
+MSOA21CD/E02002727	Grimsby East Marsh & Port
+MSOA21CD/E02002782	Poppleton, Rufforth & Askham
+MSOA21CD/E02002815	Normanton North & Peartree
+MSOA21CD/E02002927	Penyard, Llangarron & Goodrich
+MSOA21CD/E02002942	Priorslee
+MSOA21CD/E02002951	Great Chell & Packmoor
+MSOA21CD/E02002969	Boothen & Penkhull
+MSOA21CD/E02003004	Pensford, Clutton & Temple Cloud
+MSOA21CD/E02003006	Peasedown & Bathavon West
+MSOA21CD/E02003007	High Littleton & Paulton
+MSOA21CD/E02003065	Portishead Central
+MSOA21CD/E02003066	Portishead Redcliffe
+MSOA21CD/E02003067	Portishead South
+MSOA21CD/E02003068	Pill & Easton
+MSOA21CD/E02003094	Almondsbury, Pilning & Severn Beach
+MSOA21CD/E02003108	Pucklechurch & Westerleigh
+MSOA21CD/E02003132	Ham, Beacon Park & Pennycross
+MSOA21CD/E02003136	Plympton St Mary
+MSOA21CD/E02003138	Peverell
+MSOA21CD/E02003139	Plympton Chaddlewood
+MSOA21CD/E02003140	Plympton Underwood
+MSOA21CD/E02003143	Plympton St Maurice
+MSOA21CD/E02003145	Stoke & Pennycomequick
+MSOA21CD/E02003149	Cattedown & Prince Rock
+MSOA21CD/E02003151	Plymstock Elburton
+MSOA21CD/E02003152	Plymstock Hooe & Oreston
+MSOA21CD/E02003153	Plymstock Goosewell & Staddiscombe
+MSOA21CD/E02003158	Babbacombe & Plainmoor
+MSOA21CD/E02003164	Preston & Shorton
+MSOA21CD/E02003167	Paignton Central
+MSOA21CD/E02003206	Penn Hill
+MSOA21CD/E02003208	Poole Town
+MSOA21CD/E02003210	Parkstone
+MSOA21CD/E02003214	Penhill
+MSOA21CD/E02003218	Pinehurst
+MSOA21CD/E02003231	Park North & Park South
+MSOA21CD/E02003239	Newborough & Peakirk
+MSOA21CD/E02003243	Paston
+MSOA21CD/E02003249	Fengate & Parnwell
+MSOA21CD/E02003250	Peterborough Central
+MSOA21CD/E02003282	Prittlewell
+MSOA21CD/E02003345	Parkwood East
+MSOA21CD/E02003349	Parkwood West
+MSOA21CD/E02003353	Binfield & Popeswood
+MSOA21CD/E02003355	Priestwood
+MSOA21CD/E02003369	Streatley & Pangbourne
+MSOA21CD/E02003370	Purley on Thames
+MSOA21CD/E02003398	Palmer Park
+MSOA21CD/E02003420	Colnbrook & Poyle
+MSOA21CD/E02003421	Pinkney's Green & Furze Platt Road
+MSOA21CD/E02003491	Patcham East
+MSOA21CD/E02003493	Patcham West & Westdene
+MSOA21CD/E02003502	Portslade Village
+MSOA21CD/E02003504	Preston Park
+MSOA21CD/E02003511	Portslade by Sea
+MSOA21CD/E02003524	Paulsgrove East
+MSOA21CD/E02003527	Paulsgrove West & Port Solent
+MSOA21CD/E02003588	Newport East & Parkhurst East
+MSOA21CD/E02003589	Newport Central & Parkhurst West
+MSOA21CD/E02003601	Potton
+MSOA21CD/E02003621	Putnoe
+MSOA21CD/E02003656	Winslow & Padbury
+MSOA21CD/E02003660	Cheddington, Pitstone & Edlesborough
+MSOA21CD/E02003680	Great Missenden & Prestwood
+MSOA21CD/E02003696	Princes Risborough
+MSOA21CD/E02003726	Petersfield
+MSOA21CD/E02003744	Wisbech South & Peckover
+MSOA21CD/E02003749	Coates, Benwick & Pondersbridge
+MSOA21CD/E02003769	Buckden & Perry
+MSOA21CD/E02003841	Neston & Parkgate
+MSOA21CD/E02003854	Poynton West
+MSOA21CD/E02003855	Poynton East
+MSOA21CD/E02003859	Mobberley, Plumley & High Legh
+MSOA21CD/E02003862	Prestbury & Adlington
+MSOA21CD/E02003894	Callington & Pensilva
+MSOA21CD/E02003900	Saltash Town & Pillmere
+MSOA21CD/E02003901	Lanreath, Pelynt & Polruan
+MSOA21CD/E02003904	Looe & Polperro
+MSOA21CD/E02003906	Perranporth & Goonhavern
+MSOA21CD/E02003912	Probus & Roseland
+MSOA21CD/E02003914	Penryn
+MSOA21CD/E02003918	Illogan & Portreath
+MSOA21CD/E02003922	Pool & Illogan Highway
+MSOA21CD/E02003927	Ponsanooth, Mabe Burnthouse & Constantine
+MSOA21CD/E02003929	Porthleven, Breage & Praa Sands
+MSOA21CD/E02003932	Poundstock & Kilkhampton
+MSOA21CD/E02003938	Padstow & St Issey
+MSOA21CD/E02003948	Penzance North
+MSOA21CD/E02003949	Penzance Quay
+MSOA21CD/E02003951	Penzance South & Newlyn
+MSOA21CD/E02003952	St Columb Minor & Porth
+MSOA21CD/E02003957	Lostwithiel & Penwithick
+MSOA21CD/E02003959	Par
+MSOA21CD/E02003964	Mevagissey & Polgooth
+MSOA21CD/E02003981	Parkside
+MSOA21CD/E02004000	Parton & Distington
+MSOA21CD/E02004010	Penrith Central & West
+MSOA21CD/E02004011	Penrith Outer
+MSOA21CD/E02004031	Somercotes & Pye Bridge
+MSOA21CD/E02004051	Langwith, Shirebrook South & Pleasley
+MSOA21CD/E02004054	South Normanton Broadmeadows & Pinxton
+MSOA21CD/E02004115	North Wingfield & Pilsley
+MSOA21CD/E02004141	Poppleford, Otterton & Woodbury
+MSOA21CD/E02004149	Pennsylvania & University
+MSOA21CD/E02004151	Pinhoe & Whipton North
+MSOA21CD/E02004154	Heavitree West & Polsloe
+MSOA21CD/E02004231	Chagford, Princetown & Dartmoor
+MSOA21CD/E02004253	Parley & Hampreston
+MSOA21CD/E02004272	Charlton Down, Cerne Abbas & Puddletown
+MSOA21CD/E02004282	Preston & Lodmoor
+MSOA21CD/E02004291	Pelton & Perkinsville
+MSOA21CD/E02004293	Chester-le-Street Town & Pelton Fell
+MSOA21CD/E02004309	Pity Me & Framwellgate Moor
+MSOA21CD/E02004322	Murton North & Parkside
+MSOA21CD/E02004325	Peterlee East
+MSOA21CD/E02004328	Peterlee West
+MSOA21CD/E02004329	Peterlee South
+MSOA21CD/E02004365	Pier
+MSOA21CD/E02004385	Peacehaven West
+MSOA21CD/E02004388	Peacehaven East
+MSOA21CD/E02004393	Northiam, Peasmarsh & Camber
+MSOA21CD/E02004399	Bexhill East & Pebsham
+MSOA21CD/E02004421	Polegate
+MSOA21CD/E02004422	Stone Cross, Westham & Pevensey Bay
+MSOA21CD/E02004438	Basildon Central & Pipps Hill
+MSOA21CD/E02004445	Vange & Pitsea
+MSOA21CD/E02004450	Panfield, Finchingfield & Bardfield
+MSOA21CD/E02004469	Brook Street & Pilgrim's Hatch
+MSOA21CD/E02004487	Melbourne Park, Chignall & Pleshey
+MSOA21CD/E02004519	Prettygate & Westlands
+MSOA21CD/E02004550	Passmores & The High
+MSOA21CD/E02004551	Potter Street
+MSOA21CD/E02004583	Brightlingsea & Point Clear
+MSOA21CD/E02004601	Prestbury & Racecourse
+MSOA21CD/E02004607	Pittville & Fairview
+MSOA21CD/E02004633	Bream, Pillowell & Yorkley
+MSOA21CD/E02004644	Podsmead & Linden
+MSOA21CD/E02004652	Painswick, Bisley & Eastcombe
+MSOA21CD/E02004676	Tadley East, Pamber & Silchester
+MSOA21CD/E02004681	Popley
+MSOA21CD/E02004707	Petersfield North & East Meon
+MSOA21CD/E02004708	Petersfield South
+MSOA21CD/E02004728	Park Gate & Segensworth
+MSOA21CD/E02004736	Portchester North West
+MSOA21CD/E02004738	Portchester South East
+MSOA21CD/E02004745	Priddy's Hard & Brockhurst East
+MSOA21CD/E02004749	Alverstoke & Privett
+MSOA21CD/E02004757	Fleet South & Pondtail
+MSOA21CD/E02004772	Purbrook & Widley
+MSOA21CD/E02004804	Pinewood
+MSOA21CD/E02004861	Northchurch & Potten End
+MSOA21CD/E02004883	Puckeridge & Thundridge
+MSOA21CD/E02004896	Potters Bar Parkfield
+MSOA21CD/E02004897	Potters Bar Furzefield
+MSOA21CD/E02004898	Potters Bar Oakmere
+MSOA21CD/E02004942	How Wood & Park Street
+MSOA21CD/E02004949	Pin Green
+MSOA21CD/E02004952	Poplars
+MSOA21CD/E02004984	Panshanger
+MSOA21CD/E02004986	Peartree
+MSOA21CD/E02004997	Charing, Pluckley & Challock
+MSOA21CD/E02005004	Park Farm
+MSOA21CD/E02005058	Perry Street
+MSOA21CD/E02005069	Penenden Heath
+MSOA21CD/E02005080	Parkwood & Senacre
+MSOA21CD/E02005101	Hever, Leigh & Penshurst
+MSOA21CD/E02005110	Lympne & Palmarsh
+MSOA21CD/E02005148	Nethercourt, Pegwell & Cliffsend
+MSOA21CD/E02005162	Paddock Wood & Five Oak Green
+MSOA21CD/E02005165	Pembury & Matfield
+MSOA21CD/E02005179	Padiham
+MSOA21CD/E02005207	Heyhouses & Park
+MSOA21CD/E02005247	Barrowford, Higham & Pendleside
+MSOA21CD/E02005264	Plungington & University
+MSOA21CD/E02005269	Preston Town Centre
+MSOA21CD/E02005287	Penwortham North
+MSOA21CD/E02005289	Penwortham South
+MSOA21CD/E02005308	Parbold, Appley Bridge & Wrightington
+MSOA21CD/E02005322	Preesall, Stalmine & Hambleton
+MSOA21CD/E02005327	Pilling, Great Eccleston & Inskip
+MSOA21CD/E02005331	Poulton North & Carleton East
+MSOA21CD/E02005332	Poulton South
+MSOA21CD/E02005401	Packington, Ravenstone & Coleorton
+MSOA21CD/E02005447	Pelham Bridge & South Common
+MSOA21CD/E02005457	Metheringham, Nocton & Potterhanworth
+MSOA21CD/E02005469	Pinchbeck & Deeping St Nicholas
+MSOA21CD/E02005583	Hoveton, Horning & Potter Heigham
+MSOA21CD/E02005587	Heartsease & Pilling Park
+MSOA21CD/E02005602	Trowse, Poringland & Stoke Holy Cross
+MSOA21CD/E02005609	Harleston & Pulham
+MSOA21CD/E02005662	Phippsville
+MSOA21CD/E02005685	Towcester East & Paulerspury
+MSOA21CD/E02005688	Deanshanger, Potterspury & Old Stratford
+MSOA21CD/E02005721	Morpeth North & Pegswood
+MSOA21CD/E02005725	Ponteland
+MSOA21CD/E02005731	Prudhoe
+MSOA21CD/E02005756	Leeming, Pickhill & Thornton
+MSOA21CD/E02005766	Pateley Bridge & Nidd Valley
+MSOA21CD/E02005780	Harrogate West & Pannal Ash
+MSOA21CD/E02005789	Pickering & Thornton Dale
+MSOA21CD/E02005871	Plains Estate
+MSOA21CD/E02005874	Mapperley & Porchester
+MSOA21CD/E02005882	Manor, Hornby & Peafields
+MSOA21CD/E02005885	Abbott Road & Pleasley Hill
+MSOA21CD/E02005948	Osney, Jericho & Port Meadow
+MSOA21CD/E02005981	Abingdon Northcourt & Peachcroft
+MSOA21CD/E02006016	Woore, Prees & Tilstock
+MSOA21CD/E02006027	Trefonen & Pant
+MSOA21CD/E02006039	Hanwood, Pontesbury & Minsterley
+MSOA21CD/E02006040	Cressage, Dorrington & Pulverbatch
+MSOA21CD/E02006059	Pilton, Butleigh & Alhampton
+MSOA21CD/E02006066	Pawlett, Puriton & Woolavington
+MSOA21CD/E02006102	Taunton Pyrland & Priorswood
+MSOA21CD/E02006114	Minehead Outer & Porlock
+MSOA21CD/E02006165	Porthill
+MSOA21CD/E02006174	Penkridge & Acton Trussell
+MSOA21CD/E02006217	Coton Farm & Perry Crofts
+MSOA21CD/E02006256	Maidenhall, Stoke & Port
+MSOA21CD/E02006258	Priory Heath
+MSOA21CD/E02006261	Eye, Palgrave & Occold
+MSOA21CD/E02006309	Pakefield North
+MSOA21CD/E02006313	Pakefield South & Kessingland
+MSOA21CD/E02006345	Pirbright & Normandy
+MSOA21CD/E02006355	Park Barn & Royal Surrey
+MSOA21CD/E02006359	Pewley Down & The Mount
+MSOA21CD/E02006395	Egham Hythe & Pooley Green
+MSOA21CD/E02006457	West Byfleet & Pyrford North
+MSOA21CD/E02006461	Maybury Hill & Pyrford South
+MSOA21CD/E02006468	Polesworth, Warton & Austrey
+MSOA21CD/E02006543	Angmering North, Patching & Findon
+MSOA21CD/E02006560	Nyetimber & Pagham
+MSOA21CD/E02006565	Easebourne & Petworth
+MSOA21CD/E02006576	Pound Hill
+MSOA21CD/E02006598	Cowfold & Partridge Green
+MSOA21CD/E02006600	Amberley, Pulborough & Storrington
+MSOA21CD/E02006636	Pewsey & Lockeridge
+MSOA21CD/E02006639	Potterne & Rowde
+MSOA21CD/E02006646	Lydiard Millicent & Purton
+MSOA21CD/E02006664	Great Wishford, Woodford Valley & Porton
+MSOA21CD/E02006719	Malvern Wells & Priory
+MSOA21CD/E02006729	Matchborough & Park Farm
+MSOA21CD/E02006759	Pershore
+MSOA21CD/E02006782	Plaistow (Bromley)
+MSOA21CD/E02006813	Anlaby Park & Pickering
+MSOA21CD/E02006868	Park Hill & Wybourn
+MSOA21CD/E02006874	Papworth, Caxton & Fen Drayton
+MSOA21CD/E02006895	Attwood Green & Park Central
+MSOA21CD/E02006912	Piccadilly & Ancoats
+MSOA21CD/E02006922	Parson's Heath
+MSOA21CD/E02006931	Greenwich Town & Park
+MSOA21CD/E02006934	Pier Head
+MSOA21CD/E02006975	Portsea
+MSOA21CD/E02006982	Perton & Pattingham
+MSOA21CD/E02007004	Purfleet
+MSOA21CD/E02007007	Poundbury & Dorchester West
+MSOA21CD/E02007058	Central Darlington & Pierremont
+MSOA21CD/E02007060	Central Stockton & Portrack
+MSOA21CD/E02007061	Parkfield
+MSOA21CD/E02007064	Patchway
+MSOA21CD/E02007077	Picket Twenty & Picket Piece
+MSOA21CD/E02007084	Queenstown Road & Patmore
+MSOA21CD/E02007097	Heaton Park & Portland Road
+MSOA21CD/W02000017	Pen-y-groes, Tal-y-sarn & Dyffryn Nantlle
+MSOA21CD/W02000019	Porthmadog
+MSOA21CD/W02000021	Pwllheli & Morfa Nefyn
+MSOA21CD/W02000029	Penrhyn Bay
+MSOA21CD/W02000039	Llanfairfechan & Penmaenmawr
+MSOA21CD/W02000042	Prestatyn North
+MSOA21CD/W02000043	Prestatyn Central & East
+MSOA21CD/W02000044	Prestatyn South
+MSOA21CD/W02000053	Denbigh East & Pentre Llanrhaeadr
+MSOA21CD/W02000075	Pen-y-ffordd & Higher Kinnerton
+MSOA21CD/W02000090	Pen-y-cae & Minera
+MSOA21CD/W02000095	Bangor-on-Dee, Overton & Penley
+MSOA21CD/W02000107	Knighton & Presteigne
+MSOA21CD/W02000122	New Quay & Penbryn
+MSOA21CD/W02000138	Pembroke Dock
+MSOA21CD/W02000139	Pembroke East & Manorbier
+MSOA21CD/W02000140	Pembroke West & Castlemartin
+MSOA21CD/W02000156	Llan-non, Cross Hands & Pen-y-groes
+MSOA21CD/W02000157	Glyn & Pontyberem
+MSOA21CD/W02000162	Pembrey & Burry Port
+MSOA21CD/W02000168	Pontarddulais
+MSOA21CD/W02000178	Penderry
+MSOA21CD/W02000202	Pontardawe
+MSOA21CD/W02000216	Port Talbot East
+MSOA21CD/W02000217	Port Talbot South & Margam
+MSOA21CD/W02000221	Blaengarw, Pontycymer & Bettws
+MSOA21CD/W02000225	Pyle, Kenfig Hill & Cefncribwr
+MSOA21CD/W02000226	Pen-prysg, Hendre & Felindre
+MSOA21CD/W02000228	Pen-dre, Litchard & Coity
+MSOA21CD/W02000230	Pen-y-fai, Laleston & Merthyr Mawr
+MSOA21CD/W02000235	Porthcawl West
+MSOA21CD/W02000236	Porthcawl East
+MSOA21CD/W02000239	Peterston-super-Ely & Wenvoe
+MSOA21CD/W02000241	Penarth
+MSOA21CD/W02000245	Palmerstown
+MSOA21CD/W02000259	Penrhiw-ceibr
+MSOA21CD/W02000262	Pentre
+MSOA21CD/W02000268	Porth East & Ynys-hir
+MSOA21CD/W02000270	Pontypridd East & Cilfynydd
+MSOA21CD/W02000271	Porth West
+MSOA21CD/W02000272	Pontypridd West
+MSOA21CD/W02000282	Pont-y-clun & Llanharry
+MSOA21CD/W02000285	Cefncoedycymer, Heolgerrig & Park
+MSOA21CD/W02000287	Pentre-bach & Mountain Hare
+MSOA21CD/W02000290	Rhymney, Pontlottyn & Abertysswg
+MSOA21CD/W02000295	Oakdale & Pen-twyn
+MSOA21CD/W02000296	Pengam & Cefn Fforest
+MSOA21CD/W02000300	Pontllan-fraith
+MSOA21CD/W02000308	Llanbradach & Penyrheol
+MSOA21CD/W02000325	Trefethin & Pen-y-garn
+MSOA21CD/W02000326	Pontypool
+MSOA21CD/W02000329	Pontnewydd & Upper Cwmbran
+MSOA21CD/W02000362	Pye Corner & Graig
+MSOA21CD/W02000364	Pillgwenlly & Docks
+MSOA21CD/W02000369	Pontprennau
+MSOA21CD/W02000370	Rhiwbina & Pant-mawr
+MSOA21CD/W02000375	Pentwyn
+MSOA21CD/W02000377	Pwll-mawr & St Mellons East
+MSOA21CD/W02000380	Creigiau, Pentyrch & St Fagans
+MSOA21CD/W02000390	Pen-y-lan North
+MSOA21CD/W02000395	Pen-y-lan South
+MSOA21CD/W02000399	Plasnewydd
+MSOA21CD/W02000400	Pontcanna
+MSOA21CD/W02000403	Tremorfa & Pengam
+MSOA21CD/W02000415	Gurnos, Trefechan & Pontsticill
+PCON17CD/E14000566	Birmingham, Perry Barr
+PCON17CD/E14000598	Brighton, Pavilion
+PCON17CD/E14000836	Normanton, Pontefract and Castleford
+PCON17CD/E14000875	Pendle
+PCON17CD/E14000876	Penistone and Stocksbridge
+PCON17CD/E14000877	Penrith and The Border
+PCON17CD/E14000878	Peterborough
+PCON17CD/E14000879	Plymouth, Moor View
+PCON17CD/E14000880	Plymouth, Sutton and Devonport
+PCON17CD/E14000881	Poole
+PCON17CD/E14000882	Poplar and Limehouse
+PCON17CD/E14000883	Portsmouth North
+PCON17CD/E14000884	Portsmouth South
+PCON17CD/E14000885	Preston
+PCON17CD/E14000886	Pudsey
+PCON17CD/E14000887	Putney
+PCON17CD/S14000052	Paisley and Renfrewshire North
+PCON17CD/S14000053	Paisley and Renfrewshire South
+PCON17CD/S14000054	Perth and North Perthshire
+PCON17CD/W07000065	Preseli Pembrokeshire
+PCON17CD/W07000075	Pontypridd
+WD21CD/E05000037	Parsloes
+WD21CD/E05000097	Preston
+WD21CD/E05000123	Penge and Cator
+WD21CD/E05000124	Petts Wood and Knoll
+WD21CD/E05000125	Plaistow and Sundridge
+WD21CD/E05000187	Perivale
+WD21CD/E05000205	Palmers Green
+WD21CD/E05000206	Ponders End
+WD21CD/E05000225	Peninsula
+WD21CD/E05000226	Plumstead
+WD21CD/E05000259	Palace Riverside
+WD21CD/E05000260	Parsons Green and Walham
+WD21CD/E05000297	Pinner
+WD21CD/E05000298	Pinner South
+WD21CD/E05000317	Pettits
+WD21CD/E05000337	Pinkwell
+WD21CD/E05000427	Prince's
+WD21CD/E05000450	Perry Vale
+WD21CD/E05000467	Pollards Hill
+WD21CD/E05000489	Plaistow North
+WD21CD/E05000490	Plaistow South
+WD21CD/E05000519	Ham, Petersham and Richmond Riverside
+WD21CD/E05000677	Pilkington Park
+WD21CD/E05000833	Priory
+WD21CD/E05000857	Pemberton
+WD21CD/E05000905	Picton
+WD21CD/E05000906	Princes Park
+WD21CD/E05000924	Parr
+WD21CD/E05000949	Park
+WD21CD/E05000969	Pensby and Thingwall
+WD21CD/E05000970	Prenton
+WD21CD/E05000989	Penistone East
+WD21CD/E05000990	Penistone West
+WD21CD/E05001081	Pelaw and Heworth
+WD21CD/E05001127	Preston
+WD21CD/E05001147	Primrose
+WD21CD/E05001162	Pallion
+WD21CD/E05001252	Pedmore and Stourbridge East
+WD21CD/E05001274	Princes End
+WD21CD/E05001310	Paddock
+WD21CD/E05001311	Palfrey
+WD21CD/E05001312	Pelsall
+WD21CD/E05001313	Pheasey Park Farm
+WD21CD/E05001314	Pleck
+WD21CD/E05001333	Park
+WD21CD/E05001334	Penn
+WD21CD/E05001380	Park
+WD21CD/E05001455	Pontefract North
+WD21CD/E05001456	Pontefract South
+WD21CD/E05001546	Parkfield and Oxbridge
+WD21CD/E05001656	Park
+WD21CD/E05001704	Pocklington Provincial
+WD21CD/E05001720	Park
+WD21CD/E05002087	Peverell
+WD21CD/E05002088	Plympton Chaddlewood
+WD21CD/E05002089	Plympton Erle
+WD21CD/E05002090	Plympton St Mary
+WD21CD/E05002091	Plymstock Dunstone
+WD21CD/E05002092	Plymstock Radford
+WD21CD/E05002219	Prittlewell
+WD21CD/E05002256	Peninsula
+WD21CD/E05002257	Princes Park
+WD21CD/E05002285	Priestwood and Garth
+WD21CD/E05002328	Park
+WD21CD/E05002329	Peppard
+WD21CD/E05002429	Patcham
+WD21CD/E05002430	Preston Park
+WD21CD/E05002452	Paulsgrove
+WD21CD/E05002464	Peartree
+WD21CD/E05002465	Portswood
+WD21CD/E05003153	Parkside
+WD21CD/E05003224	Penrith Carleton
+WD21CD/E05003225	Penrith East
+WD21CD/E05003226	Penrith North
+WD21CD/E05003227	Penrith Pategill
+WD21CD/E05003228	Penrith South
+WD21CD/E05003229	Penrith West
+WD21CD/E05004030	Pitsea North West
+WD21CD/E05004031	Pitsea South East
+WD21CD/E05004077	Pilgrims Hatch
+WD21CD/E05004109	Patching Hall
+WD21CD/E05004170	Passingford
+WD21CD/E05004201	Purleigh
+WD21CD/E05004298	Park
+WD21CD/E05004299	Pittville
+WD21CD/E05004300	Prestbury
+WD21CD/E05004523	Park Gate
+WD21CD/E05004524	Portchester East
+WD21CD/E05004525	Portchester West
+WD21CD/E05004544	Peel Common
+WD21CD/E05004545	Privett
+WD21CD/E05004575	Purbrook
+WD21CD/E05004605	Pennington
+WD21CD/E05004736	Puckeridge
+WD21CD/E05004797	Park Street
+WD21CD/E05004812	Pin Green
+WD21CD/E05004973	Painters Ash
+WD21CD/E05004974	Pelham
+WD21CD/E05005002	Park Wood
+WD21CD/E05005138	Paddock Wood East
+WD21CD/E05005139	Paddock Wood West
+WD21CD/E05005140	Pantiles and St Mark's
+WD21CD/E05005141	Park
+WD21CD/E05005142	Pembury
+WD21CD/E05005199	Park
+WD21CD/E05005217	Peel
+WD21CD/E05005370	Parbold
+WD21CD/E05005421	Pastures
+WD21CD/E05005652	Pinchbeck and Surfleet
+WD21CD/E05005774	Plumstead
+WD21CD/E05006308	Pickering East
+WD21CD/E05006309	Pickering West
+WD21CD/E05006780	Postlebury
+WD21CD/E05007001	Pattingham and Patshull
+WD21CD/E05007002	Penkridge North East and Acton Trussell
+WD21CD/E05007003	Penkridge South East
+WD21CD/E05007004	Penkridge West
+WD21CD/E05007005	Perton Dippons
+WD21CD/E05007006	Perton East
+WD21CD/E05007007	Perton Lakeside
+WD21CD/E05007124	Priory Heath
+WD21CD/E05007299	Pilgrims
+WD21CD/E05007300	Pirbright
+WD21CD/E05007400	Portley
+WD21CD/E05007471	Polesworth East
+WD21CD/E05007472	Polesworth West
+WD21CD/E05007485	Poplar
+WD21CD/E05007570	Peverel
+WD21CD/E05007858	Pickersleigh
+WD21CD/E05007859	Powick
+WD21CD/E05007860	Priory
+WD21CD/E05007922	Pershore
+WD21CD/E05007923	Pinvin
+WD21CD/E05008178	Porthill
+WD21CD/E05008179	Prees
+WD21CD/E05008645	Poynton East and Pott Shrigley
+WD21CD/E05008646	Poynton West and Adlington
+WD21CD/E05008647	Prestbury
+WD21CD/E05008745	Penkhull and Stoke
+WD21CD/E05008771	Putnoe
+WD21CD/E05008800	Parkside
+WD21CD/E05008801	Potton
+WD21CD/E05008881	Park Hall
+WD21CD/E05008882	Peafields
+WD21CD/E05008883	Penniment
+WD21CD/E05008884	Portland
+WD21CD/E05008912	Puriton and Woolavington
+WD21CD/E05008965	Priory Vale
+WD21CD/E05008983	Paddox
+WD21CD/E05009072	Passfield
+WD21CD/E05009073	Pelton
+WD21CD/E05009074	Peterlee East
+WD21CD/E05009075	Peterlee West
+WD21CD/E05009141	Plessey
+WD21CD/E05009142	Ponteland East and Stannington
+WD21CD/E05009143	Ponteland North
+WD21CD/E05009144	Ponteland South with Heddon
+WD21CD/E05009145	Ponteland West
+WD21CD/E05009146	Prudhoe North
+WD21CD/E05009147	Prudhoe South
+WD21CD/E05009308	Portsoken
+WD21CD/E05009328	Poplar
+WD21CD/E05009400	Pembridge
+WD21CD/E05009435	Penn & Mill End
+WD21CD/E05009476	Penyard
+WD21CD/E05009505	Parson Drove & Wisbech St Mary
+WD21CD/E05009506	Peckover
+WD21CD/E05009556	Priory
+WD21CD/E05009608	Poulton
+WD21CD/E05009702	Phoenix
+WD21CD/E05009703	Plains
+WD21CD/E05009704	Porchester
+WD21CD/E05009817	Pagham
+WD21CD/E05009818	Pevensey
+WD21CD/E05009843	Perryfields
+WD21CD/E05009855	Berwick Hills & Pallister
+WD21CD/E05009869	Park
+WD21CD/E05009870	Park End & Beckfield
+WD21CD/E05009891	Priory & St James'
+WD21CD/E05009945	Park
+WD21CD/E05009946	Pharos
+WD21CD/E05009947	Pheasant's Wood
+WD21CD/E05009948	Pilling
+WD21CD/E05009949	Preesall
+WD21CD/E05009963	Penshurst, Fordcombe and Chiddingstone
+WD21CD/E05009988	Park
+WD21CD/E05009989	Priorslee
+WD21CD/E05010120	Ravenstone & Packington
+WD21CD/E05010171	Peascliffe & Ridgeway
+WD21CD/E05010225	Howick & Priory
+WD21CD/E05010284	Congresbury & Puxton
+WD21CD/E05010292	Pill
+WD21CD/E05010293	Portishead East
+WD21CD/E05010294	Portishead North
+WD21CD/E05010295	Portishead South
+WD21CD/E05010296	Portishead West
+WD21CD/E05010425	Park East
+WD21CD/E05010426	Park West
+WD21CD/E05010427	Pierremont
+WD21CD/E05010495	Penkside
+WD21CD/E05010642	Padfield
+WD21CD/E05010685	Kirkby Cross & Portland
+WD21CD/E05010757	Penhill and Upper Stratton
+WD21CD/E05010779	Penyghent
+WD21CD/E05010793	Park
+WD21CD/E05010803	Pyrford
+WD21CD/E05010820	Park
+WD21CD/E05010821	Paston and Walton
+WD21CD/E05010837	Prettygate
+WD21CD/E05010876	Park and Arbourthorne
+WD21CD/E05010939	Page Moss
+WD21CD/E05010940	Prescot North
+WD21CD/E05010941	Prescot South
+WD21CD/E05010963	Podsmead
+WD21CD/E05010981	Painswick and Upton
+WD21CD/E05011017	Pennsylvania
+WD21CD/E05011018	Pinhoe
+WD21CD/E05011019	Priory
+WD21CD/E05011039	Penketh and Cuerdley
+WD21CD/E05011040	Poplars and Hulme
+WD21CD/E05011041	Poulton North
+WD21CD/E05011042	Poulton South
+WD21CD/E05011053	Park
+WD21CD/E05011068	Panshanger
+WD21CD/E05011069	Peartree
+WD21CD/E05011110	Peckham
+WD21CD/E05011111	Peckham Rye
+WD21CD/E05011160	Perry Barr
+WD21CD/E05011161	Perry Common
+WD21CD/E05011162	Pype Hayes
+WD21CD/E05011221	Blendon & Penhill
+WD21CD/E05011288	Caxton & Papworth
+WD21CD/E05011340	Pateley Bridge & Nidderdale Moors
+WD21CD/E05011376	Piccadilly
+WD21CD/E05011409	Pudsey
+WD21CD/E05011456	Parklands
+WD21CD/E05011472	Norbury & Pollards Hill
+WD21CD/E05011475	Park Hill & Whitgift
+WD21CD/E05011476	Purley & Woodcote
+WD21CD/E05011477	Purley Oaks & Riddlesdown
+WD21CD/E05011540	Pickering
+WD21CD/E05011594	Peacehaven East
+WD21CD/E05011595	Peacehaven North
+WD21CD/E05011596	Peacehaven West
+WD21CD/E05011597	Plumpton, Streat, East Chiltington & St John
+WD21CD/E05011649	Herstmonceux & Pevensey Levels
+WD21CD/E05011650	Horam & Punnetts Town
+WD21CD/E05011654	Pevensey Bay
+WD21CD/E05011655	Polegate Central
+WD21CD/E05011656	Polegate North
+WD21CD/E05011657	Polegate South & Willingdon Watermill
+WD21CD/E05011681	Petworth
+WD21CD/E05011762	Park Farm North
+WD21CD/E05011763	Park Farm South
+WD21CD/E05011824	Pulborough, Coldwaltham & Amberley
+WD21CD/E05011851	Poppyland
+WD21CD/E05011852	Priory
+WD21CD/E05011886	Poringland, Framinghams & Trowse
+WD21CD/E05011926	Monkleigh & Putford
+WD21CD/E05011942	Dovercourt Vines & Parkeston
+WD21CD/E05011951	Pier
+WD21CD/E05011993	Pinxton
+WD21CD/E05012015	Primrose
+WD21CD/E05012022	Whalley & Painter Wood
+WD21CD/E05012034	Parkside
+WD21CD/E05012057	Pilsley & Morton
+WD21CD/E05012120	Parkwall & Warmley
+WD21CD/E05012121	Patchway Coniston
+WD21CD/E05012122	Pilning & Severn Beach
+WD21CD/E05012146	Pangbourne
+WD21CD/E05012153	Tilehurst & Purley
+WD21CD/E05012172	Pillowell
+WD21CD/E05012189	Potters Bar Furzefield
+WD21CD/E05012190	Potters Bar Oakmere
+WD21CD/E05012191	Potters Bar Parkfield
+WD21CD/E05012203	Plungington
+WD21CD/E05012204	Preston Rural East
+WD21CD/E05012205	Preston Rural North
+WD21CD/E05012232	Parkgate
+WD21CD/E05012263	Preston
+WD21CD/E05012312	Petersfield Bell Hill
+WD21CD/E05012313	Petersfield Causeway
+WD21CD/E05012314	Petersfield Heath
+WD21CD/E05012315	Petersfield St Peter's
+WD21CD/E05012404	Princes
+WD21CD/E05012481	Paulton
+WD21CD/E05012482	Peasedown
+WD21CD/E05012483	Publow & Whitchurch
+WD21CD/E05012509	Pinkneys Green
+WD21CD/E05012536	Parrett
+WD21CD/E05012553	Distington, Lowca & Parton
+WD21CD/E05012583	Sproughton & Pinewood
+WD21CD/E05012606	Palgrave
+WD21CD/E05012651	Boscombe East & Pokesdown
+WD21CD/E05012672	Parkstone
+WD21CD/E05012673	Penn Hill
+WD21CD/E05012674	Poole Town
+WD21CD/E05012704	Littlemoor & Preston
+WD21CD/E05012709	Portland
+WD21CD/E05012710	Puddletown & Lower Winterborne
+WD21CD/E05012749	Kirkley & Pakefield
+WD21CD/E05012751	Martlesham & Purdis Farm
+WD21CD/E05012794	Pakenham & Troston
+WD21CD/E05012824	Periton & Woodcombe
+WD21CD/E05012825	Porlock & District
+WD21CD/E05012826	Priorswood
+WD21CD/E05012830	Trull, Pitminster & Corfe
+WD21CD/E05012886	Tattenham Corner & Preston
+WD21CD/E05012922	Pound Hill North & Forge Wood
+WD21CD/E05012923	Pound Hill South & Worth
+WD21CD/E05012947	Harraby South & Parklands
+WD21CD/E05013025	Higher Irlam & Peel Green
+WD21CD/E05013029	Pendlebury & Clifton
+WD21CD/E05013030	Pendleton & Charlestown
+WD21CD/E05013059	Petersfield
+WD21CD/E05013089	Popley
+WD21CD/E05013092	Tadley & Pamber
+WD21CD/E05013154	Penn Wood and Old Amersham
+WD21CD/E05013186	Norton South & Preston Brook
+WD21CD/E05013201	Barrowford & Pendleside
+WD21CD/E05013290	Fowey, Tywardreath & Par
+WD21CD/E05013306	Looe West, Pelynt, Lansallos & Lanteglos
+WD21CD/E05013313	Mylor, Perranarworthal & Ponsanooth
+WD21CD/E05013314	Newquay Central & Pentire
+WD21CD/E05013317	Padstow
+WD21CD/E05013319	Penwithick & Boscoppa
+WD21CD/E05013320	Penzance East
+WD21CD/E05013321	Penzance Promenade
+WD21CD/E05013323	Pool & Tehidy
+WD21CD/E05013324	Porthleven, Breage & Germoe
+WD21CD/E05013325	Poundstock
+WD21CD/E05013383	Pan & Barton
+WD21CD/E05013384	Parkhurst & Hunnyhill
+WD21CD/E05013455	Pewsey Vale East
+WD21CD/E05013457	Purton
+WD21CD/E05013834	Pewsey
+WD21CD/E05013835	Pewsey Vale West
+WD21CD/E05013842	Illogan & Portreath
+WD21CD/E05013848	Penryn
+WD21CD/E05013849	Perranporth
+WD21CD/E05013850	Probus & St Erme
+WD21CD/E05013863	Pegswood
+WD21CD/N08000129	Parkgate
+WD21CD/N08000232	Parklake
+WD21CD/N08000343	Poleglass
+WD21CD/N08000431	Portrush and Dunluce
+WD21CD/N08000432	Portstewart
+WD21CD/N08000530	Park
+WD21CD/N08000633	Portora
+WD21CD/N08000833	Park
+WD21CD/N08000834	Portglenone
+WD21CD/N08000932	Pomeroy
+WD21CD/N08001132	Portaferry
+WD21CD/N08001133	Portavogie
+WD21CD/S13002852	Peterhead North and Rattray
+WD21CD/S13002853	Peterhead South and Cruden
+WD21CD/S13002909	Preston, Seton and Gosford
+WD21CD/S13002920	Pentland Hills
+WD21CD/S13002935	Portobello/Craigmillar
+WD21CD/S13002972	Pollokshields
+WD21CD/S13002989	Partick East/Kelvindale
+WD21CD/S13003018	Penicuik
+WD21CD/S13003072	Perth City South
+WD21CD/S13003073	Perth City North
+WD21CD/S13003074	Perth City Centre
+WD21CD/S13003077	Paisley Northeast and Ralston
+WD21CD/S13003078	Paisley Northwest
+WD21CD/S13003079	Paisley East and Central
+WD21CD/S13003080	Paisley Southeast
+WD21CD/S13003081	Paisley Southwest
+WD21CD/S13003088	Prestwick
+WD21CD/W05000093	Peblig (Caernarfon)
+WD21CD/W05000094	Penisarwaun
+WD21CD/W05000095	Penrhyndeudraeth
+WD21CD/W05000096	Pentir
+WD21CD/W05000097	Penygroes
+WD21CD/W05000098	Porthmadog East
+WD21CD/W05000099	Porthmadog West
+WD21CD/W05000100	Porthmadog-Tremadog
+WD21CD/W05000101	Pwllheli North
+WD21CD/W05000102	Pwllheli South
+WD21CD/W05000139	Pandy
+WD21CD/W05000140	Pant-yr-afon/Penmaenan
+WD21CD/W05000143	Pentre Mawr
+WD21CD/W05000164	Prestatyn Central
+WD21CD/W05000165	Prestatyn East
+WD21CD/W05000166	Prestatyn Meliden
+WD21CD/W05000167	Prestatyn North
+WD21CD/W05000168	Prestatyn South West
+WD21CD/W05000271	Pant
+WD21CD/W05000272	Penycae
+WD21CD/W05000273	Penycae and Ruabon South
+WD21CD/W05000274	Plas Madoc
+WD21CD/W05000275	Ponciau
+WD21CD/W05000341	Presteigne
+WD21CD/W05000390	Penbryn
+WD21CD/W05000391	Pen-parc
+WD21CD/W05000437	Pembroke Dock: Central
+WD21CD/W05000438	Pembroke Dock: Llanion
+WD21CD/W05000439	Pembroke Dock: Market
+WD21CD/W05000440	Pembroke Dock: Pennar
+WD21CD/W05000441	Pembroke: Monkton
+WD21CD/W05000442	Pembroke: St. Mary North
+WD21CD/W05000443	Pembroke: St. Mary South
+WD21CD/W05000444	Pembroke: St. Michael
+WD21CD/W05000501	Pembrey
+WD21CD/W05000502	Penygroes
+WD21CD/W05000503	Pontamman
+WD21CD/W05000504	Pontyberem
+WD21CD/W05000544	Pontardulais
+WD21CD/W05000581	Pelenna
+WD21CD/W05000582	Pontardawe
+WD21CD/W05000622	Pendre
+WD21CD/W05000623	Penprysg
+WD21CD/W05000624	Pen-y-fai
+WD21CD/W05000625	Pontycymmer
+WD21CD/W05000626	Porthcawl East Central
+WD21CD/W05000627	Porthcawl West Central
+WD21CD/W05000628	Pyle
+WD21CD/W05000646	Peterston-super-Ely
+WD21CD/W05000681	Penrhiwceiber
+WD21CD/W05000682	Pentre
+WD21CD/W05000683	Pen-y-graig
+WD21CD/W05000684	Pen-y-waun
+WD21CD/W05000686	Pontypridd Town
+WD21CD/W05000687	Porth
+WD21CD/W05000712	Park
+WD21CD/W05000713	Penydarren
+WD21CD/W05000714	Plymouth
+WD21CD/W05000742	Pontlottyn
+WD21CD/W05000780	Panteg
+WD21CD/W05000782	Pontnewynydd
+WD21CD/W05000783	Pontypool
+WD21CD/W05000817	Portskewett
+WD21CD/W05000818	Priory
+WD21CD/W05000845	Pillgwenlly
+WD21CD/W05000871	Pentyrch
+WD21CD/W05000872	Penylan
+WD21CD/W05000873	Plasnewydd
+WD21CD/W05000891	Pont-y-clun
+WD21CD/W05000900	Pontprennau/Old St. Mellons
+WD21CD/W05000916	Penrhyn
+WD21CD/W05000917	Pensarn
+WD21CD/W05000924	Pengam
+WD21CD/W05000925	Penmaen
+WD21CD/W05000926	Penyrheol
+WD21CD/W05000927	Pontllanfraith
+WD21CD/W05000934	Plymouth
+WD21CD/W05000974	Penclawdd
+WD21CD/W05000975	Penderry
+WD21CD/W05000976	Penllergaer
+WD21CD/W05000977	Pennard
+WD21CD/W05000978	Penyrheol
+WD21CD/W05000998	Pontnewydd
+WD21CD/W05001010	Penyffordd
+WD21CD/W05001014	Pentwyn
+WD21CD/W05001032	Port Talbot
+WD21CD/W05001037	Penally
