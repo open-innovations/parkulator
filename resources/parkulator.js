@@ -89,6 +89,14 @@
 					'way["landuse"="brownfield"]',
 					'relation["landuse"="brownfield"]'
 				]			
+			},
+			'park': {
+				'title': 'parks',
+				'color': '#67E767',
+				'filters':[
+					'way["leisure"="park"]',
+					'relation["leisure"="park"]',
+				]
 			}
 		};
 		var type = "parking";
