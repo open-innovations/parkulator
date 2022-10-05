@@ -90,6 +90,14 @@
 					'relation["landuse"="brownfield"]'
 				]			
 			},
+			'solar': {
+				'title': 'solar generators',
+				'color': '#F9BC26',
+				'filters':[
+					'way["generator:source"="solar"]',
+					'relation["generator:source"="solar"]'
+				]
+			},
 			'park': {
 				'title': 'parks',
 				'color': '#67E767',
@@ -554,10 +562,10 @@
 			var intersectInHectares = (intersectArea / 10000).toFixed(1);
 
 			// Only small percentage of parking
-			var content = "<strong>" + percentageArea + "% of this area</strong> is occupied by " + this.config[type].title + ".<br/><br/>On this " + intersectInHectares + " hectares we could build,";
-			content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density.";
-			content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density.";
-			content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density.";
+			var content = "<strong>" + percentageArea + "% of this area</strong> (" + intersectInHectares + " hectares) is occupied by " + this.config[type].title + ". On this we could build:";
+			content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density;";
+			content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density;";
+			content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density;";
 			content += "<br /><strong>" + Number((intersectInHectares / 0.65).toFixed(0)).toLocaleString() + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
 
 			// Create a popup at the center of the rectangle to display the occupancy of the area:
