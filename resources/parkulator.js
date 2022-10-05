@@ -69,6 +69,7 @@
 			'parking': {
 				'title': 'carparks',
 				'color': '#FF6700',
+				'comparison': true,
 				'filters':[
 					'way["amenity"="parking"]',
 					'relation["amenity"="parking"]'
@@ -77,6 +78,7 @@
 			'golf': {
 				'title': 'golf courses',
 				'color': '#0DBC37',
+				'comparison': true,
 				'filters':[
 					'way["leisure"="golf_course"]',
 					'relation["leisure"="golf_course"]'
@@ -85,6 +87,7 @@
 			'brownfield': {
 				'title': 'brownfield land',
 				'color': '#ce906f',
+				'comparison': true,
 				'filters':[
 					'way["landuse"="brownfield"]',
 					'relation["landuse"="brownfield"]'
@@ -93,6 +96,7 @@
 			'solar': {
 				'title': 'solar generators',
 				'color': '#F9BC26',
+				'comparison': false,
 				'filters':[
 					'way["generator:source"="solar"]',
 					'relation["generator:source"="solar"]'
@@ -101,6 +105,7 @@
 			'park': {
 				'title': 'parks',
 				'color': '#67E767',
+				'comparison': false,
 				'filters':[
 					'way["leisure"="park"]',
 					'relation["leisure"="park"]',
@@ -456,7 +461,6 @@
 		this.computePolygons = function(geojson){
 			this.geojson = geojson;
 			this.log('INFO','computePolygons',geojson);
-
 			var polygons = [];
 			var i,p,featureCollection;
 			for(i = 0; i < geojson.features.length; i++){
@@ -474,6 +478,11 @@
 					console.error('bad');
 
 				}
+			}
+			
+			if(!polygons || polygons.length==0){
+				this.message('No '+this.config[type].title+' found in this area.',{'type':'ERROR'});
+				return this;
 			}
 
 			featureCollection = turf.dissolve(turf.featureCollection(polygons));
@@ -554,19 +563,22 @@
 			var boxArea = turf.area(drawnBoxGeojson);
 
 			// Percentage of area occupied by parking.
-			var percentageArea = ((intersectArea / boxArea) * 100).toFixed(1);
+			var percentageArea = ((intersectArea / boxArea) * 100).toFixed(2);
 
 			// Center of the rectangle drawn by the user/
 			var rectangleCenter = (turf.center(drawnBoxGeojson).geometry.coordinates);
 
-			var intersectInHectares = (intersectArea / 10000).toFixed(1);
+			var intersectInHectares = (intersectArea / 10000).toFixed(2);
 
 			// Only small percentage of parking
-			var content = "<strong>" + percentageArea + "% of this area</strong> (" + intersectInHectares + " hectares) is occupied by " + this.config[type].title + ". On this we could build:";
-			content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density;";
-			content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density;";
-			content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density;";
-			content += "<br /><strong>" + Number((intersectInHectares / 0.65).toFixed(0)).toLocaleString() + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+			var content = "<strong>" + percentageArea + "% of this area</strong> (" + intersectInHectares + " hectares) is occupied by " + this.config[type].title + ".";
+			if(this.config[type].comparison){
+				content += " On this we could build:";
+				content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density;";
+				content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density;";
+				content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density;";
+				content += "<br /><strong>" + Number((intersectInHectares / 0.65).toFixed(0)).toLocaleString() + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+			}
 
 			// Create a popup at the center of the rectangle to display the occupancy of the area:
 			var parkingPopup = L.popup();
