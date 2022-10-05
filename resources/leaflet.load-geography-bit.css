@@ -4,6 +4,9 @@
 	display: grid;
 	grid-template-columns: auto 1fr;
 }
+.leaflet-control-search input {
+	padding: 0 0.25em;
+}
 .leaflet-control-search .typeahead-results > ol {
 	max-width: 80vw;
 }

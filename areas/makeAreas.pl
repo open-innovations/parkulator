@@ -20,6 +20,7 @@ foreach $line (@lines){
 
 		# Take a copy of the name and replace commas and "&" with a pipe
 		$tname = $name;
+		$tname =~ s/(City of )([^\s]+)/$1$2, $2/;
 		$tname =~ s/(\, | \& )/\|/g;
 
 		# Split to find the name fragments

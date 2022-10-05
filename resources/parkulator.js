@@ -367,7 +367,6 @@
 
 			if(ev.dataTransfer.items){
 				for(const item of ev.dataTransfer.items){
-					//console.log('there',item.type,item.kind);
 					var blob = item.getAsFile();
 					var reader = new FileReader();
 					reader.onload = function(event){
@@ -414,14 +413,25 @@
 		this.loadArea = function(url){
 			fetch(url,{})
 			.then(response => { return response.json() })
-			.then(json => {
-				console.log(json,json.geometry.type);
-				if(json.geometry.type === "MultiPolygon"){
-					json.geometry.type = "Polygon";
-					json.geometry.coordinates = json.geometry.coordinates[0];
-					_obj.message('Only using the first polygon',{'type':'WARNING'});
+			.then(feature => {
+				if(feature.geometry.type === "MultiPolygon"){
+					// Find largest polyon
+					var max_area_polygon;
+					var max_area = 0 ;
+					var polygon,area;
+					for(var poly in (feature.geometry.coordinates)){                              
+						polygon = turf.polygon((feature.geometry.coordinates)[poly])
+						area = turf.area(polygon); 
+
+						if(area > max_area){
+							max_area = area
+							max_area_polygon = polygon // polygon with the largest area
+						}
+					}
+					feature = max_area_polygon;
+					_obj.message('Using largest polygon',{'type':'WARNING'});
 				}
-				_obj.setBoundary({'type':'FeatureCollection','features':[json]});
+				_obj.setBoundary({'type':'FeatureCollection','features':[feature]});
 			}).catch(error => {
 				_obj.message('Unable to load URL '+url,{'type':'ERROR','extra':{}});
 			});

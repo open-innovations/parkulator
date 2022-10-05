@@ -64,7 +64,6 @@ L.Control.loadGeographyBit = L.Control.extend({
 				return r;
 			},
 			'render': function(d){
-				console.log(d);
 				return d.name+(d.type ? ' ('+d.type+')' : '');
 			},
 			'process': function(d){
@@ -75,7 +74,6 @@ L.Control.loadGeographyBit = L.Control.extend({
 
 		this.areaSearch.on('change',{this:this},function(e){
 			var fl = e.target.value[0];
-			console.log('here',fl);
 			if(fl){
 				if(!letters[fl]){
 					letters[fl] = {'loaded':false};
