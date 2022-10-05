@@ -176,13 +176,25 @@ button { height: 2em; margin-top: 0; line-height: 1em; border-radius: 4px; }
 	z-index: 1000;
 	background: white;
 	width: 100%;
+	max-width: 300px;
 	box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
 	text-align: left;
 }
-.typeahead-results > ol { list-style: none; }
-.typeahead-results > ol > li { padding: 0.25em 0.5em; }
-.typeahead-results > ol > li a { text-decoration: none; color: inherit; }
+.typeahead-results ol { list-style: none; margin: 0px; padding: 0px; }
+.typeahead-results li > button { background: #efefef; text-decoration: none; display: block; color: inherit; border: 0; width: 100%; height: auto; font-size: 1em; cursor: pointer; }
+.typeahead-results li.selected > button { background-color: #444; color: white; }
+.typeahead-results li .item span {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	text-align: left;
+	padding: 0.25em 0.5em;
+}
+.typeahead-results > ol > li .item { display: block; text-decoration: none; color: inherit; border: 0; padding: 0.25em 0.5em; width: 100%; text-align: left; line-height:2em; }
+.typeahead-results li.selected > .item { background-color: #444; color: white; }
 .typeahead-results > ol > li.selected { background: #dfdfdf; }
+
 .leaflet-container { font-size: 1em; font-weight: 300; }
 .leaflet-popup-content { margin: 1em; }
 .leaflet-popup-content table td:first-child { padding-right: 0.5em; }
