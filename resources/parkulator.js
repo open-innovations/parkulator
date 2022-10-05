@@ -764,7 +764,20 @@
 					}
 				}
 			}).addTo(this.map);
-
+			
+			if(location.search.indexOf('area=')>0){
+				var qs = location.search.replace(/^\?/,"");
+				var bits = qs.split("&");
+				qs = {};
+				for(var b = 0; b < bits.length; b++){
+					bit = bits[b].split(/=/);
+					qs[bit[0]] = bit[1];
+				}
+				if(qs.area){
+					var url = "https://open-innovations.github.io/geography-bits/data/"+qs.area+".geojsonl";
+					this.loadArea(url);
+				}
+			}
 		};
 		
 		this.setupMap();
