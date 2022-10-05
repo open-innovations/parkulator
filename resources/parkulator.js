@@ -44,7 +44,7 @@
 			// Update the console
 			var txt = msg;
 			if(typeof txt==="string"){
-				txt = txt.replace(/\<[^\>]+\>/g,'');
+				txt = txt.replace(/<[^>]+>/g,'');
 			}
 			if(txt) this.log(attr.type,txt,attr.extra||'');
 
@@ -110,7 +110,8 @@
 		frm.appendChild(inp);
 		
 		var sel = document.getElementById('type');
-		for(var o in this.config){
+		var o,opt;
+		for(o in this.config){
 			opt = document.createElement('option');
 			opt.innerHTML = this.config[o].title;
 			opt.setAttribute('value',o);
@@ -121,19 +122,14 @@
 			type = e.target.value;
 		});
 
-		var place = document.getElementById('place');
+		//var place = document.getElementById('place');
 
 		var calculate = document.getElementById('calculate');
 
-		// Constants
-		var d2r = Math.PI/180;
-		var r2d = 180.0/Math.PI;
-
 		this.setGeo = function(lat,lon,city){
-			var pop = city.n*15000;
 			this.map.flyTo([lat,lon],14,{animate:true,duration:0});
 			return this;
-		}
+		};
 
 		// Define a function for scoring how well a string matches
 		function getScore(str1,str2,v1,v2,v3){
@@ -163,9 +159,9 @@
 				console.log(city);
 				// A city has been selected
 				fetch(city.file,{'method':'GET'})
-				.then(response => { return response.text() })
+				.then(response => { return response.text(); })
 				.then(d => {
-					var lat,lon,i,line,pop;
+					var lat,lon,i,line,pop,tz;
 					d = d.replace(/\r/,'').split(/[\n]/);
 					for(i = 0; i < d.length; i++){
 						line = d[i].split(/\t/);
@@ -189,16 +185,16 @@
 				var words,w;
 				if(d){
 					words = str.split(/[\s\,]/);
-					if(typeof d['name']==="string") r += getScore(d['name'],str);
-					if(typeof d['truename']==="string") r += getScore(d['truename'],str);
+					if(typeof d.name==="string") r += getScore(d.name,str);
+					if(typeof d.truename==="string") r += getScore(d.truename,str);
 					for(w = 0; w < words.length; w++){
 						if(words[w]){
-							if(typeof d['name']==="string") r += getScore(d['name'],words[w]);
-							if(typeof d['truename']==="string") r += getScore(d['truename'],words[w]);
-							if(typeof d['country']==="string") r += getScore(d['country'],words[w]);
+							if(typeof d.name==="string") r += getScore(d.name,words[w]);
+							if(typeof d.truename==="string") r += getScore(d.truename,words[w]);
+							if(typeof d.country==="string") r += getScore(d.country,words[w]);
 						}
 					}
-					r *= d['n'];
+					r *= d.n;
 				}
 				return r;
 			}
@@ -225,10 +221,10 @@
 					var _obj = e.data.me;
 
 					fetch(file,{})
-					.then(response => { return response.text() })
+					.then(response => { return response.text(); })
 					.then(d => {
 						
-						var data,l,c,header;
+						var data,l,c,header,cols,datum;
 						d = d.replace(/\r/g,'').split(/[\n]/);
 						data = new Array(d.length);
 						header = ["truename","name","cc","admin1","n"];
@@ -239,11 +235,11 @@
 								datum[header[c]] = cols[c].replace(/(^\"|\"$)/g,"");
 								// Convert numbers
 								if(parseFloat(datum[header[c]])+"" == datum[header[c]]) datum[header[c]] = parseFloat(datum[header[c]]);
-								datum['id'] = fl+'-'+l;
-								datum['i'] = l;
-								datum['file'] = 'geo/cities/'+fl+'-'+(Math.floor(l/100))+'.tsv';
-								datum['country'] = (datum.cc && cc[datum.cc] ? cc[datum.cc]:'');
-								datum['displayname'] = datum.truename+(datum.cc=="US" ? ', '+datum['admin1']+'':'')+(datum.country ? ', '+datum.country : '');
+								datum.id = fl+'-'+l;
+								datum.i = l;
+								datum.file = 'geo/cities/'+fl+'-'+(Math.floor(l/100))+'.tsv';
+								datum.country = (datum.cc && cc[datum.cc] ? cc[datum.cc]:'');
+								datum.displayname = datum.truename+(datum.cc=="US" ? ', '+datum.admin1+'':'')+(datum.country ? ', '+datum.country : '');
 							}
 							data[l] = datum;
 						}
@@ -349,7 +345,7 @@
 			for(var i = 0; i < map.length; i++) str = str.replace(map[i].l, map[i].b);
 
 			return str;
-		};
+		}
 
 		// Set drag/drop events
 		function dropOver(evt){
@@ -362,14 +358,15 @@
 			this.classList.remove('drop');
 		}
 		function dropHandler(ev) {
+			var item,blob,reader;
 			this.classList.remove('drop');
 			// Prevent default behavior (Prevent file from being opened)
 			ev.preventDefault();
 
 			if(ev.dataTransfer.items){
-				for(const item of ev.dataTransfer.items){
-					var blob = item.getAsFile();
-					var reader = new FileReader();
+				for(item in ev.dataTransfer.items){
+					blob = item.getAsFile();
+					reader = new FileReader();
 					reader.onload = function(event){
 						var geojson = JSON.parse(event.target.result);
 						// If the result seems to be GeoJSON then set the boundary
@@ -379,7 +376,7 @@
 							_obj.setBoundary(geojson);
 						}
 					};
-					var source = reader.readAsBinaryString(blob);
+					//var source = reader.readAsBinaryString(blob);
 				}
 			}
 		}
@@ -392,15 +389,16 @@
 
 		// Add a simple Polygon in a GeoJSON structure as a boundary
 		this.setBoundary = function(geojson){
+			var coord,i,geo;
 			
 			if(geojson.features[0].geometry.type=="Polygon"){
 				coord = geojson.features[0].geometry.coordinates[0];				
 				this.areaSelection.startPolygon();
-				for(var i = 0; i < coord.length; i++){
+				for(i = 0; i < coord.length; i++){
 					this.areaSelection.addPoint({'latitude':coord[i][1],'longitude':coord[i][0]});
 				}
 				this.areaSelection.endPolygon();
-				var geo = L.geoJson(geojson, {});
+				geo = L.geoJson(geojson, {});
 				this.map.fitBounds(geo.getBounds());
 				
 			}else{
@@ -413,7 +411,7 @@
 		// e.g. https://open-innovations.github.io/geography-bits/data/LAD21CD/E08000035.geojsonl
 		this.loadArea = function(url){
 			fetch(url,{})
-			.then(response => { return response.json() })
+			.then(response => { return response.json(); })
 			.then(feature => {
 				if(feature.geometry.type === "MultiPolygon"){
 					// Find largest polyon
@@ -421,12 +419,12 @@
 					var max_area = 0 ;
 					var polygon,area;
 					for(var poly in (feature.geometry.coordinates)){                              
-						polygon = turf.polygon((feature.geometry.coordinates)[poly])
+						polygon = turf.polygon((feature.geometry.coordinates)[poly]);
 						area = turf.area(polygon); 
 
 						if(area > max_area){
-							max_area = area
-							max_area_polygon = polygon // polygon with the largest area
+							max_area = area;
+							max_area_polygon = polygon; // polygon with the largest area
 						}
 					}
 					feature = max_area_polygon;
@@ -444,7 +442,7 @@
 			this.log('INFO','computePolygons',geojson);
 
 			var polygons = [];
-			var i,p,polygon,featureCollection;
+			var i,p,featureCollection;
 			for(i = 0; i < geojson.features.length; i++){
 
 				if(geojson.features[i].geometry.type==="Polygon"){
@@ -488,7 +486,7 @@
 			var drawnBoxGeojson = this.areaSelection.polygon.toGeoJSON();
 
 			var intersectList = [];
-			var i,conflict;
+			var conflict;
 			for(i = 1; i < featureCollection.features.length; i++){
 				// Check that the particular parking polygon intercepts with the drawn box.
 				try{
@@ -505,7 +503,7 @@
 			}
 			
 			// Create a feature group from the intersecting layers.
-			intersectionGroup = turf.featureCollection(intersectList);
+			var intersectionGroup = turf.featureCollection(intersectList);
 
 			var intersectArea = turf.area(intersectionGroup);
 
@@ -560,9 +558,9 @@
 			this.message('Loading data... please wait<br /><svg version="1.1" width="64" height="64" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg"><g transform="matrix(.11601 0 0 .11601 -49.537 -39.959)"><path d="m610.92 896.12m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.83333s" repeatCount="indefinite" /></path><path d="m794.82 577.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.6666s" repeatCount="indefinite" /></path><path d="m1162.6 577.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.5s" repeatCount="indefinite" /></path><path d="m1346.5 896.12m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.3333s" repeatCount="indefinite" /></path><path d="m1162.6 1214.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="-0.1666s" repeatCount="indefinite" /></path><path d="m794.82 1214.6m183.9-106.17-183.9-106.17-183.9 106.17v212.35l183.9 106.17 183.9-106.17z" fill="black"><animate attributeName="opacity" values="1;0;0" keyTimes="0;0.7;1" dur="1s" begin="0s" repeatCount="indefinite" /></path></g></svg>',{'type':'INFO'});
 
 			return fetch(file,{'method':'GET'})
-			.then(response => { return response.json() })
+			.then(response => { return response.json(); })
 			.then(json => {
-				var i,xml,oDOM,lastupdate,features,el,lat,lon,id,tags,tag,t,name;
+				var i,n,node,features,feature,r,rways,mpoly,outer,inner,m,w,poly,cpoly;
 
 				_obj.message('');
 
@@ -681,8 +679,9 @@
 
 		this.getFromOverpass = function(b){
 			
-			var a = this.config[type].filters;
-			var bbox = b._southWest.lat + ',' + b._southWest.lng + ',' + b._northEast.lat + ',' + b._northEast.lng;
+			var qs,i,a,bbox,url;
+			a = this.config[type].filters;
+			bbox = b._southWest.lat + ',' + b._southWest.lng + ',' + b._northEast.lat + ',' + b._northEast.lng;
 
 			if(!b) b = this.map.getBounds();
 			qs = encodeURIComponent("[out:json][timeout:25];(");
@@ -696,7 +695,7 @@
 			this.getFromFile(url);
 
 			return this;
-		}
+		};
 
 		this.calculate = function(){
 			this.log('INFO','calculate',this.areaSelection.polygon);
