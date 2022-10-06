@@ -579,6 +579,27 @@
 				content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density;";
 				content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density;";
 				content += "<br /><strong>" + Number((intersectInHectares / 0.65).toFixed(0)).toLocaleString() + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+
+				/*
+				// Calculate solar insolation https://en.wikipedia.org/wiki/Direct_insolation for the best case scenario
+				// Get the best possible zenith angle
+				// Between the Tropic of Cancer and Tropic of Capricorn it'll be 0
+				// Closer to the poles will be the difference between latitude and the tilt of the Earth
+				var earthtilt = 23.43633;
+				var latitude = rectangleCenter[1];
+				var zenithangle = Math.max(0,Math.abs(latitude) - earthtilt);
+				// Solar insolation is in W/m^2
+				var Id = 1353 * Math.pow(0.7, Math.pow((1/Math.cos((zenithangle) * Math.PI/180)), 0.678));
+				// Find total Watts by multiplying by area in square metres (a hectare is 10000m^2)
+				var Watts = Id * (intersectInHectares*10000);
+				*/
+
+				// Simpler calculation
+				// https://www.solarproguide.com/how-much-power-can-1-acre-of-solar-panels-produce/ mentions a solar farm covering 10,000 acres and generating 2,245 MW i.e. 0.2245 MW per acres
+				// The HoC estimate 25 acres for 5MW
+				var MW = (intersectArea * 0.00024710538146717) * 0.2;
+				var homes = Math.round(Math.round(MW*300)/100)*100;
+				content += "<br />This area could generate as much as <strong>"+Math.round(MW)+"MW</strong> (equivalent to "+(homes.toLocaleString())+" homes) from solar power<sup><a href=\"#solar-estimate\" style=\"text-decoration:none;color: inherit;\">&dagger;</a></sup>.";
 			}
 
 			// Create a popup at the center of the rectangle to display the occupancy of the area:
