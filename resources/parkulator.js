@@ -411,22 +411,39 @@
 
 		// Add a simple Polygon in a GeoJSON structure as a boundary
 		this.setBoundary = function(geojson){
-			var coord,i,geo;
-			
-			if(geojson.features[0].geometry.type=="Polygon"){
-				coord = geojson.features[0].geometry.coordinates[0];				
-				this.areaSelection.startPolygon();
-				for(i = 0; i < coord.length; i++){
-					this.areaSelection.addPoint({'latitude':coord[i][1],'longitude':coord[i][0]});
+			var coord,i,geo,feature;
+
+			// Cope with different types of GeoJSON (e.g. http://polygons.openstreetmap.fr/get_geojson.py?id=118362&params=0)
+			if(geojson.type == "GeometryCollection") feature = {"type": "Feature","geometry":geojson.geometries[0]};
+			else feature = geojson.features[0];
+
+			if(feature.geometry.type === "MultiPolygon"){
+				// Find largest polyon
+				var max_area_polygon;
+				var max_area = 0 ;
+				var polygon,area;
+				for(var poly in (feature.geometry.coordinates)){                              
+					polygon = turf.polygon((feature.geometry.coordinates)[poly]);
+					area = turf.area(polygon); 
+
+					if(area > max_area){
+						max_area = area;
+						max_area_polygon = polygon; // polygon with the largest area
+					}
 				}
-				this.areaSelection.endPolygon();
-				geo = L.geoJson(geojson, {});
-				this.map.fitBounds(geo.getBounds());
-				
-			}else{
-				this.message('This tool can only cope with one Polygon.',{'type':'ERROR'});
+				feature = max_area_polygon;
+				this.message('Using largest polygon',{'type':'WARNING'});
 			}
 			
+			coord = feature.geometry.coordinates[0];				
+			this.areaSelection.startPolygon();
+			for(i = 0; i < coord.length; i++){
+				this.areaSelection.addPoint({'latitude':coord[i][1],'longitude':coord[i][0]});
+			}
+			this.areaSelection.endPolygon();
+			geo = L.geoJson(feature, {});
+			this.map.fitBounds(geo.getBounds());
+
 			return this;
 		};
 		
@@ -435,23 +452,6 @@
 			fetch(url,{})
 			.then(response => { return response.json(); })
 			.then(feature => {
-				if(feature.geometry.type === "MultiPolygon"){
-					// Find largest polyon
-					var max_area_polygon;
-					var max_area = 0 ;
-					var polygon,area;
-					for(var poly in (feature.geometry.coordinates)){                              
-						polygon = turf.polygon((feature.geometry.coordinates)[poly]);
-						area = turf.area(polygon); 
-
-						if(area > max_area){
-							max_area = area;
-							max_area_polygon = polygon; // polygon with the largest area
-						}
-					}
-					feature = max_area_polygon;
-					_obj.message('Using largest polygon',{'type':'WARNING'});
-				}
 				_obj.setBoundary({'type':'FeatureCollection','features':[feature]});
 			}).catch(error => {
 				_obj.message('Unable to load URL '+url,{'type':'ERROR','extra':{}});
