@@ -379,13 +379,14 @@
 			this.classList.remove('drop');
 		}
 		function dropHandler(ev) {
-			var item,blob,reader;
+			var item,blob,reader,i,source;
 			this.classList.remove('drop');
 			// Prevent default behavior (Prevent file from being opened)
 			ev.preventDefault();
 
 			if(ev.dataTransfer.items){
-				for(item in ev.dataTransfer.items){
+				for(i = 0; i < ev.dataTransfer.items.length; i++){
+					item = ev.dataTransfer.items[i];
 					blob = item.getAsFile();
 					reader = new FileReader();
 					reader.onload = function(event){
@@ -397,7 +398,7 @@
 							_obj.setBoundary(geojson);
 						}
 					};
-					//var source = reader.readAsBinaryString(blob);
+					source = reader.readAsBinaryString(blob);
 				}
 			}
 		}
