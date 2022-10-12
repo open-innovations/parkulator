@@ -9,6 +9,7 @@
 }
 .leaflet-control-search .typeahead-results > ol {
 	max-width: 80vw;
+	z-index: 1000;
 }
 .leaflet-control-search .typeahead-results > ol > li {
 	padding: 0;
@@ -17,6 +18,7 @@
 	width: 100%;
 	height: auto;
 	border-radius: 0;
+	line-height: 1.5em;
 }
 .leaflet-control-search .typeahead-results li .item span {
 	display: block;

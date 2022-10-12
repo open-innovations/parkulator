@@ -393,6 +393,7 @@
 						var geojson = JSON.parse(event.target.result);
 						// If the result seems to be GeoJSON then set the boundary
 						if(geojson.type == "FeatureCollection" && geojson.features.length > 0) _obj.setBoundary(geojson);
+						else if(geojson.type == "GeometryCollection" && geojson.geometries.length > 0) _obj.setBoundary(geojson);
 						else if(geojson.type == "Feature" && geojson.geometry.type=="Polygon"){
 							geojson = {'type':'FeatureCollection','features':[geojson]};
 							_obj.setBoundary(geojson);
@@ -414,8 +415,13 @@
 			var coord,i,geo,feature;
 
 			// Cope with different types of GeoJSON (e.g. http://polygons.openstreetmap.fr/get_geojson.py?id=118362&params=0)
-			if(geojson.type == "GeometryCollection") feature = {"type": "Feature","geometry":geojson.geometries[0]};
-			else feature = geojson.features[0];
+			if(geojson.type == "GeometryCollection"){
+				var features = [];
+				for(i = 0; i < geojson.geometries.length; i++) features.push({'geometry':geojson.geometries[i]});
+				geojson = {"type":"FeatureCollection","features":features};
+			}
+
+			feature = geojson.features[0];
 
 			if(feature.geometry.type === "MultiPolygon"){
 				// Find largest polyon
@@ -435,6 +441,11 @@
 				this.message('Using largest polygon',{'type':'WARNING'});
 			}
 			
+			// If there are more than 500 points we simplify the polygon
+			if(feature.geometry.coordinates[0].length > 500){
+				feature = turf.simplify(feature,{tolerance: 0.002, highQuality: true});
+			}
+
 			coord = feature.geometry.coordinates[0];				
 			this.areaSelection.startPolygon();
 			for(i = 0; i < coord.length; i++){
@@ -800,9 +811,18 @@
 			L.control.loadgeographybit({
 				'position': 'topleft',
 				'process': function(d){
-					if(d.code){
-						var url = "https://open-innovations.github.io/geography-bits/data/"+d.code+".geojsonl";
-						_obj.loadArea(url);
+					if(d.url){
+						_obj.loadArea(d.url);
+					}
+				}
+			}).addTo(this.map);
+			
+			// Add control for loading geography bit
+			L.control.loadosmarea({
+				'position': 'topleft',
+				'process': function(d){
+					if(d.url){
+						_obj.loadArea(d.url);
 					}
 				}
 			}).addTo(this.map);
