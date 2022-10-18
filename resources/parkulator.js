@@ -1,6 +1,6 @@
 /**
 	Open Innovations static version of Parkulator
-	Version 0.1
+	Version 0.4
  */
 (function(root){
 
@@ -16,8 +16,8 @@
 	function Application(){
 
 		if(!this.logSetup) this.logSetup = { 'el': document.getElementById('message') };
-		this.title = "Parkulator (static)";
-		this.version = "0.3";
+		this.title = "Parkulator";
+		this.version = "0.4";
 		this.logging = (location.search.indexOf('debug=true') >= 0);
 		this.log = function(){
 			var a,ext;
@@ -122,7 +122,7 @@
 
 		var lbl = document.createElement('label');
 		lbl.setAttribute('for','typeahead');
-		lbl.innerHTML = "Search for a place";
+		lbl.innerHTML = "Move the map to:";
 		frm.appendChild(lbl);
 		
 		var inp = document.createElement('input');
