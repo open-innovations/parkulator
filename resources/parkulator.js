@@ -582,14 +582,21 @@
 
 			var intersectInHectares = (intersectArea / 10000).toFixed(2);
 
+			function roundHomes(v){
+				if(v < 100) v = Number((5*Math.floor(v/5)).toFixed(0));
+				else if(v >= 100 && v < 1000) v = Number((10*Math.floor(v/10)).toFixed(0));
+				else if(v >= 1000 && v < 5000) v = Number((50*Math.floor(v/50)).toFixed(0));
+				else if(v >= 5000) v = Number((100*Math.floor(v/100)).toFixed(0));
+				return v.toLocaleString();
+			}
 			// Only small percentage of parking
 			var content = "<strong>" + percentageArea + "% of this area</strong> (" + intersectInHectares + " hectares) is occupied by " + this.config[type].title + ".";
 			if(this.config[type].comparison){
-				content += " On this we could build:";
-				content += "<br/><strong>" + Number((intersectInHectares * 100).toFixed(0)).toLocaleString() + " homes</strong> at London density;";
-				content += "<br/><strong>" + Number((intersectInHectares * 300).toFixed(0)).toLocaleString() + " homes</strong> at Paris density;";
-				content += "<br/><strong>" + Number((intersectInHectares * 500).toFixed(0)).toLocaleString() + " homes</strong> at Barcelona density;";
-				content += "<br /><strong>" + Number((intersectInHectares / 0.65).toFixed(0)).toLocaleString() + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+				content += " On this we could build roughly:";
+				content += "<br/><strong>" + roundHomes(intersectInHectares * 100) + " homes</strong> at London density;";
+				content += "<br/><strong>" + roundHomes(intersectInHectares * 300) + " homes</strong> at Paris density;";
+				content += "<br/><strong>" + roundHomes(intersectInHectares * 500) + " homes</strong> at Barcelona density;";
+				content += "<br /><strong>" + roundHomes(intersectInHectares / 0.65) + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
 
 				/*
 				// Calculate solar insolation https://en.wikipedia.org/wiki/Direct_insolation for the best case scenario
