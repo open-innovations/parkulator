@@ -110,6 +110,33 @@
 					'way["leisure"="park"]',
 					'relation["leisure"="park"]',
 				]
+			},
+			'railway': {
+				'title': 'railway stations',
+				'color': '#222222',
+				'comparison': false,
+				'filters':[
+					'node["railway"="station"]'
+				],
+				'nodes': true
+			},
+			'metro': {
+				'title': 'metro stops',
+				'color': '#222222',
+				'comparison': false,
+				'filters':[
+					'node["railway"="station"]["station"="subway"]'
+				],
+				'nodes': true
+			},
+			'tram': {
+				'title': 'tram stops',
+				'color': '#222222',
+				'comparison': false,
+				'filters':[
+					'node["railway"="tram_stop"]'
+				],
+				'nodes': true
 			}
 		};
 		var type = "parking";
@@ -474,10 +501,15 @@
 			this.geojson = geojson;
 			this.log('INFO','computePolygons',geojson);
 			var polygons = [];
+			var points = [];
 			var i,p,featureCollection;
 			for(i = 0; i < geojson.features.length; i++){
 
-				if(geojson.features[i].geometry.type==="Polygon"){
+				if(geojson.features[i].geometry.type==="Point"){
+
+					points.push(geojson.features[i]);
+
+				}else if(geojson.features[i].geometry.type==="Polygon"){
 
 					polygons.push(geojson.features[i]);
 
@@ -492,12 +524,23 @@
 				}
 			}
 			
-			if(!polygons || polygons.length==0){
-				this.message('No '+this.config[type].title+' found in this area.',{'type':'ERROR'});
-				return this;
-			}
+			if(this.config[type].nodes){
+				if(!points || points.length==0){
+					this.message('No '+this.config[type].title+' found in this area.',{'type':'ERROR'});
+					return this;
+				}
+				
+				featureCollection = {"type":"FeatureCollection","features":[]};
+				for(i = 0; i < points.length; i++) featureCollection.features.push(points[i]);
 
-			featureCollection = turf.dissolve(turf.featureCollection(polygons));
+			}else{
+				if(!polygons || polygons.length==0){
+					this.message('No '+this.config[type].title+' found in this area.',{'type':'ERROR'});
+					return this;
+				}
+			
+				featureCollection = turf.dissolve(turf.featureCollection(polygons));
+			}
 
 			/*
 			// Show the original polygons
@@ -532,25 +575,40 @@
 
 			var intersectList = [];
 			var conflict;
-			for(i = 0; i < featureCollection.features.length; i++){
+			
+			if(this.config[type].nodes){
+
 				// Check that the particular parking polygon intercepts with the drawn box.
 				try{
-					conflict = turf.intersect(featureCollection.features[i], drawnBoxGeojson);
+					intersectList = turf.pointsWithinPolygon(featureCollection, drawnBoxGeojson);
 				}catch(e){
 					console.error(e);
 				}
+				var intersectionGroup = intersectList;
 
-				// Two shapes overlap.
-				if(conflict != null){
-					// Add this area to the intersection
-					intersectList.push(conflict);
+			}else{
+
+				for(i = 0; i < featureCollection.features.length; i++){
+
+					// Check that the particular parking polygon intercepts with the drawn box.
+					try{
+						conflict = turf.intersect(featureCollection.features[i], drawnBoxGeojson);
+					}catch(e){
+						console.error(e);
+					}
+
+					// Two shapes overlap.
+					if(conflict != null){
+						// Add this area to the intersection
+						intersectList.push(conflict);
+					}
 				}
+
+				// Create a feature group from the intersecting layers.
+				var intersectionGroup = turf.featureCollection(intersectList);
+
 			}
 			
-			// Create a feature group from the intersecting layers.
-			var intersectionGroup = turf.featureCollection(intersectList);
-
-			var intersectArea = turf.area(intersectionGroup);
 
 			var color = this.config[type].color||'#FF6700';
 			if(!this.layerGroup){
@@ -562,69 +620,89 @@
 				delete this.layerIntersect;
 			}
 
+			var geojsonMarkerOptions = {
+				radius: 4,
+				fillColor: this.config[type].color,
+				weight: 1,
+				opacity: 1,
+				fillOpacity: 0.8
+			};
 
 			// Add the dissolved polygons within the selected area in orange
 			this.layerIntersect = L.geoJSON(intersectionGroup, {
 				style: function (feature) {
 					return {color: color};
+				},
+				pointToLayer: function (feature, latlng) {
+					return L.circleMarker(latlng, geojsonMarkerOptions);
 				}
 			});
+
 			this.layerGroup.addLayer(this.layerIntersect);
 
-			// Area of drawn box shape.
-			var boxArea = turf.area(drawnBoxGeojson);
+			// Center of the area drawn by the user
+			var centre = (turf.center(drawnBoxGeojson).geometry.coordinates);
 
-			// Percentage of area occupied by parking.
-			var percentageArea = ((intersectArea / boxArea) * 100).toFixed(2);
+			if(this.config[type].nodes){
 
-			// Center of the rectangle drawn by the user/
-			var rectangleCenter = (turf.center(drawnBoxGeojson).geometry.coordinates);
+				var content = "This area contains <strong>" + intersectList.features.length + " " + this.config[type].title + "</strong>.";
 
-			var intersectInHectares = (intersectArea / 10000).toFixed(2);
+			}else{
 
-			function roundHomes(v){
-				if(v < 100) v = Number((5*Math.floor(v/5)).toFixed(0));
-				else if(v >= 100 && v < 1000) v = Number((10*Math.floor(v/10)).toFixed(0));
-				else if(v >= 1000 && v < 5000) v = Number((50*Math.floor(v/50)).toFixed(0));
-				else if(v >= 5000) v = Number((100*Math.floor(v/100)).toFixed(0));
-				return v.toLocaleString();
-			}
-			// Only small percentage of parking
-			var content = "<strong>" + percentageArea + "% of this area</strong> (" + intersectInHectares + " hectares) is occupied by " + this.config[type].title + ".";
-			if(this.config[type].comparison){
-				content += " On this we could build roughly:";
-				content += "<br/><strong>" + roundHomes(intersectInHectares * 100) + " homes</strong> at London density;";
-				content += "<br/><strong>" + roundHomes(intersectInHectares * 300) + " homes</strong> at Paris density;";
-				content += "<br/><strong>" + roundHomes(intersectInHectares * 500) + " homes</strong> at Barcelona density;";
-				content += "<br /><strong>" + roundHomes(intersectInHectares / 0.65) + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+				var intersectArea = turf.area(intersectionGroup);
 
-				/*
-				// Calculate solar insolation https://en.wikipedia.org/wiki/Direct_insolation for the best case scenario
-				// Get the best possible zenith angle
-				// Between the Tropic of Cancer and Tropic of Capricorn it'll be 0
-				// Closer to the poles will be the difference between latitude and the tilt of the Earth
-				var earthtilt = 23.43633;
-				var latitude = rectangleCenter[1];
-				var zenithangle = Math.max(0,Math.abs(latitude) - earthtilt);
-				// Solar insolation is in W/m^2
-				var Id = 1353 * Math.pow(0.7, Math.pow((1/Math.cos((zenithangle) * Math.PI/180)), 0.678));
-				// Find total Watts by multiplying by area in square metres (a hectare is 10000m^2)
-				var Watts = Id * (intersectInHectares*10000);
-				*/
+				// Area of drawn box shape.
+				var boxArea = turf.area(drawnBoxGeojson);
 
-				// Simpler calculation
-				// https://www.solarproguide.com/how-much-power-can-1-acre-of-solar-panels-produce/ mentions a solar farm covering 10,000 acres and generating 2,245 MW i.e. 0.2245 MW per acres
-				// The HoC estimate 25 acres for 5MW
-				var MW = (intersectArea * 0.00024710538146717) * 0.2;
-				var homes = Math.round(Math.round(MW*300)/100)*100;
-				content += "<br />This area could generate as much as <strong>"+Math.round(MW)+"MW</strong> (equivalent to "+(homes.toLocaleString())+" homes) from solar power<sup><a href=\"#solar-estimate\" style=\"text-decoration:none;color: inherit;\">&dagger;</a></sup>.";
+				// Percentage of area occupied by parking.
+				var percentageArea = ((intersectArea / boxArea) * 100).toFixed(2);
+
+				var intersectInHectares = (intersectArea / 10000).toFixed(2);
+
+				function roundHomes(v){
+					if(v < 100) v = Number((5*Math.floor(v/5)).toFixed(0));
+					else if(v >= 100 && v < 1000) v = Number((10*Math.floor(v/10)).toFixed(0));
+					else if(v >= 1000 && v < 5000) v = Number((50*Math.floor(v/50)).toFixed(0));
+					else if(v >= 5000) v = Number((100*Math.floor(v/100)).toFixed(0));
+					return v.toLocaleString();
+				}
+				// Only small percentage of parking
+				var content = "<strong>" + percentageArea + "% of this area</strong> (" + intersectInHectares + " hectares) is occupied by " + this.config[type].title + ".";
+				if(this.config[type].comparison){
+					content += " On this we could build roughly:";
+					content += "<br/><strong>" + roundHomes(intersectInHectares * 100) + " homes</strong> at London density;";
+					content += "<br/><strong>" + roundHomes(intersectInHectares * 300) + " homes</strong> at Paris density;";
+					content += "<br/><strong>" + roundHomes(intersectInHectares * 500) + " homes</strong> at Barcelona density;";
+					content += "<br /><strong>" + roundHomes(intersectInHectares / 0.65) + " parks</strong> like <a class='popuplink' target='_blank' href='http://www.bing.com/images/search?q=park%20square%20leeds&qs=n&form=QBIR&pq=park%20square%20leeds&sc=6-17&sp=-1&sk='>Park Square, Leeds</a>.";
+
+					/*
+					// Calculate solar insolation https://en.wikipedia.org/wiki/Direct_insolation for the best case scenario
+					// Get the best possible zenith angle
+					// Between the Tropic of Cancer and Tropic of Capricorn it'll be 0
+					// Closer to the poles will be the difference between latitude and the tilt of the Earth
+					var earthtilt = 23.43633;
+					var latitude = centre[1];
+					var zenithangle = Math.max(0,Math.abs(latitude) - earthtilt);
+					// Solar insolation is in W/m^2
+					var Id = 1353 * Math.pow(0.7, Math.pow((1/Math.cos((zenithangle) * Math.PI/180)), 0.678));
+					// Find total Watts by multiplying by area in square metres (a hectare is 10000m^2)
+					var Watts = Id * (intersectInHectares*10000);
+					*/
+
+					// Simpler calculation
+					// https://www.solarproguide.com/how-much-power-can-1-acre-of-solar-panels-produce/ mentions a solar farm covering 10,000 acres and generating 2,245 MW i.e. 0.2245 MW per acres
+					// The HoC estimate 25 acres for 5MW
+					var MW = (intersectArea * 0.00024710538146717) * 0.2;
+					var homes = Math.round(Math.round(MW*300)/100)*100;
+					content += "<br />This area could generate as much as <strong>"+Math.round(MW)+"MW</strong> (equivalent to "+(homes.toLocaleString())+" homes) from solar power<sup><a href=\"#solar-estimate\" style=\"text-decoration:none;color: inherit;\">&dagger;</a></sup>.";
+				}
 			}
 
 			// Create a popup at the center of the rectangle to display the occupancy of the area:
-			var parkingPopup = L.popup();
-			parkingPopup.setContent(content);
-			parkingPopup.setLatLng([this.areaSelection.polygon.getBounds()._northEast.lat, rectangleCenter[0]]); //calculated based on the e.layertype
-			parkingPopup.openOn(this.map);
+			var popup = L.popup();
+			popup.setContent(content);
+			popup.setLatLng([this.areaSelection.polygon.getBounds()._northEast.lat, centre[0]]); //calculated based on the e.layertype
+			popup.openOn(this.map);
 
 			return this;
 		};
@@ -645,105 +723,117 @@
 				_obj.map.attributionControl.setPrefix("OSM data last updated: "+(new Date(_obj.lastupdate)).toLocaleString());
 
 				var ways = [];
-				var nodes = {};
+				var nodes = [];
+				var nodelookup = {};
 				var relations = [];
 				for(i = 0; i < json.elements.length; i++){
 					if(json.elements[i].type==="way") ways.push(json.elements[i]);
-					if(json.elements[i].type==="node") nodes['node-'+json.elements[i].id] = {'lat':json.elements[i].lat,'lon':json.elements[i].lon};
+					if(json.elements[i].type==="node"){
+						nodes.push(json.elements[i]);
+						nodelookup['node-'+json.elements[i].id] = {'lat':json.elements[i].lat,'lon':json.elements[i].lon};
+					}
 					if(json.elements[i].type==="relation") relations.push(json.elements[i]);
 				}
 
 				features = [];
-				for(i = 0; i < ways.length; i++){
-					feature = {'type':'Feature','properties':{},'geometry':{'type':'Polygon','coordinates':[[]]}};
-					
-					if(ways[i].nodes[0]!=ways[i].nodes[ways[i].nodes.length-1]){
-						this.log('WARNING','Way '+i+' does not have the same start and end',ways[i]);
-					}else{
-						for(n = 0; n < ways[i].nodes.length; n++){
-							node = 'node-'+ways[i].nodes[n];
-							if(nodes[node] && typeof nodes[node].lon==="number") feature.geometry.coordinates[0].push([nodes[node].lon, nodes[node].lat]);
-							else console.warn('Bad node '+i+' / '+n,nodes[node]);
-						}
-						features.push(feature);
+
+				if(this.config[type].nodes){
+					for(i = 0; i < nodes.length; i++){
+						features.push({'type':'Feature','properties':{},'geometry':{'type':'Point','coordinates':[nodes[i].lon, nodes[i].lat]}});
 					}
-				}
+				}else{
 
-				// Process relations as potential MultiPolygons
-				// A relation consists of several members - we'll only deal with ways
-				for(r = 0; r < relations.length; r++){
-					feature = {'type':'Feature','properties':{},'geometry':{'type':'MultiPolygon','coordinates':[]}};
+					for(i = 0; i < ways.length; i++){
+						feature = {'type':'Feature','properties':{},'geometry':{'type':'Polygon','coordinates':[[]]}};
+						
+						if(ways[i].nodes[0]!=ways[i].nodes[ways[i].nodes.length-1]){
+							this.log('WARNING','Way '+i+' does not have the same start and end',ways[i]);
+						}else{
+							for(n = 0; n < ways[i].nodes.length; n++){
+								node = 'node-'+ways[i].nodes[n];
+								if(nodelookup[node] && typeof nodelookup[node].lon==="number") feature.geometry.coordinates[0].push([nodelookup[node].lon, nodelookup[node].lat]);
+								else console.warn('Bad node '+i+' / '+n,nodelookup[node]);
+							}
+							features.push(feature);
+						}
+					}
 
-					rways = [];
-					mpoly = [[]];
-					outer = [];
-					inner = [];
-					for(m = 0; m < relations[r].members.length; m++){
-						if(relations[r].members[m].type=="way"){
-							for(w = 0; w < ways.length; w++){
-								if(relations[r].members[m].ref == ways[w].id){
-									if(relations[r].members[m].role=="outer"){
-										for(n = 0; n < ways[w].nodes.length; n++){
-											outer.push(ways[w].nodes[n]);
-											mpoly[0].push(ways[w].nodes[n]);
+					// Process relations as potential MultiPolygons
+					// A relation consists of several members - we'll only deal with ways
+					for(r = 0; r < relations.length; r++){
+						feature = {'type':'Feature','properties':{},'geometry':{'type':'MultiPolygon','coordinates':[]}};
+
+						rways = [];
+						mpoly = [[]];
+						outer = [];
+						inner = [];
+						for(m = 0; m < relations[r].members.length; m++){
+							if(relations[r].members[m].type=="way"){
+								for(w = 0; w < ways.length; w++){
+									if(relations[r].members[m].ref == ways[w].id){
+										if(relations[r].members[m].role=="outer"){
+											for(n = 0; n < ways[w].nodes.length; n++){
+												outer.push(ways[w].nodes[n]);
+												mpoly[0].push(ways[w].nodes[n]);
+											}
 										}
-									}
-									if(relations[r].members[m].role=="inner"){
-										if(mpoly.length == 1) mpoly.push([]);
-										for(n = 0; n < ways[w].nodes.length; n++){
-											inner.push(ways[w].nodes[n]);
-											mpoly[1].push(ways[w].nodes[n]);
+										if(relations[r].members[m].role=="inner"){
+											if(mpoly.length == 1) mpoly.push([]);
+											for(n = 0; n < ways[w].nodes.length; n++){
+												inner.push(ways[w].nodes[n]);
+												mpoly[1].push(ways[w].nodes[n]);
+											}
 										}
-									}
 
+									}
 								}
 							}
 						}
-					}
-					mpoly = [];
-					// Loop over outer
-					poly = [];
-					for(i = 0; i < outer.length; i++){
-						// Add the node to the polygon
-						poly.push(outer[i]);
-						// If the polygon is more than 2 nodes and the last node joins up with the first node, we start a new polygon
-						if(poly.length > 2 && poly[0]==poly[poly.length-1]){
-							cpoly = [];
-							for(p = 0; p < poly.length; p++){
-								node = 'node-'+poly[p];
-								if(nodes[node] && typeof nodes[node].lon==="number") cpoly.push([nodes[node].lon, nodes[node].lat]);
-								else console.warn('Bad node '+p+' / '+n,nodes[node]);
+						mpoly = [];
+						// Loop over outer
+						poly = [];
+						for(i = 0; i < outer.length; i++){
+							// Add the node to the polygon
+							poly.push(outer[i]);
+							// If the polygon is more than 2 nodes and the last node joins up with the first node, we start a new polygon
+							if(poly.length > 2 && poly[0]==poly[poly.length-1]){
+								cpoly = [];
+								for(p = 0; p < poly.length; p++){
+									node = 'node-'+poly[p];
+									if(nodelookup[node] && typeof nodelookup[node].lon==="number") cpoly.push([nodelookup[node].lon, nodelookup[node].lat]);
+									else console.warn('Bad node '+p+' / '+n,nodelookup[node]);
+								}
+								if(cpoly.length < 4){
+									this.log('WARNING','poly (outer) has too few nodes to make a polygon',cpoly);
+								}else{
+									mpoly.push([cpoly]);
+								}
+								poly = [];
 							}
-							if(cpoly.length < 4){
-								this.log('WARNING','poly (outer) has too few nodes to make a polygon',cpoly);
-							}else{
-								mpoly.push([cpoly]);
-							}
-							poly = [];
 						}
-					}
-					var p = 0;
-					poly = [];
-					for(i = 0; i < inner.length; i++){
-						poly.push(inner[i]);
-						if(poly.length > 2 && poly[0]==poly[poly.length-1]){
-							cpoly = [];
-							for(p = 0; p < poly.length; p++){
-								node = 'node-'+poly[p];
-								if(nodes[node] && typeof nodes[node].lon==="number") cpoly.push([nodes[node].lon, nodes[node].lat]);
-								else console.warn('Bad node '+p+' / '+n,nodes[node]);
+						var p = 0;
+						poly = [];
+						for(i = 0; i < inner.length; i++){
+							poly.push(inner[i]);
+							if(poly.length > 2 && poly[0]==poly[poly.length-1]){
+								cpoly = [];
+								for(p = 0; p < poly.length; p++){
+									node = 'node-'+poly[p];
+									if(nodelookup[node] && typeof nodelookup[node].lon==="number") cpoly.push([nodelookup[node].lon, nodelookup[node].lat]);
+									else console.warn('Bad node '+p+' / '+n,nodelookup[node]);
+								}
+								if(cpoly.length < 4){
+									this.log('WARNING','poly (inner) has too few nodes to make a polygon',cpoly);
+								}else{
+									mpoly[0].push(cpoly);
+								}
+								poly = [];
 							}
-							if(cpoly.length < 4){
-								this.log('WARNING','poly (inner) has too few nodes to make a polygon',cpoly);
-							}else{
-								mpoly[0].push(cpoly);
-							}
-							poly = [];
 						}
-					}
 
-					feature.geometry.coordinates = mpoly;
-					features.push(feature);
+						feature.geometry.coordinates = mpoly;
+						features.push(feature);
+					}
 				}
 
 				_obj.computePolygons({ "type": "FeatureCollection", "features": features });
