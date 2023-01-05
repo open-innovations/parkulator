@@ -116,12 +116,21 @@
 				'color': '#222222',
 				'comparison': false,
 				'filters':[
-					'node["railway"="station"]'
+					'node["railway"="station"][!"light_rail"]["station"!~"light_rail"]'
 				],
 				'nodes': true
 			},
-			'metro': {
-				'title': 'metro stops',
+			'lightrail': {
+				'title': 'light-rail stops',
+				'color': '#222222',
+				'comparison': false,
+				'filters':[
+					'node["railway"="station"]["station"="light_rail"]'
+				],
+				'nodes': true
+			},
+			'subway': {
+				'title': 'subway stops',
 				'color': '#222222',
 				'comparison': false,
 				'filters':[
