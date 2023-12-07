@@ -834,6 +834,7 @@
 								if(cpoly.length < 4){
 									this.log('WARNING','poly (inner) has too few nodes to make a polygon',cpoly);
 								}else{
+									if(mpoly.length==0) mpoly = [[]];
 									mpoly[0].push(cpoly);
 								}
 								poly = [];
