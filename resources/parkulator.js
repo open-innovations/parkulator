@@ -1,6 +1,6 @@
 /**
 	Open Innovations static version of Parkulator
-	Version 0.4
+	Version 0.4.1
  */
 (function(root){
 
@@ -17,7 +17,7 @@
 
 		if(!this.logSetup) this.logSetup = { 'el': document.getElementById('message') };
 		this.title = "Parkulator";
-		this.version = "0.4";
+		this.version = "0.4.1";
 		this.logging = (location.search.indexOf('debug=true') >= 0);
 		this.log = function(){
 			var a,ext;
